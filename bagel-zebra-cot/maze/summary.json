@@ -3,742 +3,871 @@
   "count_total": 149,
   "per_item": [
     {
-      "id": "00001",
+      "id": "00068",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00001_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00068_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00001/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00068/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00002",
+      "id": "00069",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00002",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00002_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00002/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00069_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00002/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00069/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00003",
+      "id": "00070",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00003_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00070_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00003/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00070/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00004",
+      "id": "00071",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00004_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00071",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00071_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00071/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00004/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00071/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00071/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00005",
+      "id": "00075",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00005",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00005_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00005/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00075_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00005/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00005/cand_01/maze_step_0000_step_0002.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0007.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00075/cand_01/maze_step_0000_step_0008.png"
       ],
       "errors": []
     },
     {
-      "id": "00006",
+      "id": "00076",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00006_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00076_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00006/cand_01/maze_step_0000_step_0004.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00076/cand_01/maze_step_0000_step_0005.png"
       ],
       "errors": []
     },
     {
-      "id": "00007",
+      "id": "00078",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00007",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00007_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00007/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00078",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00078_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00078/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00007/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00007/cand_01/maze_step_0000_step_0002.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00078/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00078/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00078/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00009",
+      "id": "00079",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00009",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00009_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00009/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00079_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00009/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0007.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00079/cand_01/maze_step_0000_step_0008.png"
       ],
       "errors": []
     },
     {
-      "id": "00010",
+      "id": "00080",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00010_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00080_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00010/cand_01/maze_step_0000_step_0004.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00080/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00011",
+      "id": "00081",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00011",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00011_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00011/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00081_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00011/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00011/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00011/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00081/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00012",
+      "id": "00082",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00012_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00082_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00012/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00082/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00013",
+      "id": "00083",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00013",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00013_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00013/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00083_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00013/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00013/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00013/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00083/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00016",
+      "id": "00084",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00016",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00016_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00016/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00084",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00084_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00084/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00016/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00016/cand_01/maze_step_0000_step_0002.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00084/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00084/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00084/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00017",
+      "id": "00085",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00017_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00085",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00085_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00085/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00017/cand_01/maze_step_0000_step_0004.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00085/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00085/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00085/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00018",
+      "id": "00087",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00018_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00087",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00087_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00087/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00018/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00087/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00087/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00019",
+      "id": "00088",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00019",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00019_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00019/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00088_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00019/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00088/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00020",
+      "id": "00089",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00020_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00089",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00089_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00089/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00020/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00089/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00021",
+      "id": "00090",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00021",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00021_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00021/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00090_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00021/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00022",
+      "id": "00091",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00022_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00091_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00022/cand_01/maze_step_0000_step_0006.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00091/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00024",
+      "id": "00092",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00024_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00092",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00092_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00092/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00024/cand_01/maze_step_0000_step_0006.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00092/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00026",
+      "id": "00093",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00026_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00093_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00026/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00093/cand_01/maze_step_0000_step_0005.png"
       ],
       "errors": []
     },
     {
-      "id": "00027",
+      "id": "00094",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00027_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00094_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00027/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0007.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00094/cand_01/maze_step_0000_step_0008.png"
       ],
       "errors": []
     },
     {
-      "id": "00028",
+      "id": "00095",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00028_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00095",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00095_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00095/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00028/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00095/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00095/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00029",
+      "id": "00096",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00029_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00096",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00096_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00096/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00029/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00096/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00096/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00096/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00030",
+      "id": "00097",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00030",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00030_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00030/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00097_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00030/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00030/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00030/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00097/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00031",
+      "id": "00098",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00031_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00098",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00098_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00098/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00031/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00098/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00098/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00032",
+      "id": "00099",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00032_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00099",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00099_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00099/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00032/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00099/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00099/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00099/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00034",
+      "id": "00100",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00034_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00100_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00034/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00100/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00035",
+      "id": "00101",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00035_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00101_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00035/cand_01/maze_step_0000_step_0006.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00101/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00036",
+      "id": "00102",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00036_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00102",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00102_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00102/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00036/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00102/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00102/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00037",
+      "id": "00103",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00037",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00037_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00037/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00103",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00103_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00103/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00037/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00103/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00103/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00038",
+      "id": "00104",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00038",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00038_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00038/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00104",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00104_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00104/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00038/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00038/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00038/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00104/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00040",
+      "id": "00105",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00040_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00105_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00040/cand_01/maze_step_0000_step_0005.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00105/cand_01/maze_step_0000_step_0006.png"
       ],
       "errors": []
     },
     {
-      "id": "00041",
+      "id": "00106",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00041_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00106",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00106_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00106/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00041/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00106/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00042",
+      "id": "00107",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00042_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00107",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00107_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00107/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00042/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00107/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00107/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00107/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00043",
+      "id": "00108",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00043",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00043_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00043/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00108",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00108_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00108/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00043/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00043/cand_01/maze_step_0000_step_0002.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00108/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00108/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00108/cand_01/maze_step_0000_step_0003.png"
       ],
       "errors": []
     },
     {
-      "id": "00045",
+      "id": "00109",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00045_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00109_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00045/cand_01/maze_step_0000_step_0004.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00109/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00046",
+      "id": "00110",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00046_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00110",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00110_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00110/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00046/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00110/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00110/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00048",
+      "id": "00111",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00048",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00048_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00048/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00111_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00048/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00111/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00049",
+      "id": "00112",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00049_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00112_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00049/cand_01/maze_step_0000_step_0006.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00112/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     },
     {
-      "id": "00050",
+      "id": "00114",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00050_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00114_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00050/cand_01/maze_step_0000_step_0006.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00114/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00051",
+      "id": "00115",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00051",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00051_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00051/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00115",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00115_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00115/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00051/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00051/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00051/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00115/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00115/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00053",
+      "id": "00116",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00053_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00116",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00116_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00116/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00053/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00116/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00054",
+      "id": "00117",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00054_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00117_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00054/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00117/cand_01/maze_step_0000_step_0005.png"
       ],
       "errors": []
     },
     {
-      "id": "00055",
+      "id": "00118",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00055",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00055_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00055/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00118_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00055/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00118/cand_01/maze_step_0000_step_0004.png"
       ],
       "errors": []
     },
     {
-      "id": "00056",
+      "id": "00119",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00056_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00119_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0007.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00056/cand_01/maze_step_0000_step_0008.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00119/cand_01/maze_step_0000_step_0006.png"
       ],
       "errors": []
     },
     {
-      "id": "00057",
+      "id": "00120",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00057_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00120",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00120_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00120/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00057/cand_01/maze_step_0000_step_0004.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00120/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00059",
+      "id": "00123",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00059",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00059_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00059/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00123",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00123_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00123/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00059/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00059/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00059/cand_01/maze_step_0000_step_0003.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00123/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00123/cand_01/maze_step_0000_step_0002.png"
       ],
       "errors": []
     },
     {
-      "id": "00060",
+      "id": "00124",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00060_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00124",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00124_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00124/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0001.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0002.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0003.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0004.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0005.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0006.png",
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00060/cand_01/maze_step_0000_step_0007.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00124/cand_01/maze_step_0000_step_0001.png"
       ],
       "errors": []
     },
     {
-      "id": "00061",
+      "id": "00126",
       "status": "ok",
-      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00061",
-      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00061_steps/maze_step_0000.png",
-      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00061/model_text.txt",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00126_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/model_text.txt",
       "images_saved_flatten": [
-        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00061/cand_01/maze_step_0000_step_0001.png"
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00126/cand_01/maze_step_0000_step_0005.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00127",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00127_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00127/cand_01/maze_step_0000_step_0005.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00129",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00129_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00129/cand_01/maze_step_0000_step_0006.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00130",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00130_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00130/cand_01/maze_step_0000_step_0004.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00131",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00131_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00131/cand_01/maze_step_0000_step_0004.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00133",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00133_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00133/cand_01/maze_step_0000_step_0005.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00134",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00134_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00134/cand_01/maze_step_0000_step_0006.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00135",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00135",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00135_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00135/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00135/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00135/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00135/cand_01/maze_step_0000_step_0003.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00138",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00138_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00138/cand_01/maze_step_0000_step_0004.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00140",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00140_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00140/cand_01/maze_step_0000_step_0007.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00141",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00141_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00141/cand_01/maze_step_0000_step_0005.png"
+      ],
+      "errors": []
+    },
+    {
+      "id": "00142",
+      "status": "ok",
+      "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142",
+      "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00142_steps/maze_step_0000.png",
+      "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/model_text.txt",
+      "images_saved_flatten": [
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0001.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0002.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0003.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0004.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0005.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0006.png",
+        "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00142/cand_01/maze_step_0000_step_0007.png"
       ],
       "errors": []
     }
   ],
-  "count_processed": 50,
-  "count_success": 50,
+  "count_processed": 61,
+  "count_success": 61,
   "count_error": 0,
-  "count_skipped": 0,
+  "count_skipped": 55,
   "completed": false
 }
