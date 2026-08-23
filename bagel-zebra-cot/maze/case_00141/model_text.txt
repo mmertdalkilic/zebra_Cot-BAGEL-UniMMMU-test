@@ -1,0 +1,1 @@
+<ANSWER mythical JSON array of moves, e.g. ["right", "down", "left", ...]</ANSWER>
