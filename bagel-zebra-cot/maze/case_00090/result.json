@@ -1,0 +1,12 @@
+{
+  "id": "00090",
+  "status": "ok",
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090",
+  "step0": "/marimo/bagel_work/Uni-MMMU/data/maze/maze_6x6_00090_steps/maze_step_0000.png",
+  "text_file": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/model_text.txt",
+  "images_saved_flatten": [
+    "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/cand_01/maze_step_0000_step_0001.png",
+    "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00090/cand_01/maze_step_0000_step_0002.png"
+  ],
+  "errors": []
+}
