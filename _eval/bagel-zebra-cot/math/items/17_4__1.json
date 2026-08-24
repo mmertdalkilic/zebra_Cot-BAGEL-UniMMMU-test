@@ -1,12 +1,12 @@
 {
   "id": "17_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly uses angle relationships and properties of isosceles triangles to prove DE is tangent. The reasoning is logically sound and aligns with the ground-truth conclusion.\"}",
   "reasoning_rigorous": 1,
   "conclusion_correct": 1,
   "text_ok": 1,
-  "text_reason": "The candidate solution correctly uses angle relationships and properties of isosceles triangles to show OD ⊥ DE, establishing tangency. While the reference solution uses parallel lines, the candidate's approach via angle calculations is valid and rigorous."
+  "text_reason": "The candidate solution correctly uses angle relationships and properties of isosceles triangles to prove DE is tangent. The reasoning is logically sound and aligns with the ground-truth conclusion."
 }
