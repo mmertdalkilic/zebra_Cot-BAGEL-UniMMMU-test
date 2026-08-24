@@ -27,7 +27,8 @@ Files here:
 | `setup_molab.sh` | One-time setup: repos, Blackwell-compatible PyTorch, flash-attn, checkpoint (~30 GB), dataset |
 | `run_sampling.sh` | Sampling launcher with logging + automatic GitHub output sync |
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
-| `run_eval.sh` | Evaluation launcher (patches the eval script for a single 96 GB GPU) |
+| `run_eval.sh` | Evaluation launcher (AWQ judges, per-item resume, GitHub sync) |
+| `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
 | `requirements_molab.txt` | Python deps (torch installed separately for sm_120) |
 
 ## Quick start on molab
@@ -48,12 +49,13 @@ bash run_sampling.sh --task science --limit 2      # smoke test: check outputs l
 # --- Sampling sessions (repeat until every task reports "completed") ---
 bash run_sampling.sh --task all --time-budget-hours 10.5
 
-# --- Final session (evaluation with quantized judges) ---
-bash outputs_git.sh restore     # bring all sampled outputs back from GitHub
-bash run_eval.sh
+# --- Final session(s) (evaluation with quantized judges; resumable) ---
+bash outputs_git.sh restore     # bring sampled outputs (+ any prior eval) back
+bash run_eval.sh                # repeats until every task has a full summary
 ```
 
-Results land in `$WORK_DIR/Uni-MMMU/eval/bagel-zebra-cot/all_tasks_summary_bagel-zebra-cot.xlsx`.
+Results land in `$WORK_DIR/Uni-MMMU/outputs/_eval/bagel-zebra-cot/all_tasks_summary_bagel-zebra-cot.xlsx`
+(and on the GitHub `outputs` branch under `_eval/bagel-zebra-cot/`).
 
 ## Will it fit in 12-hour sessions?
 
@@ -115,12 +117,13 @@ run it as its own session via `run_eval.sh`.
 molab restarts keep small text files (`.py`, `.md`, ...) but **wipe `.git`
 directories, images and large binaries**. Consequences:
 
-- **Outputs → GitHub.** With `GITHUB_TOKEN` + `OUTPUTS_REPO` set,
-  `run_sampling.sh` restores previous outputs from the `outputs` branch of your
-  repo at start, then commits + pushes new results every ~15 min and at the end
-  (`outputs_git.sh`). A crash or session kill loses at most the last few cases.
-  Resume markers (`_done.ok`) travel with the outputs, so resuming across
-  sessions works out of the box.
+- **Outputs + eval → GitHub.** With `GITHUB_TOKEN` + `OUTPUTS_REPO` set,
+  sampling writes under `outputs/<model>/` and evaluation writes under
+  `outputs/_eval/<model>/` (per-item JSON, so eval is resumable). Both live
+  on the `outputs` branch. Re-running eval skips finished items; a killed
+  session loses at most the last few judge calls. Use
+  `EVAL_TIME_BUDGET_HOURS=10.5` (the `run_eval.sh` default) so the session
+  stops before molab's 12h cutoff.
 - **Checkpoint + dataset → re-downloaded.** The ~30 GB checkpoint can't live on
   GitHub; `setup_molab.sh` is idempotent, so just re-run it at each session
   start (budget ~20-40 min). Use `--time-budget-hours 10.5` to leave margin.
