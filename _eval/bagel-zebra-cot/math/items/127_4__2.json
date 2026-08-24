@@ -1,10 +1,10 @@
 {
   "id": "127_4__2",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes OD⊥AD without justification and misapplies Law of Sines. Ground-truth uses AD⊥BC (semicircle property) and isosceles triangle symmetry to directly conclude BD=CD=2√3. Candidate's reasoning contains invalid steps and fails to reach correct conclusion.\"}",
+  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+  "raw_judgment": "",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
