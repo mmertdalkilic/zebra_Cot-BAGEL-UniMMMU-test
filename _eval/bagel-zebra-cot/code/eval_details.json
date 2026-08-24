@@ -4,7 +4,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -18,7 +18,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -32,7 +32,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -46,7 +46,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -60,7 +60,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -74,7 +74,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -88,7 +88,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -102,7 +102,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -116,7 +116,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -130,7 +130,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -144,7 +144,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -158,7 +158,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -172,7 +172,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -186,7 +186,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -200,7 +200,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -214,7 +214,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -228,7 +228,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -242,7 +242,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -256,7 +256,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -270,7 +270,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -284,7 +284,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -298,7 +298,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -312,7 +312,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -326,7 +326,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -340,7 +340,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -354,7 +354,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -368,13 +368,13 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: at 102:13:\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.broadcast_to(zeros, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        offsets_s = N * offsets_szk[:, None] + offsets_sn[None, :]\n        masks_sk = offsets_szk < K // group_size\n        masks_s = masks_sk[:, None] & masks_sn[None, :]\n        scales_ptrs = scales_ptr + offsets_s\n        scales = tl.load(scales_ptrs, mask=masks_s)\n        scales = tl.broadcast_to(scales, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        b = (b >> shifts) & 0xF\n             ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')"
+      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
     }
   },
   {
@@ -382,7 +382,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -396,7 +396,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -410,7 +410,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -424,7 +424,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -438,7 +438,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -452,7 +452,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -466,7 +466,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -480,7 +480,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -494,7 +494,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -508,7 +508,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -522,7 +522,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -536,7 +536,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -550,7 +550,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -564,7 +564,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -578,7 +578,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -592,7 +592,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -606,7 +606,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -620,7 +620,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -634,7 +634,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -648,7 +648,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -662,7 +662,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -676,7 +676,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -690,7 +690,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -704,7 +704,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -718,7 +718,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -732,7 +732,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -746,7 +746,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -760,7 +760,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -774,7 +774,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -788,7 +788,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -802,7 +802,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -816,7 +816,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -830,7 +830,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -844,7 +844,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -858,13 +858,13 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: at 102:13:\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.broadcast_to(zeros, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        offsets_s = N * offsets_szk[:, None] + offsets_sn[None, :]\n        masks_sk = offsets_szk < K // group_size\n        masks_s = masks_sk[:, None] & masks_sn[None, :]\n        scales_ptrs = scales_ptr + offsets_s\n        scales = tl.load(scales_ptrs, mask=masks_s)\n        scales = tl.broadcast_to(scales, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        b = (b >> shifts) & 0xF\n             ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')"
+      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
     }
   },
   {
@@ -872,7 +872,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -886,7 +886,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -900,7 +900,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -914,7 +914,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -928,7 +928,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -942,7 +942,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -956,7 +956,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -970,7 +970,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -984,7 +984,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -998,7 +998,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1012,7 +1012,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1026,7 +1026,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1040,7 +1040,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1054,7 +1054,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1068,7 +1068,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1082,7 +1082,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1096,7 +1096,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1110,7 +1110,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1124,7 +1124,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1138,7 +1138,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1152,7 +1152,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1166,7 +1166,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1180,7 +1180,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1194,7 +1194,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1208,7 +1208,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1222,7 +1222,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1236,7 +1236,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1250,7 +1250,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1264,7 +1264,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1278,7 +1278,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1292,7 +1292,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1306,7 +1306,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1320,7 +1320,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1334,7 +1334,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1348,7 +1348,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1362,7 +1362,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1376,7 +1376,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1390,7 +1390,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1404,7 +1404,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1418,7 +1418,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1432,7 +1432,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1446,7 +1446,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1460,7 +1460,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1474,7 +1474,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1488,7 +1488,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1502,7 +1502,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1516,7 +1516,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1530,7 +1530,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1544,7 +1544,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1558,7 +1558,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1572,13 +1572,13 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: at 102:13:\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.broadcast_to(zeros, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        offsets_s = N * offsets_szk[:, None] + offsets_sn[None, :]\n        masks_sk = offsets_szk < K // group_size\n        masks_s = masks_sk[:, None] & masks_sn[None, :]\n        scales_ptrs = scales_ptr + offsets_s\n        scales = tl.load(scales_ptrs, mask=masks_s)\n        scales = tl.broadcast_to(scales, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        b = (b >> shifts) & 0xF\n             ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')"
+      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
     }
   },
   {
@@ -1586,7 +1586,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1600,7 +1600,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1614,7 +1614,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1628,7 +1628,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1642,7 +1642,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1656,7 +1656,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1670,7 +1670,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1684,7 +1684,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1698,7 +1698,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1712,7 +1712,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1726,7 +1726,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1740,7 +1740,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1754,7 +1754,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1768,7 +1768,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1782,7 +1782,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1796,7 +1796,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1810,7 +1810,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1824,7 +1824,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1838,7 +1838,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1852,7 +1852,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1866,7 +1866,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1880,7 +1880,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1894,7 +1894,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1908,7 +1908,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1922,7 +1922,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1936,7 +1936,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1950,7 +1950,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1964,7 +1964,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1978,7 +1978,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -1992,7 +1992,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2006,7 +2006,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2020,7 +2020,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2034,7 +2034,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2048,7 +2048,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2062,7 +2062,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2076,7 +2076,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2090,7 +2090,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2104,7 +2104,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2118,7 +2118,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2132,7 +2132,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2146,7 +2146,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2160,7 +2160,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2174,7 +2174,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2188,7 +2188,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2202,7 +2202,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2216,7 +2216,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2230,7 +2230,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2244,7 +2244,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2258,7 +2258,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2272,7 +2272,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2286,7 +2286,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2300,7 +2300,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2314,7 +2314,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2328,7 +2328,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2342,7 +2342,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2356,7 +2356,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2370,7 +2370,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2384,7 +2384,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2398,7 +2398,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2412,7 +2412,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2426,7 +2426,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2440,7 +2440,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2454,7 +2454,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2468,7 +2468,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2482,7 +2482,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2496,7 +2496,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2510,7 +2510,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2524,7 +2524,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2538,7 +2538,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2552,7 +2552,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2566,7 +2566,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2580,13 +2580,13 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: at 102:13:\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.interleave(zeros, zeros)\n        zeros = tl.broadcast_to(zeros, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        offsets_s = N * offsets_szk[:, None] + offsets_sn[None, :]\n        masks_sk = offsets_szk < K // group_size\n        masks_s = masks_sk[:, None] & masks_sn[None, :]\n        scales_ptrs = scales_ptr + offsets_s\n        scales = tl.load(scales_ptrs, mask=masks_s)\n        scales = tl.broadcast_to(scales, (BLOCK_SIZE_K, BLOCK_SIZE_N))\n\n        b = (b >> shifts) & 0xF\n             ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')"
+      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
     }
   },
   {
@@ -2594,7 +2594,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2608,7 +2608,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2622,7 +2622,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2636,7 +2636,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2650,7 +2650,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2664,7 +2664,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2678,7 +2678,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2692,7 +2692,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2706,7 +2706,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2720,7 +2720,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2734,7 +2734,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2748,7 +2748,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2762,7 +2762,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2776,7 +2776,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
@@ -2790,7 +2790,7 @@
     "image_evals": [
       {
         "verdict": "mismatch",
-        "explanation": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
+        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
         "image_match_binary": 0
       }
     ],
