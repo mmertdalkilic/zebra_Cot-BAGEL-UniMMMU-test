@@ -2,8 +2,9 @@
 """Second-pass patch: keep the official VL judge (Qwen2.5-VL-72B-Instruct-AWQ)
 but never hold it in VRAM together with Qwen3.
 
-Also force fp16 on the VL AWQ load — `dtype=auto` picks bf16 on Blackwell and
-Triton AWQ then crashes, which was recorded as overlay_ok=0.
+VL load stays fp16 (WQLinear scales/activations). The real Blackwell crash is
+AutoAWQ's Triton unpack kernels typing bit-shifts as float — patched via
+patch_awq_triton.py (int32 unpack, PyTorch dequant fallback).
 """
 from __future__ import annotations
 
@@ -20,6 +21,32 @@ def must_replace(src: str, old: str, new: str, label: str) -> str:
     return src.replace(old, new, 1)
 
 
+IMPORT_OLD = '''from transformers import (
+    AutoModelForCausalLM, AutoTokenizer,
+    Qwen2_5_VLForConditionalGeneration, AutoProcessor
+)
+from qwen_vl_utils import process_vision_info
+'''
+
+IMPORT_NEW = '''from transformers import (
+    AutoModelForCausalLM, AutoTokenizer,
+    Qwen2_5_VLForConditionalGeneration, AutoProcessor
+)
+from qwen_vl_utils import process_vision_info
+
+try:
+    from patch_awq_triton import apply_awq_triton_patch
+    apply_awq_triton_patch()
+except Exception as _awq_patch_err:
+    print(f"[awq] patch_awq_triton import failed: {_awq_patch_err}", flush=True)
+    try:
+        import awq.modules.linear.gemm as _awq_gemm
+        _awq_gemm.TRITON_AVAILABLE = False
+        print("[awq] Triton disabled -> PyTorch dequant (import fallback)", flush=True)
+    except Exception:
+        pass
+'''
+
 VL_INIT_OLD = '''        kwargs = {"torch_dtype": "auto", "device_map": "auto"}
         if attn_implementation:
             kwargs["attn_implementation"] = attn_implementation
@@ -31,6 +58,10 @@ VL_INIT_NEW = '''        kwargs = {"torch_dtype": torch.float16, "device_map": "
             kwargs["attn_implementation"] = attn_implementation
         print(f"[vl] loading {model_name} dtype=float16 attn={attn_implementation!r}", flush=True)
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_name, **kwargs)
+        for _n, _b in self.model.named_buffers():
+            if _n.endswith("qweight"):
+                print(f"[vl] qweight dtype={_b.dtype} shape={tuple(_b.shape)}", flush=True)
+                break
 '''
 
 # Post-resume geometry loop (apply_eval_resume.py already rewrote the for-loop head).
@@ -273,6 +304,7 @@ MAIN_NEW = '''    def _gpu_flush(*names):
 
 
 def patch(src: str) -> str:
+    src = must_replace(src, IMPORT_OLD, IMPORT_NEW, "awq_triton_patch")
     src = must_replace(src, VL_INIT_OLD, VL_INIT_NEW, "vl_fp16")
     src = must_replace(src, GEOM_LOOP_HEAD_OLD, GEOM_LOOP_HEAD_NEW, "geom_phase_head")
     src = must_replace(src, GEOM_OVERLAY_TEXT_OLD, GEOM_OVERLAY_TEXT_NEW, "geom_phase_body")
@@ -285,7 +317,7 @@ def main() -> None:
         raise SystemExit("usage: apply_eval_sequential.py <eval_ummmu_patched.py>")
     path = Path(sys.argv[1])
     path.write_text(patch(path.read_text(encoding="utf-8")), encoding="utf-8")
-    print(f"[sequential] patched {path} (one judge in VRAM; VL=fp16 AWQ 72B)")
+    print(f"[sequential] patched {path} (one judge in VRAM; VL=fp16; AWQ Triton int32 patch)")
 
 
 if __name__ == "__main__":

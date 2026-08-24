@@ -64,6 +64,9 @@ if [ "$USE_AWQ_JUDGES" = "1" ]; then
   sed -i 's#"Qwen/Qwen2.5-VL-72B-Instruct"#"Qwen/Qwen2.5-VL-72B-Instruct-AWQ"#' eval_ummmu_patched.py
   echo "Patched eval_ummmu_patched.py to use AWQ judge models."
 fi
+# So eval_ummmu_patched.py can `from patch_awq_triton import ...`
+export PYTHONPATH="$SCRIPT_DIR${PYTHONPATH:+:$PYTHONPATH}"
+
 python "$SCRIPT_DIR/apply_eval_resume.py" eval_ummmu_patched.py
 python "$SCRIPT_DIR/apply_eval_sequential.py" eval_ummmu_patched.py
 

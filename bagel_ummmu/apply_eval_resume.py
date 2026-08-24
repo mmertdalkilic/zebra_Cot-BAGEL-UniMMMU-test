@@ -184,8 +184,10 @@ SVG_LOOP_NEW = '''        self.utils.explode_details_into_items(self.config['eva
             cid = case_dir.name
             cached = self.utils.try_load_item(self.config['eval_out_dir'], cid)
             if cached is not None:
-                self.results.append(cached)
-                continue
+                blob = json.dumps(cached)
+                if "API Error" not in blob and "IncompatibleTypeError" not in blob:
+                    self.results.append(cached)
+                    continue
             if self.utils.eval_out_of_time():
                 print("[eval] time budget hit during SVG — remaining items resume next session", flush=True)
                 break

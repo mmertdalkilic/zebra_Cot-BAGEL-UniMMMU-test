@@ -29,7 +29,8 @@ Files here:
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
 | `run_eval.sh` | Evaluation launcher (AWQ judges, per-item resume, GitHub sync) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
-| `apply_eval_sequential.py` | One judge in VRAM at a time; VL AWQ forced to fp16 |
+| `apply_eval_sequential.py` | One judge in VRAM at a time; VL AWQ fp16; installs Triton int32 unpack patch |
+| `patch_awq_triton.py` | Fixes AutoAWQ Triton `iweights >> shifts` crash on Blackwell; PyTorch fallback |
 | `requirements_molab.txt` | Python deps (torch installed separately for sm_120) |
 
 ## Quick start on molab
@@ -104,6 +105,12 @@ run it as its own session via `run_eval.sh`.
 - `flash-attn` is required by BAGEL's attention code. If no prebuilt wheel
   matches, it compiles from source for `sm_120` (30–60 min, one-time; done in
   `setup_molab.sh`).
+- AutoAWQ's Triton unpack kernels crash on this stack (`IncompatibleTypeErrorImpl`
+  on `iweights >> shifts` / `b >> shifts`, recorded as `overlay_ok: 0` / `API Error`).
+  `patch_awq_triton.py` recompiles them with int32 unpack and smoke-tests; if that
+  fails it falls back to AutoAWQ's PyTorch dequant. Force the fallback with
+  `AWQ_FORCE_PYTORCH_DEQUANT=1`. Re-run `run_eval.sh` — items whose JSON contains
+  `API Error` / `IncompatibleTypeError` are retried.
 
 ## Knobs / troubleshooting
 
