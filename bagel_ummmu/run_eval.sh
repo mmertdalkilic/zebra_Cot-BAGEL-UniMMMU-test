@@ -21,7 +21,12 @@ USE_AWQ_JUDGES="${USE_AWQ_JUDGES:-1}"
 
 cd "$UMMMU_ROOT"
 
-# Evaluation dependencies (judges, metrics)
+# Evaluation dependencies (judges, metrics).
+# BAGEL's sampling env pins transformers==4.49, which does not know the
+# Qwen3 architecture the text judge needs. Eval is a separate session, so
+# upgrading here is safe (sampling already finished). Keep the 4.x line so
+# Qwen2.5-VLForConditionalGeneration remains importable.
+pip install -U "transformers>=4.51.0,<5"
 pip install qwen-vl-utils dreamsim cairosvg pandas xlsxwriter openpyxl autoawq
 
 # eval_ummmu.py hardcodes base_path as a placeholder and the judge model names
