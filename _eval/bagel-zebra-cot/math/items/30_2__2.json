@@ -1,12 +1,12 @@
 {
   "id": "30_2__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps (e.g., unproven triangle similarity, incorrect angle-side relationships) and fails to derive correct equations. Final answer does not match reference solution.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains logical gaps (e.g., incorrect assumption DE=CE without justification, flawed similarity claims between CDE and CBA). Final answer AB=2√5 and DE=3 is not derived due to invalid reasoning steps."
+  "text_reason": "Candidate solution contains logical gaps (e.g., unproven triangle similarity, incorrect angle-side relationships) and fails to derive correct equations. Final answer does not match reference solution."
 }
