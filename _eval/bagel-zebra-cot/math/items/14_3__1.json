@@ -1,12 +1,12 @@
 {
   "id": "14_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks critical steps (e.g., symmetry, area partitioning) from reference. Incorrectly assumes congruence of triangles without justifying their orientation. Fails to establish the key relationship between square EMFN and parallelogram ABCD's area. Final conclusion not rigorously derived.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate solution lacks critical steps to connect square EMFN's area with parallelogram ABCD's area. Incorrectly assumes congruence of triangles without establishing symmetry. Fails to use central symmetry and area partitioning as in reference solution. Final conclusion not rigorously derived."
+  "text_reason": "Candidate solution lacks critical steps (e.g., symmetry, area partitioning) from reference. Incorrectly assumes congruence of triangles without justifying their orientation. Fails to establish the key relationship between square EMFN and parallelogram ABCD's area. Final conclusion not rigorously derived."
 }
