@@ -65,6 +65,7 @@ if [ "$USE_AWQ_JUDGES" = "1" ]; then
   echo "Patched eval_ummmu_patched.py to use AWQ judge models."
 fi
 python "$SCRIPT_DIR/apply_eval_resume.py" eval_ummmu_patched.py
+python "$SCRIPT_DIR/apply_eval_sequential.py" eval_ummmu_patched.py
 
 LOG="$WORK_DIR/eval_$(date +%Y%m%d_%H%M%S).log"
 echo "Evaluating outputs/$MODEL_NAME ; logging to $LOG"

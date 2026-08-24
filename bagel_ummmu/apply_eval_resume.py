@@ -142,8 +142,10 @@ SCI_LOOP_NEW = '''        self.utils.explode_details_into_items(self.config['eva
             cid = f"case_{idx:02d}"
             cached = self.utils.try_load_item(self.config['eval_root'], cid)
             if cached is not None:
-                self.results.append(cached)
-                continue
+                blob = json.dumps(cached)
+                if "API Error" not in blob and "IncompatibleTypeError" not in blob:
+                    self.results.append(cached)
+                    continue
             if self.utils.eval_out_of_time():
                 print("[eval] time budget hit during science — remaining items resume next session", flush=True)
                 break

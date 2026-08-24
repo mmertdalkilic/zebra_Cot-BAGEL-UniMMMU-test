@@ -29,6 +29,7 @@ Files here:
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
 | `run_eval.sh` | Evaluation launcher (AWQ judges, per-item resume, GitHub sync) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
+| `apply_eval_sequential.py` | One judge in VRAM at a time; VL AWQ forced to fp16 |
 | `requirements_molab.txt` | Python deps (torch installed separately for sm_120) |
 
 ## Quick start on molab
