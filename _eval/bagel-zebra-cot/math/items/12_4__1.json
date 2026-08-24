@@ -1,12 +1,12 @@
 {
   "id": "12_4__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AD is perpendicular to BC and EF without justification. Fails to establish triangle similarity (BEF ~ EAD) as in reference. Calculation of EF is correct (3√2) but misapplied. Final answer not reached due to logical gaps.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes AD is perpendicular to BC and EF without justification. Fails to establish triangle similarity (BEF ~ EAD) as in the reference. Calculation of EF is correct (3√2) but misapplied. Final answer not reached due to logical gaps."
+  "text_reason": "Candidate incorrectly assumes AD is perpendicular to BC and EF without justification. Fails to establish triangle similarity (BEF ~ EAD) as in reference. Calculation of EF is correct (3√2) but misapplied. Final answer not reached due to logical gaps."
 }
