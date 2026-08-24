@@ -1,12 +1,12 @@
 {
   "id": "6_7__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABE is right-angled (applying Pythagoras where no right angle exists). This leads to invalid calculation of AE=20 and BE=0. The reference solution correctly uses triangle ADE with sin∠ADE=3/5 to find AE=7.2 and BE=12.8. Major logical error in candidate's reasoning.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes AD is perpendicular to AB (not supported), misapplies triangle congruence (SAS without valid angle), and uses invalid Pythagorean setup in triangle ABE. Final answer BE=0 contradicts reference solution's 12.8."
+  "text_reason": "Candidate incorrectly assumes triangle ABE is right-angled (applying Pythagoras where no right angle exists). This leads to invalid calculation of AE=20 and BE=0. The reference solution correctly uses triangle ADE with sin∠ADE=3/5 to find AE=7.2 and BE=12.8. Major logical error in candidate's reasoning."
 }
