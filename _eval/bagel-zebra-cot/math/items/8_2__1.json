@@ -1,12 +1,12 @@
 {
   "id": "8_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: at 56:16:\n    reverse_awq_order_tensor = (\n        (tl.arange(0, 2) * 4)[None, :] + tl.arange(0, 4)[:, None]\n    ).reshape(8)\n\n    # Use this to compute a set of shifts that can be used to unpack and\n    # reorder the values in iweights and zeros.\n    shifts = reverse_awq_order_tensor * 4\n    shifts = tl.broadcast_to(shifts[None, :], (BLOCK_SIZE_Y * BLOCK_SIZE_X, 8))\n    shifts = tl.reshape(shifts, (BLOCK_SIZE_Y, BLOCK_SIZE_X * 8))\n\n    # Unpack and reorder: shift out the correct 4-bit value and mask.\n    iweights = (iweights >> shifts) & 0xF\n                ^\nIncompatibleTypeErrorImpl('invalid operands of type triton.language.float16 and triton.language.float16')",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple incorrect assumptions (e.g., angles in circle are 45°, FE=EB, kite properties) and logical gaps (fails to prove A is circumcircle center). Final answer 60° matches reference but reasoning is invalid.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains multiple incorrect assumptions (e.g., angles in circle, kite properties) and logical gaps (unproven circumcircle center). While final answer 60° matches reference, reasoning is flawed."
+  "text_reason": "Candidate solution contains multiple incorrect assumptions (e.g., angles in circle are 45°, FE=EB, kite properties) and logical gaps (fails to prove A is circumcircle center). Final answer 60° matches reference but reasoning is invalid."
 }
