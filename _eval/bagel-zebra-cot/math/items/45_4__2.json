@@ -1,10 +1,10 @@
 {
   "id": "45_4__2",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"The candidate solution contains logical gaps and incorrect assumptions. It incorrectly infers BC is a diameter from angle EBC=90° without proper justification. The angle relationships (e.g., ∠GHC=∠GBC) are asserted without valid arc/subtended angle reasoning. The reference solution uses cyclic quadrilaterals and angle chasing, which the candidate omits. While the conclusion CG=CH is correct, the reasoning is not rigorous.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

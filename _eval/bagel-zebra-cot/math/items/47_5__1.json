@@ -1,12 +1,12 @@
 {
   "id": "47_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠ACE=∠CBA without valid justification. The reference solution uses triangle AOC properties and radius equality to establish angle equality. While the conclusion is correct, the reasoning contains a logical gap in angle substitution.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes ∠ACE=∠CBA without justification. Ground-truth uses triangle AOC properties and radius equality. Conclusion is correct but reasoning has logical gaps."
+  "text_reason": "Candidate incorrectly assumes ∠ACE=∠CBA without valid justification. The reference solution uses triangle AOC properties and radius equality to establish angle equality. While the conclusion is correct, the reasoning contains a logical gap in angle substitution."
 }
