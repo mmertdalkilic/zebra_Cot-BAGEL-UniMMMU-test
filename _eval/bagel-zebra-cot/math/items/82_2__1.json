@@ -1,12 +1,12 @@
 {
   "id": "82_2__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains false claims (e.g., angle ODC=90°) and invalid deductions leading to impossible conclusions (∠OCD=0°). The reasoning is not rigorous and the conclusion is incorrect.\"}",
   "reasoning_rigorous": 0,
-  "conclusion_correct": 1,
+  "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains multiple logical errors (e.g., incorrectly assuming triangle OCD is right-angled at D, conflating angles at D). While the conclusion is correct, the reasoning is invalid due to these critical flaws."
+  "text_reason": "Candidate solution contains false claims (e.g., angle ODC=90°) and invalid deductions leading to impossible conclusions (∠OCD=0°). The reasoning is not rigorous and the conclusion is incorrect."
 }

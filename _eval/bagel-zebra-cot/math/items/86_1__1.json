@@ -1,12 +1,12 @@
 {
   "id": "86_1__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims ∠ADC=90° (should be ∠ADB=90° via Thales' theorem). Congruence argument relies on flawed angle assumption. Ground-truth uses perpendicular bisector property of isosceles triangle, which is valid.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly applies Thales' theorem to angle ADC instead of angle ADB. The congruence argument is invalid as triangles ABE and ACD do not correspond properly to derive BD=CD. The conclusion is correct but the reasoning contains logical gaps."
+  "text_reason": "Candidate incorrectly claims ∠ADC=90° (should be ∠ADB=90° via Thales' theorem). Congruence argument relies on flawed angle assumption. Ground-truth uses perpendicular bisector property of isosceles triangle, which is valid."
 }

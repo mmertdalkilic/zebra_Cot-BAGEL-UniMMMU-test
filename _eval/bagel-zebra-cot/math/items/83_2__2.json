@@ -1,12 +1,12 @@
 {
   "id": "83_2__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes CP is tangent (not stated in problem). This invalidates angle relationships and power of point application. Ground-truth uses OC connection and angle subtraction to find right angle at OCP, then Pythagorean theorem. Candidate's approach contains multiple false premises leading to impossible conclusions.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes CP is tangent (not stated in problem). This invalidates angle relationships and power of point application. Ground-truth uses OC connection and right triangle. Final answer 8 vs candidate's invalid approach."
+  "text_reason": "Candidate incorrectly assumes CP is tangent (not stated in problem). This invalidates angle relationships and power of point application. Ground-truth uses OC connection and angle subtraction to find right angle at OCP, then Pythagorean theorem. Candidate's approach contains multiple false premises leading to impossible conclusions."
 }
