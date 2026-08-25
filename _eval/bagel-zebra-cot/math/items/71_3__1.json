@@ -1,12 +1,12 @@
 {
   "id": "71_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims AD=AE (AD=s, AE=s/2) in triangle AED, invalidating key steps. While conclusion ∠BFE=α is correct, the flawed reasoning (false congruence claim) prevents rigorous validation.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains incorrect assertion (triangle AED is isosceles with AE=AD which contradicts AE=s/2 and AD=s). While final answer matches reference, reasoning has logical gaps and false claims about triangle congruence."
+  "text_reason": "Candidate incorrectly claims AD=AE (AD=s, AE=s/2) in triangle AED, invalidating key steps. While conclusion ∠BFE=α is correct, the flawed reasoning (false congruence claim) prevents rigorous validation."
 }

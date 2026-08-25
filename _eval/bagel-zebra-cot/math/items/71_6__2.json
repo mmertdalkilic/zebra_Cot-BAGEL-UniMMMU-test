@@ -1,12 +1,12 @@
 {
   "id": "71_6__2",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps and unjustified assumptions (e.g., assuming ∠CAD=∠CAB/2 without proof, repetitive claims about triangle isoscelesness). While the conclusion is correct, the reasoning lacks rigor compared to the reference's methodical congruence proofs and auxiliary constructions.\"}",
   "reasoning_rigorous": 0,
-  "conclusion_correct": 0,
+  "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains incorrect angle assumptions (e.g., ∠CAD=22.5°) and invalid parallel line constructions. The reasoning relies on unproven claims about QF∥AD and misapplies angle relationships. The conclusion CE+EF=2FG is not rigorously established."
+  "text_reason": "Candidate solution contains logical gaps and unjustified assumptions (e.g., assuming ∠CAD=∠CAB/2 without proof, repetitive claims about triangle isoscelesness). While the conclusion is correct, the reasoning lacks rigor compared to the reference's methodical congruence proofs and auxiliary constructions."
 }
