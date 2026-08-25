@@ -1,12 +1,12 @@
 {
   "id": "115_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠FCD is a right angle (actual right angle is ∠OCF). Misapplies trigonometry by setting CD=3x/DF=5x without justification. Flawed similarity argument between △ACF and △BCD. Final answer 20/7 ≠ reference 10/3\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes ∠FCD is a right angle (actual right angle is ∠OCF). Misapplies trigonometry by setting CD=3x/DF=5x without justification. Incorrect similarity claims between triangles ACF and BCD. Final answer 20/7 ≠ reference 10/3"
+  "text_reason": "Candidate incorrectly assumes ∠FCD is a right angle (actual right angle is ∠OCF). Misapplies trigonometry by setting CD=3x/DF=5x without justification. Flawed similarity argument between △ACF and △BCD. Final answer 20/7 ≠ reference 10/3"
 }
