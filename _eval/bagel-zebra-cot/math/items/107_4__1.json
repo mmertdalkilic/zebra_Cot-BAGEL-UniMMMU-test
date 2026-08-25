@@ -1,12 +1,12 @@
 {
   "id": "107_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠ABD=∠EAB without justification. The reference solution correctly uses arc midpoint properties and angle relationships. While the conclusion is correct, the flawed step invalidates rigor.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "The candidate solution incorrectly assumes ∠ABD = ∠EAB without justification, leading to invalid angle calculations. While the conclusion that AC is tangent is correct, the reasoning contains a major logical flaw in the angle relationships. The reference solution correctly uses arc midpoint properties and right angles to establish perpendicularity."
+  "text_reason": "Candidate incorrectly assumes ∠ABD=∠EAB without justification. The reference solution correctly uses arc midpoint properties and angle relationships. While the conclusion is correct, the flawed step invalidates rigor."
 }
