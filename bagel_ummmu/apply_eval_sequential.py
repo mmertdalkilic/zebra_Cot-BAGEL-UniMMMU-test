@@ -2,9 +2,10 @@
 """Second-pass patch: keep the official VL judge (Qwen2.5-VL-72B-Instruct-AWQ)
 but never hold it in VRAM together with Qwen3.
 
-VL load stays fp16 (WQLinear scales/activations). The real Blackwell crash is
-AutoAWQ's Triton unpack kernels typing bit-shifts as float — patched via
-patch_awq_triton.py (int32 unpack, PyTorch dequant fallback).
+Do not pass torch_dtype into AWQ from_pretrained — that casts packed int32
+qweight to Half and PyTorch dequant then dies with
+`rshift_cuda not implemented for 'Half'`. patch_awq_triton.py keeps qweight
+int32, casts only floats to fp16, and fixes/falls back Triton unpack.
 """
 from __future__ import annotations
 
@@ -53,15 +54,16 @@ VL_INIT_OLD = '''        kwargs = {"torch_dtype": "auto", "device_map": "auto"}
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_name, **kwargs)
 '''
 
-VL_INIT_NEW = '''        kwargs = {"torch_dtype": torch.float16, "device_map": "auto"}
+VL_INIT_NEW = '''        # Do not pass torch_dtype: it casts packed AWQ qweight int32 -> float16,
+        # then dequant does `qweight >> shifts` and CUDA raises
+        # `"rshift_cuda" not implemented for 'Half'`.
+        kwargs = {"device_map": "auto"}
         if attn_implementation:
             kwargs["attn_implementation"] = attn_implementation
-        print(f"[vl] loading {model_name} dtype=float16 attn={attn_implementation!r}", flush=True)
+        print(f"[vl] loading {model_name} (preserve int32 qweight) attn={attn_implementation!r}", flush=True)
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_name, **kwargs)
-        for _n, _b in self.model.named_buffers():
-            if _n.endswith("qweight"):
-                print(f"[vl] qweight dtype={_b.dtype} shape={tuple(_b.shape)}", flush=True)
-                break
+        from patch_awq_triton import prepare_awq_model
+        prepare_awq_model(self.model, label="vl")
 '''
 
 # Post-resume geometry loop (apply_eval_resume.py already rewrote the for-loop head).
@@ -85,7 +87,7 @@ GEOM_LOOP_HEAD_NEW = '''        phase = self.config.get("geometry_phase", "both"
             case_id = f"{self.utils.sanitize_filename(big_k)}__{self.utils.sanitize_filename(small_k)}"
             cached = self.utils.try_load_item(self.config['out_eval_dir'], case_id)
             reason = str((cached or {}).get("overlay_reason") or "")
-            overlay_bad = reason.startswith("API Error") or "IncompatibleTypeError" in reason
+            overlay_bad = reason.startswith("API Error") or "IncompatibleTypeError" in reason or "rshift_cuda" in reason
             overlay_done = bool(cached) and cached.get("overlay_ok") is not None and not overlay_bad
             text_done = bool(cached) and cached.get("status") == "ok" and "text_ok" in cached and not overlay_bad
             if phase == "overlay" and overlay_done:
@@ -317,7 +319,7 @@ def main() -> None:
         raise SystemExit("usage: apply_eval_sequential.py <eval_ummmu_patched.py>")
     path = Path(sys.argv[1])
     path.write_text(patch(path.read_text(encoding="utf-8")), encoding="utf-8")
-    print(f"[sequential] patched {path} (one judge in VRAM; VL=fp16; AWQ Triton int32 patch)")
+    print(f"[sequential] patched {path} (one judge in VRAM; AWQ keep int32 qweight)")
 
 
 if __name__ == "__main__":

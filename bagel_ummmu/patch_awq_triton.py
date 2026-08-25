@@ -18,6 +18,102 @@ import os
 import sys
 
 
+_PACKED = ("qweight", "qzeros")
+
+
+def _install_accelerate_int_hooks() -> None:
+    """Stop device_map + torch_dtype from casting packed AWQ ints to Half."""
+    try:
+        import accelerate.utils.modeling as acc_modeling
+    except Exception as e:
+        print(f"[awq] accelerate hook skipped: {e}", flush=True)
+        return
+    orig = acc_modeling.set_module_tensor_to_device
+    if getattr(orig, "_awq_int_guard", False):
+        return
+
+    def wrapped(module, tensor_name, device, value=None, dtype=None, **kwargs):
+        short = str(tensor_name).rsplit(".", 1)[-1]
+        if short in _PACKED:
+            dtype = None
+        return orig(module, tensor_name, device, value=value, dtype=dtype, **kwargs)
+
+    wrapped._awq_int_guard = True
+    acc_modeling.set_module_tensor_to_device = wrapped
+    print("[awq] accelerate hook: never cast qweight/qzeros", flush=True)
+
+
+def _patch_unpack_awq() -> None:
+    try:
+        import awq.utils.packing_utils as pu
+    except Exception:
+        return
+    orig = pu.unpack_awq
+    if getattr(orig, "_int_guard", False):
+        return
+
+    def unpack_awq(qweight, qzeros, bits):
+        if qweight is not None and qweight.is_floating_point():
+            raise TypeError(
+                f"AWQ qweight is {qweight.dtype}, expected int32. "
+                "Do not pass torch_dtype=float16 into from_pretrained for AWQ models."
+            )
+        if qzeros is not None and qzeros.is_floating_point():
+            raise TypeError(f"AWQ qzeros is {qzeros.dtype}, expected int32")
+        return orig(qweight, qzeros, bits)
+
+    unpack_awq._int_guard = True
+    pu.unpack_awq = unpack_awq
+
+
+def prepare_awq_model(model, label: str = "model"):
+    """Verify packed weights are int32; cast only floating tensors to fp16."""
+    import torch
+
+    sample = None
+    bad = []
+    n_packed = 0
+    for name, buf in model.named_buffers():
+        short = name.rsplit(".", 1)[-1]
+        if short not in _PACKED:
+            continue
+        n_packed += 1
+        if sample is None and short == "qweight":
+            sample = (name, str(buf.dtype), tuple(buf.shape))
+        if buf.dtype not in (
+            torch.int32,
+            torch.int16,
+            torch.int8,
+            torch.uint8,
+            torch.uint32,
+        ):
+            bad.append((name, str(buf.dtype)))
+    if sample:
+        print(f"[{label}] qweight {sample[0]} dtype={sample[1]} shape={sample[2]}", flush=True)
+    if n_packed == 0:
+        print(f"[{label}] no AWQ qweight buffers found", flush=True)
+        return
+    if bad:
+        raise TypeError(
+            f"[{label}] {len(bad)} packed AWQ tensors are float, e.g. {bad[0]}. "
+            "Load without torch_dtype so qweight stays int32."
+        )
+    n_cast = 0
+    dtype = torch.float16
+    for child in model.modules():
+        for _, p in child.named_parameters(recurse=False):
+            if p is not None and p.is_floating_point() and p.dtype != dtype:
+                p.data = p.data.to(dtype)
+                n_cast += 1
+        for bname, b in list(child.named_buffers(recurse=False)):
+            if b is None or bname in _PACKED:
+                continue
+            if b.is_floating_point() and b.dtype != dtype:
+                child._buffers[bname] = b.to(dtype)
+                n_cast += 1
+    print(f"[{label}] packed int32 ok; cast {n_cast} float tensors to fp16", flush=True)
+
+
 def _force_pytorch_dequant(reason: str) -> None:
     try:
         import awq.modules.linear.gemm as gemm
@@ -29,6 +125,8 @@ def _force_pytorch_dequant(reason: str) -> None:
 
 
 def apply_awq_triton_patch() -> None:
+    _install_accelerate_int_hooks()
+    _patch_unpack_awq()
     if os.environ.get("AWQ_FORCE_PYTORCH_DEQUANT", "").strip() in {"1", "true", "True"}:
         _force_pytorch_dequant("AWQ_FORCE_PYTORCH_DEQUANT=1")
         return

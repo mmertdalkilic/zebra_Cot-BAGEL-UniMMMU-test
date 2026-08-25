@@ -143,7 +143,7 @@ SCI_LOOP_NEW = '''        self.utils.explode_details_into_items(self.config['eva
             cached = self.utils.try_load_item(self.config['eval_root'], cid)
             if cached is not None:
                 blob = json.dumps(cached)
-                if "API Error" not in blob and "IncompatibleTypeError" not in blob:
+                if "API Error" not in blob and "IncompatibleTypeError" not in blob and "rshift_cuda" not in blob:
                     self.results.append(cached)
                     continue
             if self.utils.eval_out_of_time():
@@ -185,7 +185,7 @@ SVG_LOOP_NEW = '''        self.utils.explode_details_into_items(self.config['eva
             cached = self.utils.try_load_item(self.config['eval_out_dir'], cid)
             if cached is not None:
                 blob = json.dumps(cached)
-                if "API Error" not in blob and "IncompatibleTypeError" not in blob:
+                if "API Error" not in blob and "IncompatibleTypeError" not in blob and "rshift_cuda" not in blob:
                     self.results.append(cached)
                     continue
             if self.utils.eval_out_of_time():

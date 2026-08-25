@@ -29,7 +29,7 @@ Files here:
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
 | `run_eval.sh` | Evaluation launcher (AWQ judges, per-item resume, GitHub sync) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
-| `apply_eval_sequential.py` | One judge in VRAM at a time; VL AWQ fp16; installs Triton int32 unpack patch |
+| `apply_eval_sequential.py` | One judge in VRAM at a time; AWQ load keeps int32 qweight |
 | `patch_awq_triton.py` | Fixes AutoAWQ Triton `iweights >> shifts` crash on Blackwell; PyTorch fallback |
 | `requirements_molab.txt` | Python deps (torch installed separately for sm_120) |
 
@@ -105,12 +105,13 @@ run it as its own session via `run_eval.sh`.
 - `flash-attn` is required by BAGEL's attention code. If no prebuilt wheel
   matches, it compiles from source for `sm_120` (30–60 min, one-time; done in
   `setup_molab.sh`).
-- AutoAWQ's Triton unpack kernels crash on this stack (`IncompatibleTypeErrorImpl`
-  on `iweights >> shifts` / `b >> shifts`, recorded as `overlay_ok: 0` / `API Error`).
-  `patch_awq_triton.py` recompiles them with int32 unpack and smoke-tests; if that
-  fails it falls back to AutoAWQ's PyTorch dequant. Force the fallback with
+- AutoAWQ on this stack: Triton unpack types bit-shifts as float, and
+  `from_pretrained(..., torch_dtype=float16)` casts packed `qweight` to Half, which
+  then dies with `"rshift_cuda" not implemented for 'Half'`. `patch_awq_triton.py`
+  keeps `qweight`/`qzeros` as int32, casts only floats to fp16, and smoke-tests
+  int32 Triton kernels (PyTorch dequant fallback). Force the fallback with
   `AWQ_FORCE_PYTORCH_DEQUANT=1`. Re-run `run_eval.sh` — items whose JSON contains
-  `API Error` / `IncompatibleTypeError` are retried.
+  `API Error` / `IncompatibleTypeError` / `rshift_cuda` are retried.
 
 ## Knobs / troubleshooting
 
