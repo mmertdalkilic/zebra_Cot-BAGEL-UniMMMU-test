@@ -1,12 +1,12 @@
 {
   "id": "54_1__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies inscribed angle theorem to external angles formed by tangent and secant. The angle at P should be calculated using the external angle theorem (difference of arcs), not sum of arcs. Despite this, the final numeric answer matches the reference.\"}",
   "reasoning_rigorous": 0,
-  "conclusion_correct": 0,
+  "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly applies angle properties for angles formed by tangent and secant (uses half arc instead of half difference). Final answer 130° contradicts reference 80°."
+  "text_reason": "Candidate incorrectly applies inscribed angle theorem to external angles formed by tangent and secant. The angle at P should be calculated using the external angle theorem (difference of arcs), not sum of arcs. Despite this, the final numeric answer matches the reference."
 }
