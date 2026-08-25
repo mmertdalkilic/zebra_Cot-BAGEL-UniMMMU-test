@@ -1,12 +1,12 @@
 {
   "id": "78_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠OCD relates to ∠AOC via inscribed angle theorem (invalid step). Miscalculates ∠ABC as 55° instead of 75°, leading to wrong ∠ADC=125° instead of 105°. Major logical gaps in angle relationships.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate solution introduces incorrect angle OCD and misapplies inscribed angle theorem. Reference solution correctly uses triangle OBC and cyclic quadrilateral properties to find ∠ADC=105°, but candidate's reasoning contains logical errors leading to wrong conclusion."
+  "text_reason": "Candidate incorrectly assumes ∠OCD relates to ∠AOC via inscribed angle theorem (invalid step). Miscalculates ∠ABC as 55° instead of 75°, leading to wrong ∠ADC=125° instead of 105°. Major logical gaps in angle relationships."
 }
