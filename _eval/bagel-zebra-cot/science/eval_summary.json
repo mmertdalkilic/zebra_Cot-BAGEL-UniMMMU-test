@@ -1,9 +1,9 @@
 {
   "total_cases": 157,
-  "text_reasoning_correct": 0,
-  "text_result_correct": 0,
-  "image_correct": 0,
-  "text_reasoning_acc": 0.0,
-  "text_result_acc": 0.0,
-  "image_acc": 0.0
+  "text_reasoning_correct": 83,
+  "text_result_correct": 60,
+  "image_correct": 21,
+  "text_reasoning_acc": 0.5286624203821656,
+  "text_result_acc": 0.3821656050955414,
+  "image_acc": 0.1337579617834395
 }

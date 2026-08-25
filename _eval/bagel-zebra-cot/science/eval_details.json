@@ -2,1885 +2,1571 @@
   {
     "case_id": "case_01",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_02",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_03",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_04",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_05",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_06",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_07",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_08",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_09",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_10",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_11",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_12",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_13",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_14",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_15",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_16",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_17",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_18",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_19",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_20",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_21",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_22",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_23",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_24",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_25",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_26",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_27",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_28",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_29",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_30",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_31",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_32",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_33",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_34",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_35",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_36",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_37",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_38",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_39",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_40",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_41",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_42",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_43",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_44",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_45",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_46",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_47",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_48",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_49",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_50",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_51",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_52",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_53",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_54",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_55",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_56",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_57",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_58",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_59",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_60",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_61",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_62",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_63",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_64",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_65",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_66",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_67",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_68",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_69",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_70",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_71",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_72",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_73",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_74",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_75",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_76",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_77",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_78",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_79",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_80",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_81",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_82",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_83",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_84",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_85",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_86",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_87",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_88",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_89",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_90",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_91",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_92",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_93",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_94",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_95",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_96",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_97",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_98",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_99",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_100",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_101",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_102",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_103",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_104",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_105",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_106",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_107",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_108",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_109",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_110",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_111",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_112",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_113",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_114",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_115",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_116",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_117",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_118",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_119",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_120",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_121",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_122",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_123",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_124",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_125",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_126",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_127",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_128",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_129",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_130",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_131",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_132",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_133",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_134",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_135",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_136",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_137",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_138",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_139",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_140",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_141",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_142",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 1
     }
   },
   {
     "case_id": "case_143",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_144",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "result_correct": 0
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_145",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_146",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_147",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_148",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_149",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_150",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_151",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_152",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_153",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_154",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_155",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_156",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   },
   {
     "case_id": "case_157",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
-      "image_correct": 0,
-      "error": "\"rshift_cuda\" not implemented for 'Half'"
+      "image_correct": 0
     }
   }
 ]
