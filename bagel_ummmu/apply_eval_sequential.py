@@ -89,7 +89,11 @@ GEOM_LOOP_HEAD_NEW = '''        phase = self.config.get("geometry_phase", "both"
             reason = str((cached or {}).get("overlay_reason") or "")
             overlay_bad = reason.startswith("API Error") or "IncompatibleTypeError" in reason or "rshift_cuda" in reason
             overlay_done = bool(cached) and cached.get("overlay_ok") is not None and not overlay_bad
-            text_done = bool(cached) and cached.get("status") == "ok" and "text_ok" in cached and not overlay_bad
+            text_reason = str((cached or {}).get("text_reason") or "")
+            text_bad = text_reason.startswith("API Error") or "IncompatibleTypeError" in text_reason or "rshift_cuda" in text_reason
+            # Do not require status=="ok": overlay pass writes status=overlay_done
+            # even when a previous Qwen3 pass already stored text_ok.
+            text_done = bool(cached) and "text_ok" in cached and cached.get("text_ok") is not None and not text_bad
             if phase == "overlay" and overlay_done:
                 self.results.append(cached)
                 continue
@@ -136,9 +140,9 @@ GEOM_OVERLAY_TEXT_NEW = '''            if phase in ("overlay", "both") and (self
                 else:
                     record["overlay_ok"] = 0
                     record["overlay_reason"] = "No predicted image found."
-                record["status"] = "overlay_done"
+                record["status"] = "ok" if "text_ok" in record else "overlay_done"
 
-            if phase in ("text", "both") and (self.lm is not None):
+            if phase in ("text", "both") and (self.lm is not None) and (not text_done):
                 cand_text = (case_dir / "model_text.txt").read_text(encoding="utf-8") if (case_dir / "model_text.txt").exists() else ""
                 problem_text = item.get("problem_text_en") or item.get("problem_text", "")
                 gt_text = item.get("solution_en") or item.get("solution", "")
