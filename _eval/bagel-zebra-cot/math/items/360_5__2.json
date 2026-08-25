@@ -3,6 +3,6 @@
   "type": "proving",
   "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": ""
+  "overlay_reason": "missing required line EF perpendicular to AE",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line EF perpendicular to AE\"}"
 }

@@ -2,7 +2,7 @@
   "id": "332_1__1",
   "type": "calculation",
   "status": "overlay_done",
-  "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": ""
+  "overlay_ok": 1,
+  "overlay_reason": "BD line correctly drawn",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line correctly drawn\"}"
 }
