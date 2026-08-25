@@ -1,12 +1,12 @@
 {
   "id": "52_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical errors (e.g., claims arc measures sum to 0°, redundant/repetitive statements about ∠EOB). Incorrectly concludes ∠EOB=90°, which is not valid. Fails to establish OE⊥CE as required for tangency.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate solution contains logical errors (e.g., claims arc AE + arc EB = 0°, which is impossible). Incorrectly concludes ∠EOB=90° without valid justification. Ground-truth uses angle relationships and perpendicularity, which are missing in the candidate's flawed reasoning."
+  "text_reason": "Candidate solution contains logical errors (e.g., claims arc measures sum to 0°, redundant/repetitive statements about ∠EOB). Incorrectly concludes ∠EOB=90°, which is not valid. Fails to establish OE⊥CE as required for tangency."
 }
