@@ -1,12 +1,12 @@
 {
   "id": "68_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly subtracts ∠OAC from ∠ACB (90°) to get ∠BAC=50°, but reference shows ∠BAC=∠OCA=40° via isosceles triangle. The reasoning is flawed in the final step.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes ∠BAC=∠ACB−∠OAC (50°), but reference shows ∠BAC=∠OCA=40° via isosceles triangle. Logical error in angle relationships."
+  "text_reason": "Candidate incorrectly subtracts ∠OAC from ∠ACB (90°) to get ∠BAC=50°, but reference shows ∠BAC=∠OCA=40° via isosceles triangle. The reasoning is flawed in the final step."
 }
