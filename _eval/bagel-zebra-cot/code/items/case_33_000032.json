@@ -2,8 +2,10 @@
   "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_33_000032",
   "image_evals": [
     {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
       "verdict": "mismatch",
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+      "explanation": "Candidate has completely different shapes and layout. Expected two separate squares; got overlapping squares with lines. Colors do not match expected palette.",
       "image_match_binary": 0
     }
   ],
