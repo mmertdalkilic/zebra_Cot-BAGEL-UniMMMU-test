@@ -1,12 +1,10 @@
 {
   "case_id": "case_45",
   "text_eval": {
-    "reasoning_correct": 0,
-    "result_correct": 0,
-    "error": "\"rshift_cuda\" not implemented for 'Half'"
+    "reasoning_correct": 1,
+    "result_correct": 1
   },
   "image_eval": {
-    "image_correct": 0,
-    "error": "\"rshift_cuda\" not implemented for 'Half'"
+    "image_correct": 1
   }
 }
