@@ -2,8 +2,10 @@
   "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_152_000151",
   "image_evals": [
     {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
       "verdict": "mismatch",
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+      "explanation": "Candidate contains text and yellow squares instead of green rectangles. Shapes, colors, and positions do not match the reference at all.",
       "image_match_binary": 0
     }
   ],
