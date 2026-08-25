@@ -66,9 +66,84 @@ def _patch_unpack_awq() -> None:
     pu.unpack_awq = unpack_awq
 
 
+def _load_repo_tensor(repo_id: str, tensor_name: str):
+    """Load one tensor from a (possibly sharded) Hub safetensors checkpoint."""
+    import json
+
+    from huggingface_hub import hf_hub_download
+    from safetensors import safe_open
+
+    try:
+        index_path = hf_hub_download(repo_id, "model.safetensors.index.json")
+        with open(index_path, encoding="utf-8") as f:
+            index = json.load(f)
+        shard = (index.get("weight_map") or {}).get(tensor_name)
+        if not shard:
+            return None
+        path = hf_hub_download(repo_id, shard)
+    except Exception:
+        try:
+            path = hf_hub_download(repo_id, "model.safetensors")
+        except Exception as e:
+            print(f"[awq] could not open checkpoint for {tensor_name}: {e}", flush=True)
+            return None
+    with safe_open(path, framework="pt") as f:
+        if tensor_name not in f.keys():
+            return None
+        return f.get_tensor(tensor_name)
+
+
+def _restore_dense_lm_head(model) -> None:
+    """transformers 4.51 AWQ replaces lm_head with empty WQLinear and skips
+    checkpoint `lm_head.weight`. Put the dense head back so generate() works.
+    """
+    import torch
+    import torch.nn as nn
+
+    heads = [
+        (n, m)
+        for n, m in model.named_modules()
+        if n == "lm_head" or n.endswith(".lm_head")
+    ]
+    heads = [(n, m) for n, m in heads if hasattr(m, "qweight")]
+    if not heads:
+        return
+
+    repo = getattr(model.config, "_name_or_path", None) or getattr(
+        model, "name_or_path", None
+    )
+    weight = _load_repo_tensor(str(repo), "lm_head.weight") if repo else None
+    if weight is None:
+        emb = model.get_input_embeddings() if hasattr(model, "get_input_embeddings") else None
+        if emb is not None and getattr(emb, "weight", None) is not None:
+            weight = emb.weight.detach().clone()
+            print("[awq] lm_head.weight missing; tying from embed_tokens", flush=True)
+    if weight is None:
+        raise TypeError(
+            "AWQ loader dropped lm_head.weight and created empty float16 "
+            "lm_head.qweight. Cannot restore a dense lm_head from the checkpoint."
+        )
+
+    for name, module in heads:
+        device = module.qweight.device
+        out_f, in_f = weight.shape
+        dense = nn.Linear(in_f, out_f, bias=False)
+        dense.weight.data = weight.to(device=device, dtype=torch.float16)
+        parent_name, _, child = name.rpartition(".")
+        parent = model.get_submodule(parent_name) if parent_name else model
+        setattr(parent, child, dense)
+        print(
+            f"[awq] restored dense {name} {tuple(dense.weight.shape)} "
+            f"{dense.weight.dtype} on {device}",
+            flush=True,
+        )
+
+
 def prepare_awq_model(model, label: str = "model"):
     """Verify packed weights are int32; cast only floating tensors to fp16."""
     import torch
+
+    _restore_dense_lm_head(model)
 
     sample = None
     bad = []

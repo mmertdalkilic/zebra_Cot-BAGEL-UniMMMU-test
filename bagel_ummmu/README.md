@@ -108,8 +108,9 @@ run it as its own session via `run_eval.sh`.
 - AutoAWQ on this stack: Triton unpack types bit-shifts as float, and
   `from_pretrained(..., torch_dtype=float16)` casts packed `qweight` to Half, which
   then dies with `"rshift_cuda" not implemented for 'Half'`. `patch_awq_triton.py`
-  keeps `qweight`/`qzeros` as int32, casts only floats to fp16, and smoke-tests
-  int32 Triton kernels (PyTorch dequant fallback). Force the fallback with
+  keeps `qweight`/`qzeros` as int32, casts only floats to fp16, restores the
+  dense `lm_head.weight` that transformers 4.51 drops, and smoke-tests int32
+  Triton kernels (PyTorch dequant fallback). Force the fallback with
   `AWQ_FORCE_PYTORCH_DEQUANT=1`. Re-run `run_eval.sh` — items whose JSON contains
   `API Error` / `IncompatibleTypeError` / `rshift_cuda` are retried.
 
