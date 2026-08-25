@@ -1,12 +1,12 @@
 {
   "id": "110_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes E is midpoint of AB (AE=5) and misapplies similarity. Calculates AD=8 via flawed OE=3 derivation. Final DF=0 contradicts ground-truth 32/3. Major logical gaps in angle relationships and coordinate assumptions.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes angle equalities for similarity, miscalculates OE and AE by conflating midpoints with perpendicular feet, and derives invalid AD/DF values. Final answer 0 contradicts reference 32/3."
+  "text_reason": "Candidate incorrectly assumes E is midpoint of AB (AE=5) and misapplies similarity. Calculates AD=8 via flawed OE=3 derivation. Final DF=0 contradicts ground-truth 32/3. Major logical gaps in angle relationships and coordinate assumptions."
 }
