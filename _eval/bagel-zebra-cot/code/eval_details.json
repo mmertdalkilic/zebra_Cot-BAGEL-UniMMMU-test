@@ -3,8 +3,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_01_000000",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks colors, shapes, and structure. Only abstract lines and scribbles present, bearing no resemblance to reference's geometric forms or layout.",
         "image_match_binary": 0
       }
     ],
@@ -17,8 +19,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_02_000001",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has concentric rectangles, while reference shows pentagons and lines. Shapes, counts, and layouts do not match. Colors are qualitatively similar but irrelevant due to shape mismatch.",
         "image_match_binary": 0
       }
     ],
@@ -31,8 +35,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_03_000002",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate uses hexagons instead of circles, incorrect colors, and wrong layout. Shapes, colors, and positions do not match the reference.",
         "image_match_binary": 0
       }
     ],
@@ -45,8 +51,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_04_000003",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference pentagon. All criteria fail.",
         "image_match_binary": 0
       }
     ],
@@ -59,8 +67,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_05_000004",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -73,8 +83,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_06_000005",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and patterns not present in the reference. Colors do not match the palette, and there is no resemblance in shape, count, or position.",
         "image_match_binary": 0
       }
     ],
@@ -87,8 +99,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_07_000006",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes and colors present in the reference image. No pentagons or colors resembling the palette are visible.",
         "image_match_binary": 0
       }
     ],
@@ -101,8 +115,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_08_000007",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and text not present in the reference. Colors and positions do not match the simple green circle and purple pentagon.",
         "image_match_binary": 0
       }
     ],
@@ -115,8 +131,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_09_000008",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing five blue squares.",
         "image_match_binary": 0
       }
     ],
@@ -129,8 +147,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_100_000099",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains unexpected shapes and text, completely differing from reference's squares and colors. Layout and positioning bear no resemblance.",
         "image_match_binary": 0
       }
     ],
@@ -143,8 +163,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_101_000100",
     "image_evals": [
       {
-        "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "shape_color_accuracy": 4,
+        "position_accuracy": 2,
+        "verdict": "partial",
+        "explanation": "Correct circle shapes and colors, but size and position differ significantly. Reference shows smaller circles aligned horizontally; candidate has larger circles in diagonal arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -157,8 +179,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_102_000101",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains an unrelated graphic with text and symbols, completely differing from the geometric shapes and layout of the reference.",
         "image_match_binary": 0
       }
     ],
@@ -171,8 +195,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_103_000102",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes (dashed rectangles instead of solid squares), wrong colors (black instead of purple), and completely different layout and positioning.",
         "image_match_binary": 0
       }
     ],
@@ -185,8 +211,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_104_000103",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
         "image_match_binary": 0
       }
     ],
@@ -199,8 +227,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_105_000104",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes (lines instead of rectangle and circle) and layout. Colors are qualitatively similar but shapes and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -213,8 +243,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_106_000105",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -227,8 +259,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_107_000106",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has rectangles instead of squares, wrong color, and vertical stacking instead of horizontal spacing. No resemblance in shape, color, or layout.",
         "image_match_binary": 0
       }
     ],
@@ -241,8 +275,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_108_000107",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes and lines not present in reference. Colors do not match palette. Positions and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -255,8 +291,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_109_000108",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows four purple squares; candidate has blue rectangles and unrelated objects.",
         "image_match_binary": 0
       }
     ],
@@ -269,8 +307,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_10_000009",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes (polygons instead of circles) and colors (black instead of yellow). Positioning and layout bear no resemblance to the reference.",
         "image_match_binary": 0
       }
     ],
@@ -283,8 +323,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_110_000109",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and colors not present in the reference. No matching elements in terms of shape, color, or position.",
         "image_match_binary": 0
       }
     ],
@@ -297,8 +339,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_111_000110",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has concentric circles with incorrect colors; reference has evenly spaced blue circles. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -311,8 +355,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_112_000111",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks circles, lines, and curves; contains irregular shapes. Colors do not match palette. Positioning and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -325,8 +371,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_113_000112",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
         "image_match_binary": 0
       }
     ],
@@ -339,8 +387,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_114_000113",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains a single complex shape with a different color palette, while the reference has distinct shapes with specified colors and positions.",
         "image_match_binary": 0
       }
     ],
@@ -353,8 +403,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_115_000114",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains no discernible shapes or colors matching the reference. Only noise is present, failing all criteria.",
         "image_match_binary": 0
       }
     ],
@@ -367,22 +419,26 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_116_000115",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains only a green rectangle with white lines, lacking all shapes, colors, and layout from the reference image.",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
+      "explanation": "Description missing; cannot compare objects, colors, positions."
     }
   },
   {
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_117_000116",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a large circle instead of a smaller one, and the texture differs. Position is central but size and color palette match are incorrect.",
         "image_match_binary": 0
       }
     ],
@@ -395,8 +451,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_118_000117",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a single circle with lines, while reference has four squares. Shapes, counts, and layouts do not match. Colors are qualitatively similar but irrelevant due to shape mismatch.",
         "image_match_binary": 0
       }
     ],
@@ -409,8 +467,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_119_000118",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes and colors not matching the simple purple circles. Positioning and layout are entirely different, showing no resemblance.",
         "image_match_binary": 0
       }
     ],
@@ -423,8 +483,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_11_000010",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks orange square and contains an unintended white shape. Yellow rectangle's position and color match poorly. Overall layout is completely different.",
         "image_match_binary": 0
       }
     ],
@@ -437,8 +499,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_120_000119",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate contains multiple shapes, colors, and complex patterns not present in the reference. Positioning and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -451,8 +515,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_121_000120",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has fewer circles, wrong colors, and altered positions compared to the reference. Layout and spacing do not match.",
         "image_match_binary": 0
       }
     ],
@@ -465,8 +531,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_122_000121",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Incorrect shapes and colors; additional shapes present. Positioning is altered with vertical stacking and new elements.",
         "image_match_binary": 0
       }
     ],
@@ -479,8 +547,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_123_000122",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only a square border is present, failing both shape/color and position criteria completely.",
         "image_match_binary": 0
       }
     ],
@@ -493,8 +563,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_124_000123",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate features stacked green rings, while the reference shows blue squares. Shapes, colors, and layouts are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -507,8 +579,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_125_000124",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has lines instead of a pentagon; green color is absent. Position and shape completely differ from the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -521,8 +595,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_126_000125",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows multiple overlapping rectangles instead of a single circle. Colors do not match the palette. Position and shape completely differ from the reference.",
         "image_match_binary": 0
       }
     ],
@@ -535,8 +611,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_127_000126",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
         "image_match_binary": 0
       }
     ],
@@ -549,8 +627,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_128_000127",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has an unrelated textured square; no circles, hexagons, or pentagons. Colors do not match the palette. Positioning and shapes are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -563,8 +643,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_129_000128",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate has completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
         "image_match_binary": 0
       }
     ],
@@ -577,8 +659,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_12_000011",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains only black dots, lacking any shapes, colors, or layout resembling the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -591,8 +675,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_130_000129",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks triangle; rectangle replaced with square and line. Colors do not match palette. Positioning and layout completely altered.",
         "image_match_binary": 0
       }
     ],
@@ -605,8 +691,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_131_000130",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes (lines instead of squares) and colors (black dots). Positioning is completely different, lacking the original's horizontal alignment.",
         "image_match_binary": 0
       }
     ],
@@ -619,8 +707,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_132_000131",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows two large rectangles with blue shades, while reference has a single purple square. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -633,8 +723,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_133_000132",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains no shapes or colors resembling the reference. It shows a textured dark background with no discernible geometric forms or layout.",
         "image_match_binary": 0
       }
     ],
@@ -647,8 +739,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_134_000133",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex grid patterns and text, completely differing from the simple shapes and colors of the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -661,8 +755,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_135_000134",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has irregular shapes instead of circles; color matches but shape and position are entirely different from reference.",
         "image_match_binary": 0
       }
     ],
@@ -675,8 +771,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_136_000135",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has wrong shapes, colors, and positions. Only a triangle is present, with an incorrect green color and rotated orientation.",
         "image_match_binary": 0
       }
     ],
@@ -689,8 +787,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_137_000136",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference hexagon. All criteria fail.",
         "image_match_binary": 0
       }
     ],
@@ -703,8 +803,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_138_000137",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has entirely different shapes, colors, and layout. No resemblance to reference's circle, square, lines, and curves.",
         "image_match_binary": 0
       }
     ],
@@ -717,8 +819,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_139_000138",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains only blue noise, lacking any shapes, colors, or positions matching the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -731,8 +835,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_13_000012",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has wrong shapes, colors, and layout. Reference shows a purple square with green lines; candidate has a purple rectangle with various lines and text.",
         "image_match_binary": 0
       }
     ],
@@ -745,8 +851,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_140_000139",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has different shapes, colors, and layout. Reference shows yellow squares in a row; candidate has varied shapes/colors in a grid.",
         "image_match_binary": 0
       }
     ],
@@ -759,8 +867,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_141_000140",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a single large square instead of a circle and smaller square. Shapes, counts, and positions do not match the reference.",
         "image_match_binary": 0
       }
     ],
@@ -773,8 +883,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_142_000141",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has unexpected shapes and text, completely different from four squares. Shape types, counts, and layout do not match. Positioning is irrelevant due to content mismatch.",
         "image_match_binary": 0
       }
     ],
@@ -787,8 +899,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_143_000142",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's squares, pentagon, or their arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -801,8 +915,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_144_000143",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Circle's size and position differ significantly. Additional border and noise elements not in reference. Color matches qualitatively but overall structure altered.",
         "image_match_binary": 0
       }
     ],
@@ -815,8 +931,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_145_000144",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a large red-outlined circle, while reference shows a smaller orange-filled circle. Shape type matches but size, color, and position differ completely.",
         "image_match_binary": 0
       }
     ],
@@ -829,8 +947,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_146_000145",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has wrong shape (ellipse instead of circle), incorrect color (blue instead of purple), and additional unexpected elements like lines and dots.",
         "image_match_binary": 0
       }
     ],
@@ -843,8 +963,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_147_000146",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a single red polygon with internal lines, while reference shows four orange circles. Shapes, colors, counts, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -857,22 +979,26 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_148_000147",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a heart shape instead of five circles. Colors do not match the palette. Positioning and layout are completely different.",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
+      "explanation": "Description missing; cannot compare objects, colors, or positions."
     }
   },
   {
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_149_000148",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows blue squares; candidate has irregular shapes on purple background.",
         "image_match_binary": 0
       }
     ],
@@ -885,8 +1011,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_14_000013",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains a chaotic pattern with no discernible shapes or colors matching the reference. Positions and layout are completely unrelated.",
         "image_match_binary": 0
       }
     ],
@@ -899,8 +1027,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_150_000149",
     "image_evals": [
       {
+        "shape_color_accuracy": 1,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has an irregular texture and black border, differing from the solid yellow circle. Position is roughly central but size and details do not match.",
         "image_match_binary": 0
       }
     ],
@@ -913,8 +1043,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_151_000150",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes and colors from the reference. No circle is present, and the empty white space does not match the expected content.",
         "image_match_binary": 0
       }
     ],
@@ -927,8 +1059,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_152_000151",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains text and yellow squares instead of green rectangles. Shapes, colors, and positions do not match the reference at all.",
         "image_match_binary": 0
       }
     ],
@@ -941,8 +1075,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_153_000152",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -955,8 +1091,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_154_000153",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has irregular shapes instead of circles, wrong color, and completely different layout. No resemblance to reference.",
         "image_match_binary": 0
       }
     ],
@@ -969,8 +1107,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_155_000154",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes, colors, and layout from reference. Only abstract lines present, failing to match any expected elements or positions.",
         "image_match_binary": 0
       }
     ],
@@ -983,8 +1123,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_156_000155",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference square. All criteria fail.",
         "image_match_binary": 0
       }
     ],
@@ -997,8 +1139,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_157_000156",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains text and lacks any squares or orange color. Shapes, colors, and positions do not match the reference at all.",
         "image_match_binary": 0
       }
     ],
@@ -1011,8 +1155,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_158_000157",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only two solid blocks present, completely altering original layout and content.",
         "image_match_binary": 0
       }
     ],
@@ -1025,8 +1171,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_159_000158",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate has completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
         "image_match_binary": 0
       }
     ],
@@ -1039,8 +1187,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_15_000014",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes (rectangles, arcs) and layout compared to reference circles. No matching elements in shape, color, or position.",
         "image_match_binary": 0
       }
     ],
@@ -1053,8 +1203,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_160_000159",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a large red square instead of an orange rectangle. Shape type and color family differ significantly from the reference.",
         "image_match_binary": 0
       }
     ],
@@ -1067,8 +1219,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_161_000160",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -1081,8 +1235,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_162_000161",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has additional shapes, lines, and textures not in reference. Shape count and complexity differ greatly. Positioning and layout bear no resemblance.",
         "image_match_binary": 0
       }
     ],
@@ -1095,8 +1251,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_163_000162",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes, lines, and colors not present in the simple reference image. Layout and positioning are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1109,8 +1267,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_164_000163",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks any shapes or colors present in the reference image. Both shape and position accuracies are completely mismatched.",
         "image_match_binary": 0
       }
     ],
@@ -1123,8 +1283,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_165_000164",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex, unrelated shapes and colors, completely differing from the simple red circles in the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -1137,8 +1299,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_166_000165",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes and colors not present in the reference. Reference has simple rectangles with solid colors; candidate does not match in any aspect.",
         "image_match_binary": 0
       }
     ],
@@ -1151,8 +1315,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_167_000166",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all reference shapes/colors; uses only red lines/triangles. Positioning and overlaps do not match original layout.",
         "image_match_binary": 0
       }
     ],
@@ -1165,8 +1331,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_168_000167",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only a faint circle outline appears, with no squares or correct colors present.",
         "image_match_binary": 0
       }
     ],
@@ -1179,8 +1347,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_169_000168",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
         "image_match_binary": 0
       }
     ],
@@ -1193,8 +1363,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_16_000015",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate contains rectangles and squares with different colors, while the reference has triangles, hexagons, and curves. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -1207,8 +1379,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_170_000169",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing a circle, square, and pentagon.",
         "image_match_binary": 0
       }
     ],
@@ -1221,8 +1395,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_171_000170",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains a butterfly with incorrect shapes, colors, and layout compared to the reference's three orange circles.",
         "image_match_binary": 0
       }
     ],
@@ -1235,8 +1411,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_172_000171",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes, colors, and layout. No resemblance to reference's circle and hexagon arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -1249,8 +1427,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_173_000172",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains only a blue square border, lacking all shapes, colors, and layout details from the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -1263,8 +1443,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_174_000173",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains only a black square border, lacking any hexagon or circle. Shape types, colors, and positions do not match the reference at all.",
         "image_match_binary": 0
       }
     ],
@@ -1277,8 +1459,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_175_000174",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a single orange circle with a black outline, while reference shows a red circle and a blue rectangle. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -1291,8 +1475,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_176_000175",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes and colors not matching the simple yellow circles of the reference. Positioning and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1305,8 +1491,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_177_000176",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains only grid lines, lacking any shapes, colors, or layout resembling the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -1319,8 +1507,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_178_000177",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing two blue circles.",
         "image_match_binary": 0
       }
     ],
@@ -1333,8 +1523,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_179_000178",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and colors unrelated to the simple green circles in the reference. Both shape types and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1347,8 +1539,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_17_000016",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has an orange circle with text and decorative border, completely different from the reference's square, circle, and triangle layout.",
         "image_match_binary": 0
       }
     ],
@@ -1361,8 +1555,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_180_000179",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected a single teal circle; got multiple green rings and symbols.",
         "image_match_binary": 0
       }
     ],
@@ -1375,8 +1571,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_181_000180",
     "image_evals": [
       {
-        "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Candidate has wrong shape (octagon instead of hexagon) and distorted color. Position is roughly similar but size and proportions differ significantly.",
         "image_match_binary": 0
       }
     ],
@@ -1389,8 +1587,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_182_000181",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has rectangles instead of squares, wrong colors, additional shapes, and completely different layout and positioning.",
         "image_match_binary": 0
       }
     ],
@@ -1403,8 +1603,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_183_000182",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has entirely different shapes (lines instead of circles) and colors (blue instead of dark gray). Positioning and layout do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -1417,8 +1619,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_184_000183",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a textured square instead of five separate squares. Shapes, counts, and layout do not match. Color is off-palette.",
         "image_match_binary": 0
       }
     ],
@@ -1431,8 +1635,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_185_000184",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has grid and stripes, completely different from reference's squares and colors. No matching shapes, colors, or layout.",
         "image_match_binary": 0
       }
     ],
@@ -1445,8 +1651,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_186_000185",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate uses rectangles instead of circles, black instead of green, and has uneven spacing and misalignment compared to the reference.",
         "image_match_binary": 0
       }
     ],
@@ -1459,8 +1667,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_187_000186",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains only yellow scribbles, lacking any shapes, colors, or layout resembling the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -1473,8 +1683,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_188_000187",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows grid lines instead of orange circles; completely different shapes, colors, and layout. No resemblance to reference.",
         "image_match_binary": 0
       }
     ],
@@ -1487,8 +1699,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_189_000188",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has wrong shapes, colors, and layout. Expected four orange circles in a row; got red circles with blue abstract lines.",
         "image_match_binary": 0
       }
     ],
@@ -1501,8 +1715,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_18_000017",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate contains multiple lines and colors, while the reference has a single hexagon. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -1515,8 +1731,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_190_000189",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate has an orange rectangle with additional white lines and curves, while the reference is a simple red rectangle. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -1529,8 +1747,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_191_000190",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes, colors, and patterns not present in the reference. Shape types, counts, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -1543,8 +1763,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_192_000191",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has wrong shapes, colors, and layout compared to reference. Expected circle, got hexagons. Colors do not match palette. Positioning is completely different.",
         "image_match_binary": 0
       }
     ],
@@ -1557,8 +1779,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_193_000192",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
         "image_match_binary": 0
       }
     ],
@@ -1571,22 +1795,26 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_194_000193",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has different shapes, colors, and layout. Reference shows five purple squares; candidate has blue rectangles with internal spirals.",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
+      "explanation": "Mismatch in object count, shape, color, and layout."
     }
   },
   {
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_195_000194",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex 3D shapes and additional colors not present in the reference, which features simple blue squares. Layout and content are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1599,8 +1827,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_196_000195",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -1613,8 +1843,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_197_000196",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has abstract shapes instead of squares; color matches qualitatively but shapes and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1627,8 +1859,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_198_000197",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a square border instead of a central teal circle. Shape, color, and position do not match the reference at all.",
         "image_match_binary": 0
       }
     ],
@@ -1641,8 +1875,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_199_000198",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains multiple shapes with incorrect colors and types compared to the single orange square in the reference. Positioning and layout do not match.",
         "image_match_binary": 0
       }
     ],
@@ -1655,8 +1891,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_19_000018",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing three yellow squares.",
         "image_match_binary": 0
       }
     ],
@@ -1669,8 +1907,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_200_000199",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains unrelated abstract shapes and colors, completely differing from reference squares and lines. No matching elements in shape, color, or position.",
         "image_match_binary": 0
       }
     ],
@@ -1683,8 +1923,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_20_000019",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes, text, and colors not present in the reference. No resemblance in shapes, colors, or positioning.",
         "image_match_binary": 0
       }
     ],
@@ -1697,8 +1939,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_21_000020",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -1711,8 +1955,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_22_000021",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains an unrelated texture with no discernible shapes or colors matching the reference. Layout and positioning cannot be compared.",
         "image_match_binary": 0
       }
     ],
@@ -1725,8 +1971,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_23_000022",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Square's color is wrong; circle replaced with text. Shapes misplaced and misaligned. Multiple issues in shape type, color, and position.",
         "image_match_binary": 0
       }
     ],
@@ -1739,8 +1987,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_24_000023",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes, colors, and layout compared to the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -1753,8 +2003,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_25_000024",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and text not present in the reference. Colors and positions do not match the simple polygon layout.",
         "image_match_binary": 0
       }
     ],
@@ -1767,8 +2019,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_26_000025",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -1781,8 +2035,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_27_000026",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image contains no shapes or colors resembling the reference. Only a small black line is present, failing both shape/color and position criteria.",
         "image_match_binary": 0
       }
     ],
@@ -1795,8 +2051,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_28_000027",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has entirely different shapes, colors, and layout. No resemblance to reference's simple geometric arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -1809,8 +2067,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_29_000028",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -1823,8 +2083,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_30_000029",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows yellow circles in a row; candidate has black abstract shapes filling the canvas.",
         "image_match_binary": 0
       }
     ],
@@ -1837,8 +2099,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_31_000030",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference contains curves and a circle, while candidate shows pixelated squares and rectangles.",
         "image_match_binary": 0
       }
     ],
@@ -1851,8 +2115,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_32_000031",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains additional shapes, lines, and curves not in reference. Colors do not match palette. Positioning and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1865,8 +2131,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_33_000032",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes and layout. Expected two separate squares; got overlapping squares with lines. Colors do not match expected palette.",
         "image_match_binary": 0
       }
     ],
@@ -1879,8 +2147,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_34_000033",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Shapes are rectangles instead of squares; colors do not match the palette; positions and layout are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -1893,8 +2163,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_35_000034",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect colors and complex patterns instead of solid purple. Shapes are circles but positions are slightly off-center compared to reference.",
         "image_match_binary": 0
       }
     ],
@@ -1907,8 +2179,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_36_000035",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has four large squares with different colors, while reference shows five smaller red squares. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -1921,8 +2195,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_37_000036",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing four orange squares.",
         "image_match_binary": 0
       }
     ],
@@ -1935,8 +2211,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_38_000037",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains a single complex shape with lines and arcs, while the reference has distinct simple shapes. Colors and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -1949,8 +2227,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_39_000038",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex shapes and text instead of a simple circle. Colors do not match the palette. Position and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -1963,8 +2243,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_40_000039",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's circles and rectangles arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -1977,8 +2259,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_41_000040",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and text, while the reference is a simple yellow square. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -1991,8 +2275,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_42_000041",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a single large textured circle instead of three smaller solid circles. Shape count, size, and texture completely mismatch. Positioning is irrelevant due to shape error.",
         "image_match_binary": 0
       }
     ],
@@ -2005,8 +2291,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_43_000042",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks any shapes or colors present in the reference image. Both shape and position accuracy are completely unmatched.",
         "image_match_binary": 0
       }
     ],
@@ -2019,8 +2307,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_44_000043",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains numerous unexpected shapes and symbols, completely differing from the simple square and circle in the reference. Positioning and colors do not match.",
         "image_match_binary": 0
       }
     ],
@@ -2033,8 +2323,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_45_000044",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes (circle and feather-like object) with unrelated colors compared to the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -2047,8 +2339,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_46_000045",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -2061,8 +2355,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_47_000046",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing two red squares.",
         "image_match_binary": 0
       }
     ],
@@ -2075,8 +2371,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_48_000047",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex shapes and patterns unrelated to the simple circle pattern in the reference. Colors and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2089,8 +2387,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_49_000048",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains an abstract purple burst pattern, completely differing from the green hexagon in shape, color, and layout.",
         "image_match_binary": 0
       }
     ],
@@ -2103,8 +2403,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_50_000049",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -2117,8 +2419,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_51_000050",
     "image_evals": [
       {
-        "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Shapes are squares but contain unexpected text. Colors match qualitatively. Positions are slightly off-center and spacing is uneven compared to reference.",
         "image_match_binary": 0
       }
     ],
@@ -2131,8 +2435,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_52_000051",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's rectangle and pentagon.",
         "image_match_binary": 0
       }
     ],
@@ -2145,8 +2451,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_53_000052",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains numerous shapes and colors not present in the reference, with completely different layout and positioning.",
         "image_match_binary": 0
       }
     ],
@@ -2159,8 +2467,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_54_000053",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes, colors, and positions compared to reference. Expected yellow circles in a row; got multicolored lines and dots scattered.",
         "image_match_binary": 0
       }
     ],
@@ -2173,8 +2483,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_55_000054",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate shows a square instead of a circle, with incorrect color and position. No resemblance to the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -2187,8 +2499,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_56_000055",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate lacks all reference shapes/colors; contains rectangles instead of square/circle/lines. Positioning and layout are completely different, with no resemblance.",
         "image_match_binary": 0
       }
     ],
@@ -2201,8 +2515,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_57_000056",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected six green circles in a row; got irregular shapes in wrong colors and scattered layout.",
         "image_match_binary": 0
       }
     ],
@@ -2215,8 +2531,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_58_000057",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows four dark blue circles; candidate has red lines and a large red circle.",
         "image_match_binary": 0
       }
     ],
@@ -2229,8 +2547,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_59_000058",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has additional shapes, incorrect colors, and complex layout differing from simple green squares. Positioning and structure do not match reference.",
         "image_match_binary": 0
       }
     ],
@@ -2243,8 +2563,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_60_000059",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains an intricate geometric pattern with black lines, while the reference shows four yellow squares. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -2257,8 +2579,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_61_000060",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex, unintended shapes and lines instead of simple squares. Colors do not match the palette. Positioning is completely different, lacking any resemblance.",
         "image_match_binary": 0
       }
     ],
@@ -2271,8 +2595,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_62_000061",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate uses rectangles instead of squares, altering shape type. Colors match qualitatively but layout changes from horizontal row to vertical stack, breaking positional accuracy.",
         "image_match_binary": 0
       }
     ],
@@ -2285,8 +2611,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_63_000062",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing circles and squares.",
         "image_match_binary": 0
       }
     ],
@@ -2299,8 +2627,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_64_000063",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has four triangles forming a square, while reference shows a circle, triangle, and square separately. Shapes, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
@@ -2313,8 +2643,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_65_000064",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes, colors, and layout compared to the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -2327,8 +2659,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_66_000065",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected squares are replaced with irregular lines and rainbow colors, completely altering the original design.",
         "image_match_binary": 0
       }
     ],
@@ -2341,8 +2675,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_67_000066",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
         "image_match_binary": 0
       }
     ],
@@ -2355,8 +2691,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_68_000067",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains figures and clothing, completely different from the four green circles in the reference. No shapes, colors, or positions match.",
         "image_match_binary": 0
       }
     ],
@@ -2369,8 +2707,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_69_000068",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains text and irregular shapes, completely differing from the reference's four evenly spaced squares. Both shape types and layout are entirely mismatched.",
         "image_match_binary": 0
       }
     ],
@@ -2383,8 +2723,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_70_000069",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes (rectangles, arrows) and colors compared to reference circles and purple. Layout and positioning do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2397,8 +2739,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_71_000070",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes (octagon, circle) and colors compared to reference (two orange circles). Positioning and layout do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2411,8 +2755,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_72_000071",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. No resemblance to reference's rectangle and pentagon layout.",
         "image_match_binary": 0
       }
     ],
@@ -2425,8 +2771,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_73_000072",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes (rings instead of filled circles), wrong count (two instead of three), and altered positions (overlapping instead of evenly spaced).",
         "image_match_binary": 0
       }
     ],
@@ -2439,8 +2787,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_74_000073",
     "image_evals": [
       {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Shapes are incorrect (rectangles instead of squares); colors do not match palette. Positioning is altered with additional elements and changed layout.",
         "image_match_binary": 0
       }
     ],
@@ -2453,8 +2803,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_75_000074",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has entirely different content with irregular lines and dots, lacking any rectangles or correct colors. Positioning and layout bear no resemblance to the reference.",
         "image_match_binary": 0
       }
     ],
@@ -2467,8 +2819,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_76_000075",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
         "image_match_binary": 0
       }
     ],
@@ -2481,8 +2835,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_77_000076",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Shapes and colors do not match; pentagon and square replaced with triangle and ribbon. Positions and layout are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -2495,8 +2851,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_78_000077",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains an entirely different set of shapes and colors compared to the reference, with no matching elements.",
         "image_match_binary": 0
       }
     ],
@@ -2509,8 +2867,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_79_000078",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains unrelated shapes and colors; no resemblance to reference's circle, triangle, squares, or their arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -2523,8 +2883,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_80_000079",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a blue rectangle with a white corner, while reference is a purple square. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2537,8 +2899,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_81_000080",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows blue squares; candidate has black lines and yellow circles.",
         "image_match_binary": 0
       }
     ],
@@ -2551,8 +2915,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_82_000081",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing an orange circle and blue triangle.",
         "image_match_binary": 0
       }
     ],
@@ -2565,8 +2931,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_83_000082",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has a single irregular shape instead of two squares. Colors do not match the palette. Position and layout are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -2579,22 +2947,26 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_84_000083",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a single large circle with light blue stroke, while reference has three smaller filled blue circles. Shapes, counts, colors, and positions do not match.",
         "image_match_binary": 0
       }
     ],
     "text_eval": {
       "text_semantic_match": 0,
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'"
+      "explanation": "Description missing; cannot compare objects, colors, or positions."
     }
   },
   {
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_85_000084",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has an incorrect circle size, position, and fill pattern. Colors do not match the palette, and the texture introduces unexpected elements.",
         "image_match_binary": 0
       }
     ],
@@ -2607,8 +2979,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_86_000085",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains multiple irregular shapes and colors not matching the reference's single purple triangle. Positioning and layout are entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -2621,8 +2995,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_87_000086",
     "image_evals": [
       {
-        "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Triangle shape preserved but size and texture differ. Green color matches qualitatively. Position is roughly similar but scaled differently.",
         "image_match_binary": 0
       }
     ],
@@ -2635,8 +3011,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_88_000087",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has complex spiral pattern instead of five simple circles. Shapes, counts, and layout completely differ. Colors qualitatively match but irrelevant due to shape mismatch.",
         "image_match_binary": 0
       }
     ],
@@ -2649,8 +3027,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_89_000088",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains unrelated shapes and text, lacking the reference's circle and rectangle. Colors do not match the palette. Positioning is entirely different.",
         "image_match_binary": 0
       }
     ],
@@ -2663,8 +3043,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_90_000089",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains completely different shapes, colors, and layout. No resemblance to reference's geometric figures or arrangement.",
         "image_match_binary": 0
       }
     ],
@@ -2677,8 +3059,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_91_000090",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate shows a red square instead of a red circle; shape type is completely wrong. Positioning does not match as the square is centered while the circle was offset.",
         "image_match_binary": 0
       }
     ],
@@ -2691,8 +3075,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_92_000091",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate image contains complex black patterns, while the reference has simple red squares. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2705,8 +3091,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_93_000092",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "The candidate has an entirely different shape, color, and pattern compared to the reference. No matching elements or layout characteristics are present.",
         "image_match_binary": 0
       }
     ],
@@ -2719,8 +3107,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_94_000093",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains complex patterns and text, while reference has simple shapes. Shapes, colors, and positions do not match at all.",
         "image_match_binary": 0
       }
     ],
@@ -2733,8 +3123,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_95_000094",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has incorrect shapes (circles replaced with irregular ovals and lines), wrong count, and altered layout. Colors are qualitatively correct but irrelevant due to shape mismatch.",
         "image_match_binary": 0
       }
     ],
@@ -2747,8 +3139,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_96_000095",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains only black lines, lacking any shapes, colors, or layout resembling the reference image.",
         "image_match_binary": 0
       }
     ],
@@ -2761,8 +3155,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_97_000096",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains unexpected shapes and text, lacks circles, and has incorrect colors and layout compared to the reference.",
         "image_match_binary": 0
       }
     ],
@@ -2775,8 +3171,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_98_000097",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate has no circles; instead, it features chaotic lines and polygons. Colors do not match the palette. Positioning and layout are completely different.",
         "image_match_binary": 0
       }
     ],
@@ -2789,8 +3187,10 @@
     "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_99_000098",
     "image_evals": [
       {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
         "verdict": "mismatch",
-        "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+        "explanation": "Candidate contains unrelated shapes and colors; no match to reference's polygons and circle. Layout and positioning are completely different.",
         "image_match_binary": 0
       }
     ],

@@ -1,10 +1,10 @@
 {
   "id": "2_1__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "BE line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"BE line missing\"}",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AE=BC=2 instead of AE=BE=2√2. Final answer 4≠2+2√2. Major logical error in triangle BEC analysis.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,

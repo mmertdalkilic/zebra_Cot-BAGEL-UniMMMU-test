@@ -1,7 +1,7 @@
 {
   "total_cases": 200,
   "image_match_binary_rate": 0.0,
-  "avg_shape_color_accuracy": 0.0,
-  "avg_position_accuracy": 0.0,
+  "avg_shape_color_accuracy": 0.135,
+  "avg_position_accuracy": 0.155,
   "text_semantic_match_rate": 0.0
 }
