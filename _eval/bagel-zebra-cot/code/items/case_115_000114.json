@@ -2,8 +2,10 @@
   "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_115_000114",
   "image_evals": [
     {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
       "verdict": "mismatch",
-      "explanation": "API Error: \"rshift_cuda\" not implemented for 'Half'",
+      "explanation": "Candidate image contains no discernible shapes or colors matching the reference. Only noise is present, failing all criteria.",
       "image_match_binary": 0
     }
   ],
