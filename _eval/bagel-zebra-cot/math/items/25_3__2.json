@@ -1,10 +1,10 @@
 {
   "id": "25_3__2",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly derives AC=6 from sin∠BAC=BC/AC (which assumes ∠ACB=90°, but ∠ACD=90°, not ∠ACB). Later reasoning about angles is incoherent and lacks the critical similar triangles (FCB∼FAD) from the reference. Final answer coincidentally matches reference.\"}",
+  "overlay_reason": "Missing required line extending DC to intersect AB's extension at F",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line extending DC to intersect AB's extension at F\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

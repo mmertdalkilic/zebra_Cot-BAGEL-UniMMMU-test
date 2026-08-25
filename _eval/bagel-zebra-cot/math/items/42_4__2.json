@@ -1,10 +1,10 @@
 {
   "id": "42_4__2",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims congruence (SAS) between triangles CEF and ADE without valid angle equality. While the final area matches the reference, the reasoning contains a major logical flaw in the congruence argument.\"}",
+  "overlay_reason": "Missing required line AG perpendicular to BC and intersection point H on DF.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line AG perpendicular to BC and intersection point H on DF.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

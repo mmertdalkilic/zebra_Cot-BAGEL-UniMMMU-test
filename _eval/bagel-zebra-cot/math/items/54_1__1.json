@@ -1,10 +1,10 @@
 {
   "id": "54_1__1",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies inscribed angle theorem to external angles formed by tangent and secant. The angle at P should be calculated using the external angle theorem (difference of arcs), not sum of arcs. Despite this, the final numeric answer matches the reference.\"}",
+  "overlay_reason": "Missing required lines AD, DB, OA, OB.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines AD, DB, OA, OB.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

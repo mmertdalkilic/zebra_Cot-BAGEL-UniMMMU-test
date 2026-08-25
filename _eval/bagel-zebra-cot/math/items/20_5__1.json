@@ -1,10 +1,10 @@
 {
   "id": "20_5__1",
   "type": "proving",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠ACD=90° (angle in semicircle applies to angles subtended by diameter, not arc midpoints). Later steps about alternate angles lack justification. Ground-truth uses angle relationships in triangles OCD and OED, which are not replicated.\"}",
+  "overlay_reason": "Missing OC and OD lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing OC and OD lines\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,

@@ -1,10 +1,10 @@
 {
   "id": "53_4__2",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠OAE=y and misapplies inscribed angle theorem. Solving leads to y=90° which is impossible. Final answer is invalid.\"}",
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
