@@ -1,12 +1,12 @@
 {
   "id": "32_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies alternate segment theorem (confuses ∠PDC with ∠BCD instead of ∠DBC) and falsely claims ∠BCP=90°. The reference solution correctly uses perpendicularity of OD to both BC and PF. While conclusion is correct, reasoning contains major logical errors.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes ∠BCP=90° and misapplies alternate segment theorem (should relate ∠PDC to ∠DBC, not ∠BCD). Final conclusion is correct but reasoning has major logical gaps."
+  "text_reason": "Candidate incorrectly applies alternate segment theorem (confuses ∠PDC with ∠BCD instead of ∠DBC) and falsely claims ∠BCP=90°. The reference solution correctly uses perpendicularity of OD to both BC and PF. While conclusion is correct, reasoning contains major logical errors."
 }

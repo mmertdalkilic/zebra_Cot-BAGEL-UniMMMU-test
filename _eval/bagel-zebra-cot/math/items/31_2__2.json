@@ -1,12 +1,12 @@
 {
   "id": "31_2__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes △BCF ~ △ACF and misapplies cosine definition (uses AC/CF instead of AC/AB). This leads to BF=7.5 instead of 5. For DE, flawed reasoning about triangle CDE and missing key steps (e.g., △FDE∽△FBC) prevents correct calculation. Final answers BF=7.5 and DE=... do not match reference values BF=5 and DE=42/25.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly equates CF to AB (CF=10 vs reference AB=10), leading to BF=7.5 instead of 5. Also contains flawed similarity reasoning and incomplete DE calculation. Final answers BF=7.5 and DE=... are incorrect."
+  "text_reason": "Candidate incorrectly assumes △BCF ~ △ACF and misapplies cosine definition (uses AC/CF instead of AC/AB). This leads to BF=7.5 instead of 5. For DE, flawed reasoning about triangle CDE and missing key steps (e.g., △FDE∽△FBC) prevents correct calculation. Final answers BF=7.5 and DE=... do not match reference values BF=5 and DE=42/25."
 }
