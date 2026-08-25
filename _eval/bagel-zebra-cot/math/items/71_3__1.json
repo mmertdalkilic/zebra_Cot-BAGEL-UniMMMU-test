@@ -1,10 +1,10 @@
 {
   "id": "71_3__1",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims AD=AE (AD=s, AE=s/2) in triangle AED, invalidating key steps. While conclusion ∠BFE=α is correct, the flawed reasoning (false congruence claim) prevents rigorous validation.\"}",
+  "overlay_reason": "missing intersection point G",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing intersection point G\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

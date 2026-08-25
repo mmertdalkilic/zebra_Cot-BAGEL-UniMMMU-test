@@ -1,10 +1,10 @@
 {
   "id": "121_2__1",
   "type": "calculation",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution incorrectly calculates ∠AOB as 230° instead of 130°, but correctly identifies ∠ACB as half the major arc AB (230°/2=115°). The reasoning has a critical calculation error but arrives at the correct numeric answer.\"}",
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OB\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,

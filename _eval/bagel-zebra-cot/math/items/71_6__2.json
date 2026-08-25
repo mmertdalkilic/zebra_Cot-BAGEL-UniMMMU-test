@@ -1,10 +1,10 @@
 {
   "id": "71_6__2",
   "type": "proving",
-  "status": "ok",
+  "status": "overlay_done",
   "overlay_ok": 0,
-  "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps and unjustified assumptions (e.g., assuming ∠CAD=∠CAB/2 without proof, repetitive claims about triangle isoscelesness). While the conclusion is correct, the reasoning lacks rigor compared to the reference's methodical congruence proofs and auxiliary constructions.\"}",
+  "overlay_reason": "Missing required perpendicular line QB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required perpendicular line QB\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
