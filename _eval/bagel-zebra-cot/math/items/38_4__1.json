@@ -1,12 +1,12 @@
 {
   "id": "38_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps (e.g., unjustified angle equalities between different triangles, incorrect assumption AD=AB), and introduces irrelevant elements like BC/AB. While conclusion is correct, reasoning is not rigorous.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate solution introduces incorrect assumptions (e.g., AD=AB without justification) and unclear angle relationships (e.g., angle EAD + angle OAE = 180°). While the conclusion is correct, the reasoning contains logical gaps and invalid steps compared to the reference solution's rigorous parallelism and perpendicularity arguments."
+  "text_reason": "Candidate solution contains logical gaps (e.g., unjustified angle equalities between different triangles, incorrect assumption AD=AB), and introduces irrelevant elements like BC/AB. While conclusion is correct, reasoning is not rigorous."
 }
