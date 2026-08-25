@@ -1,12 +1,12 @@
 {
   "id": "131_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution correctly concludes CD is tangent but lacks rigorous justification for angle OCD=90°. Ground-truth uses OA=OC and parallel lines, while candidate relies on angle sums without establishing OC's direction relative to CD.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 1,
   "text_ok": 0,
-  "text_reason": "Candidate solution correctly concludes CD is tangent but lacks rigorous justification for angle OCD=90°. Ground-truth uses parallel lines and radius-perpendicularity, while candidate conflates angle relationships without establishing OC∥AD or direct perpendicularity."
+  "text_reason": "Candidate solution correctly concludes CD is tangent but lacks rigorous justification for angle OCD=90°. Ground-truth uses OA=OC and parallel lines, while candidate relies on angle sums without establishing OC's direction relative to CD."
 }

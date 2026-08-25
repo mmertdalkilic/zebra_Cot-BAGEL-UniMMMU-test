@@ -1,12 +1,12 @@
 {
   "id": "127_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "API Error: \"rshift_cuda\" not implemented for 'Half'",
-  "raw_judgment": "",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Law of Sines and introduces contradictions. Fails to use key property that AD⊥BC (from diameter) and AB=AC implies BD=CD. Final answer is incorrect.\"}",
   "reasoning_rigorous": 0,
   "conclusion_correct": 0,
   "text_ok": 0,
-  "text_reason": "Candidate incorrectly assumes OD⊥AD without justification and misapplies Law of Sines. Ground-truth uses AD⊥BC (semicircle property) and isosceles triangle symmetry to directly conclude BD=CD=2√3. Candidate's reasoning contains invalid steps and fails to reach correct conclusion."
+  "text_reason": "Candidate incorrectly applies Law of Sines and introduces contradictions. Fails to use key property that AD⊥BC (from diameter) and AB=AC implies BD=CD. Final answer is incorrect."
 }
