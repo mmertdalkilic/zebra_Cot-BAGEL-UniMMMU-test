@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1_2__1",
+    "type": "calculation",
+    "status": "ok",
+    "overlay_ok": 0,
+    "overlay_reason": "Missing required line segments and perpendicular line.",
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AM=MN (radius vs. distance between centers) and makes unsupported claims about MD bisecting AN. Final answer matches reference but reasoning has major flaws.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes AM=MN (radius vs. distance between centers) and makes unsupported claims about MD bisecting AN. Final answer matches reference but reasoning has major flaws."
+  },
+  {
+    "id": "2_1__1",
+    "type": "calculation",
+    "status": "ok",
+    "overlay_ok": 0,
+    "overlay_reason": "BE line missing",
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AE=BC=2 instead of AE=BE=2√2. Final answer 4≠2+2√2. Major logical error in triangle BEC analysis.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes AE=BC=2 instead of AE=BE=2√2. Final answer 4≠2+2√2. Major logical error in triangle BEC analysis."
+  },
+  {
+    "id": "6_7__2",
+    "type": "calculation",
+    "status": "ok",
+    "overlay_ok": 0,
+    "overlay_reason": "missing line DE",
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABE is right-angled (applying Pythagoras where no right angle exists). This leads to invalid calculation of AE=20 and BE=0. The reference solution correctly uses triangle ADE with sin∠ADE=3/5 to find AE=7.2 and BE=12.8. Major logical error in candidate's reasoning.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes triangle ABE is right-angled (applying Pythagoras where no right angle exists). This leads to invalid calculation of AE=20 and BE=0. The reference solution correctly uses triangle ADE with sin∠ADE=3/5 to find AE=7.2 and BE=12.8. Major logical error in candidate's reasoning."
+  },
+  {
+    "id": "7_6__2",
+    "type": "calculation",
+    "status": "ok",
+    "overlay_ok": 0,
+    "overlay_reason": "AM perpendicular to BC missing",
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AF is parallel to EC (not BC) and misapplies parallelogram properties. Concludes AB=2√2 instead of √6. Key logical gaps in congruence and angle relationships.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes AF is parallel to EC (not BC) and misapplies parallelogram properties. Concludes AB=2√2 instead of √6. Key logical gaps in congruence and angle relationships."
+  }
+]
