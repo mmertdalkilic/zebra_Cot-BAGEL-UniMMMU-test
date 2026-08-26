@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_42_000041",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate shows a single large textured circle instead of three smaller solid circles. Shape count, size, and texture completely mismatch. Positioning is irrelevant due to shape error.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Mismatch in positions, rotations, and stacking order described; circles should be aligned horizontally without rotation."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

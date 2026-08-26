@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_49_000048",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains an abstract purple burst pattern, completely differing from the green hexagon in shape, color, and layout.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description does not match image content; it's about rendering process, not describing green hexagon."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

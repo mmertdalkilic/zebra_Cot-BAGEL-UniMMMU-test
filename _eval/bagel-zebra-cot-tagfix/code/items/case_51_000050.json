@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_51_000050",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 3,
+      "verdict": "partial",
+      "explanation": "Shapes are squares but contain unexpected text. Colors match qualitatively. Positions are slightly off-center and spacing is uneven compared to reference.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description states five rectangles, but reference shows four."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

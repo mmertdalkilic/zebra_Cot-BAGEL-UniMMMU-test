@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_41_000040",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains complex shapes and text, while the reference is a simple yellow square. Shapes, colors, and positions do not match at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Gold rectangle matches in color, position, and size as described in the candidate text."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
