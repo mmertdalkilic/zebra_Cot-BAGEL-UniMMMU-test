@@ -22,6 +22,18 @@ def must_replace(src: str, old: str, new: str, label: str) -> str:
     return src.replace(old, new, 1)
 
 
+def try_replace(src: str, old: str, new: str, label: str) -> str:
+    """Optional block. Geometry-text-only eval does not execute eval_ummmu main()."""
+    if old not in src:
+        print(f"[sequential] skip {label}: pattern not found (custom driver is OK)", flush=True)
+        return src
+    n = src.count(old)
+    if n != 1:
+        print(f"[sequential] skip {label}: expected 1 occurrence, found {n}", flush=True)
+        return src
+    return src.replace(old, new, 1)
+
+
 IMPORT_OLD = '''from transformers import (
     AutoModelForCausalLM, AutoTokenizer,
     Qwen2_5_VLForConditionalGeneration, AutoProcessor
@@ -183,7 +195,7 @@ GEOM_SUM_NEW = '''        def _geom_scored(r):
         }
 '''
 
-MAIN_OLD = '''    print("="*20 + " Loading Local Models " + "="*20
+MAIN_OLD = '''    print("="*20 + " Loading Local Models " + "="*20)
     lm = LocalTextLM(configs.qwen3_model_name)
     vl = LocalVL(configs.qwen2_5_vl_model_name, attn_implementation=configs.vl_attn_impl)
 
@@ -343,7 +355,7 @@ def patch(src: str) -> str:
     src = must_replace(src, GEOM_LOOP_HEAD_OLD, GEOM_LOOP_HEAD_NEW, "geom_phase_head")
     src = must_replace(src, GEOM_OVERLAY_TEXT_OLD, GEOM_OVERLAY_TEXT_NEW, "geom_phase_body")
     src = must_replace(src, GEOM_SUM_OLD, GEOM_SUM_NEW, "geom_summarize")
-    src = must_replace(src, MAIN_OLD, MAIN_NEW, "main_sequential")
+    src = try_replace(src, MAIN_OLD, MAIN_NEW, "main_sequential")
     return src
 
 
