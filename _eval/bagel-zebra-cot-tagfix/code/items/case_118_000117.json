@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_118_000117",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate shows a single circle with lines, while reference has four squares. Shapes, counts, and layouts do not match. Colors are qualitatively similar but irrelevant due to shape mismatch.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Candidate describes nested squares; reference shows four separate squares."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

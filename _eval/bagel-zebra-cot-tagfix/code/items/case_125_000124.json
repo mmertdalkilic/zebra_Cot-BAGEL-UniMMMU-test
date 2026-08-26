@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_125_000124",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has lines instead of a pentagon; green color is absent. Position and shape completely differ from the reference image.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Green polygon matches type, count, color, and position as described."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_122_000121",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Incorrect shapes and colors; additional shapes present. Positioning is altered with vertical stacking and new elements.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Two green rectangles correctly placed, sized, and colored as described."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

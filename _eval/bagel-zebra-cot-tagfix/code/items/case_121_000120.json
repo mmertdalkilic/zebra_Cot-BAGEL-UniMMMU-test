@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_121_000120",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Candidate has fewer circles, wrong colors, and altered positions compared to the reference. Layout and spacing do not match.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
