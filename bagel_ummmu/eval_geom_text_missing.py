@@ -144,11 +144,13 @@ def main() -> None:
     except Exception as e:
         print(f"[awq] patch failed (non-fatal if Qwen3 still loads): {e}", flush=True)
 
+    # Register in sys.modules before exec: @dataclass looks up cls.__module__.
     import importlib.util
 
     spec = importlib.util.spec_from_file_location("eval_ummmu_patched", patched)
     eu = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
+    sys.modules["eval_ummmu_patched"] = eu
     spec.loader.exec_module(eu)
     _forbid_vl(eu)
 
