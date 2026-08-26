@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_160_000159",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Candidate has a large red square instead of an orange rectangle. Shape type and color family differ significantly from the reference.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Color mismatch: description states red rectangle, but image shows orange. Position and size match."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

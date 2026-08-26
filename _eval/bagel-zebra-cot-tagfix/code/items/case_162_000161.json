@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_162_000161",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has additional shapes, lines, and textures not in reference. Shape count and complexity differ greatly. Positioning and layout bear no resemblance.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Circle type, count, color, position match perfectly with reference drawing."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
