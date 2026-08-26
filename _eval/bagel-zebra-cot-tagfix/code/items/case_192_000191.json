@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_192_000191",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has wrong shapes, colors, and layout compared to reference. Expected circle, got hexagons. Colors do not match palette. Positioning is completely different.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description mentions a black circle and white rectangle; image shows only a dark blue circle."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

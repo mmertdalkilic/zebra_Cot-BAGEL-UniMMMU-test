@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_191_000190",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains complex shapes, colors, and patterns not present in the reference. Shape types, counts, and positions do not match at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Green rectangle matches in color, position, and size as described in the candidate text."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

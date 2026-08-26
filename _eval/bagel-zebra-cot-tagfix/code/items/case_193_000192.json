@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_193_000192",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Line positions and path curves do not match described coordinates and shapes."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

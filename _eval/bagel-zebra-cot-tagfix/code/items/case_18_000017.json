@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_18_000017",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate contains multiple lines and colors, while the reference has a single hexagon. Shapes, colors, and positions do not match at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description mentions black polygon; image shows blue hexagon. Colors and shapes do not match."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

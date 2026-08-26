@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_185_000184",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has grid and stripes, completely different from reference's squares and colors. No matching shapes, colors, or layout.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Incorrect shapes (triangle instead of square), colors (red instead of orange, blue instead of dark blue), and object count."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
