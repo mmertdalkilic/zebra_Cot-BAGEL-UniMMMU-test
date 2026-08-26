@@ -1,0 +1,12 @@
+{
+  "id": "164_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines OA, OB, and OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines OA, OB, and OD\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly uses properties of central angles, angle bisectors, and SAS congruence to prove AD=BD. A minor error in the intermediate step (relating ∠ACD to ∠AOB) does not affect the validity of the proof since the key logical steps are sound."
+}

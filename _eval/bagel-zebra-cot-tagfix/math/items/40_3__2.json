@@ -1,0 +1,12 @@
+{
+  "id": "40_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line FG perpendicular to CB.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line FG perpendicular to CB.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains invalid similarity claims (AFE~CDE) and incorrect BF=FG assertion. Final answer differs from reference (2√7 vs unspecified)."
+}

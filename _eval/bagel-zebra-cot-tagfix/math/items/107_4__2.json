@@ -1,0 +1,12 @@
+{
+  "id": "107_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing both required lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing both required lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks concrete reasoning steps and calculations. It repeatedly states intentions without deriving relationships or solving numerically. Critical steps like angle equivalences, parallel lines, and Pythagorean theorem application are missing. Final answer not provided."
+}

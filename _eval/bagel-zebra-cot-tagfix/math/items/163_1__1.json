@@ -1,0 +1,12 @@
+{
+  "id": "163_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies the inscribed angle theorem and angle subtraction, with valid reasoning and correct numeric answer matching the reference."
+}

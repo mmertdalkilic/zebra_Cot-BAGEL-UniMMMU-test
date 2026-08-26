@@ -1,0 +1,12 @@
+{
+  "id": "155_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly uses midsegment theorem and right angle properties to establish EF ⊥ OD, confirming tangency. All steps are logically valid and equivalent to ground-truth reasoning."
+}

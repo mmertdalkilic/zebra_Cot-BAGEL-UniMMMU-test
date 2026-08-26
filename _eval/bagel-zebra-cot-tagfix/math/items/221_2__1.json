@@ -1,0 +1,12 @@
+{
+  "id": "221_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing all required auxiliary lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing all required auxiliary lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "The candidate solution incorrectly calculates AC as 5√3 instead of 5, leading to invalid coordinates and an impossible intersection point F. This fundamental error invalidates the entire coordinate-based approach and results in an incorrect final answer."
+}

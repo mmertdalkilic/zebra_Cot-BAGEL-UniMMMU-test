@@ -1,0 +1,12 @@
+{
+  "id": "114_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line EG⊥BD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line EG⊥BD\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly identifies ABCD as a rectangle, applies the Angle Bisector Theorem accurately, and computes AE=3/2 through valid steps matching the reference solution."
+}

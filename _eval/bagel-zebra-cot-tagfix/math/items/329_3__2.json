@@ -1,0 +1,12 @@
+{
+  "id": "329_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates DF as r instead of 2x, leading to invalid equations and conclusion r=1 instead of correct r=3. Key geometric relationships (angles, triangle properties) are misapplied.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates DF as r instead of 2x, leading to invalid equations and conclusion r=1 instead of correct r=3. Key geometric relationships (angles, triangle properties) are misapplied."
+}

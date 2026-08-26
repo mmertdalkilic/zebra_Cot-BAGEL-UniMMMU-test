@@ -1,0 +1,12 @@
+{
+  "id": "154_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical inconsistencies (e.g., conflicting equations 25k²+9=4r² and 25k²+15=4r²) and incorrect angle relationships. The reasoning fails to establish valid similarity or congruence, leading to an impossible conclusion. The correct answer is √5, but the candidate's approach is invalid."
+}

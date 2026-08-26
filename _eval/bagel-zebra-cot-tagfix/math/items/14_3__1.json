@@ -1,0 +1,12 @@
+{
+  "id": "14_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line EF extended to intersect AD and BC.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EF extended to intersect AD and BC.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks critical steps (e.g., symmetry, area partitioning) from reference. Incorrectly assumes congruence of triangles without justifying their orientation. Fails to establish the key relationship between square EMFN and parallelogram ABCD's area. Final conclusion not rigorously derived."
+}

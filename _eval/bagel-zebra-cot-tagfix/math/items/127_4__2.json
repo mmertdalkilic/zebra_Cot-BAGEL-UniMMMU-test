@@ -1,0 +1,12 @@
+{
+  "id": "127_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies Law of Sines and introduces contradictions. Fails to use key property that AD⊥BC (from diameter) and AB=AC implies BD=CD. Final answer is incorrect."
+}

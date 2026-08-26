@@ -1,0 +1,12 @@
+{
+  "id": "153_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple incorrect claims (e.g., C is the center of the circle, triangle CDB is right-angled). While the final conclusion is correct, the reasoning has major logical flaws and false premises."
+}

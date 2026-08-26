@@ -1,0 +1,12 @@
+{
+  "id": "289_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution incorrectly assumes triangle ECD is right-angled at E (E is not on CD). Fails to use key similarity between triangles ABD and DBE from reference solution. Introduces unnecessary variables without establishing relationships. Final answer not derived."
+}

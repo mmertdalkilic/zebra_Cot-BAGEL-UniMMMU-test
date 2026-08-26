@@ -1,0 +1,12 @@
+{
+  "id": "201_6__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OD and perpendicular OE.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD and perpendicular OE.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims SAS congruence between △OBD and △OBC without valid side-angle correspondence. The reference solution uses AAS congruence between △ODB and △OEB. While the conclusion is correct, the reasoning contains major logical gaps (e.g., conflating OA with OD, invalid congruence argument)."
+}

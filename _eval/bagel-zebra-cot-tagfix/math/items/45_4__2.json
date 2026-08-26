@@ -1,0 +1,12 @@
+{
+  "id": "45_4__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AG",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AG\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "The candidate solution contains logical gaps and incorrect assumptions. It incorrectly infers BC is a diameter from angle EBC=90° without proper justification. The angle relationships (e.g., ∠GHC=∠GBC) are asserted without valid arc/subtended angle reasoning. The reference solution uses cyclic quadrilaterals and angle chasing, which the candidate omits. While the conclusion CG=CH is correct, the reasoning is not rigorous."
+}

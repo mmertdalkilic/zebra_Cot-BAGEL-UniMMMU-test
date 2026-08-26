@@ -1,0 +1,12 @@
+{
+  "id": "218_4__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing AH perpendicular line",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing AH perpendicular line\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly identifies the isosceles triangle, uses the perpendicular bisector property, applies Pythagorean theorem accurately, and computes the area matching the reference solution."
+}

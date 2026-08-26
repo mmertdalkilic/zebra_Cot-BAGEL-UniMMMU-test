@@ -1,0 +1,12 @@
+{
+  "id": "341_9__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps and incorrect assumptions. It incorrectly equates ∠OAC to ∠C (undefined angle) and fails to establish OE⊥AC (key step in reference). The angle relationships derived (e.g., ∠EAO=3x) lack proper justification and don't lead to the required 90° conclusion.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical gaps and incorrect assumptions. It incorrectly equates ∠OAC to ∠C (undefined angle) and fails to establish OE⊥AC (key step in reference). The angle relationships derived (e.g., ∠EAO=3x) lack proper justification and don't lead to the required 90° conclusion."
+}

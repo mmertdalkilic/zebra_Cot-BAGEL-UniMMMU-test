@@ -1,0 +1,12 @@
+{
+  "id": "262_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line BD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line BD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠BCD intercepts arc BD (which is true) but then misapplies arc relationships. Fails to use key properties of cyclic quadrilaterals and right angles in semicircles. Concludes ∠AEB=20° via invalid steps."
+}

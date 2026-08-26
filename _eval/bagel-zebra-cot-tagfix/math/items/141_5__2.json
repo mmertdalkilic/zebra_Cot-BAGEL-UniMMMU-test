@@ -1,0 +1,12 @@
+{
+  "id": "141_5__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line BQ perpendicular to AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line BQ perpendicular to AC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution incorrectly calculates PC and fails to use the correct method involving right triangle AN and area formula. The reasoning has major logical gaps and the conclusion is incorrect."
+}

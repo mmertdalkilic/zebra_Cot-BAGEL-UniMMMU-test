@@ -1,0 +1,12 @@
+{
+  "id": "251_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OE perpendicular to AB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OE perpendicular to AB\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks actual reasoning steps and calculations; repetitive placeholder text with no valid derivation or final answer."
+}

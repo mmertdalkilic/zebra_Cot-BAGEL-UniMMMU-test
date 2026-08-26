@@ -1,0 +1,12 @@
+{
+  "id": "235_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assigns DE as x√3 instead of (x√3)/2 in 30-60-90 triangle BDE, leading to area calculation error. Final ratio is 1/4 instead of correct 1/8."
+}

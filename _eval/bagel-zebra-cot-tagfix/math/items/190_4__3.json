@@ -1,0 +1,12 @@
+{
+  "id": "190_4__3",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AE line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AE line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution is entirely repetitive statements with no actual reasoning steps or calculations. No valid geometric relationships or equations are derived to solve for tan∠ABC. The ground-truth solution requires multiple non-trivial steps involving circle properties, similar triangles, and algebraic manipulation which are completely absent here."
+}

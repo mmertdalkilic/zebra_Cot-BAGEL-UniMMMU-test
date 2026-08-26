@@ -1,0 +1,12 @@
+{
+  "id": "68_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly subtracts ∠OAC from ∠ACB (90°) to get ∠BAC=50°, but reference shows ∠BAC=∠OCA=40° via isosceles triangle. The reasoning is flawed in the final step."
+}

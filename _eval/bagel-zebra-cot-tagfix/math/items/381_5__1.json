@@ -1,0 +1,12 @@
+{
+  "id": "381_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., angle ABC = angle PBC without justification) and flawed angle relationships. Fails to establish key steps like ∠PCA + ∠ACO = 90° from reference solution. Concludes angle ACP=0° which is geometrically invalid. Logical gaps prevent valid proof.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect assumptions (e.g., angle ABC = angle PBC without justification) and flawed angle relationships. Fails to establish key steps like ∠PCA + ∠ACO = 90° from reference solution. Concludes angle ACP=0° which is geometrically invalid. Logical gaps prevent valid proof."
+}

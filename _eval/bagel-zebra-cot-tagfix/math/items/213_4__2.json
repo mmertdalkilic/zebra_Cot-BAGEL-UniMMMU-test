@@ -1,0 +1,12 @@
+{
+  "id": "213_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line AG parallel to NC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line AG parallel to NC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains circular reasoning, unjustified angle equalities, and incorrect isosceles triangle claims. Fails to properly use given MD=3 and BE=2. Final conclusion MN=5 is not established."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "52_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical errors (e.g., claims arc measures sum to 0°, redundant/repetitive statements about ∠EOB). Incorrectly concludes ∠EOB=90°, which is not valid. Fails to establish OE⊥CE as required for tangency."
+}

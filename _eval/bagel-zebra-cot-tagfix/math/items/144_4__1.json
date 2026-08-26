@@ -1,0 +1,12 @@
+{
+  "id": "144_4__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution repeatedly states given information without performing calculations. Missing key steps (AF=3, DF=3, BF=2) and final Pythagorean theorem application. No numeric answer provided."
+}

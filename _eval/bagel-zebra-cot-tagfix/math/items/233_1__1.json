@@ -1,0 +1,12 @@
+{
+  "id": "233_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OB\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly sums angles at different vertices (A,B,C) as if they're at center O. Correct angle AOC is 144° (ground-truth) vs 72° (candidate). Arc length 4π/5 vs 2π/5."
+}

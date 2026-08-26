@@ -1,0 +1,12 @@
+{
+  "id": "263_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing intersection point P",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing intersection point P\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims ∠ABC=∠BAC (they are complementary in a right triangle). The reasoning about OC bisecting ∠ABE lacks justification. The conclusion relies on invalid premises."
+}

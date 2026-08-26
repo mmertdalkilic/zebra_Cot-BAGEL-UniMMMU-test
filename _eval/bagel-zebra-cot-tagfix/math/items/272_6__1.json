@@ -1,0 +1,12 @@
+{
+  "id": "272_6__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims angle bisector passes through center (false in general). Major logical error in reasoning about arcs and angle bisectors. Conclusion is correct but reasoning is invalid."
+}

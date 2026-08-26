@@ -1,0 +1,12 @@
+{
+  "id": "335_10__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line BE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AB is a diameter of the circle (invalid step), leading to flawed reasoning. The conclusion AF=5/4 is correct but derived through invalid logic. The rigorous solution requires proving OE∥BC and using right triangle properties, which the candidate omitted.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AB is a diameter of the circle (invalid step), leading to flawed reasoning. The conclusion AF=5/4 is correct but derived through invalid logic. The rigorous solution requires proving OE∥BC and using right triangle properties, which the candidate omitted."
+}

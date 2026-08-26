@@ -1,0 +1,12 @@
+{
+  "id": "306_3_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "BM line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"BM line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes OC is a diameter (radius is 2), leading to invalid Pythagorean calculation. Misapplies parallelism and rectangle properties without justification. Final answer not provided but would be incorrect."
+}

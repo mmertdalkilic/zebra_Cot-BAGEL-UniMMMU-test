@@ -1,0 +1,12 @@
+{
+  "id": "166_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing BM and CM lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing BM and CM lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies AAS congruence (should be ASA) and fails to establish perpendicularity at intersection point D. Ground-truth uses triangle congruence of ABM/ACM to show AM is perpendicular bisector."
+}

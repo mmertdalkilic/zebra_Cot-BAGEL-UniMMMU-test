@@ -1,0 +1,12 @@
+{
+  "id": "232_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing intersection point O and line segment AC.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing intersection point O and line segment AC.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates ∠DCE as 120° instead of 60°, leading to wrong triangle angles and conclusion BD=2 instead of 2√3. Major logical error in angle analysis."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "303_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line CD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line CD\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies the inscribed angle theorem and semicircle right angle theorem. The reasoning is logically sound with no gaps, and the numeric answer matches the reference solution."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "212_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Lines OB and OC are not connected as required.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Lines OB and OC are not connected as required.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle ABD is right-angled without justification. Incorrectly calculates radius as √2 instead of 2. Arc length calculation uses wrong radius, leading to √2π/2 instead of π."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "272_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line BD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line BD\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly identifies the diagonal as the diameter, applies the Pythagorean theorem accurately, and simplifies √117 to 3√13. The reasoning is rigorous with no logical gaps, and the numeric answer matches the reference."
+}

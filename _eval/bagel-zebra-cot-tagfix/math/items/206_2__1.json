@@ -1,0 +1,12 @@
+{
+  "id": "206_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line CO",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line CO\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly placed point D at midpoint of AB (4,0) instead of 6 units from A (6,0). This invalidates coordinate setup and leads to wrong radius calculation (13/3 vs correct 2√5)."
+}

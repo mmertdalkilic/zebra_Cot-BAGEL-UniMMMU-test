@@ -1,0 +1,12 @@
+{
+  "id": "196_6__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line OH⊥AB.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line OH⊥AB.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes O is midpoint of BC (not given), misapplies median/inradius relationship, and lacks valid derivation of R=20. Final answer incomplete/incorrect."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "160_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OB\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠OAB=∠AOC and ∠FOA=90° without valid justification. Misapplies transversal angle relationships and fails to establish key equilateral triangle property. Final answer not reached."
+}

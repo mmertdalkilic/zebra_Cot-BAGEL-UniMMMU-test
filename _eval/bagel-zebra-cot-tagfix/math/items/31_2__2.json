@@ -1,0 +1,12 @@
+{
+  "id": "31_2__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line CD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line CD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes △BCF ~ △ACF and misapplies cosine definition (uses AC/CF instead of AC/AB). This leads to BF=7.5 instead of 5. For DE, flawed reasoning about triangle CDE and missing key steps (e.g., △FDE∽△FBC) prevents correct calculation. Final answers BF=7.5 and DE=... do not match reference values BF=5 and DE=42/25."
+}

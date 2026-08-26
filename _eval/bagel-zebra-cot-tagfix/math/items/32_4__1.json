@@ -1,0 +1,12 @@
+{
+  "id": "32_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line OD and QD as midpoint of arc BC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line OD and QD as midpoint of arc BC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies alternate segment theorem (confuses ∠PDC with ∠BCD instead of ∠DBC) and falsely claims ∠BCP=90°. The reference solution correctly uses perpendicularity of OD to both BC and PF. While conclusion is correct, reasoning contains major logical errors."
+}

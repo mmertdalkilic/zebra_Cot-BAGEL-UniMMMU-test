@@ -1,0 +1,12 @@
+{
+  "id": "149_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines are present and correctly placed.",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"All required lines are present and correctly placed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes quadrilateral DECF is a rectangle without valid justification. The angle sum calculation for DECF is flawed as it conflates angles from different triangles. While the conclusion BC=BH is correct, the reasoning contains major logical gaps."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "212_3__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines BD and DE are present.",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"All required lines BD and DE are present.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes quadrilateral BCDE is cyclic without sufficient justification. The reference solution uses angle bisector properties and right angles to establish congruence, while the candidate's approach has a logical gap in the cyclic quadrilateral claim. The conclusion AB=AF is correct, but the reasoning is not fully rigorous."
+}

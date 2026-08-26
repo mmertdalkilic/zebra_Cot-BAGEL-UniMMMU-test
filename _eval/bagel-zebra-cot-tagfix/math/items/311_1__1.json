@@ -1,0 +1,12 @@
+{
+  "id": "311_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC line\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠BAC=∠OAB−∠ABC without geometric justification. The correct approach uses inscribed angle theorem (∠AOC=2∠ABC) and central angle relationships. Final answer 8°≠38°."
+}

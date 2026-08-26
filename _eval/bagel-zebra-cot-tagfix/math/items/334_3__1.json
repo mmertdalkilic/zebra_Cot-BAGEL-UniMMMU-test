@@ -1,0 +1,12 @@
+{
+  "id": "334_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing AH⊥BC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates tan∠BAH as AH/BH=3/4 instead of BH/AH=4/3, leading to wrong final answer. The reasoning has a critical trigonometric ratio error.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates tan∠BAH as AH/BH=3/4 instead of BH/AH=4/3, leading to wrong final answer. The reasoning has a critical trigonometric ratio error."
+}

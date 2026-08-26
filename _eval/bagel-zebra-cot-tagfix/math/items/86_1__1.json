@@ -1,0 +1,12 @@
+{
+  "id": "86_1__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "AD line correctly drawn",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"AD line correctly drawn\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims ∠ADC=90° (should be ∠ADB=90° via Thales' theorem). Congruence argument relies on flawed angle assumption. Ground-truth uses perpendicular bisector property of isosceles triangle, which is valid."
+}

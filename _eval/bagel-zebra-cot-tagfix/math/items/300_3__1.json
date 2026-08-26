@@ -1,0 +1,12 @@
+{
+  "id": "300_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AC line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AC line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution outlines steps without executing key calculations (e.g., fails to derive ∠BAD=40°, ∠BAC=20°, or use ∠ACB=90°). Introduces irrelevant central angles (∠BOC, ∠AOC) not in ground-truth solution. No numeric conclusion reached."
+}

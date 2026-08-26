@@ -1,0 +1,12 @@
+{
+  "id": "174_5_1__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applied the Inscribed Angle Theorem by asserting ∠BAD=1/2∠BCD (angles subtended by arc BD are supplementary, not equal). The conclusion is correct by coincidence, but the reasoning contains a major logical flaw."
+}

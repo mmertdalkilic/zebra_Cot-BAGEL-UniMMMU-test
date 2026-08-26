@@ -1,0 +1,12 @@
+{
+  "id": "273_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing perpendicular line EH",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing perpendicular line EH\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly identifies triangle types (e.g., claims BCE is 30-60-90 when it's not a right triangle). Calculates EH, HC, DE, CF with invalid assumptions. Final ratio 1 contradicts correct answer √7/3."
+}

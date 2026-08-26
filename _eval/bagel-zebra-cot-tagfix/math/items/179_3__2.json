@@ -1,0 +1,12 @@
+{
+  "id": "179_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line OG perpendicular to AB.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line OG perpendicular to AB.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes O is the midpoint of AC without justification. This invalidates key steps (OA=OC, AG=GB). Final answer (sqrt(2)+1)/2 ≠ reference answer sqrt(2)."
+}

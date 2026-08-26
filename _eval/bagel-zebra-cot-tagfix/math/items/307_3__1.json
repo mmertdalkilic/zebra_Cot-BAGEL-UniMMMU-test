@@ -1,0 +1,12 @@
+{
+  "id": "307_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC line\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠EDC=∠CED without justification. While conclusion is correct, the reasoning contains a logical gap in angle equivalence."
+}

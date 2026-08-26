@@ -1,0 +1,12 @@
+{
+  "id": "235_5__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "BC line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"BC line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate repeatedly calculates AC²=OC²-OA²=0 (incorrectly assuming OA and OC are legs of a right triangle), leading to contradictions. Correct approach uses similar triangles (△ABC∽△ACD) to find AC=2√3, then computes tan∠ACD=√2/2. Candidate's reasoning contains major logical errors and fails to reach the correct conclusion."
+}

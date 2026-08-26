@@ -1,0 +1,12 @@
+{
+  "id": "170_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines OM and ON",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines OM and ON\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks key steps (e.g., O as midpoint of BD, midline OM properties, angle relationships leading to triangle similarity). Incorrectly assumes OM∥BC without justification. Fails to derive ON, OE, or OF via correct geometric relationships. Final answer not computed."
+}

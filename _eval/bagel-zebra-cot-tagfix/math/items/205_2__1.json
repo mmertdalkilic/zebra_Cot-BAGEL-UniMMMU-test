@@ -1,0 +1,12 @@
+{
+  "id": "205_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies Thales' theorem to ∠ACB (no justification for point C's position) and misuses inscribed angle theorem for ∠ABD/∠ACD. Final answer coincidentally matches reference but reasoning is flawed."
+}

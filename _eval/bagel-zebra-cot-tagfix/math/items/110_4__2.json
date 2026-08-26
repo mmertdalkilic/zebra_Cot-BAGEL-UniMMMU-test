@@ -1,0 +1,12 @@
+{
+  "id": "110_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes E is midpoint of AB (AE=5) and misapplies similarity. Calculates AD=8 via flawed OE=3 derivation. Final DF=0 contradicts ground-truth 32/3. Major logical gaps in angle relationships and coordinate assumptions."
+}

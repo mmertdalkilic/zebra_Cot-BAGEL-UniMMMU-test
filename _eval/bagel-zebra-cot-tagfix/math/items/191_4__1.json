@@ -1,0 +1,12 @@
+{
+  "id": "191_4__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly divides the hexagon into six equilateral triangles, applies the correct area formula for equilateral triangles, and computes the total area as 24√3. The reasoning is rigorous with no logical gaps."
+}

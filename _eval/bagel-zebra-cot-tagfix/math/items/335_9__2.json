@@ -1,0 +1,12 @@
+{
+  "id": "335_9__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line OF⊥AB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle AOB is right-angled (AB²=AO²+OB²) without justification. Fails to use critical auxiliary line OF and similar triangles △OBF~△ABD from reference solution. Incorrectly derives OB=13 but doesn't properly connect to AB calculation. Final answer not computed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle AOB is right-angled (AB²=AO²+OB²) without justification. Fails to use critical auxiliary line OF and similar triangles △OBF~△ABD from reference solution. Incorrectly derives OB=13 but doesn't properly connect to AB calculation. Final answer not computed."
+}

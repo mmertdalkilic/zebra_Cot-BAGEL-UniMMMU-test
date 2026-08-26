@@ -1,0 +1,12 @@
+{
+  "id": "163_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect claims (e.g., ∠BAC=∠BCA in isosceles triangle) and lacks key steps (parallelism of OD and AC). Repetition indicates logical gaps. Conclusion is correct but reasoning is flawed."
+}

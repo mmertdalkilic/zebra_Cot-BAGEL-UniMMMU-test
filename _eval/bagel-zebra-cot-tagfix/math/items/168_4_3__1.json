@@ -1,0 +1,12 @@
+{
+  "id": "168_4_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC and BC lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC and BC lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle HOG is a right triangle (points O,G,H are colinear), leading to invalid HG calculation. Later similarity claims (HFA~HGD) lack valid justification. These errors propagate to incorrect x value and final EN=12 vs reference EN=12 (but candidate's intermediate steps are inconsistent)."
+}

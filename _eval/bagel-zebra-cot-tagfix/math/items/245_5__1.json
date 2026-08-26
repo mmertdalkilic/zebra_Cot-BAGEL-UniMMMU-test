@@ -1,0 +1,12 @@
+{
+  "id": "245_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OB\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces undefined angle ∠CBQ and incorrectly equates ∠ADB=∠AOB (should be ∠AOB=2∠ADB). These logical errors invalidate the proof despite correct conclusion."
+}

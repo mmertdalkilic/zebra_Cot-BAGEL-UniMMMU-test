@@ -1,0 +1,12 @@
+{
+  "id": "242_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line AF",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line AF\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes F is midpoint of BE and derives impossible OF²=-1. Ground-truth uses triangle congruence to show OF=√2. Final answer is correct but reasoning is invalid."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "238_5_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "DF line correctly drawn",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"DF line correctly drawn\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly states AB=AC (problem says BA=BC), misapplies tangency condition (AD is diameter, not radius), and derives contradictions due to flawed assumptions. Final answer not reached."
+}

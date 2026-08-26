@@ -1,0 +1,12 @@
+{
+  "id": "289_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "BD line exists as required.",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line exists as required.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution introduces unnecessary angle variables and fails to complete the Law of Cosines approach. It lacks key steps from reference solution (SAS congruence, BD=√2, right angle at BDC, Pythagorean theorem for BC). Final answer not reached."
+}

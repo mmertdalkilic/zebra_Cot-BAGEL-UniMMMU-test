@@ -1,0 +1,12 @@
+{
+  "id": "251_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines OM, ON, OB, and OD.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines OM, ON, OB, and OD.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies perpendicular bisector theorem, Pythagorean theorem, and rectangle diagonal calculation. All steps align with reference solution and final answer 4√2 matches exactly."
+}

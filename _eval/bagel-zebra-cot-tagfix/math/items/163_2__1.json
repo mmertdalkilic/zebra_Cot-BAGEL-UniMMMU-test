@@ -1,0 +1,12 @@
+{
+  "id": "163_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OA and OC lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OA and OC lines\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly uses arc length formula instead of chord length formula. The correct approach uses central angle properties to show OAC is equilateral (radius=2), but candidate calculates 6/π which is wrong."
+}

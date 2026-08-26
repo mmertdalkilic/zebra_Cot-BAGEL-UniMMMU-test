@@ -1,0 +1,12 @@
+{
+  "id": "107_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing AD line",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing AD line\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠ABD=∠EAB without justification. The reference solution correctly uses arc midpoint properties and angle relationships. While the conclusion is correct, the flawed step invalidates rigor."
+}

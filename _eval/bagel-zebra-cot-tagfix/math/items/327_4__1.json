@@ -1,0 +1,12 @@
+{
+  "id": "327_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line AD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Thales' theorem to AC instead of AD, misuses angle relationships, and omits key congruence step from reference solution. Final conclusion about tangency is not rigorously established.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies Thales' theorem to AC instead of AD, misuses angle relationships, and omits key congruence step from reference solution. Final conclusion about tangency is not rigorously established."
+}

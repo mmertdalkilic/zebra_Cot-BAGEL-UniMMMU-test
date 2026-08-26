@@ -1,0 +1,12 @@
+{
+  "id": "233_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line DE⊥AB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line DE⊥AB\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes DE=AC=12 without justification, leading to invalid AE=12. Uses flawed rectangle constructions and miscalculates BC as 22. Final answer 2√157 ≠ reference 156√2/7."
+}

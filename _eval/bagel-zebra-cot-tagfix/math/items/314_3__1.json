@@ -1,0 +1,12 @@
+{
+  "id": "314_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes angle relationships in quadrilateral OECF and fails to justify ∠COF=180°−∠OBE. Concludes ∠BCD=∠BOE via flawed logic, though conclusion is correct.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes angle relationships in quadrilateral OECF and fails to justify ∠COF=180°−∠OBE. Concludes ∠BCD=∠BOE via flawed logic, though conclusion is correct."
+}

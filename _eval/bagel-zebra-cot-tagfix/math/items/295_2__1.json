@@ -1,0 +1,12 @@
+{
+  "id": "295_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OB\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies circle theorems (tangent-radius perpendicularity, inscribed angles, isosceles triangle properties) with valid logical steps. Final answer 115° matches reference."
+}

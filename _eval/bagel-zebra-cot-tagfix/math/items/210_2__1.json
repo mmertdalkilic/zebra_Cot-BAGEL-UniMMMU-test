@@ -1,0 +1,12 @@
+{
+  "id": "210_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line EM⊥BC and intersection point N.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line EM⊥BC and intersection point N.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes BG=BC=4 and misapplies area formulas. Incorrectly derives EM=3 instead of EM=7. Flawed similarity arguments and area calculations lead to impossible negative areas. Final ratio 3/7 is correct but derived through invalid steps."
+}

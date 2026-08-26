@@ -1,0 +1,12 @@
+{
+  "id": "82_2__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains false claims (e.g., angle ODC=90°) and invalid deductions leading to impossible conclusions (∠OCD=0°). The reasoning is not rigorous and the conclusion is incorrect."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "242_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing intersection point G",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing intersection point G\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect angle relationships (e.g., ∠G=∠AEF derivation) and invalid congruence claims (△AEF≅△GEF with flawed premises). While conclusion EF=CF is correct, reasoning lacks rigor with major logical gaps."
+}

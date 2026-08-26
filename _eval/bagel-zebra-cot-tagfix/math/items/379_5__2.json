@@ -1,0 +1,12 @@
+{
+  "id": "379_5__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing AC and OC lines",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠CAB=30° from ∠BAF=60°, leading to flawed angle relationships. However, the final numeric answer BE=√3/3 matches the reference solution.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠CAB=30° from ∠BAF=60°, leading to flawed angle relationships. However, the final numeric answer BE=√3/3 matches the reference solution."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "345_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC and OE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Power of a Point theorem by assuming BF is a diameter and BC is a tangent. Correct solution requires triangle similarity (△DEF ∽ △BEC) to derive EF = 2√5/5, which is not achieved in the candidate's reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies Power of a Point theorem by assuming BF is a diameter and BC is a tangent. Correct solution requires triangle similarity (△DEF ∽ △BEC) to derive EF = 2√5/5, which is not achieved in the candidate's reasoning."
+}

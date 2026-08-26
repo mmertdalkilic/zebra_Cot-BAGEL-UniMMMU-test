@@ -1,0 +1,12 @@
+{
+  "id": "219_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line DO extended to intersect AB at F",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line DO extended to intersect AB at F\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "The candidate solution contains incorrect assumptions and logical gaps. For example, it incorrectly claims angle AOD=90° based on angle ADC=90°, which is invalid since angle AOD is a central angle for arc AD while angle ADC is an inscribed angle for arc AC. The conclusion DE⊥BE is not rigorously established due to these errors."
+}

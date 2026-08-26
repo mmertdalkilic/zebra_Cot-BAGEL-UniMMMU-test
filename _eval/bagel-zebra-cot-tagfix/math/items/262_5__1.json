@@ -1,0 +1,12 @@
+{
+  "id": "262_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OC and intersection point G.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OC and intersection point G.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly establishes parallel lines (BD∥OC), isosceles triangle OBC, and uses alternate interior angles to prove ∠ABC=∠DBC. All logical steps are valid and match the reference's conclusion."
+}

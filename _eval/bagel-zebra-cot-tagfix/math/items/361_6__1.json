@@ -1,0 +1,12 @@
+{
+  "id": "361_6__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line DF",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠DAF=∠DCB without valid justification. The congruence of triangles AFD and CDB is based on flawed angle equality. The ground-truth solution uses rotation properties directly, while the candidate's approach contains logical gaps in the angle relationships.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠DAF=∠DCB without valid justification. The congruence of triangles AFD and CDB is based on flawed angle equality. The ground-truth solution uses rotation properties directly, while the candidate's approach contains logical gaps in the angle relationships."
+}

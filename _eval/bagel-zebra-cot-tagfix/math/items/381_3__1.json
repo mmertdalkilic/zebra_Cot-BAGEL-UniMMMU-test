@@ -1,0 +1,12 @@
+{
+  "id": "381_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line extending DC to intersect AE at F",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Angle Bisector Theorem to non-triangle setup and makes false assumption AB=2x. Major logical gaps in reasoning lead to impossible conclusion x=0. Final answer is invalid.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies Angle Bisector Theorem to non-triangle setup and makes false assumption AB=2x. Major logical gaps in reasoning lead to impossible conclusion x=0. Final answer is invalid."
+}

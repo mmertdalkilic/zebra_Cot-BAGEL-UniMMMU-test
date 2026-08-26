@@ -1,0 +1,12 @@
+{
+  "id": "377_5__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing CH⊥AB line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors (e.g., incorrectly assuming AB=BC=10 contradicts given BC=12, flawed altitude properties, and inconsistent CH calculations). The reasoning leads to contradictions and fails to derive the correct tan∠CAE=7/24.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors (e.g., incorrectly assuming AB=BC=10 contradicts given BC=12, flawed altitude properties, and inconsistent CH calculations). The reasoning leads to contradictions and fails to derive the correct tan∠CAE=7/24."
+}

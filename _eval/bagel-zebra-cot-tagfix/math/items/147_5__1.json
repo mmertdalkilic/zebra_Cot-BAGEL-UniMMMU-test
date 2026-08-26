@@ -1,0 +1,12 @@
+{
+  "id": "147_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OF",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OF\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AE is a diameter without justification (AE is hypotenuse of right triangle ABE, so it is a diameter, but this is not clearly stated). Major errors in angle relationships: claims ∠OAF=90° based on ∠DAB, which is invalid; incorrectly identifies vertical angles; flawed logic in angle sum calculations. Final conclusion is correct but derived from invalid reasoning."
+}

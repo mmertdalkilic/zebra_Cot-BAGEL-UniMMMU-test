@@ -1,0 +1,12 @@
+{
+  "id": "54_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "CE perpendicular to PB missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"CE perpendicular to PB missing\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution is repetitive and lacks actual calculations. It incorrectly proposes using Law of Cosines/Sines in triangles ABC and PAB without valid steps or given side lengths. Ground-truth uses cyclic quadrilateral properties and right triangle trigonometry with PE/PC ratios. No numeric answer derived."
+}

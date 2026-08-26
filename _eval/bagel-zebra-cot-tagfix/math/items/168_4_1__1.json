@@ -1,0 +1,12 @@
+{
+  "id": "168_4_1__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors and unjustified claims. Incorrectly assumes ∠C=∠D without proper justification, miscalculates ∠ACF leading to potential negative angles, and incorrectly equates arcs without rigorous proof. Final conclusion ∠E=x contradicts required ∠E=2∠C."
+}

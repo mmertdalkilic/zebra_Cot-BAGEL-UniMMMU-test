@@ -1,0 +1,12 @@
+{
+  "id": "164_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "OB does not intersect ED at point G.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"OB does not intersect ED at point G.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple false claims (e.g., OD || OE, OB⊥DE without justification) and logical gaps. Final answer 35° matches reference but reasoning is invalid."
+}

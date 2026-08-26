@@ -1,0 +1,12 @@
+{
+  "id": "223_2__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies angle properties (confuses ∠DAF with ∠DAE), makes invalid conclusion AF=AE without justification, and derives impossible equation 0=20. Final answer not computed correctly."
+}

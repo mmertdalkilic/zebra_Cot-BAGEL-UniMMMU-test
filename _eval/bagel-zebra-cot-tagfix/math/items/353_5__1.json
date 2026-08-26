@@ -1,0 +1,12 @@
+{
+  "id": "353_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains contradictory angle claims (angle C is both 90° and 45°). Incorrectly assumes angles ABD=ACD without valid justification. The reference solution uses parallel lines and isosceles triangle properties which are not properly established here.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains contradictory angle claims (angle C is both 90° and 45°). Incorrectly assumes angles ABD=ACD without valid justification. The reference solution uses parallel lines and isosceles triangle properties which are not properly established here."
+}

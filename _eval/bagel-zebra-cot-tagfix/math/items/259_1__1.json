@@ -1,0 +1,12 @@
+{
+  "id": "259_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate correctly applies the Inscribed Angle Theorem, identifies intercepted arc BC as 90°, and calculates ∠BPC=45°. Reasoning is rigorous and matches the numeric result."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "21_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "required line CO exists",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"required line CO exists\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly identifies the radius, uses angle relationships (including inscribed angles and triangle angle sums) to determine ∠DAB=22.5°, calculates the central angle ∠BOD=45°, and computes the arc length as 2π. All steps are logically valid and match the reference solution's numeric result."
+}

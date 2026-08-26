@@ -1,0 +1,12 @@
+{
+  "id": "214_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing_line_BD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing_line_BD\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly identifies similar triangles (BPE~BAC instead of BEP~BCD) and misapplies area ratios. Concludes area of ABC is 12 instead of correct 18. Key errors in similarity reasoning and midpoint application."
+}

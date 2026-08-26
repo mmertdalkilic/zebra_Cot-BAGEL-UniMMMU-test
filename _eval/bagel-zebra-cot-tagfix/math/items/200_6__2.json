@@ -1,0 +1,12 @@
+{
+  "id": "200_6__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OE",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OE\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠DEC=90° (angle in semicircle) when E is on BD (not on circle), leading to invalid angle calculations. Concludes AM=2ME based on flawed 30-60-90 triangle reasoning. Ground-truth uses central angles and isosceles triangles correctly."
+}
