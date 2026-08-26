@@ -92,6 +92,9 @@ push_rulebased() {
   add_if "${prefix}/math/eval_details.json"
   add_if "${prefix}/math/items"
   add_if "${prefix}/all_tasks_summary_${MODEL_NAME}.xlsx"
+  add_if "${prefix}/ummmu_table2_${MODEL_NAME}.xlsx"
+  add_if "${prefix}/ummmu_table2_${MODEL_NAME}.csv"
+  add_if "${prefix}/ummmu_table2_${MODEL_NAME}.md"
 
   if g diff --cached --quiet 2>/dev/null; then
     echo "[outputs_git] push-rulebased: nothing new to push"

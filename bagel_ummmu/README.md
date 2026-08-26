@@ -29,6 +29,8 @@ Files here:
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
 | `run_eval.sh` | Full evaluation launcher (AWQ VL + Qwen3 judges). Do **not** re-run once those scores are on GitHub. |
 | `run_eval_rulebased.sh` | Leftover eval: geometry status repair + jigsaw/maze/sliding. No VL/Qwen3 load. |
+| `run_geom_text_missing.sh` | Qwen3-only: geometry items that have overlay but no `text_ok` (the leftover 26). |
+| `report_ummmu_table.py` | Rewrites scores in Uni-MMMU Table 2 units ([0,100], maze/sliding `a/b`) |
 | `finalize_eval.py` | Worker for `run_eval_rulebased.sh` (write-guarded, fingerprints VL artifacts) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
 | `apply_eval_sequential.py` | One judge in VRAM at a time; AWQ load keeps int32 qweight |

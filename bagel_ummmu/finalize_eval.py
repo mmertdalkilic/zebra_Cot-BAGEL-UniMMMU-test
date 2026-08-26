@@ -478,6 +478,12 @@ def main() -> None:
         )
 
     eu.summarize_all_tasks(configs)
+    try:
+        from report_ummmu_table import write_paper_table
+
+        write_paper_table(eval_root, args.model_name)
+    except Exception as e:
+        print(f"[report] paper table failed: {e}", flush=True)
 
     fp_after = _fingerprint_files(protected)
     if fp_before != fp_after:
