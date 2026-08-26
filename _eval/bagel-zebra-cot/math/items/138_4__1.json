@@ -1,7 +1,7 @@
 {
   "id": "138_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OD",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}",

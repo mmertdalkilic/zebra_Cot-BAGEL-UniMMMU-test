@@ -1,7 +1,7 @@
 {
   "id": "25_3__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required line extending DC to intersect AB's extension at F",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line extending DC to intersect AB's extension at F\"}",

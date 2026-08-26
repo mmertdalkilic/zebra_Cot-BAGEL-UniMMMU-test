@@ -1,7 +1,7 @@
 {
   "id": "264_3_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line EF parallel to AD and intersection point F.",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EF parallel to AD and intersection point F.\"}",

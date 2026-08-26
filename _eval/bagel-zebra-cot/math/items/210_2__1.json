@@ -1,7 +1,7 @@
 {
   "id": "210_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required line EM⊥BC and intersection point N.",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line EM⊥BC and intersection point N.\"}",

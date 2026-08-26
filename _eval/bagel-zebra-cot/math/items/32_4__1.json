@@ -1,7 +1,7 @@
 {
   "id": "32_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line OD and QD as midpoint of arc BC",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line OD and QD as midpoint of arc BC\"}",

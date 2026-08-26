@@ -1,7 +1,7 @@
 {
   "id": "238_5_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "DF line correctly drawn",
   "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"DF line correctly drawn\"}",

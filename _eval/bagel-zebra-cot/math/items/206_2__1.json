@@ -1,7 +1,7 @@
 {
   "id": "206_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line CO",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line CO\"}",

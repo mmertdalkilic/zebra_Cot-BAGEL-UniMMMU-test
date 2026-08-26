@@ -1,7 +1,7 @@
 {
   "id": "212_1__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Lines OB and OC are not connected as required.",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Lines OB and OC are not connected as required.\"}",

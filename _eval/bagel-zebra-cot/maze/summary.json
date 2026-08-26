@@ -1,0 +1,9 @@
+{
+  "total_candidates": 149,
+  "text_accuracy_exact": 0.006711409395973154,
+  "text_accuracy_frame_macro": 0.08366091403004154,
+  "img_accuracy_exact": 0.0,
+  "img_accuracy_frame_macro": 0.0,
+  "parse_accuracy_all_ok": 0.013422818791946308,
+  "parse_accuracy_frame_macro": 0.05427452860338766
+}

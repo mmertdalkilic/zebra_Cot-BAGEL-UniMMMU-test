@@ -1,7 +1,7 @@
 {
   "id": "242_3__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing intersection point G",
   "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing intersection point G\"}",

@@ -1,7 +1,7 @@
 {
   "id": "15_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "Correctly connects OA.",
   "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"Correctly connects OA.\"}",

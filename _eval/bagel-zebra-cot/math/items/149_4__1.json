@@ -1,7 +1,7 @@
 {
   "id": "149_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "All required lines are present and correctly placed.",
   "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"All required lines are present and correctly placed.\"}",
