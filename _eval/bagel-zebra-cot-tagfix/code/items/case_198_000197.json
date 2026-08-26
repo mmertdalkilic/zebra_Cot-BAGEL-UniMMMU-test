@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_198_000197",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate shows a square border instead of a central teal circle. Shape, color, and position do not match the reference at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Description matches: one green circle, correct position, size, and color."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

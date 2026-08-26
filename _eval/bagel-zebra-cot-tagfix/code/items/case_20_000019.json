@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_20_000019",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains complex shapes, text, and colors not present in the reference. No resemblance in shapes, colors, or positioning.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Single green circle correctly positioned, sized, and colored as described in the candidate text."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

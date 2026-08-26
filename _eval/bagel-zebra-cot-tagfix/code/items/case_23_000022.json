@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_23_000022",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Square's color is wrong; circle replaced with text. Shapes misplaced and misaligned. Multiple issues in shape type, color, and position.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Circle not in upper-right corner; rectangle's position incorrect."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
