@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_114_000113",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains a single complex shape with a different color palette, while the reference has distinct shapes with specified colors and positions.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Purple shape is blue hexagon; black circle is dark gray; red rectangle's position differs."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

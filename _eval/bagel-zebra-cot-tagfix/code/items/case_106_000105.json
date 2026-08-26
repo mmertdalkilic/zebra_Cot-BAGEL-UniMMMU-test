@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_106_000105",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Shapes' colors and types do not match; positions and line direction also differ."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
