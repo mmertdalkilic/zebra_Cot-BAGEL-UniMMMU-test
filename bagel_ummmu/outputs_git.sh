@@ -6,8 +6,9 @@
 # repo whose 'outputs' branch lives in your GitHub repo, separate from main.
 #
 # Usage:
-#   bash outputs_git.sh restore   # session start: pull the outputs branch back
-#   bash outputs_git.sh push      # commit current outputs and push (periodic)
+#   bash outputs_git.sh restore          # session start: pull the outputs branch back
+#   bash outputs_git.sh push             # commit current outputs and push (periodic; may force-push)
+#   bash outputs_git.sh push-rulebased   # leftover eval only; never force-push, never add science/code
 #
 # Required environment:
 #   GITHUB_TOKEN   PAT with write access to the repo (never commit this!)
@@ -17,7 +18,7 @@
 #   WORK_DIR       (default: $HOME/bagel_ummmu)
 set -euo pipefail
 
-CMD="${1:?usage: outputs_git.sh restore|push}"
+CMD="${1:?usage: outputs_git.sh restore|push|push-rulebased}"
 WORK_DIR="${WORK_DIR:-$HOME/bagel_ummmu}"
 OUT_DIR="${OUT_DIR:-$WORK_DIR/Uni-MMMU/outputs}"
 BRANCH="${OUTPUTS_BRANCH:-outputs}"
@@ -72,8 +73,52 @@ push() {
   fi
 }
 
+# Commit only leftover rule-based eval paths. Never `git add -A`, never --force.
+# Keeps already-pushed VL science/code/math judgments intact on origin/outputs.
+push_rulebased() {
+  MODEL_NAME="${MODEL_NAME:-bagel-zebra-cot}"
+  ensure_repo
+  prefix="_eval/${MODEL_NAME}"
+  add_if() {
+    local p="$1"
+    if [ -e "$OUT_DIR/$p" ]; then
+      g add -- "$p"
+    fi
+  }
+  add_if "${prefix}/jigsaw"
+  add_if "${prefix}/maze"
+  add_if "${prefix}/sliding"
+  add_if "${prefix}/math/eval_summary.json"
+  add_if "${prefix}/math/eval_details.json"
+  add_if "${prefix}/math/items"
+  add_if "${prefix}/all_tasks_summary_${MODEL_NAME}.xlsx"
+
+  if g diff --cached --quiet 2>/dev/null; then
+    echo "[outputs_git] push-rulebased: nothing new to push"
+    return 0
+  fi
+
+  # Refuse if the index also contains science/code (should be impossible with
+  # the allowlist above; belt-and-suspenders against a bad add).
+  if g diff --cached --name-only | grep -E "/(science|code)/" >/dev/null; then
+    echo "[outputs_git] push-rulebased ABORT: staged files under science/ or code/" >&2
+    g reset -q
+    return 1
+  fi
+
+  g commit -q -m "rule-based leftover eval $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  if g push -q -u origin "$BRANCH" 2>/dev/null; then
+    echo "[outputs_git] pushed $(g rev-parse --short HEAD) to origin/$BRANCH (allowlist only, no force)"
+  else
+    echo "[outputs_git] allowlist push rejected. Refusing to force-push (would risk VL judge artifacts)." >&2
+    echo "[outputs_git] Inspect: git -C $OUT_DIR status && git -C $OUT_DIR log --oneline -5" >&2
+    return 1
+  fi
+}
+
 case "$CMD" in
   restore) restore ;;
   push)    push ;;
-  *) echo "usage: outputs_git.sh restore|push" >&2; exit 2 ;;
+  push-rulebased) push_rulebased ;;
+  *) echo "usage: outputs_git.sh restore|push|push-rulebased" >&2; exit 2 ;;
 esac

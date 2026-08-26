@@ -13,6 +13,10 @@
 # finished items. Use EVAL_TIME_BUDGET_HOURS to stop cleanly before molab's 12h.
 #
 #   bash run_eval.sh
+#
+# If VL/Qwen3 scores are already on the GitHub `outputs` branch, do NOT re-run
+# this script. Use run_eval_rulebased.sh instead (geometry status + jigsaw/maze/
+# sliding, no 72B load).
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

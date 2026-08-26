@@ -98,9 +98,17 @@ GEOM_LOOP_HEAD_NEW = '''        phase = self.config.get("geometry_phase", "both"
                 self.results.append(cached)
                 continue
             if phase == "text" and text_done:
+                if cached.get("status") != "ok":
+                    cached = dict(cached)
+                    cached["status"] = "ok"
+                    self.utils.save_resume_item(self.config['out_eval_dir'], case_id, cached)
                 self.results.append(cached)
                 continue
             if phase == "both" and text_done:
+                if cached.get("status") != "ok":
+                    cached = dict(cached)
+                    cached["status"] = "ok"
+                    self.utils.save_resume_item(self.config['out_eval_dir'], case_id, cached)
                 self.results.append(cached)
                 continue
             if self.utils.eval_out_of_time():
@@ -155,7 +163,27 @@ GEOM_OVERLAY_TEXT_NEW = '''            if phase in ("overlay", "both") and (self
             self.results.append(record)
 '''
 
-MAIN_OLD = '''    print("="*20 + " Loading Local Models " + "="*20)
+GEOM_SUM_OLD = '''        summary = {
+            "total_items": len(self.results),
+            "scored_items": sum(1 for r in self.results if r.get("status") == "ok"),
+            "ok_overlay": sum(r.get("overlay_ok", 0) for r in self.results),
+            "ok_text": sum(r.get("text_ok", 0) for r in self.results),
+        }
+'''
+
+GEOM_SUM_NEW = '''        def _geom_scored(r):
+            if r.get("status") == "ok":
+                return True
+            return r.get("overlay_ok") is not None and "text_ok" in r
+        summary = {
+            "total_items": len(self.results),
+            "scored_items": sum(1 for r in self.results if _geom_scored(r)),
+            "ok_overlay": sum(int(r.get("overlay_ok") or 0) for r in self.results),
+            "ok_text": sum(int(r.get("text_ok") or 0) for r in self.results),
+        }
+'''
+
+MAIN_OLD = '''    print("="*20 + " Loading Local Models " + "="*20
     lm = LocalTextLM(configs.qwen3_model_name)
     vl = LocalVL(configs.qwen2_5_vl_model_name, attn_implementation=configs.vl_attn_impl)
 
@@ -314,6 +342,7 @@ def patch(src: str) -> str:
     src = must_replace(src, VL_INIT_OLD, VL_INIT_NEW, "vl_fp16")
     src = must_replace(src, GEOM_LOOP_HEAD_OLD, GEOM_LOOP_HEAD_NEW, "geom_phase_head")
     src = must_replace(src, GEOM_OVERLAY_TEXT_OLD, GEOM_OVERLAY_TEXT_NEW, "geom_phase_body")
+    src = must_replace(src, GEOM_SUM_OLD, GEOM_SUM_NEW, "geom_summarize")
     src = must_replace(src, MAIN_OLD, MAIN_NEW, "main_sequential")
     return src
 

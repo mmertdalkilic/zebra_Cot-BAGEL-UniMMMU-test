@@ -27,7 +27,9 @@ Files here:
 | `setup_molab.sh` | One-time setup: repos, Blackwell-compatible PyTorch, flash-attn, checkpoint (~30 GB), dataset |
 | `run_sampling.sh` | Sampling launcher with logging + automatic GitHub output sync |
 | `outputs_git.sh` | Persists `outputs/` to an `outputs` branch on GitHub (restore/push) |
-| `run_eval.sh` | Evaluation launcher (AWQ judges, per-item resume, GitHub sync) |
+| `run_eval.sh` | Full evaluation launcher (AWQ VL + Qwen3 judges). Do **not** re-run once those scores are on GitHub. |
+| `run_eval_rulebased.sh` | Leftover eval: geometry status repair + jigsaw/maze/sliding. No VL/Qwen3 load. |
+| `finalize_eval.py` | Worker for `run_eval_rulebased.sh` (write-guarded, fingerprints VL artifacts) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
 | `apply_eval_sequential.py` | One judge in VRAM at a time; AWQ load keeps int32 qweight |
 | `patch_awq_triton.py` | Fixes AutoAWQ Triton `iweights >> shifts` crash on Blackwell; PyTorch fallback |
@@ -51,9 +53,14 @@ bash run_sampling.sh --task science --limit 2      # smoke test: check outputs l
 # --- Sampling sessions (repeat until every task reports "completed") ---
 bash run_sampling.sh --task all --time-budget-hours 10.5
 
-# --- Final session(s) (evaluation with quantized judges; resumable) ---
-bash outputs_git.sh restore     # bring sampled outputs (+ any prior eval) back
-bash run_eval.sh                # repeats until every task has a full summary
+# --- Final session(s) ---
+# Full judges (only if science/code/geometry item JSON are NOT already on GitHub):
+bash outputs_git.sh restore
+bash run_eval.sh
+
+# Leftover rule-based eval (if VL/Qwen3 results are already on GitHub):
+bash outputs_git.sh restore
+bash run_eval_rulebased.sh      # geometry status + jigsaw/maze/sliding; no 72B
 ```
 
 Results land in `$WORK_DIR/Uni-MMMU/outputs/_eval/bagel-zebra-cot/all_tasks_summary_bagel-zebra-cot.xlsx`
@@ -94,8 +101,9 @@ If you want to squeeze into fewer sessions, add `--num-timesteps 24`
 deviation from the authors' recommended 50). Measure your actual per-image
 time from the smoke test and extrapolate before committing.
 
-The evaluation stage is another few hours (judge inference over all cases) —
-run it as its own session via `run_eval.sh`.
+The VL/Qwen3 evaluation stage is another few hours — run it as its own
+session via `run_eval.sh`. If those scores are already on GitHub, finish with
+`run_eval_rulebased.sh` instead (~10–30 min, DreamSim + maze/sliding parsers).
 
 ## Blackwell (sm_120) notes
 
@@ -133,7 +141,9 @@ directories, images and large binaries**. Consequences:
   on the `outputs` branch. Re-running eval skips finished items; a killed
   session loses at most the last few judge calls. Use
   `EVAL_TIME_BUDGET_HOURS=10.5` (the `run_eval.sh` default) so the session
-  stops before molab's 12h cutoff.
+  stops before molab's 12h cutoff. After VL scores are on that branch, finish
+  with `run_eval_rulebased.sh` — it restores, then `push-rulebased` (allowlisted
+  paths only, no `git add -A`, no force-push) so science/code item JSON stay put.
 - **Checkpoint + dataset → re-downloaded.** The ~30 GB checkpoint can't live on
   GitHub; `setup_molab.sh` is idempotent, so just re-run it at each session
   start (budget ~20-40 min). Use `--time-budget-hours 10.5` to leave margin.
