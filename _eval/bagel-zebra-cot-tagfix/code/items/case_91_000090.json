@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_91_000090",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate shows a red square instead of a red circle; shape type is completely wrong. Positioning does not match as the square is centered while the circle was offset.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Circle position described as top-right does not match actual centering in reference image."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

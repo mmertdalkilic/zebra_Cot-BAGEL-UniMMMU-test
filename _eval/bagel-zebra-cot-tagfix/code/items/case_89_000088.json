@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_89_000088",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate contains unrelated shapes and text, lacking the reference's circle and rectangle. Colors do not match the palette. Positioning is entirely different.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Description matches objects, colors, and positions of reference image accurately."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

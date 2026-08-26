@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_88_000087",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has complex spiral pattern instead of five simple circles. Shapes, counts, and layout completely differ. Colors qualitatively match but irrelevant due to shape mismatch.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Circles are not concentric; they are aligned horizontally. Color is teal, not light blue."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
