@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "total_items": 150,
+    "image_ok": 150,
+    "text_parsed": 98
+  },
+  "metrics": {
+    "mean_distance_penalized": 0.42948659042517345,
+    "image_score_penalized": 0.5705134095748265,
+    "text_accuracy": 0.36
+  },
+  "note": "Image distances copied from bagel-zebra-cot; text re-parsed on tag-fixed files."
+}

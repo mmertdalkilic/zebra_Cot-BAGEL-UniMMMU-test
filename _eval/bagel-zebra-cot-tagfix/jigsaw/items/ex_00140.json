@@ -1,0 +1,13 @@
+{
+  "id": "ex_00140",
+  "label": 0,
+  "text_status": "ok",
+  "choice": 0,
+  "text_correct": 1,
+  "image_status": "ok",
+  "d0": 0.4551140069961548,
+  "d1": 0.3607335090637207,
+  "d_mean": 0.40792375802993774,
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

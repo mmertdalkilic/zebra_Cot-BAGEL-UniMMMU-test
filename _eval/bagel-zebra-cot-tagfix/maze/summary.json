@@ -1,0 +1,10 @@
+{
+  "total_candidates": 149,
+  "text_accuracy_exact": 0.006711409395973154,
+  "text_accuracy_frame_macro": 0.11856024288910191,
+  "note": "Image columns copied from original eval; text recomputed on tag-fixed files.",
+  "img_accuracy_exact": 0.0,
+  "img_accuracy_frame_macro": 0.0,
+  "parse_accuracy_all_ok": 0.013422818791946308,
+  "parse_accuracy_frame_macro": 0.05427452860338766
+}
