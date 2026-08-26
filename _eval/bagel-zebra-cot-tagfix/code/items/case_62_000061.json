@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_62_000061",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Candidate uses rectangles instead of squares, altering shape type. Colors match qualitatively but layout changes from horizontal row to vertical stack, breaking positional accuracy.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Candidate describes four vertical rectangles; reference shows five horizontal ones."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
