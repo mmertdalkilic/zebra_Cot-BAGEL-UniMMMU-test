@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_147_000146",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has a single red polygon with internal lines, while reference shows four orange circles. Shapes, colors, counts, and positions do not match.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Four orange circles correctly placed in a row, matching object count, color, and position."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
