@@ -30,6 +30,8 @@ Files here:
 | `run_eval.sh` | Full evaluation launcher (AWQ VL + Qwen3 judges). Do **not** re-run once those scores are on GitHub. |
 | `run_eval_rulebased.sh` | Leftover eval: geometry status repair + jigsaw/maze/sliding. No VL/Qwen3 load. |
 | `run_geom_text_missing.sh` | Qwen3-only: geometry items that have overlay but no `text_ok` (the leftover 26). |
+| `tag_fix.py` / `run_tagfix.sh` | Copy sampling into `bagel-zebra-cot-tagfix/` and wrap/recover Uni-MMMU tags. Original sampling is not modified. |
+| `eval_tagfix_text.py` / `run_eval_tagfix.sh` | Re-score **text only** on tag-fixed files; copy original image/overlay scores into `_eval/bagel-zebra-cot-tagfix/`. |
 | `report_ummmu_table.py` | Rewrites scores in Uni-MMMU Table 2 units ([0,100], maze/sliding `a/b`) |
 | `finalize_eval.py` | Worker for `run_eval_rulebased.sh` (write-guarded, fingerprints VL artifacts) |
 | `apply_eval_resume.py` | Patches `eval_ummmu.py` for per-item resume + `outputs/_eval/` |
@@ -63,10 +65,20 @@ bash run_eval.sh
 # Leftover rule-based eval (if VL/Qwen3 results are already on GitHub):
 bash outputs_git.sh restore
 bash run_eval_rulebased.sh      # geometry status + jigsaw/maze/sliding; no 72B
+
+# --- Optional: tag-fixed published condition (does NOT replace the original) ---
+# Session 1: copy sampling + wrap missing tags -> outputs/bagel-zebra-cot-tagfix/
+bash outputs_git.sh restore
+bash run_tagfix.sh
+# Session 2: keep original images; re-score text only -> outputs/_eval/bagel-zebra-cot-tagfix/
+bash outputs_git.sh restore
+bash run_eval_tagfix.sh
 ```
 
-Results land in `$WORK_DIR/Uni-MMMU/outputs/_eval/bagel-zebra-cot/all_tasks_summary_bagel-zebra-cot.xlsx`
+Original protocol-faithful scores stay in
+`$WORK_DIR/Uni-MMMU/outputs/_eval/bagel-zebra-cot/`
 (and on the GitHub `outputs` branch under `_eval/bagel-zebra-cot/`).
+Tag-fixed scores land in `$WORK_DIR/Uni-MMMU/outputs/_eval/bagel-zebra-cot-tagfix/`.
 
 ## Will it fit in 12-hour sessions?
 
@@ -146,6 +158,8 @@ directories, images and large binaries**. Consequences:
   stops before molab's 12h cutoff. After VL scores are on that branch, finish
   with `run_eval_rulebased.sh` — it restores, then `push-rulebased` (allowlisted
   paths only, no `git add -A`, no force-push) so science/code item JSON stay put.
+  Tag-fixed copies use `run_tagfix.sh` / `run_eval_tagfix.sh` and
+  `push-tagfix` (only `bagel-zebra-cot-tagfix/` and `_eval/bagel-zebra-cot-tagfix/`).
 - **Checkpoint + dataset → re-downloaded.** The ~30 GB checkpoint can't live on
   GitHub; `setup_molab.sh` is idempotent, so just re-run it at each session
   start (budget ~20-40 min). Use `--time-budget-hours 10.5` to leave margin.
@@ -166,4 +180,59 @@ directories, images and large binaries**. Consequences:
 - Bagel-Zebra-CoT is trained to reason in its own interleaved format
   ("THOUGHT ... Final Answer: ..."); it may not always comply with Uni-MMMU's
   strict output tags (`<ANSWER_JSON>`, `<FINAL_ANSWER_JSON>`). That
-  non-compliance is part of what the benchmark measures.
+  non-compliance is part of what the benchmark measures. **Tag-fixed scores
+  (`bagel-zebra-cot-tagfix`) are a separate published condition**, not a
+  substitute for the protocol-faithful original. They wrap/recover tags around
+  text the model already wrote (no invented jigsaw choices or maze paths).
+  Image metrics are copied unchanged from `_eval/bagel-zebra-cot`. Official
+  SVG text scoring requires `<RENDER_SUMMARY>`; jigsaw text requires
+  `<FINAL_ANSWER_JSON>`. Science judges already read the full `model_text.txt`,
+  so wrapping `<OUTPUT_PROMPT>` may change Sci. T/R little or not at all.
+
+## Tag-fixed re-eval (separate folder)
+
+Use two molab sessions after the original `bagel-zebra-cot` sampling **and**
+`_eval/bagel-zebra-cot` are on the GitHub `outputs` branch. Do **not** run
+`run_eval.sh` or `outputs_git.sh push` in these sessions (`push` is `git add -A`
+and may force-push).
+
+**Session 1 — repair tags** (`run_tagfix.sh`):
+
+- Restores `origin/outputs`.
+- Copies `outputs/bagel-zebra-cot/` → `outputs/bagel-zebra-cot-tagfix/`
+  (images hardlinked/copied; `model_text.original.txt` kept beside the fixed
+  `model_text.txt`). Resume marker: `_tagfix.ok` per case.
+- Pushes with `push-tagfix` every ~15 min.
+
+**Session 2 — text-only re-eval** (`run_eval_tagfix.sh`):
+
+- Restores `origin/outputs`.
+- Copies math overlay+text and all image metrics from
+  `_eval/bagel-zebra-cot`.
+- Re-parses jigsaw / maze / sliding text; re-runs Qwen2.5-VL **text** judges
+  for science and SVG only (no image judges, no Qwen3).
+- Writes `_eval/bagel-zebra-cot-tagfix/` and the Table 2 xlsx. Per-item JSON
+  resume; `EVAL_TIME_BUDGET_HOURS=10.5` by default.
+
+Molab buttons (same `SCRIPTS` / `GITHUB_TOKEN` / `OUTPUTS_REPO` as sampling):
+
+```python
+tag_btn = mo.ui.run_button(label="TAG FIX (copy outputs, wrap missing tags)")
+tag_btn
+mo.stop(not tag_btn.value, mo.md("Writes bagel-zebra-cot-tagfix/ only. Does not change original sampling or _eval/bagel-zebra-cot."))
+_r = subprocess.run(["bash", f"{SCRIPTS}/outputs_git.sh", "restore"], text=True)
+print("restore exit:", _r.returncode)
+_r = subprocess.run(["bash", f"{SCRIPTS}/run_tagfix.sh"], text=True)
+print("tagfix exit code:", _r.returncode)
+```
+
+```python
+eval_tag_btn = mo.ui.run_button(label="EVAL TAGFIX TEXT (keep original images)")
+eval_tag_btn
+mo.stop(not eval_tag_btn.value, mo.md("Run after TAG FIX. Does not rewrite _eval/bagel-zebra-cot. Loads VL for science/SVG text only."))
+_r = subprocess.run(["bash", f"{SCRIPTS}/outputs_git.sh", "restore"], text=True)
+print("restore exit:", _r.returncode)
+_r = subprocess.run(["bash", f"{SCRIPTS}/run_eval_tagfix.sh"], text=True)
+print("eval tagfix exit code:", _r.returncode)
+```
+

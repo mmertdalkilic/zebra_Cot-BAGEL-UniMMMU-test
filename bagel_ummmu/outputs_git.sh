@@ -9,6 +9,7 @@
 #   bash outputs_git.sh restore          # session start: pull the outputs branch back
 #   bash outputs_git.sh push             # commit current outputs and push (periodic; may force-push)
 #   bash outputs_git.sh push-rulebased   # leftover eval only; never force-push, never add science/code
+#   bash outputs_git.sh push-tagfix      # bagel-zebra-cot-tagfix trees only; never force-push
 #
 # Required environment:
 #   GITHUB_TOKEN   PAT with write access to the repo (never commit this!)
@@ -18,7 +19,7 @@
 #   WORK_DIR       (default: $HOME/bagel_ummmu)
 set -euo pipefail
 
-CMD="${1:?usage: outputs_git.sh restore|push|push-rulebased}"
+CMD="${1:?usage: outputs_git.sh restore|push|push-rulebased|push-tagfix}"
 WORK_DIR="${WORK_DIR:-$HOME/bagel_ummmu}"
 OUT_DIR="${OUT_DIR:-$WORK_DIR/Uni-MMMU/outputs}"
 BRANCH="${OUTPUTS_BRANCH:-outputs}"
@@ -119,9 +120,54 @@ push_rulebased() {
   fi
 }
 
+# Commit only tag-fixed sampling + tag-fixed eval. Never `git add -A`, never --force.
+# Original bagel-zebra-cot/ and _eval/bagel-zebra-cot/ stay exactly as restored.
+push_tagfix() {
+  DST_MODEL="${DST_MODEL:-bagel-zebra-cot-tagfix}"
+  ensure_repo
+  add_if() {
+    local p="$1"
+    if [ -e "$OUT_DIR/$p" ]; then
+      g add -- "$p"
+    fi
+  }
+  add_if "${DST_MODEL}"
+  add_if "_eval/${DST_MODEL}"
+
+  if g diff --cached --quiet 2>/dev/null; then
+    echo "[outputs_git] push-tagfix: nothing new to push"
+    return 0
+  fi
+
+  # Allow only bagel-zebra-cot-tagfix/ and _eval/bagel-zebra-cot-tagfix/.
+  # Trailing slash so bagel-zebra-cot/ (original) cannot match *-tagfix.
+  leak=$(g diff --cached --name-only | grep -vE "^(${DST_MODEL}/|_eval/${DST_MODEL}/)" || true)
+  if [ -n "$leak" ]; then
+    echo "[outputs_git] push-tagfix ABORT: staged paths outside ${DST_MODEL}:" >&2
+    echo "$leak" >&2
+    g reset -q
+    return 1
+  fi
+  if g diff --cached --name-only | grep -E "^(bagel-zebra-cot/|_eval/bagel-zebra-cot/)" >/dev/null; then
+    echo "[outputs_git] push-tagfix ABORT: original bagel-zebra-cot tree is staged" >&2
+    g reset -q
+    return 1
+  fi
+
+  g commit -q -m "tagfix outputs ${DST_MODEL} $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  if g push -q -u origin "$BRANCH" 2>/dev/null; then
+    echo "[outputs_git] pushed $(g rev-parse --short HEAD) to origin/$BRANCH (tagfix allowlist, no force)"
+  else
+    echo "[outputs_git] tagfix push rejected. Refusing to force-push (would risk original VL artifacts)." >&2
+    echo "[outputs_git] Inspect: git -C $OUT_DIR status && git -C $OUT_DIR log --oneline -5" >&2
+    return 1
+  fi
+}
+
 case "$CMD" in
   restore) restore ;;
   push)    push ;;
   push-rulebased) push_rulebased ;;
-  *) echo "usage: outputs_git.sh restore|push|push-rulebased" >&2; exit 2 ;;
+  push-tagfix) push_tagfix ;;
+  *) echo "usage: outputs_git.sh restore|push|push-rulebased|push-tagfix" >&2; exit 2 ;;
 esac
