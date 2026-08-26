@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_132_000131",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate shows two large rectangles with blue shades, while reference has a single purple square. Shapes, colors, and positions do not match at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Color mismatch: description states blue rectangle, but image shows purple. Position also differs."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
