@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_100_000099",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate image contains unexpected shapes and text, completely differing from reference's squares and colors. Layout and positioning bear no resemblance.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "No polygon described; mismatch in object types and counts."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
