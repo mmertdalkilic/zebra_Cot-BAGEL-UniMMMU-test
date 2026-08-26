@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_36_000035",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has four large squares with different colors, while reference shows five smaller red squares. Shapes, colors, and positions do not match.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Five red rectangles correctly positioned horizontally; objects, colors, and layout match perfectly."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

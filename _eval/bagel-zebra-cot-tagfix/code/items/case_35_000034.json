@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_35_000034",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Candidate has incorrect colors and complex patterns instead of solid purple. Shapes are circles but positions are slightly off-center compared to reference.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Colors do not match: description states blue circles, but reference shows purple."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
