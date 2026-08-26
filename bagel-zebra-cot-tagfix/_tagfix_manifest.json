@@ -1,0 +1,67 @@
+{
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix",
+  "tasks": {
+    "science": {
+      "cases": 157,
+      "skipped": 0,
+      "written": 157,
+      "changed": 157,
+      "reasons": {
+        "wrapped_output_prompt": 157
+      }
+    },
+    "math": {
+      "cases": 140,
+      "skipped": 0,
+      "written": 140,
+      "changed": 0,
+      "reasons": {
+        "unchanged_no_required_tag": 140
+      }
+    },
+    "code": {
+      "cases": 200,
+      "skipped": 0,
+      "written": 200,
+      "changed": 196,
+      "reasons": {
+        "wrapped_render_summary": 196,
+        "already_tagged": 4
+      }
+    },
+    "jigsaw": {
+      "cases": 150,
+      "skipped": 0,
+      "written": 150,
+      "changed": 23,
+      "reasons": {
+        "no_choice_found": 52,
+        "already_tagged": 75,
+        "recovered_choice": 23
+      }
+    },
+    "maze": {
+      "cases": 149,
+      "skipped": 0,
+      "written": 149,
+      "changed": 27,
+      "reasons": {
+        "no_moves_found": 54,
+        "wrapped_dir_array": 27,
+        "already_tagged": 68
+      }
+    },
+    "sliding": {
+      "cases": 84,
+      "skipped": 0,
+      "written": 84,
+      "changed": 12,
+      "reasons": {
+        "no_moves_found": 29,
+        "already_tagged": 43,
+        "wrapped_dir_array": 12
+      }
+    }
+  }
+}

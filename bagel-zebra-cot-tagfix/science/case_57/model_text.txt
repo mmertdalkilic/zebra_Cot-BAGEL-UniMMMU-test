@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem describes a scenario where a small metallic sodium cube is ignited in open air. I need to determine the final state of the scene based on this reaction.
+First, I will visualize the sodium cube before ignition.
+</OUTPUT_PROMPT>

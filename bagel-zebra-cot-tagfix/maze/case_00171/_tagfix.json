@@ -1,0 +1,9 @@
+{
+  "id": "case_00171",
+  "task": "maze",
+  "status": "ok",
+  "changed": false,
+  "reason": "no_moves_found",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/maze/case_00171",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/maze/case_00171"
+}

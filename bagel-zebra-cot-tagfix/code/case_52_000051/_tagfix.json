@@ -1,0 +1,9 @@
+{
+  "id": "case_52_000051",
+  "task": "code",
+  "status": "ok",
+  "changed": true,
+  "reason": "wrapped_render_summary",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_52_000051",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_52_000051"
+}

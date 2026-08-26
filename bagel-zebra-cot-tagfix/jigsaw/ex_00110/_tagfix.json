@@ -1,0 +1,9 @@
+{
+  "id": "ex_00110",
+  "task": "jigsaw",
+  "status": "ok",
+  "changed": true,
+  "reason": "recovered_choice",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/jigsaw/ex_00110",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/jigsaw/ex_00110"
+}

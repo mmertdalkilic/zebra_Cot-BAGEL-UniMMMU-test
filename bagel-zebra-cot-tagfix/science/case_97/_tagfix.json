@@ -1,0 +1,9 @@
+{
+  "id": "case_97",
+  "task": "science",
+  "status": "ok",
+  "changed": true,
+  "reason": "wrapped_output_prompt",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/science/case_97",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/science/case_97"
+}

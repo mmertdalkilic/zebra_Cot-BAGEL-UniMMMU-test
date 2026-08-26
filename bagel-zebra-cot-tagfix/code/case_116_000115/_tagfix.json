@@ -1,0 +1,9 @@
+{
+  "id": "case_116_000115",
+  "task": "code",
+  "status": "ok",
+  "changed": false,
+  "reason": "already_tagged",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_116_000115",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_116_000115"
+}

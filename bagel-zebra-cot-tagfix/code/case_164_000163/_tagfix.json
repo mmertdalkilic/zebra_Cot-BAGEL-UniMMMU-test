@@ -1,0 +1,9 @@
+{
+  "id": "case_164_000163",
+  "task": "code",
+  "status": "ok",
+  "changed": true,
+  "reason": "wrapped_render_summary",
+  "src": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot/code/case_164_000163",
+  "dst": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_164_000163"
+}

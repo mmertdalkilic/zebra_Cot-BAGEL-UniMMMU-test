@@ -1,0 +1,1 @@
+<ANSWER_JSON>["up", "left", "up"]</ANSWER_JSON>
