@@ -1,0 +1,3602 @@
+[
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_01_000000",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks colors, shapes, and structure. Only abstract lines and scribbles present, bearing no resemblance to reference's geometric forms or layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object details, colors, positions necessary for semantic match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_02_000001",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has concentric rectangles, while reference shows pentagons and lines. Shapes, counts, and layouts do not match. Colors are qualitatively similar but irrelevant due to shape mismatch.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No gray rectangle; yellow lines, not orange paths; two pentagons instead of one polygon."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_03_000002",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate uses hexagons instead of circles, incorrect colors, and wrong layout. Shapes, colors, and positions do not match the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states four circles, but image shows five. Position and color match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_04_000003",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference pentagon. All criteria fail.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object type (polygon vs rectangle), count, color (orange vs red), and position."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_05_000004",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Four green circles correctly match in count, color, and position with the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_06_000005",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and patterns not present in the reference. Colors do not match the palette, and there is no resemblance in shape, count, or position.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches object type, count, color, and position as depicted in the reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_07_000006",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes and colors present in the reference image. No pentagons or colors resembling the palette are visible.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on SVG rendering process, not matching objects, colors, or positions in the image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_08_000007",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and text not present in the reference. Colors and positions do not match the simple green circle and purple pentagon.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on rendering process, not objects, colors, or positions in image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_09_000008",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing five blue squares.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description suggests a grid of rectangles, but image shows five separate rectangles in a row."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_100_000099",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains unexpected shapes and text, completely differing from reference's squares and colors. Layout and positioning bear no resemblance.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No polygon described; mismatch in object types and counts."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_101_000100",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 4,
+        "position_accuracy": 2,
+        "verdict": "partial",
+        "explanation": "Correct circle shapes and colors, but size and position differ significantly. Reference shows smaller circles aligned horizontally; candidate has larger circles in diagonal arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two orange circles correctly depicted with matching colors, positions, and no additional elements."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_102_000101",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains an unrelated graphic with text and symbols, completely differing from the geometric shapes and layout of the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description specifies black background, but image has white background."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_103_000102",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes (dashed rectangles instead of solid squares), wrong colors (black instead of purple), and completely different layout and positioning.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object count (6 vs 11), no overlaps described, and color discrepancy (purple vs blue)."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_104_000103",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference image accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_105_000104",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes (lines instead of rectangle and circle) and layout. Colors are qualitatively similar but shapes and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches objects, colors, and positions as depicted in the reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_106_000105",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Shapes' colors and types do not match; positions and line direction also differ."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_107_000106",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has rectangles instead of squares, wrong color, and vertical stacking instead of horizontal spacing. No resemblance in shape, color, or layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes a grid, but reference shows a row of rectangles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_108_000107",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes and lines not present in reference. Colors do not match palette. Positions and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect shapes: triangle described but square shown. Incorrect positions: rectangle should be right but is below."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_109_000108",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows four purple squares; candidate has blue rectangles and unrelated objects.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles' color does not match; description states dark blue, while image shows purple."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_10_000009",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes (polygons instead of circles) and colors (black instead of yellow). Positioning and layout bear no resemblance to the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on rendering process, not matching objects, colors, or positions as required."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_110_000109",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and colors not present in the reference. No matching elements in terms of shape, color, or position.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states all objects as orange except circle, but image shows yellow polygon and green circle."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_111_000110",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has concentric circles with incorrect colors; reference has evenly spaced blue circles. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes concentric circles; image shows five separate, non-overlapping circles in a row."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_112_000111",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks circles, lines, and curves; contains irregular shapes. Colors do not match palette. Positioning and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on SVG code analysis, not matching objects, colors, positions as required."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_113_000112",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference drawing accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_114_000113",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains a single complex shape with a different color palette, while the reference has distinct shapes with specified colors and positions.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Purple shape is blue hexagon; black circle is dark gray; red rectangle's position differs."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_115_000114",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains no discernible shapes or colors matching the reference. Only noise is present, failing all criteria.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Colors do not match: dark blue ≠ light blue, red ≠ orange."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_116_000115",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains only a green rectangle with white lines, lacking all shapes, colors, and layout from the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description missing; cannot compare objects, colors, positions."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_117_000116",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a large circle instead of a smaller one, and the texture differs. Position is central but size and color palette match are incorrect.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Single gold circle correctly positioned, sized, colored, and isolated as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_118_000117",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a single circle with lines, while reference has four squares. Shapes, counts, and layouts do not match. Colors are qualitatively similar but irrelevant due to shape mismatch.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes nested squares; reference shows four separate squares."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_119_000118",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes and colors not matching the simple purple circles. Positioning and layout are entirely different, showing no resemblance.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object count, color, and rotation. Candidate describes five circles, while reference shows four purple circles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_11_000010",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks orange square and contains an unintended white shape. Yellow rectangle's position and color match poorly. Overall layout is completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object types, colors, positions, and overlaps described compared to reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_120_000119",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate contains multiple shapes, colors, and complex patterns not present in the reference. Positioning and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions multiple red rectangles; image shows single red rectangle."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_121_000120",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate has fewer circles, wrong colors, and altered positions compared to the reference. Layout and spacing do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_122_000121",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Incorrect shapes and colors; additional shapes present. Positioning is altered with vertical stacking and new elements.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two green rectangles correctly placed, sized, and colored as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_123_000122",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only a square border is present, failing both shape/color and position criteria completely.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect background color, rectangle size, and object positions do not match reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_124_000123",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate features stacked green rings, while the reference shows blue squares. Shapes, colors, and layouts are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles are horizontally aligned, not stacked vertically as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_125_000124",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has lines instead of a pentagon; green color is absent. Position and shape completely differ from the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Green polygon matches type, count, color, and position as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_126_000125",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows multiple overlapping rectangles instead of a single circle. Colors do not match the palette. Position and shape completely differ from the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No white rectangle present; only a purple circle on a white background matches."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_127_000126",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description does not specify objects, colors, or positions matching the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_128_000127",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has an unrelated textured square; no circles, hexagons, or pentagons. Colors do not match the palette. Positioning and shapes are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference drawing accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_129_000128",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate has completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches objects, colors, and positions as depicted in the reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_12_000011",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains only black dots, lacking any shapes, colors, or layout resembling the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in objects, colors, and positions; description states a black rectangle, image shows a circle and square."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_130_000129",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks triangle; rectangle replaced with square and line. Colors do not match palette. Positioning and layout completely altered.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Green polygon's position mismatch; it should be bottom-left, not top-left."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_131_000130",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes (lines instead of squares) and colors (black dots). Positioning is completely different, lacking the original's horizontal alignment.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles do not overlap; they are spaced apart horizontally with consistent gaps."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_132_000131",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows two large rectangles with blue shades, while reference has a single purple square. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Color mismatch: description states blue rectangle, but image shows purple. Position also differs."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_133_000132",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains no shapes or colors resembling the reference. It shows a textured dark background with no discernible geometric forms or layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect object count, colors, and positions. No shapes are inside each other."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_134_000133",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex grid patterns and text, completely differing from the simple shapes and colors of the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Color mismatch: one rectangle should be orange, not red."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_135_000134",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has irregular shapes instead of circles; color matches but shape and position are entirely different from reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions rotated, overlapping circles; image shows static, evenly spaced circles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_136_000135",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has wrong shapes, colors, and positions. Only a triangle is present, with an incorrect green color and rotated orientation.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference drawing accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_137_000136",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference hexagon. All criteria fail.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions a polygon with specific coordinates, but the reference shows a simple green hexagon."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_138_000137",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has entirely different shapes, colors, and layout. No resemblance to reference's circle, square, lines, and curves.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match reference image within semantic criteria."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_139_000138",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains only blue noise, lacking any shapes, colors, or positions matching the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on rendering process, not matching objects, colors, positions as required."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_13_000012",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has wrong shapes, colors, and layout. Reference shows a purple square with green lines; candidate has a purple rectangle with various lines and text.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference drawing accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_140_000139",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has different shapes, colors, and layout. Reference shows yellow squares in a row; candidate has varied shapes/colors in a grid.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly with the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_141_000140",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a single large square instead of a circle and smaller square. Shapes, counts, and positions do not match the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on rendering process, not objects, colors, or positions as required."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_142_000141",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has unexpected shapes and text, completely different from four squares. Shape types, counts, and layout do not match. Positioning is irrelevant due to content mismatch.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states 16 squares in a grid; image shows four squares in a row."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_143_000142",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's squares, pentagon, or their arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks specific object types, counts, colors, and positions compared to reference."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_144_000143",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Circle's size and position differ significantly. Additional border and noise elements not in reference. Color matches qualitatively but overall structure altered.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle position described does not match reference image's left-aligned placement."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_145_000144",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a large red-outlined circle, while reference shows a smaller orange-filled circle. Shape type matches but size, color, and position differ completely.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle color is orange, not red as described in the candidate text."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_146_000145",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has wrong shape (ellipse instead of circle), incorrect color (blue instead of purple), and additional unexpected elements like lines and dots.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle color mismatch: described as blue but appears purple. Position and object count match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_147_000146",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a single red polygon with internal lines, while reference shows four orange circles. Shapes, colors, counts, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Four orange circles correctly placed in a row, matching object count, color, and position."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_148_000147",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a heart shape instead of five circles. Colors do not match the palette. Positioning and layout are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description missing; cannot compare objects, colors, or positions."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_149_000148",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows blue squares; candidate has irregular shapes on purple background.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two blue rectangles correctly positioned, matching count, type, color, and layout."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_14_000013",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains a chaotic pattern with no discernible shapes or colors matching the reference. Positions and layout are completely unrelated.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on SVG rendering process, not matching objects, colors, or positions in reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_150_000149",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 1,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate has an irregular texture and black border, differing from the solid yellow circle. Position is roughly central but size and details do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle not centered; described position (70, 296) does not match visual centering."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_151_000150",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes and colors from the reference. No circle is present, and the empty white space does not match the expected content.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No rectangle present; only a blue circle exists in the image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_152_000151",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains text and yellow squares instead of green rectangles. Shapes, colors, and positions do not match the reference at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles are not in a 2x2 grid but in a horizontal line."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_153_000152",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description details rotations and complex patterns not present in simple linear arrangement of circles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_154_000153",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has irregular shapes instead of circles, wrong color, and completely different layout. No resemblance to reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circles do not overlap in reference but do in description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_155_000154",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes, colors, and layout from reference. Only abstract lines present, failing to match any expected elements or positions.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "SVG details do not specify object colors, shapes, or positions matching the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_156_000155",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference square. All criteria fail.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions white rectangle and polygon; image shows purple square only."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_157_000156",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains text and lacks any squares or orange color. Shapes, colors, and positions do not match the reference at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description does not specify object count, colors, or positions matching reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_158_000157",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only two solid blocks present, completely altering original layout and content.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in objects, colors, and positions compared to reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_159_000158",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate has completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions dark/light blue rectangles, but image shows only light blue squares."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_15_000014",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes (rectangles, arcs) and layout compared to reference circles. No matching elements in shape, color, or position.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states 5 circles; image shows 4. Rotation not visually apparent in image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_160_000159",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a large red square instead of an orange rectangle. Shape type and color family differ significantly from the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Color mismatch: description states red rectangle, but image shows orange. Position and size match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_161_000160",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions rectangles and polygons but not triangles; color details missing; spatial relationships unclear."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_162_000161",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has additional shapes, lines, and textures not in reference. Shape count and complexity differ greatly. Positioning and layout bear no resemblance.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Circle type, count, color, position match perfectly with reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_163_000162",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes, lines, and colors not present in the simple reference image. Layout and positioning are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description incorrectly states white rectangle fills canvas; objects' colors and positions do not match reference."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_164_000163",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks any shapes or colors present in the reference image. Both shape and position accuracies are completely mismatched.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches: one purple rectangle, correct position, size, color, and white background."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_165_000164",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex, unrelated shapes and colors, completely differing from the simple red circles in the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Three red circles correctly positioned horizontally with matching colors and sizes."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_166_000165",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes and colors not present in the reference. Reference has simple rectangles with solid colors; candidate does not match in any aspect.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_167_000166",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all reference shapes/colors; uses only red lines/triangles. Positioning and overlaps do not match original layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object count, colors, and positions compared to reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_168_000167",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all shapes and colors from reference. Only a faint circle outline appears, with no squares or correct colors present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions a large white rectangle filling the canvas, which does not exist in the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_169_000168",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "SVG description does not match objects, colors, or positions shown in reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_16_000015",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate contains rectangles and squares with different colors, while the reference has triangles, hexagons, and curves. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Dark gray polygon has incorrect vertex count; dark blue polygon's position does not match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_170_000169",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing a circle, square, and pentagon.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Red polygon described as 4-sided but appears as square in image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_171_000170",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains a butterfly with incorrect shapes, colors, and layout compared to the reference's three orange circles.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on SVG rendering process, not matching objects, colors, or positions as required."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_172_000171",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes, colors, and layout. No resemblance to reference's circle and hexagon arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in colors (green vs. cyan, orange vs. red) and object count (missing white rectangle)."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_173_000172",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains only a blue square border, lacking all shapes, colors, and layout details from the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No large white rectangle present; shapes and colors do not match described elements."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_174_000173",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains only a black square border, lacking any hexagon or circle. Shape types, colors, and positions do not match the reference at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Polygon described as green but appears teal; positions and objects otherwise match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_175_000174",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a single orange circle with a black outline, while reference shows a red circle and a blue rectangle. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_176_000175",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes and colors not matching the simple yellow circles of the reference. Positioning and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description suggests rotated shapes in a grid, but image shows static circles in a row."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_177_000176",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains only grid lines, lacking any shapes, colors, or layout resembling the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect object types, colors, and positions described do not match the image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_178_000177",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing two blue circles.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No rectangle in image; only two blue circles present."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_179_000178",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and colors unrelated to the simple green circles in the reference. Both shape types and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circles are not rotated as described; they appear static in the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_17_000016",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has an orange circle with text and decorative border, completely different from the reference's square, circle, and triangle layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks color details and does not specify shape types or their relative positions accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_180_000179",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected a single teal circle; got multiple green rings and symbols.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches: one green circle, correct position, size, and color."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_181_000180",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Candidate has wrong shape (octagon instead of hexagon) and distorted color. Position is roughly similar but size and proportions differ significantly.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No red polygon or circle; single orange hexagon present."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_182_000181",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has rectangles instead of squares, wrong colors, additional shapes, and completely different layout and positioning.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles should be horizontal, not vertical; their y-coordinate should vary, not their x-coordinate."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_183_000182",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has entirely different shapes (lines instead of circles) and colors (blue instead of dark gray). Positioning and layout do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two blue circles correctly placed, matching count, color, position, and size as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_184_000183",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a textured square instead of five separate squares. Shapes, counts, and layout do not match. Color is off-palette.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles are not stacked but aligned horizontally; positions differ from described coordinates."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_185_000184",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has grid and stripes, completely different from reference's squares and colors. No matching shapes, colors, or layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect shapes (triangle instead of square), colors (red instead of orange, blue instead of dark blue), and object count."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_186_000185",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate uses rectangles instead of circles, black instead of green, and has uneven spacing and misalignment compared to the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_187_000186",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains only yellow scribbles, lacking any shapes, colors, or layout resembling the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on rendering process, not object types, colors, positions matching reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_188_000187",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows grid lines instead of orange circles; completely different shapes, colors, and layout. No resemblance to reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Five orange circles correctly placed in a row on a white background match the reference."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_189_000188",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has wrong shapes, colors, and layout. Expected four orange circles in a row; got red circles with blue abstract lines.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_18_000017",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate contains multiple lines and colors, while the reference has a single hexagon. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions black polygon; image shows blue hexagon. Colors and shapes do not match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_190_000189",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate has an orange rectangle with additional white lines and curves, while the reference is a simple red rectangle. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states square at top right, but image shows rectangle centered horizontally."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_191_000190",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes, colors, and patterns not present in the reference. Shape types, counts, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Green rectangle matches in color, position, and size as described in the candidate text."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_192_000191",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has wrong shapes, colors, and layout compared to reference. Expected circle, got hexagons. Colors do not match palette. Positioning is completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions a black circle and white rectangle; image shows only a dark blue circle."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_193_000192",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements or relationships are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Line positions and path curves do not match described coordinates and shapes."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_194_000193",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has different shapes, colors, and layout. Reference shows five purple squares; candidate has blue rectangles with internal spirals.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in object count, shape, color, and layout."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_195_000194",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex 3D shapes and additional colors not present in the reference, which features simple blue squares. Layout and content are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Three light blue rectangles correctly positioned horizontally without overlap."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_196_000195",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "SVG description includes rotations and positions not matching reference image's simple horizontal alignment."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_197_000196",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has abstract shapes instead of squares; color matches qualitatively but shapes and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles do not overlap; they are spaced apart horizontally, not stacked vertically."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_198_000197",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a square border instead of a central teal circle. Shape, color, and position do not match the reference at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches: one green circle, correct position, size, and color."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_199_000198",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains multiple shapes with incorrect colors and types compared to the single orange square in the reference. Positioning and layout do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description specifies a red triangle, but the image contains an orange square."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_19_000018",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing three yellow squares.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Three yellow squares correctly match count, color, and relative positions as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_200_000199",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains unrelated abstract shapes and colors, completely differing from reference squares and lines. No matching elements in shape, color, or position.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object count, colors, and positions details matching reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_20_000019",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes, text, and colors not present in the reference. No resemblance in shapes, colors, or positioning.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Single green circle correctly positioned, sized, and colored as described in the candidate text."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_21_000020",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description includes non-existent shapes like a white rectangle and green pentagon, and incorrect counts."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_22_000021",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains an unrelated texture with no discernible shapes or colors matching the reference. Layout and positioning cannot be compared.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes a grid pattern, but reference shows a single row of rectangles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_23_000022",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Square's color is wrong; circle replaced with text. Shapes misplaced and misaligned. Multiple issues in shape type, color, and position.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle not in upper-right corner; rectangle's position incorrect."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_24_000023",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes, colors, and layout compared to the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions 'dark blue rectangle' and 'blue polygon,' but image shows light blue square and rectangle."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_25_000024",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and text not present in the reference. Colors and positions do not match the simple polygon layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No black rectangle present; objects are yellow pentagon and orange square, not as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_26_000025",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions three shapes but image shows two; colors and positions do not align."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_27_000026",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image contains no shapes or colors resembling the reference. Only a small black line is present, failing both shape/color and position criteria.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Green circle correctly positioned, sized, and colored as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_28_000027",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has entirely different shapes, colors, and layout. No resemblance to reference's simple geometric arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Shapes, colors, and positions do not match reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_29_000028",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "SVG description implies rotated circles, but reference shows static purple circles without rotation."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_30_000029",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows yellow circles in a row; candidate has black abstract shapes filling the canvas.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Five orange circles correctly positioned in a row on a white background."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_31_000030",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference contains curves and a circle, while candidate shows pixelated squares and rectangles.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect objects, colors, and positions. No black background, green rectangle, orange circle, red lines, or paths."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_32_000031",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains additional shapes, lines, and curves not in reference. Colors do not match palette. Positioning and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No white rectangle in image; circles are yellow, not orange."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_33_000032",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes and layout. Expected two separate squares; got overlapping squares with lines. Colors do not match expected palette.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description's coordinates and positions do not match the visual layout of the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_34_000033",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Shapes are rectangles instead of squares; colors do not match the palette; positions and layout are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles are side-by-side, not stacked vertically as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_35_000034",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect colors and complex patterns instead of solid purple. Shapes are circles but positions are slightly off-center compared to reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Colors do not match: description states blue circles, but reference shows purple."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_36_000035",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has four large squares with different colors, while reference shows five smaller red squares. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Five red rectangles correctly positioned horizontally; objects, colors, and layout match perfectly."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_37_000036",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing four orange squares.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly between the description and the reference drawing."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_38_000037",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains a single complex shape with lines and arcs, while the reference has distinct simple shapes. Colors and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions grey circle and purple polygon, but image shows purple circle and blue pentagon."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_39_000038",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex shapes and text instead of a simple circle. Colors do not match the palette. Position and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No rectangle present in reference; only a teal circle exists."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_40_000039",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's circles and rectangles arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions a large white rectangle not present in the image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_41_000040",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and text, while the reference is a simple yellow square. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Gold rectangle matches in color, position, and size as described in the candidate text."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_42_000041",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a single large textured circle instead of three smaller solid circles. Shape count, size, and texture completely mismatch. Positioning is irrelevant due to shape error.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in positions, rotations, and stacking order described; circles should be aligned horizontally without rotation."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_43_000042",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks any shapes or colors present in the reference image. Both shape and position accuracy are completely unmatched.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions a rectangle not present in image; polygon's position and size do not match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_44_000043",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains numerous unexpected shapes and symbols, completely differing from the simple square and circle in the reference. Positioning and colors do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object details, colors, and positions required for semantic matching."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_45_000044",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes (circle and feather-like object) with unrelated colors compared to the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No rotations in reference; circles are not aligned in a grid."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_46_000045",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No white rectangle, blue line present. Purple curve instead of green path."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_47_000046",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing two red squares.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two red rectangles correctly positioned side-by-side with matching colors and shapes."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_48_000047",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex shapes and patterns unrelated to the simple circle pattern in the reference. Colors and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions rotated shapes and a background rectangle not present in reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_49_000048",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains an abstract purple burst pattern, completely differing from the green hexagon in shape, color, and layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description does not match image content; it's about rendering process, not describing green hexagon."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_50_000049",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions six rotated circles forming an irregular shape, but reference shows five static circles in a row."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_51_000050",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Shapes are squares but contain unexpected text. Colors match qualitatively. Positions are slightly off-center and spacing is uneven compared to reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description states five rectangles, but reference shows four."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_52_000051",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. No resemblance to reference's rectangle and pentagon.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in objects: no white rectangle mentioned. Colors and positions do not align with reference."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_53_000052",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains numerous shapes and colors not present in the reference, with completely different layout and positioning.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two purple rectangles correctly positioned side by side with matching colors and dimensions."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_54_000053",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes, colors, and positions compared to reference. Expected yellow circles in a row; got multicolored lines and dots scattered.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions rectangles but image contains only circles."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_55_000054",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate shows a square instead of a circle, with incorrect color and position. No resemblance to the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No rectangle present; circle color mismatch (black vs dark blue); size details irrelevant."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_56_000055",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate lacks all reference shapes/colors; contains rectangles instead of square/circle/lines. Positioning and layout are completely different, with no resemblance.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Missing red line and purple segment; colors do not match reference."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_57_000056",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected six green circles in a row; got irregular shapes in wrong colors and scattered layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes five circles but reference shows six; sizes and positions also differ."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_58_000057",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows four dark blue circles; candidate has red lines and a large red circle.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in colors (red vs dark blue) and rotations (none vs specified)."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_59_000058",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has additional shapes, incorrect colors, and complex layout differing from simple green squares. Positioning and structure do not match reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No background rectangle mentioned in description; only three smaller rectangles described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_60_000059",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains an intricate geometric pattern with black lines, while the reference shows four yellow squares. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description focuses on SVG rendering process, not matching objects, colors, or positions in reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_61_000060",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex, unintended shapes and lines instead of simple squares. Colors do not match the palette. Positioning is completely different, lacking any resemblance.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_62_000061",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Candidate uses rectangles instead of squares, altering shape type. Colors match qualitatively but layout changes from horizontal row to vertical stack, breaking positional accuracy.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes four vertical rectangles; reference shows five horizontal ones."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_63_000062",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing circles and squares.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Red circle described as orange in image; black rectangle appears dark gray."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_64_000063",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has four triangles forming a square, while reference shows a circle, triangle, and square separately. Shapes, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "All objects, colors, and positions match the reference drawing accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_65_000064",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes, colors, and layout compared to the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect objects, colors, and positions. No grey rectangle, red triangle, or yellow circle present."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_66_000065",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. Expected squares are replaced with irregular lines and rainbow colors, completely altering the original design.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Four dark blue rectangles correctly match count, color, and position as described."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_67_000066",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains completely different shapes, colors, and layout compared to the reference. No matching elements are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object details, colors, positions; does not match reference image content."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_68_000067",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains figures and clothing, completely different from the four green circles in the reference. No shapes, colors, or positions match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description does not specify objects, colors, or positions matching the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_69_000068",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains text and irregular shapes, completely differing from the reference's four evenly spaced squares. Both shape types and layout are entirely mismatched.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangles are dark blue, not black as described in the candidate text."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_70_000069",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes (rectangles, arrows) and colors compared to reference circles and purple. Layout and positioning do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description suggests a 4x4 grid of rotated circles; image shows four aligned circles without rotation."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_71_000070",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes (octagon, circle) and colors compared to reference (two orange circles). Positioning and layout do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Colors mismatch: description states red circles, but image shows orange. All else matches."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_72_000071",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes, colors, and positions. No resemblance to reference's rectangle and pentagon layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object count accuracy and relative positioning details."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_73_000072",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes (rings instead of filled circles), wrong count (two instead of three), and altered positions (overlapping instead of evenly spaced).",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Three red circles correctly placed on white background; shapes, colors, and positions match perfectly."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_74_000073",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 2,
+        "verdict": "mismatch",
+        "explanation": "Shapes are incorrect (rectangles instead of squares); colors do not match palette. Positioning is altered with additional elements and changed layout.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No large white rectangle present; only two dark gray rectangles match."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_75_000074",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has entirely different content with irregular lines and dots, lacking any rectangles or correct colors. Positioning and layout bear no resemblance to the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Purple polygon described does not match purple rectangle in image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_76_000075",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference drawing.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks specific shape, color, and position details matching the reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_77_000076",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Shapes and colors do not match; pentagon and square replaced with triangle and ribbon. Positions and layout are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect shapes: pentagon instead of triangle. Incorrect positions: shapes swapped locations."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_78_000077",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains an entirely different set of shapes and colors compared to the reference, with no matching elements.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Rectangle position mismatch; described as upper right but appears lower left. Stacking order incorrect."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_79_000078",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains unrelated shapes and colors; no resemblance to reference's circle, triangle, squares, or their arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Incorrect object types, colors, and counts. No circle or green triangle mentioned."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_80_000079",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a blue rectangle with a white corner, while reference is a purple square. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Color mismatch: reference is purple, not blue. Position slightly off-center, not top-right."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_81_000080",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has completely different shapes, colors, and layout. Reference shows blue squares; candidate has black lines and yellow circles.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Two blue rectangles correctly positioned side-by-side without overlap, matching reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_82_000081",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate image is completely blank; no shapes, colors, or positions match the reference image containing an orange circle and blue triangle.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks object count, colors, and positions; does not match reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_83_000082",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has a single irregular shape instead of two squares. Colors do not match the palette. Position and layout are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description details incorrect shapes, colors, and positions compared to reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_84_000083",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a single large circle with light blue stroke, while reference has three smaller filled blue circles. Shapes, counts, colors, and positions do not match.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description missing; cannot compare objects, colors, or positions."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_85_000084",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has an incorrect circle size, position, and fill pattern. Colors do not match the palette, and the texture introduces unexpected elements.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Circle type, count, color, and position match reference image perfectly."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_86_000085",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains multiple irregular shapes and colors not matching the reference's single purple triangle. Positioning and layout are entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Triangle object, purple color, and position match reference image perfectly."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_87_000086",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 2,
+        "position_accuracy": 3,
+        "verdict": "partial",
+        "explanation": "Triangle shape preserved but size and texture differ. Green color matches qualitatively. Position is roughly similar but scaled differently.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No grey rectangle present; only green triangle matches. Object count mismatch."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_88_000087",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has complex spiral pattern instead of five simple circles. Shapes, counts, and layout completely differ. Colors qualitatively match but irrelevant due to shape mismatch.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circles are not concentric; they are aligned horizontally. Color is teal, not light blue."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_89_000088",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains unrelated shapes and text, lacking the reference's circle and rectangle. Colors do not match the palette. Positioning is entirely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 1,
+      "explanation": "Description matches objects, colors, and positions of reference image accurately."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_90_000089",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains completely different shapes, colors, and layout. No resemblance to reference's geometric figures or arrangement.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description mentions multiple polygons and rectangles, but image shows one polygon, one rectangle, one circle, and one triangle."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_91_000090",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate shows a red square instead of a red circle; shape type is completely wrong. Positioning does not match as the square is centered while the circle was offset.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circle position described as top-right does not match actual centering in reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_92_000091",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate image contains complex black patterns, while the reference has simple red squares. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Description lacks specific object details, colors, and positions matching reference image."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_93_000092",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "The candidate has an entirely different shape, color, and pattern compared to the reference. No matching elements or layout characteristics are present.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Color mismatch: purple instead of red. Position and size do not match described coordinates."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_94_000093",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains complex patterns and text, while reference has simple shapes. Shapes, colors, and positions do not match at all.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Colors mismatch: blue circle should be purple, purple circle should be blue. Position details do not align."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_95_000094",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has incorrect shapes (circles replaced with irregular ovals and lines), wrong count, and altered layout. Colors are qualitatively correct but irrelevant due to shape mismatch.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Circles do not overlap as described; they are evenly spaced and fit within the canvas."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_96_000095",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains only black lines, lacking any shapes, colors, or layout resembling the reference image.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "No background rectangle mentioned; focuses on rendering process, not object types, colors, or positions."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_97_000096",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains unexpected shapes and text, lacks circles, and has incorrect colors and layout compared to the reference.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Candidate describes four circles; reference shows six. Object count mismatch."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_98_000097",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate has no circles; instead, it features chaotic lines and polygons. Colors do not match the palette. Positioning and layout are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "Mismatch in rotations and positions; circles should be aligned horizontally without rotation."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  },
+  {
+    "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_99_000098",
+    "image_evals": [
+      {
+        "shape_color_accuracy": 0,
+        "position_accuracy": 0,
+        "verdict": "mismatch",
+        "explanation": "Candidate contains unrelated shapes and colors; no match to reference's polygons and circle. Layout and positioning are completely different.",
+        "image_match_binary": 0
+      }
+    ],
+    "text_eval": {
+      "text_semantic_match": 0,
+      "explanation": "White rectangle not present; dark gray polygon has 5 vertices, not 6."
+    },
+    "image_from": "copied_from_original_eval",
+    "text_from": "tagfix"
+  }
+]

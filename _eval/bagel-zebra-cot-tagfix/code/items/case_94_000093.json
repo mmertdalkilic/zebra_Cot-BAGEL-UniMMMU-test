@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_94_000093",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate contains complex patterns and text, while reference has simple shapes. Shapes, colors, and positions do not match at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Colors mismatch: blue circle should be purple, purple circle should be blue. Position details do not align."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

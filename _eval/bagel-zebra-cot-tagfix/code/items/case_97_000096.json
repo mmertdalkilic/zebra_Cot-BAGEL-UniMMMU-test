@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_97_000096",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate contains unexpected shapes and text, lacks circles, and has incorrect colors and layout compared to the reference.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Candidate describes four circles; reference shows six. Object count mismatch."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
