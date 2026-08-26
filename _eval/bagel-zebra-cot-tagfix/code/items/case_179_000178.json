@@ -1,0 +1,18 @@
+{
+  "case_dir": "/marimo/bagel_work/Uni-MMMU/outputs/bagel-zebra-cot-tagfix/code/case_179_000178",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains complex shapes and colors unrelated to the simple green circles in the reference. Both shape types and layout are entirely different.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Circles are not rotated as described; they appear static in the reference image."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
