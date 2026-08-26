@@ -1106,26 +1106,38 @@
   {
     "id": "314_3__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing line OC",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OC\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes angle relationships in quadrilateral OECF and fails to justify ∠COF=180°−∠OBE. Concludes ∠BCD=∠BOE via flawed logic, though conclusion is correct.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes angle relationships in quadrilateral OECF and fails to justify ∠COF=180°−∠OBE. Concludes ∠BCD=∠BOE via flawed logic, though conclusion is correct."
   },
   {
     "id": "314_4__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing line EM and point M",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EM and point M\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims triangle ABE is isosceles with AB=BE (AB is a side of the rhombus while BE is a segment on BC). The repeated circular reasoning about AB=2BM and BM=BE=EC shows logical confusion. While the final answer 45° is correct, the flawed reasoning invalidates rigor.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly claims triangle ABE is isosceles with AB=BE (AB is a side of the rhombus while BE is a segment on BC). The repeated circular reasoning about AB=2BM and BM=BE=EC shows logical confusion. While the final answer 45° is correct, the flawed reasoning invalidates rigor."
   },
   {
     "id": "319_5__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing diameter AF and line CF",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing diameter AF and line CF\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: incorrect application of tangent-chord theorem (angle CAB=90°), flawed angle equivalences (e.g., angle ADE=angle ACF), and invalid chord equality claims. While the conclusion DE=BC is correct, the reasoning lacks rigor and contains false premises.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate solution contains multiple logical errors: incorrect application of tangent-chord theorem (angle CAB=90°), flawed angle equivalences (e.g., angle ADE=angle ACF), and invalid chord equality claims. While the conclusion DE=BC is correct, the reasoning lacks rigor and contains false premises."
   },
   {
     "id": "31_2__2",
@@ -1142,18 +1154,26 @@
   {
     "id": "327_4__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing line AD",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line AD\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Thales' theorem to AC instead of AD, misuses angle relationships, and omits key congruence step from reference solution. Final conclusion about tangency is not rigorously established.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly applies Thales' theorem to AC instead of AD, misuses angle relationships, and omits key congruence step from reference solution. Final conclusion about tangency is not rigorously established."
   },
   {
     "id": "329_3__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing line OE",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates DF as r instead of 2x, leading to invalid equations and conclusion r=1 instead of correct r=3. Key geometric relationships (angles, triangle properties) are misapplied.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly calculates DF as r instead of 2x, leading to invalid equations and conclusion r=1 instead of correct r=3. Key geometric relationships (angles, triangle properties) are misapplied."
   },
   {
     "id": "32_4__1",
@@ -1170,170 +1190,254 @@
   {
     "id": "331_6__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing line BD",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line BD\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABE is right-angled at E without justification (ground-truth uses equilateral triangle properties). Miscalculates diagonals and area. Final answer 2 vs correct 2√3.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes triangle ABE is right-angled at E without justification (ground-truth uses equilateral triangle properties). Miscalculates diagonals and area. Final answer 2 vs correct 2√3."
   },
   {
     "id": "332_1__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 1,
     "overlay_reason": "BD line correctly drawn",
-    "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line correctly drawn\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution incorrectly assumes ∠ACB=45° without justification, leading to flawed arc AB calculation. However, the final conclusion AD=10√2 is correct via valid steps later in the reasoning.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate solution incorrectly assumes ∠ACB=45° without justification, leading to flawed arc AB calculation. However, the final conclusion AD=10√2 is correct via valid steps later in the reasoning."
   },
   {
     "id": "333_9__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing required lines",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes E is the midpoint of AB (AE=3) without justification. This invalidates key steps. While the final answer matches the reference, the reasoning contains major logical gaps (e.g., incorrect concyclic points argument, flawed angle equalities).\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes E is the midpoint of AB (AE=3) without justification. This invalidates key steps. While the final answer matches the reference, the reasoning contains major logical gaps (e.g., incorrect concyclic points argument, flawed angle equalities)."
   },
   {
     "id": "334_3__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing AH⊥BC line",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing AH⊥BC line\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates tan∠BAH as AH/BH=3/4 instead of BH/AH=4/3, leading to wrong final answer. The reasoning has a critical trigonometric ratio error.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly calculates tan∠BAH as AH/BH=3/4 instead of BH/AH=4/3, leading to wrong final answer. The reasoning has a critical trigonometric ratio error."
   },
   {
     "id": "334_7__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing line OC",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OC\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks key steps (e.g., ED as diameter, triangle similarity) and gets stuck in circular angle arguments. Fails to derive BC²=BD·BE or solve for OA=5.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate solution lacks key steps (e.g., ED as diameter, triangle similarity) and gets stuck in circular angle arguments. Fails to derive BC²=BD·BE or solve for OA=5."
   },
   {
     "id": "335_10__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing line BE",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line BE\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AB is a diameter of the circle (invalid step), leading to flawed reasoning. The conclusion AF=5/4 is correct but derived through invalid logic. The rigorous solution requires proving OE∥BC and using right triangle properties, which the candidate omitted.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes AB is a diameter of the circle (invalid step), leading to flawed reasoning. The conclusion AF=5/4 is correct but derived through invalid logic. The rigorous solution requires proving OE∥BC and using right triangle properties, which the candidate omitted."
   },
   {
     "id": "335_9__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing required line OF⊥AB",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line OF⊥AB\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle AOB is right-angled (AB²=AO²+OB²) without justification. Fails to use critical auxiliary line OF and similar triangles △OBF~△ABD from reference solution. Incorrectly derives OB=13 but doesn't properly connect to AB calculation. Final answer not computed.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes triangle AOB is right-angled (AB²=AO²+OB²) without justification. Fails to use critical auxiliary line OF and similar triangles △OBF~△ABD from reference solution. Incorrectly derives OB=13 but doesn't properly connect to AB calculation. Final answer not computed."
   },
   {
     "id": "337_5__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing required lines",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required lines\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates angles in triangle ADE and misapplies angle relationships. The central angle ∠DOE is derived as 30° instead of the correct 50°, leading to an incorrect arc length of π/2 cm instead of 5π/6 cm. Key errors include invalid angle subtraction and flawed cyclic quadrilateral reasoning.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly calculates angles in triangle ADE and misapplies angle relationships. The central angle ∠DOE is derived as 30° instead of the correct 50°, leading to an incorrect arc length of π/2 cm instead of 5π/6 cm. Key errors include invalid angle subtraction and flawed cyclic quadrilateral reasoning."
   },
   {
     "id": "341_9__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing OC line",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC line\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps and incorrect assumptions. It incorrectly equates ∠OAC to ∠C (undefined angle) and fails to establish OE⊥AC (key step in reference). The angle relationships derived (e.g., ∠EAO=3x) lack proper justification and don't lead to the required 90° conclusion.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate solution contains logical gaps and incorrect assumptions. It incorrectly equates ∠OAC to ∠C (undefined angle) and fails to establish OE⊥AC (key step in reference). The angle relationships derived (e.g., ∠EAO=3x) lack proper justification and don't lead to the required 90° conclusion."
   },
   {
     "id": "345_1__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing OC and OE",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC and OE\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Power of a Point theorem by assuming BF is a diameter and BC is a tangent. Correct solution requires triangle similarity (△DEF ∽ △BEC) to derive EF = 2√5/5, which is not achieved in the candidate's reasoning.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly applies Power of a Point theorem by assuming BF is a diameter and BC is a tangent. Correct solution requires triangle similarity (△DEF ∽ △BEC) to derive EF = 2√5/5, which is not achieved in the candidate's reasoning."
   },
   {
     "id": "353_5__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "AD line missing",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains contradictory angle claims (angle C is both 90° and 45°). Incorrectly assumes angles ABD=ACD without valid justification. The reference solution uses parallel lines and isosceles triangle properties which are not properly established here.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate solution contains contradictory angle claims (angle C is both 90° and 45°). Incorrectly assumes angles ABD=ACD without valid justification. The reference solution uses parallel lines and isosceles triangle properties which are not properly established here."
   },
   {
     "id": "360_5__2",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing required line EF perpendicular to AE",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line EF perpendicular to AE\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks valid reasoning steps and only repeats the goal statement without establishing logical connections. Conclusion is correct but not rigorously proven.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate solution lacks valid reasoning steps and only repeats the goal statement without establishing logical connections. Conclusion is correct but not rigorously proven."
   },
   {
     "id": "361_6__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing line DF",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line DF\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠DAF=∠DCB without valid justification. The congruence of triangles AFD and CDB is based on flawed angle equality. The ground-truth solution uses rotation properties directly, while the candidate's approach contains logical gaps in the angle relationships.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes ∠DAF=∠DCB without valid justification. The congruence of triangles AFD and CDB is based on flawed angle equality. The ground-truth solution uses rotation properties directly, while the candidate's approach contains logical gaps in the angle relationships."
   },
   {
     "id": "372_2__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing diameter BD and line AD",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing diameter BD and line AD\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly applies Thales' theorem, the Pythagorean theorem, and the Inscribed Angle Theorem. The reasoning is logically sound, and the final answer 3/5 matches the reference solution.\"}",
+    "reasoning_rigorous": 1,
+    "conclusion_correct": 1,
+    "text_ok": 1,
+    "text_reason": "The candidate solution correctly applies Thales' theorem, the Pythagorean theorem, and the Inscribed Angle Theorem. The reasoning is logically sound, and the final answer 3/5 matches the reference solution."
   },
   {
     "id": "372_5__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "AD line missing",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly applies the Inscribed Angle Theorem to establish ∠ADB=90°, identifies AD as the perpendicular bisector of BC, and uses the Perpendicular Bisector Theorem to conclude AB=AC. All logical steps are valid and complete.\"}",
+    "reasoning_rigorous": 1,
+    "conclusion_correct": 1,
+    "text_ok": 1,
+    "text_reason": "The candidate solution correctly applies the Inscribed Angle Theorem to establish ∠ADB=90°, identifies AD as the perpendicular bisector of BC, and uses the Perpendicular Bisector Theorem to conclude AB=AC. All logical steps are valid and complete."
   },
   {
     "id": "377_5__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 1,
     "overlay_reason": "AD line correctly drawn",
-    "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"AD line correctly drawn\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"Candidate correctly applies Thales' theorem and perpendicular bisector properties. The extra explanation about diameters is unnecessary but doesn't invalidate the proof. Conclusion AB=AC is valid.\"}",
+    "reasoning_rigorous": 1,
+    "conclusion_correct": 1,
+    "text_ok": 1,
+    "text_reason": "Candidate correctly applies Thales' theorem and perpendicular bisector properties. The extra explanation about diameters is unnecessary but doesn't invalidate the proof. Conclusion AB=AC is valid."
   },
   {
     "id": "377_5__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing CH⊥AB line",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing CH⊥AB line\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors (e.g., incorrectly assuming AB=BC=10 contradicts given BC=12, flawed altitude properties, and inconsistent CH calculations). The reasoning leads to contradictions and fails to derive the correct tan∠CAE=7/24.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate solution contains multiple logical errors (e.g., incorrectly assuming AB=BC=10 contradicts given BC=12, flawed altitude properties, and inconsistent CH calculations). The reasoning leads to contradictions and fails to derive the correct tan∠CAE=7/24."
   },
   {
     "id": "377_6__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing required line DF extended to intersect BE at point N",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line DF extended to intersect BE at point N\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AE=AB (not given) and uses invalid triangle congruence (AEF vs ABE). Ground-truth uses ABE vs ADF (SAS). Conclusion is correct but reasoning has major logical gaps.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes AE=AB (not given) and uses invalid triangle congruence (AEF vs ABE). Ground-truth uses ABE vs ADF (SAS). Conclusion is correct but reasoning has major logical gaps."
   },
   {
     "id": "379_5__2",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "missing AC and OC lines",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing AC and OC lines\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠CAB=30° from ∠BAF=60°, leading to flawed angle relationships. However, the final numeric answer BE=√3/3 matches the reference solution.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 1,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly assumes ∠CAB=30° from ∠BAF=60°, leading to flawed angle relationships. However, the final numeric answer BE=√3/3 matches the reference solution."
   },
   {
     "id": "381_3__1",
     "type": "calculation",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing required line extending DC to intersect AE at F",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line extending DC to intersect AE at F\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies Angle Bisector Theorem to non-triangle setup and makes false assumption AB=2x. Major logical gaps in reasoning lead to impossible conclusion x=0. Final answer is invalid.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate incorrectly applies Angle Bisector Theorem to non-triangle setup and makes false assumption AB=2x. Major logical gaps in reasoning lead to impossible conclusion x=0. Final answer is invalid."
   },
   {
     "id": "381_5__1",
     "type": "proving",
-    "status": "overlay_done",
+    "status": "ok",
     "overlay_ok": 0,
     "overlay_reason": "Missing line OC",
-    "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OC\"}"
+    "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., angle ABC = angle PBC without justification) and flawed angle relationships. Fails to establish key steps like ∠PCA + ∠ACO = 90° from reference solution. Concludes angle ACP=0° which is geometrically invalid. Logical gaps prevent valid proof.\"}",
+    "reasoning_rigorous": 0,
+    "conclusion_correct": 0,
+    "text_ok": 0,
+    "text_reason": "Candidate solution contains incorrect assumptions (e.g., angle ABC = angle PBC without justification) and flawed angle relationships. Fails to establish key steps like ∠PCA + ∠ACO = 90° from reference solution. Concludes angle ACP=0° which is geometrically invalid. Logical gaps prevent valid proof."
   },
   {
     "id": "38_4__1",

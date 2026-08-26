@@ -1,8 +1,12 @@
 {
   "id": "337_5__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required lines",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required lines\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates angles in triangle ADE and misapplies angle relationships. The central angle ∠DOE is derived as 30° instead of the correct 50°, leading to an incorrect arc length of π/2 cm instead of 5π/6 cm. Key errors include invalid angle subtraction and flawed cyclic quadrilateral reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates angles in triangle ADE and misapplies angle relationships. The central angle ∠DOE is derived as 30° instead of the correct 50°, leading to an incorrect arc length of π/2 cm instead of 5π/6 cm. Key errors include invalid angle subtraction and flawed cyclic quadrilateral reasoning."
 }

@@ -1,8 +1,12 @@
 {
   "id": "314_4__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line EM and point M",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EM and point M\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims triangle ABE is isosceles with AB=BE (AB is a side of the rhombus while BE is a segment on BC). The repeated circular reasoning about AB=2BM and BM=BE=EC shows logical confusion. While the final answer 45° is correct, the flawed reasoning invalidates rigor.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims triangle ABE is isosceles with AB=BE (AB is a side of the rhombus while BE is a segment on BC). The repeated circular reasoning about AB=2BM and BM=BE=EC shows logical confusion. While the final answer 45° is correct, the flawed reasoning invalidates rigor."
 }

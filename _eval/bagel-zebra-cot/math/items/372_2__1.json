@@ -1,8 +1,12 @@
 {
   "id": "372_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing diameter BD and line AD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing diameter BD and line AD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly applies Thales' theorem, the Pythagorean theorem, and the Inscribed Angle Theorem. The reasoning is logically sound, and the final answer 3/5 matches the reference solution.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly applies Thales' theorem, the Pythagorean theorem, and the Inscribed Angle Theorem. The reasoning is logically sound, and the final answer 3/5 matches the reference solution."
 }

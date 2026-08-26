@@ -1,8 +1,12 @@
 {
   "id": "333_9__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required lines",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes E is the midpoint of AB (AE=3) without justification. This invalidates key steps. While the final answer matches the reference, the reasoning contains major logical gaps (e.g., incorrect concyclic points argument, flawed angle equalities).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes E is the midpoint of AB (AE=3) without justification. This invalidates key steps. While the final answer matches the reference, the reasoning contains major logical gaps (e.g., incorrect concyclic points argument, flawed angle equalities)."
 }

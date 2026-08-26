@@ -1,8 +1,12 @@
 {
   "id": "360_5__2",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line EF perpendicular to AE",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line EF perpendicular to AE\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks valid reasoning steps and only repeats the goal statement without establishing logical connections. Conclusion is correct but not rigorously proven.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks valid reasoning steps and only repeats the goal statement without establishing logical connections. Conclusion is correct but not rigorously proven."
 }

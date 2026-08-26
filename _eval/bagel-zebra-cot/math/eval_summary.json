@@ -1,10 +1,10 @@
 {
   "total_items": 140,
-  "scored_items": 114,
+  "scored_items": 140,
   "ok_overlay": 10,
-  "ok_text": 18,
-  "status_flipped_to_ok": 107,
+  "ok_text": 21,
+  "status_flipped_to_ok": 0,
   "note": "Rewritten from per-item JSON without re-running VL/Qwen3 judges.",
-  "overlay_acc": 0.08771929824561403,
-  "text_acc": 0.15789473684210525
+  "overlay_acc": 0.07142857142857142,
+  "text_acc": 0.15
 }

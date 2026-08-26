@@ -1,8 +1,12 @@
 {
   "id": "331_6__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line BD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line BD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABE is right-angled at E without justification (ground-truth uses equilateral triangle properties). Miscalculates diagonals and area. Final answer 2 vs correct 2√3.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle ABE is right-angled at E without justification (ground-truth uses equilateral triangle properties). Miscalculates diagonals and area. Final answer 2 vs correct 2√3."
 }

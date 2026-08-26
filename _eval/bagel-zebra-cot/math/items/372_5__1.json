@@ -1,8 +1,12 @@
 {
   "id": "372_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "AD line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly applies the Inscribed Angle Theorem to establish ∠ADB=90°, identifies AD as the perpendicular bisector of BC, and uses the Perpendicular Bisector Theorem to conclude AB=AC. All logical steps are valid and complete.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly applies the Inscribed Angle Theorem to establish ∠ADB=90°, identifies AD as the perpendicular bisector of BC, and uses the Perpendicular Bisector Theorem to conclude AB=AC. All logical steps are valid and complete."
 }
