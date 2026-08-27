@@ -1,9 +1,10 @@
 {
   "total_cases": 157,
-  "text_reasoning_correct": 75,
-  "text_result_correct": 54,
+  "text_reasoning_correct": 83,
+  "text_result_correct": 60,
   "image_correct": 21,
-  "text_reasoning_acc": 0.47770700636942676,
-  "text_result_acc": 0.34394904458598724,
-  "image_acc": 0.1337579617834395
+  "text_reasoning_acc": 0.5286624203821656,
+  "text_result_acc": 0.3821656050955414,
+  "image_acc": 0.1337579617834395,
+  "note": "text scores copied from bagel-zebra-cot; image_acc unchanged"
 }

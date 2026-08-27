@@ -3,25 +3,21 @@
     "case_id": "case_01",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 1
-    },
-    "image_eval": {
-      "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
-  },
-  {
-    "case_id": "case_02",
-    "text_eval": {
-      "reasoning_correct": 0,
       "result_correct": 0
     },
     "image_eval": {
       "image_correct": 0
+    }
+  },
+  {
+    "case_id": "case_02",
+    "text_eval": {
+      "reasoning_correct": 1,
+      "result_correct": 0
     },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    "image_eval": {
+      "image_correct": 0
+    }
   },
   {
     "case_id": "case_03",
@@ -31,9 +27,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_04",
@@ -43,9 +37,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_05",
@@ -55,9 +47,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_06",
@@ -67,9 +57,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_07",
@@ -79,9 +67,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_08",
@@ -91,9 +77,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_09",
@@ -103,9 +87,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_10",
@@ -115,9 +97,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_11",
@@ -127,9 +107,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_12",
@@ -139,9 +117,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_13",
@@ -151,9 +127,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_14",
@@ -163,9 +137,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_15",
@@ -175,9 +147,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_16",
@@ -187,9 +157,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_17",
@@ -199,9 +167,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_18",
@@ -211,9 +177,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_19",
@@ -223,9 +187,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_20",
@@ -235,9 +197,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_21",
@@ -247,9 +207,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_22",
@@ -259,9 +217,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_23",
@@ -271,9 +227,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_24",
@@ -283,9 +237,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_25",
@@ -295,9 +247,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_26",
@@ -307,9 +257,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_27",
@@ -319,9 +267,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_28",
@@ -331,9 +277,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_29",
@@ -343,9 +287,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_30",
@@ -355,9 +297,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_31",
@@ -367,21 +307,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_32",
     "text_eval": {
-      "reasoning_correct": 1,
-      "result_correct": 1
+      "reasoning_correct": 0,
+      "result_correct": 0
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_33",
@@ -391,9 +327,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_34",
@@ -403,9 +337,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_35",
@@ -415,9 +347,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_36",
@@ -427,21 +357,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_37",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_38",
@@ -451,9 +377,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_39",
@@ -463,9 +387,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_40",
@@ -475,9 +397,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_41",
@@ -487,9 +407,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_42",
@@ -499,9 +417,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_43",
@@ -511,9 +427,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_44",
@@ -523,9 +437,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_45",
@@ -535,9 +447,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_46",
@@ -547,9 +457,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_47",
@@ -559,9 +467,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_48",
@@ -571,9 +477,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_49",
@@ -583,9 +487,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_50",
@@ -595,9 +497,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_51",
@@ -607,9 +507,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_52",
@@ -619,9 +517,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_53",
@@ -631,21 +527,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_54",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 0
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_55",
@@ -655,9 +547,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_56",
@@ -667,9 +557,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_57",
@@ -679,9 +567,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_58",
@@ -691,21 +577,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_59",
     "text_eval": {
-      "reasoning_correct": 0,
+      "reasoning_correct": 1,
       "result_correct": 0
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_60",
@@ -715,9 +597,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_61",
@@ -727,9 +607,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_62",
@@ -739,9 +617,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_63",
@@ -751,9 +627,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_64",
@@ -763,9 +637,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_65",
@@ -775,9 +647,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_66",
@@ -787,9 +657,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_67",
@@ -799,9 +667,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_68",
@@ -811,9 +677,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_69",
@@ -823,9 +687,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_70",
@@ -835,9 +697,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_71",
@@ -847,9 +707,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_72",
@@ -859,9 +717,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_73",
@@ -871,9 +727,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_74",
@@ -883,9 +737,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_75",
@@ -895,9 +747,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_76",
@@ -907,9 +757,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_77",
@@ -919,9 +767,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_78",
@@ -931,9 +777,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_79",
@@ -943,9 +787,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_80",
@@ -955,9 +797,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_81",
@@ -967,9 +807,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_82",
@@ -979,9 +817,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_83",
@@ -991,9 +827,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_84",
@@ -1003,21 +837,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_85",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_86",
@@ -1027,21 +857,17 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_87",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 0
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_88",
@@ -1051,9 +877,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_89",
@@ -1063,21 +887,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_90",
     "text_eval": {
       "reasoning_correct": 0,
-      "result_correct": 1
+      "result_correct": 0
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_91",
@@ -1087,9 +907,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_92",
@@ -1099,9 +917,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_93",
@@ -1111,9 +927,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_94",
@@ -1123,9 +937,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_95",
@@ -1135,9 +947,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_96",
@@ -1147,9 +957,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_97",
@@ -1159,9 +967,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_98",
@@ -1171,9 +977,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_99",
@@ -1183,9 +987,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_100",
@@ -1195,21 +997,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_101",
     "text_eval": {
-      "reasoning_correct": 0,
+      "reasoning_correct": 1,
       "result_correct": 0
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_102",
@@ -1219,21 +1017,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_103",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 0
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_104",
@@ -1243,9 +1037,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_105",
@@ -1255,9 +1047,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_106",
@@ -1267,9 +1057,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_107",
@@ -1279,9 +1067,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_108",
@@ -1291,21 +1077,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_109",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 1
+      "result_correct": 0
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_110",
@@ -1315,21 +1097,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_111",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_112",
@@ -1339,9 +1117,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_113",
@@ -1351,9 +1127,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_114",
@@ -1363,9 +1137,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_115",
@@ -1375,9 +1147,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_116",
@@ -1387,9 +1157,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_117",
@@ -1399,9 +1167,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_118",
@@ -1411,9 +1177,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_119",
@@ -1423,9 +1187,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_120",
@@ -1435,9 +1197,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_121",
@@ -1447,9 +1207,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_122",
@@ -1459,9 +1217,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_123",
@@ -1471,9 +1227,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_124",
@@ -1483,21 +1237,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_125",
     "text_eval": {
       "reasoning_correct": 1,
-      "result_correct": 0
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_126",
@@ -1507,9 +1257,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_127",
@@ -1519,9 +1267,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_128",
@@ -1531,9 +1277,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_129",
@@ -1543,9 +1287,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_130",
@@ -1555,9 +1297,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_131",
@@ -1567,9 +1307,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_132",
@@ -1579,9 +1317,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_133",
@@ -1591,9 +1327,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_134",
@@ -1603,9 +1337,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_135",
@@ -1615,21 +1347,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_136",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_137",
@@ -1639,9 +1367,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_138",
@@ -1651,9 +1377,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_139",
@@ -1663,9 +1387,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_140",
@@ -1675,9 +1397,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_141",
@@ -1687,9 +1407,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_142",
@@ -1699,9 +1417,7 @@
     },
     "image_eval": {
       "image_correct": 1
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_143",
@@ -1711,9 +1427,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_144",
@@ -1723,9 +1437,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_145",
@@ -1735,9 +1447,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_146",
@@ -1747,9 +1457,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_147",
@@ -1759,21 +1467,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_148",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_149",
@@ -1783,9 +1487,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_150",
@@ -1795,9 +1497,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_151",
@@ -1807,9 +1507,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_152",
@@ -1819,9 +1517,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_153",
@@ -1831,21 +1527,17 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_154",
     "text_eval": {
-      "reasoning_correct": 0,
-      "result_correct": 0
+      "reasoning_correct": 1,
+      "result_correct": 1
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_155",
@@ -1855,9 +1547,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_156",
@@ -1867,9 +1557,7 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   },
   {
     "case_id": "case_157",
@@ -1879,8 +1567,6 @@
     },
     "image_eval": {
       "image_correct": 0
-    },
-    "image_from": "copied_from_original_eval",
-    "text_from": "tagfix"
+    }
   }
 ]

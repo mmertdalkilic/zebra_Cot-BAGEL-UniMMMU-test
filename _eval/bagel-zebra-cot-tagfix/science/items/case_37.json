@@ -1,12 +1,12 @@
 {
   "case_id": "case_37",
   "text_eval": {
-    "reasoning_correct": 0,
-    "result_correct": 0
+    "reasoning_correct": 1,
+    "result_correct": 1
   },
   "image_eval": {
     "image_correct": 0
   },
   "image_from": "copied_from_original_eval",
-  "text_from": "tagfix"
+  "text_from": "copied_from_original_eval"
 }
