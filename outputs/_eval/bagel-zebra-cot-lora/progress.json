@@ -2,7 +2,7 @@
   "complete": false,
   "tasks": {
     "math": {
-      "saved": 123,
+      "saved": 140,
       "files": 140,
       "expected": 140
     },
@@ -17,8 +17,8 @@
       "expected": 200
     },
     "jigsaw": {
-      "saved": 0,
-      "files": 0,
+      "saved": 150,
+      "files": 150,
       "expected": 150
     },
     "maze": {

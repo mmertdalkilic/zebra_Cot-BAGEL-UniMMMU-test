@@ -1,8 +1,12 @@
 {
   "id": "335_10__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line OE",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line OE\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical gaps and incorrect assumptions (e.g., equating AF=AO-OF, flawed angle relationships). Final answer 2k contradicts ground-truth 5/4.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical gaps and incorrect assumptions (e.g., equating AF=AO-OF, flawed angle relationships). Final answer 2k contradicts ground-truth 5/4."
 }

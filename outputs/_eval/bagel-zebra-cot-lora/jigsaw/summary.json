@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "total_items": 150,
+    "image_ok": 150,
+    "text_parsed": 119
+  },
+  "metrics": {
+    "mean_distance_penalized": 0.4150179696083069,
+    "image_score_penalized": 0.584982030391693,
+    "text_accuracy": 0.47333333333333333
+  }
+}

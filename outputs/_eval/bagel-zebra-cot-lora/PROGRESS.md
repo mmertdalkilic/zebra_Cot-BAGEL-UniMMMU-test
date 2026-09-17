@@ -2,10 +2,10 @@
 
 | Task | Saved | Expected |
 |---|---:|---:|
-| math | 123 | 140 |
+| math | 140 | 140 |
 | science | 157 | 157 |
 | code | 200 | 200 |
-| jigsaw | 0 | 150 |
+| jigsaw | 150 | 150 |
 | maze | 0 | 149 |
 | sliding | 0 | 84 |
 
