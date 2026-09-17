@@ -1,8 +1,12 @@
 {
   "id": "86_1__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "AD line correctly drawn",
-  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"AD line correctly drawn\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"Candidate correctly applies circle theorems (angle in semicircle) and isosceles triangle properties to show AD is both altitude and median, establishing D as midpoint of BC. All logical steps are valid and complete.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate correctly applies circle theorems (angle in semicircle) and isosceles triangle properties to show AD is both altitude and median, establishing D as midpoint of BC. All logical steps are valid and complete."
 }

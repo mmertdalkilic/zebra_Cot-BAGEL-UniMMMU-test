@@ -1,8 +1,12 @@
 {
   "id": "53_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OE",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠AOB=90° (should be 180° as AB is diameter). Angle relationships and subsequent steps are flawed. No valid calculation of BC's length (ground-truth answer 24/5 missing).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠AOB=90° (should be 180° as AB is diameter). Angle relationships and subsequent steps are flawed. No valid calculation of BC's length (ground-truth answer 24/5 missing)."
 }

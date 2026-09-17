@@ -1,8 +1,12 @@
 {
   "id": "82_2__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠OCD=90° (radius is OD, not OC) and falsely claims CD is an altitude. Concludes ∠ACD=∠ABC instead of 2∠ACD. Major logical errors invalidate the proof.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠OCD=90° (radius is OD, not OC) and falsely claims CD is an altitude. Concludes ∠ACD=∠ABC instead of 2∠ACD. Major logical errors invalidate the proof."
 }

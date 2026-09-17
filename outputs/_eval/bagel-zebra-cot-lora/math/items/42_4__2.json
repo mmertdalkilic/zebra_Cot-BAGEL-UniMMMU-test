@@ -1,8 +1,12 @@
 {
   "id": "42_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required line AG perpendicular to BC and intersection point H on DF.",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line AG perpendicular to BC and intersection point H on DF.\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes △CEF is half of △BCF (actual area is 9√3/4 vs claimed 9√3/2). Parallelogram diagonal splits into congruent triangles, but △CEF is not half of △BCF. Reference uses correct height (3√3/2) and base (3) for △CEF.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes △CEF is half of △BCF (actual area is 9√3/4 vs claimed 9√3/2). Parallelogram diagonal splits into congruent triangles, but △CEF is not half of △BCF. Reference uses correct height (3√3/2) and base (3) for △CEF."
 }

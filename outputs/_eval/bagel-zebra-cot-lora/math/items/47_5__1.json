@@ -1,8 +1,12 @@
 {
   "id": "47_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "OC line present as required",
-  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"OC line present as required\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks any actual reasoning steps or logical connections. It merely mentions visualizing auxiliary lines without establishing the required angle relationships or proofs.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks any actual reasoning steps or logical connections. It merely mentions visualizing auxiliary lines without establishing the required angle relationships or proofs."
 }

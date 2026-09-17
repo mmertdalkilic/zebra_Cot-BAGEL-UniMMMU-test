@@ -1,8 +1,12 @@
 {
   "id": "45_4__2",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line AG",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AG\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple unsupported claims about concyclic points and angle equalities without proper justification. While the conclusion CG=CH is correct, the reasoning lacks rigor due to logical gaps and unverified assumptions.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple unsupported claims about concyclic points and angle equalities without proper justification. While the conclusion CG=CH is correct, the reasoning lacks rigor due to logical gaps and unverified assumptions."
 }

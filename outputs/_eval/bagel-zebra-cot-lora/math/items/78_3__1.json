@@ -1,8 +1,12 @@
 {
   "id": "78_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing OC line",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC line\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution only mentions drawing auxiliary line OC but provides no calculations or reasoning steps. Missing critical angle relationships, tangent properties, and cyclic quadrilateral properties needed to derive ∠ADC=105°.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution only mentions drawing auxiliary line OC but provides no calculations or reasoning steps. Missing critical angle relationships, tangent properties, and cyclic quadrilateral properties needed to derive ∠ADC=105°."
 }

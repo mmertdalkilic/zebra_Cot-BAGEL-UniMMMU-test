@@ -1,8 +1,12 @@
 {
   "id": "32_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line OD and QD as midpoint of minor arc BC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD and QD as midpoint of minor arc BC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate introduces undefined point Q and makes invalid angle relationships. Ground-truth uses D's arc midpoint property directly to show OD⊥BC and OD⊥PF. Candidate's reasoning is non-rigorous due to fabricated elements.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces undefined point Q and makes invalid angle relationships. Ground-truth uses D's arc midpoint property directly to show OD⊥BC and OD⊥PF. Candidate's reasoning is non-rigorous due to fabricated elements."
 }

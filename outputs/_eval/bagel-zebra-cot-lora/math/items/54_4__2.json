@@ -1,8 +1,12 @@
 {
   "id": "54_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "CE perpendicular to PB missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"CE perpendicular to PB missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes similarity between triangles PBC and PCA without valid justification (right angles mismatch). Uses flawed ratio PB/PC=4/3. Final calculation is incomplete and does not reach correct PB=4√5. Major logical gaps in geometric reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes similarity between triangles PBC and PCA without valid justification (right angles mismatch). Uses flawed ratio PB/PC=4/3. Final calculation is incomplete and does not reach correct PB=4√5. Major logical gaps in geometric reasoning."
 }
