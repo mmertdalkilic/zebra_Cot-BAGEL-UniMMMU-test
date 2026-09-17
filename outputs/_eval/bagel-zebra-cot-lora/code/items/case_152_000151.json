@@ -1,0 +1,16 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260917-185105-97cfd2/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora/code/case_152_000151",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has entirely different content with black irregular shapes instead of green squares. No resemblance in shapes, colors, or layout.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "No RENDER_SUMMARY found."
+  }
+}

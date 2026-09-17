@@ -1,0 +1,16 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260917-185105-97cfd2/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora/code/case_01_000000",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate lacks all shapes, colors, and layout from reference. Only black lines and dots present, bearing no resemblance to original design.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "No RENDER_SUMMARY found."
+  }
+}

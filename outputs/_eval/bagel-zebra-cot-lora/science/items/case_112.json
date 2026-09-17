@@ -1,0 +1,10 @@
+{
+  "case_id": "case_112",
+  "text_eval": {
+    "reasoning_correct": 1,
+    "result_correct": 0
+  },
+  "image_eval": {
+    "image_correct": 0
+  }
+}
