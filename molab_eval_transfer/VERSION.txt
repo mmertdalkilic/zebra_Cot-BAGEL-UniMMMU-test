@@ -1,0 +1,7 @@
+bagel-leonardo-to-molab-eval-v1
+Created: 2026-09-17
+Target branch: leonardo-lora-0015270-molab-eval
+Official Uni-MMMU commit: cd1675292e5a7a713c5d6026d234109521003124
+Dataset revision: f6cabc460cbf6592acbe421e6e54e804fbb11fe7
+Vision judge revision: c8b87d4b81f34b6a147577a310d7e75f0698f6c2
+Text judge revision: 0499c3ac83fdef8810b907a23894ba91e95eddd8

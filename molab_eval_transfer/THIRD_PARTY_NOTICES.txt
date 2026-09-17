@@ -1,0 +1,13 @@
+The official Uni-MMMU scorer is downloaded from its official repository at the
+pinned commit and retains its own license and notices:
+https://github.com/Vchitect/Uni-MMMU
+
+apply_eval_resume.py, apply_eval_sequential.py, and patch_awq_triton.py are
+adapted from the user's repository at commit
+4374c0aef1ac385bcd742b5b4ed4f89d7efd6046:
+https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test
+
+The AWQ Triton kernels derive from AutoAWQ/vLLM and carry the Apache 2.0 notice
+in patch_awq_triton.py. Local changes preserve packed integer weights, remove
+the unsafe embedding-weight output-head fallback, support Triton 3.4 syntax,
+and run a nonzero numerical check before evaluation.
