@@ -1,0 +1,2 @@
+<ANSWER commemorate the solution with the final move list as JSON.>
+<ANSWER>["down","up","left"]</ANSWER>
