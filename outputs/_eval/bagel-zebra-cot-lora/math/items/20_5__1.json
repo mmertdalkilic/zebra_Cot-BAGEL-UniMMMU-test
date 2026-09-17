@@ -1,8 +1,12 @@
 {
   "id": "20_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing OC and OD lines",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing OC and OD lines\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps (e.g., unjustified angle equalities in steps 3,9,13) and incorrect assumptions (e.g., assuming ∠ACE=45° without proof). While the conclusion CF=FE is correct, the reasoning lacks rigor compared to the reference solution's valid angle-chasing approach using isosceles triangles and right angles.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical gaps (e.g., unjustified angle equalities in steps 3,9,13) and incorrect assumptions (e.g., assuming ∠ACE=45° without proof). While the conclusion CF=FE is correct, the reasoning lacks rigor compared to the reference solution's valid angle-chasing approach using isosceles triangles and right angles."
 }

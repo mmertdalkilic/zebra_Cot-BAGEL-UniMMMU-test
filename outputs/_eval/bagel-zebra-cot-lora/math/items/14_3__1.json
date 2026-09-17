@@ -1,8 +1,12 @@
 {
   "id": "14_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line EF extended to intersect AD and BC.",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EF extended to intersect AD and BC.\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., concyclic points without justification) and flawed congruence arguments. While the final answer matches the reference, the reasoning is not rigorous. The reference solution uses symmetry and area partitioning, which the candidate did not properly replicate.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect assumptions (e.g., concyclic points without justification) and flawed congruence arguments. While the final answer matches the reference, the reasoning is not rigorous. The reference solution uses symmetry and area partitioning, which the candidate did not properly replicate."
 }

@@ -1,8 +1,12 @@
 {
   "id": "30_2__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "AE line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AE line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors (e.g., incorrect angle equivalences, misuse of tan(180°-2θ)=2), leading to incorrect AB calculation. While DE=6 matches the reference, AB is wrong (candidate claims AD=6 instead of 4).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors (e.g., incorrect angle equivalences, misuse of tan(180°-2θ)=2), leading to incorrect AB calculation. While DE=6 matches the reference, AB is wrong (candidate claims AD=6 instead of 4)."
 }

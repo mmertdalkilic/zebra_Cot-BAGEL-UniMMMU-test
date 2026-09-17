@@ -1,8 +1,12 @@
 {
   "id": "7_6__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "AM perpendicular line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AM perpendicular line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes D is midpoint of AF (no justification), misapplies midline theorem, and derives invalid triangle ADF properties. Final answer would be incorrect due to these errors.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes D is midpoint of AF (no justification), misapplies midline theorem, and derives invalid triangle ADF properties. Final answer would be incorrect due to these errors."
 }

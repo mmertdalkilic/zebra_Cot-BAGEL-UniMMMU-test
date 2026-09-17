@@ -1,8 +1,12 @@
 {
   "id": "25_3__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required line extending DC to intersect AB's extension at F",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line extending DC to intersect AB's extension at F\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: incorrect angle relationships (e.g., ∠PBD=∠DCE without valid justification), misuse of Law of Sines (confusing angle measures with sine values), and invalid angle calculations (e.g., ∠ACB=6). Final answer derived from flawed reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors: incorrect angle relationships (e.g., ∠PBD=∠DCE without valid justification), misuse of Law of Sines (confusing angle measures with sine values), and invalid angle calculations (e.g., ∠ACB=6). Final answer derived from flawed reasoning."
 }

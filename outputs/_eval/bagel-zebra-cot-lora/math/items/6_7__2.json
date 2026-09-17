@@ -1,8 +1,12 @@
 {
   "id": "6_7__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line DE",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line DE\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes D is midpoint of BC (not given) and makes redundant/repetitive angle claims. Reasoning is invalid. Conclusion correctness cannot be determined due to flawed logic.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes D is midpoint of BC (not given) and makes redundant/repetitive angle claims. Reasoning is invalid. Conclusion correctness cannot be determined due to flawed logic."
 }
