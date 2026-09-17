@@ -1,0 +1,1 @@
+<think>Let’s visualize the raw SVG code as a blank canvas to understand its structure and how elements will be laid out.</think>

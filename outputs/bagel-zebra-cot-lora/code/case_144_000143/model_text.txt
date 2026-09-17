@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas and the first element: the large white rectangle filling the entire SVG area.</think>

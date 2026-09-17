@@ -1,0 +1,2 @@
+<think>Interpret the SVG source code to understand its composition: a white rectangle, two filled circles with specific centers and radii, and no defined transforms or fills on the circles.
+Determine the final image by combining these elements: a white rectangle covering the entire 512x512 canvas, with two blue circles inside it.</think>

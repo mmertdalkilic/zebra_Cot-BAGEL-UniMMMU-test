@@ -1,0 +1,16 @@
+{
+  "id": "case_93",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_93",
+  "initial_image": "./data/science/imgs/oil-water.png",
+  "condition": "A bottle of cooking oil and a glass of water are prepared. Pour the oil into the water. remove the oil glass. Draw the result.",
+  "meta": {
+    "level_1": "Chemistry",
+    "level_2": "Solubility"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_93/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_93/model_image_01.png"
+  ],
+  "errors": []
+}

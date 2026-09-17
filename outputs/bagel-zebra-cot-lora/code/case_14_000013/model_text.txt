@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas and the first rectangle to understand the layout.</think>

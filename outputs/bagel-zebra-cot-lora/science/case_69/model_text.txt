@@ -1,0 +1,2 @@
+<think>The condition describes a specific chemical reaction involving boron powder. The initial image shows the powder on a tile, and the instruction is to ignite it in open air for 5 seconds.
+Boron powder is highly flammable. When ignited, it reacts with oxygen in the air, producing boron trioxide and releasing a significant amount of heat and light. This reaction will continue for the specified duration.</think>

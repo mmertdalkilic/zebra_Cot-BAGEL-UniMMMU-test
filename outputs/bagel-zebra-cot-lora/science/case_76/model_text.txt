@@ -1,0 +1,2 @@
+<think>The condition specifies a brass rod in a humid, indoor environment at room temperature, and asks for its long-term state.
+Brass is an alloy of copper and tin. In a humid environment, tin is more reactive than copper, leading to corrosion.</think>

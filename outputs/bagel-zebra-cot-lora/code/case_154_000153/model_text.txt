@@ -1,0 +1,1 @@
+<think>Visualize the SVG structure: a white rectangle, four red circles, and a viewbox of 0,0,512,512.</think>

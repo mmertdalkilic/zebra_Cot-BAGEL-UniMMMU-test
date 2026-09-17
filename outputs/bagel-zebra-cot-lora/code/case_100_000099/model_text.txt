@@ -1,0 +1,2 @@
+<think>Interpret the SVG source code to identify all elements, their positions, sizes, and styles. The first element is a large white rectangle covering the entire canvas. Subsequent elements are polygons and rectangles with specific fill colors and positions.
+The polygons and rectangles are positioned at the bottom right of the canvas, with the white rectangle covering the majority of the image. This means the colored shapes are visible only at the very bottom right corner.</think>

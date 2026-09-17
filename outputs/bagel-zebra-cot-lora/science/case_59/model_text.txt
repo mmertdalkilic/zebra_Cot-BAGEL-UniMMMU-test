@@ -1,0 +1,2 @@
+<think>The condition specifies a tiny potassium pellet on a ceramic tile. It instructs to ignite it in open air for 5 seconds. The initial image shows the setup.
+Potassium burns in air, producing potassium oxide and releasing heat. The condition specifies maintaining the flame for 5 seconds. This duration is long enough for the flame to consume the entire pellet.</think>

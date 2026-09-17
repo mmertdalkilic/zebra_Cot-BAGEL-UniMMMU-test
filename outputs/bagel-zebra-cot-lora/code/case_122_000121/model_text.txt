@@ -1,0 +1,1 @@
+<think>Let’s visualize the SVG structure to understand the layout and how elements are stacked. The SVG has a large white rectangle, then two smaller rectangles (from the template definition) at (20,226) and (123,226).</think>

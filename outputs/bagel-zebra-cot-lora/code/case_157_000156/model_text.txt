@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty 512×512 canvas with no shapes, just the SVG tag and empty <svg> element.</think>

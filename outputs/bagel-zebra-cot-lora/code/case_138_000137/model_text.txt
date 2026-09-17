@@ -1,0 +1,2 @@
+<think>Interpret the SVG source code to understand its composition and the relative positions of its elements.
+The SVG contains a large white rectangle, a green path, a red path, a blue rectangle, and a rotated circle. The circle is centered at (123,234) with a radius of 48. The paths and rectangle are positioned relative to the viewBox (0,0,512,512). The circle is rotated 60 degrees. The blue rectangle is at (100,31) with width/height 78. The green path is at (80,45), the red path at (357,288).</think>

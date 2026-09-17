@@ -1,0 +1,2 @@
+<think>The problem asks us to predict the final state of an apple slice after it has been cut and left out for a period of time, based on the initial image of a cut apple.
+Apples contain an enzyme called polyphenol oxidase (PPO) that catalyzes the oxidation of phenolic compounds, leading to browning. This process is accelerated by exposure to oxygen and light. The initial image shows a cut apple, which is a common starting point for this process.</think>

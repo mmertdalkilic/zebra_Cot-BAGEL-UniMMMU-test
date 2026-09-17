@@ -1,0 +1,3 @@
+<think>Assess the SVG code. It contains a white background, four identical rectangles with a blue fill, and no other elements. The rectangles are positioned at (20, 216), (109, 216), (198, 216), and (287, 216) with a width/height of 80.
+The four rectangles are stacked vertically, one after another, all at the same y-coordinate (216). Their x-coordinates are increasing, so they appear to be aligned horizontally, one after another, from left to right.
+The image is a simple composition of four identical rectangles, arranged in a horizontal line, with a white background.</think>

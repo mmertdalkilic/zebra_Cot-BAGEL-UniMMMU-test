@@ -1,0 +1,1 @@
+<think>Let’s mentally parse the SVG structure to understand the composition: a large white rectangle, a smaller orange rectangle, and a polygon with a specific fill and points.</think>

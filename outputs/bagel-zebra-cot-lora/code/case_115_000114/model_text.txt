@@ -1,0 +1,2 @@
+<think>Let’s first parse the SVG to identify its main components: a white background, a large circle, and two smaller rectangles.
+The large circle is centered at (148,149) with a radius of 61, and its fill is #3498DB. The two rectangles are smaller, with fill colors #1ABC9C and #E67E22, and are positioned at (95,344) and (408,408) respectively. The background is a white rectangle covering the entire canvas.</think>

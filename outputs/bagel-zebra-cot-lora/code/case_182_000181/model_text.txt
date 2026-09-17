@@ -1,0 +1,1 @@
+<think>Let’s sketch the initial empty canvas, as defined by the SVG viewBox and the first <rect> tag.</think>
