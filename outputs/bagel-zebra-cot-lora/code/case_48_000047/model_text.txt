@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty 512×512 canvas to confirm the starting state before any shapes are drawn.</think>

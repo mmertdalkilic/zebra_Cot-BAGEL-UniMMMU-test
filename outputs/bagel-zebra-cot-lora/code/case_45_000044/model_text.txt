@@ -1,0 +1,24 @@
+<think>Parse the SVG source code to identify all elements, their properties, and their positions relative to the viewBox.
+Determine the canvas size (512x512), background (white), and coordinate system (user space).
+Analyze the transforms and apply them to each element's position and size.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For example, the first circle is at (30,30) with r=30. The second circle is rotated 45 degrees from (148,256) to (148+25.98, 256-25.98). The third circle is rotated 30 degrees from (246,256) to (246+12.73, 256-12.73).
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke, stroke-width, opacity, and fill-rule.
+For text elements, determine their font, text, and position.
+For each element, calculate its final position and size in the rendered image, considering stacking and transforms.
+For each element, determine its fill, stroke,

@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 0, "rationale": "Candidate 0 aligns seamlessly with the reference image, matching the visual gradient and structure. Candidate 1 does not. The visual match is the decisive cue."}</FINAL_ANSWER_JSON>

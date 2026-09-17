@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 1, "rationale": "Candidate 1 seamlessly integrates with the reference image, matching the texture, color, and shadow. Candidate 0 does not. The visual match is complete."}</FINAL_ANSWER_JSON>

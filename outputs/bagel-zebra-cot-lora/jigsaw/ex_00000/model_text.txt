@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 1, "rationale": "Candidate 1 matches the left side of the face and the background, seamlessly completing the image."}</FINAL_ANSWER_JSON>

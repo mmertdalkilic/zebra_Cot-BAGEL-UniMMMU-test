@@ -1,0 +1,8 @@
+<think>Interpret the SVG source code to understand the composition:
+- A large white rectangle fills the entire canvas.
+- A smaller blue rectangle is centered near the bottom.
+- A blue path (cubic Bézier curve) starts near the top-left and ends near the bottom-right.
+- A red line connects two points.
+- A blue line connects two points.
+- A green circle is centered near the top-right.
+- All elements respect the viewBox and stack as drawn.</think>

@@ -1,0 +1,1 @@
+<think>Let’s sketch the overall structure of the SVG, focusing on the main shapes and their relative positions, as they are layered.</think>

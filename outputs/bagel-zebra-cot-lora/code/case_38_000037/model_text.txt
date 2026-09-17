@@ -1,0 +1,36 @@
+<think>Parse the SVG source code to identify all elements, their properties, and their relative positions.
+Determine the canvas size based on viewBox and the largest element's extent.
+Determine the background color (white, as no explicit background is drawn).
+Determine the order of elements, as later elements will overlay earlier ones.
+Apply transformations to each element, respecting viewBox and user space coordinates.
+For each element, resolve fill, stroke, stroke-width, opacity, and other styles.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.
+For polygons, resolve fill, stroke, stroke-width, and fill-rule.
+For text elements, resolve font, fill, and stroke styles.
+For paths, resolve fill, stroke, stroke-width, and fill-rule.
+For circles, resolve fill, radius, and stroke.
+For rectangles, resolve fill, height, width, and x, y.

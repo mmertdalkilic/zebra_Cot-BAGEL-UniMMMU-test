@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas, just the SVG tag, to understand the starting point.</think>

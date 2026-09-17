@@ -1,0 +1,3 @@
+<think>Parse the SVG source code to identify all elements, their positions, sizes, and properties (fill, stroke, opacity, transforms).
+Determine the overall layout: background is white; a large circle is centered at (193, 328) with radius 56, covering most of the canvas.
+The background is a white rectangle filling the entire 512x512 area, with the circle drawn over it.</think>

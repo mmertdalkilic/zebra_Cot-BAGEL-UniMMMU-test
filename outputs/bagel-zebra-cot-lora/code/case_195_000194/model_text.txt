@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty 512×512 canvas and the first rectangle defining the viewBox.</think>

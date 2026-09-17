@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas to understand the starting point before any shapes are drawn.</think>

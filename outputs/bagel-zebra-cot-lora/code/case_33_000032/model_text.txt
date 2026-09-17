@@ -1,0 +1,1 @@
+<think>Let’s visualize the SVG structure to understand how the rectangles are positioned and sized relative to the viewBox.</think>
