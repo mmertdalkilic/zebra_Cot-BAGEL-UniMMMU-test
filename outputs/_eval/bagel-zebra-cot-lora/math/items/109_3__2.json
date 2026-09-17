@@ -1,0 +1,8 @@
+{
+  "id": "109_3__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line BD",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line BD\"}"
+}

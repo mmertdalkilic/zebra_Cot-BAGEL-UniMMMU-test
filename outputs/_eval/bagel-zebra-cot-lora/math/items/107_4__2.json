@@ -1,0 +1,8 @@
+{
+  "id": "107_4__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing both required lines",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing both required lines\"}"
+}

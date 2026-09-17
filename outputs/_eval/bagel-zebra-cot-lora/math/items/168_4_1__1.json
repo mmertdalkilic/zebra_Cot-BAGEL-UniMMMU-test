@@ -1,0 +1,8 @@
+{
+  "id": "168_4_1__1",
+  "type": "proving",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "40_3__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line FG perpendicular to CB.",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line FG perpendicular to CB.\"}"
+}

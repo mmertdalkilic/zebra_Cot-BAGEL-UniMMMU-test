@@ -1,0 +1,8 @@
+{
+  "id": "71_6__2",
+  "type": "proving",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing perpendicular line QB",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing perpendicular line QB\"}"
+}

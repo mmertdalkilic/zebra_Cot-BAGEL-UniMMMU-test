@@ -1,0 +1,22 @@
+{
+  "official_scorer_commit": "cd1675292e5a7a713c5d6026d234109521003124",
+  "dataset_revision": "f6cabc460cbf6592acbe421e6e54e804fbb11fe7",
+  "vision_judge": {
+    "model": "Qwen/Qwen2.5-VL-72B-Instruct-AWQ",
+    "revision": "c8b87d4b81f34b6a147577a310d7e75f0698f6c2"
+  },
+  "text_judge": {
+    "model": "Qwen/Qwen3-32B-AWQ",
+    "revision": "0499c3ac83fdef8810b907a23894ba91e95eddd8",
+    "enable_thinking": true
+  },
+  "attention": "sdpa",
+  "sampling": "do_sample=False",
+  "model_output": "original Leonardo generations",
+  "workflow_sha256": {
+    "apply_eval_resume.py": "8749cdf6ccbdd942b109a705e3ec0f0d48e26c970bc1f08f6dce99f667049661",
+    "apply_eval_sequential.py": "4e7bd07fc0904141395fa061e7acff80392ce65bf064fb74e2f09f33da1a1c8f",
+    "patch_awq_triton.py": "f945da35c34f44cc7cf4e6e033c734b0852a4566b1cf15e60c3ee8f62431db58",
+    "run_official_eval.sh": "8a4e7b9af818ab32e214809a56b60c0d6adbe4bfec314df21582398b4578e75c"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "38_4__1",
+  "type": "proving",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OA",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OA\"}"
+}

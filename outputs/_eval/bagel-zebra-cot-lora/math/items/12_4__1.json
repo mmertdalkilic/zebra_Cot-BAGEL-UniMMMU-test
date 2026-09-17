@@ -1,0 +1,8 @@
+{
+  "id": "12_4__1",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "missing perpendicular line EF",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing perpendicular line EF\"}"
+}

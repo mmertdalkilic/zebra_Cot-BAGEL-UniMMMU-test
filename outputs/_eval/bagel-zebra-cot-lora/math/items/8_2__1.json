@@ -1,0 +1,8 @@
+{
+  "id": "8_2__1",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "missing circumcircle and line BF",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing circumcircle and line BF\"}"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "30_2__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "AE line missing",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AE line missing\"}"
+}

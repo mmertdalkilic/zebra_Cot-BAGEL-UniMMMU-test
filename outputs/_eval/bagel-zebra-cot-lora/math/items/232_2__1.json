@@ -1,0 +1,8 @@
+{
+  "id": "232_2__1",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC and intersection point O",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC and intersection point O\"}"
+}

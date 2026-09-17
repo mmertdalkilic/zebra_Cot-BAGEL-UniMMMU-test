@@ -1,0 +1,8 @@
+{
+  "id": "32_4__1",
+  "type": "proving",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OD and QD as midpoint of minor arc BC",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD and QD as midpoint of minor arc BC\"}"
+}
