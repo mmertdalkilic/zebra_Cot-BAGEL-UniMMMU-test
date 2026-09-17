@@ -1,0 +1,1 @@
+<think>THOUGHT: The output should be a single JSON line: ["right","down"]. This is the complete sequence of moves needed to reach the green frame from the blue square, as determined by the shortest path.</think>

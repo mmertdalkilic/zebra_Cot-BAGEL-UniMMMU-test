@@ -1,0 +1,1 @@
+<think>THOUGHT: The output is now complete. The three images will depict the state of the maze after each move, and the final line will contain the sequence of moves as specified.</think>

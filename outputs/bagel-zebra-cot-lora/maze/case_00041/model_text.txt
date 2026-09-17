@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be a JSON array containing the sequence of moves as specified in the problem statement. The moves are "right", "up", "left", and "down".</think>

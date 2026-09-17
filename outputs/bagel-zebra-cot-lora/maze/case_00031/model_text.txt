@@ -1,0 +1,1 @@
+<think>Finalize the output. Generate a JSON array containing the complete sequence of moves as found.</think>

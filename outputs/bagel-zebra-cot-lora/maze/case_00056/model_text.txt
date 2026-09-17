@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be the JSON array of moves, followed by the three image files showing the agent's position after each move. This matches the required output format.</think>

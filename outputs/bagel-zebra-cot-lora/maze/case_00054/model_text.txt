@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is the JSON array of moves, as specified in the problem statement. This is the only output required for this problem.</think>

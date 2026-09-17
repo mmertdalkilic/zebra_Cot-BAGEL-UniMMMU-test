@@ -1,0 +1,1 @@
+<think>THOUGHT: The output will be the image sequence followed by the JSON array of moves: ["right", "down", "left"].</think>
