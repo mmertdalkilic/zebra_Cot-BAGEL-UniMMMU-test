@@ -15,8 +15,8 @@ if [[ ! -x "$MOLAB_RUNTIME/venv/bin/python" ]]; then
   uv venv --python 3.11 "$MOLAB_RUNTIME/venv"
 fi
 PY="$MOLAB_RUNTIME/venv/bin/python"
-uv pip install --python "$PY" --index-url https://download.pytorch.org/whl/cu128 +  'torch==2.8.0' 'torchvision==0.23.0'
-uv pip install --python "$PY" -r "$SCRIPT_DIR/requirements_eval.txt" +  --constraint "$SCRIPT_DIR/torch_constraints.txt"
+uv pip install --python "$PY" --index-url https://download.pytorch.org/whl/cu128 'torch==2.8.0' 'torchvision==0.23.0'
+uv pip install --python "$PY" -r "$SCRIPT_DIR/requirements_eval.txt" --constraint "$SCRIPT_DIR/torch_constraints.txt"
 uv pip check --python "$PY"
 if [[ ! -d "$MOLAB_RUNTIME/Uni-MMMU/.git" ]]; then
   git clone https://github.com/Vchitect/Uni-MMMU.git "$MOLAB_RUNTIME/Uni-MMMU"
