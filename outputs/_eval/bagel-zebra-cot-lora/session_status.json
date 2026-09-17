@@ -1,5 +1,5 @@
 {
-  "state": "running",
-  "phase": "setup",
-  "time": "2026-09-17T18:41:38Z"
+  "state": "failed",
+  "exit_code": 2,
+  "time": "2026-09-17T18:41:42Z"
 }
