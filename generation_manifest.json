@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "complete": false,
+  "complete": true,
   "model": "bagel-zebra-cot-lora",
   "source": "/leonardo_work/EUHPC_B38_013/mdalkili/bagel_zebra_leonardo/Uni-MMMU/outputs/bagel-zebra-cot-lora",
   "source_benchmark": "/leonardo_work/EUHPC_B38_013/mdalkili/bagel_zebra_leonardo/Uni-MMMU",
