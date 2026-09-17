@@ -1,0 +1,5 @@
+<think>1) Overlay: The problem asks for tan∠CAE. We are given that AB is a diameter of the circle, so ∠ADB = 90° (angle in a semicircle). We are also given that AC = AB. We need to find the length of CE and the length of AC. We are given that BC = 12 and the radius of the circle is 5, so AB = 2*5 = 10. Since AC = AB, AC = 10. We are given that BD = CD. Since BC = 12, BD = CD = 6. We can use the Pythagorean theorem in triangle ABD to find AD. AD² = AB² - BD² = 10² - 6² = 100 - 36 = 64. So, AD = 8.
+
+2) Reasoning: To find tan∠CAE, we can use the fact that AE is tangent to the circle at A. This means that ∠EAC = ∠ABD (tangent-chord angle theorem). We can find tan∠ABD using triangle ABD. tan∠ABD = AD/BD = 8/6 = 4/3. So, tan∠EAC = 4/3.
+
+3) Final Answer: The value of tan∠CAE is 4/3.</think>

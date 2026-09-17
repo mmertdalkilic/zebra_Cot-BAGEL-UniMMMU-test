@@ -1,0 +1,13 @@
+<think>The problem asks for the measure of ∠BAC. We are given that AB is the diameter of the circle, CD is tangent to the circle at C, and ∠ACD = 50°. We need to use the auxiliary line OC, which connects the center of the circle to the point of tangency C.
+
+First, we analyze the relationship between the tangent and the radius. Since CD is tangent to the circle at C, the radius OC is perpendicular to the tangent line CD. This means that ∠OCD = 90°. This is a fundamental property of tangents to a circle.
+
+Next, we consider the triangle formed by points A, C, and O. The line segment AB is the diameter of the circle, so point O is the midpoint of AB. This means that OA = OB = OC, as they are all radii of the circle. Therefore, triangle OAC is an isosceles triangle with OA = OC.
+
+We are given that ∠ACD = 50°. We can find the measure of ∠OCA by using the property of the exterior angle of a triangle. The angle ∠OCD is an exterior angle for triangle OCA. The exterior angle theorem states that the measure of an exterior angle is equal to the sum of the measures of the two non-adjacent interior angles. So, ∠OCD = ∠OCA + ∠ACD.
+
+Substituting the known values: 90° = ∠OCA + 50°. This allows us to solve for ∠OCA: ∠OCA = 90° - 50° = 40°.
+
+Now we can find the measure of ∠BAC. We know that triangle OAC is isosceles with OA = OC, so its base angles are equal: ∠OCA = ∠OAC. We just found that ∠OCA = 40°, so ∠OAC = 40°.
+
+Finally, we need to find ∠BAC. The line segment AB is a straight line passing through the center O. This means that ∠OAB is a straight angle, so its measure is 180°. We can express ∠BAC as the sum of ∠OAC and ∠OAB. Since ∠OAB = 180°, we have ∠BAC = ∠OAC + ∠OAB = 40° + 180° = 220°. However, this result is not possible, as ∠BAC is an angle inside the circle. The error lies in the interpretation of the problem. The correct interpretation is that ∠BAC is an angle formed by the chord AC and the diameter AB. The correct calculation should be ∠BAC = 180° - ∠OAC = 180° - 40° = 140°. This is the angle formed by the chord AC and the diameter AB, which is the angle we are asked to find.</think>

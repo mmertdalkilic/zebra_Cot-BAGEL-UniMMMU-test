@@ -1,0 +1,18 @@
+<think>The problem asks us to prove that AD = BD. We are given that D is the point where the angle bisector of ∠ACB intersects the circumcircle of △ABC. We can use properties of angles in a circle and the Angle Bisector Theorem to solve this.
+
+The Angle Bisector Theorem states that if a line bisects an angle of a triangle, it divides the opposite side into segments that are proportional to the other two sides. In this case, the angle bisector of ∠ACB (line CD) divides the opposite side AB into segments AD and DB. So, we have AD/DB = AC/BC.
+
+Since D lies on the circumcircle of △ABC, the points A, B, C, D are concyclic. This means that the angles subtended by the same arc are equal. For example, ∠ACD and ∠ABD are angles subtended by the arc AD. Therefore, ∠ACD = ∠ABD.
+
+Now, consider the inscribed quadrilateral ACBD. The sum of opposite angles in a cyclic quadrilateral is 180°. So, ∠ACD + ∠ABD = 180°. Since we established that ∠ACD = ∠ABD, we can substitute to get 2∠ACD = 180°. This implies that ∠ACD = 90°.
+
+Since ∠ACD = 90°, the triangle ACD is a right-angled triangle with the right angle at C. The line CD is the altitude from C to the hypotenuse AD. In a right-angled triangle, the altitude to the hypotenuse divides the triangle into two smaller triangles that are similar to the original triangle and to each other. Therefore, △ACD ~ △CBD.
+
+From the similarity of △ACD and △CBD, we can write the proportion of their corresponding sides: AD/BD = AC/BC. This is the same proportion as given by the Angle Bisector Theorem (AD/DB = AC/BC).
+
+We have two equations:
+1) AD/DB = AC/BC (from Angle Bisector Theorem)
+2) AD/BD = AC/BC (from similarity of triangles)
+These two equations are identical. This means that the proportion AD/DB = AC/BC is true for both triangles. If a proportion is true for two different pairs of lengths (AD, DB) and (AC, BC), then the lengths must be equal. Therefore, AD = BD.
+
+The problem asks us to prove AD = BD. We have shown that AD/DB = AC/BC, and we have also shown that AD/BD = AC/BC. This means that AD/DB = AD/BD, which is only possible if AD = BD.</think>

@@ -1,0 +1,24 @@
+<think>1.  **Identify auxiliary line and its properties**:
+    -   The problem asks us to prove that BC=BH. We are given that AC is tangent to circle O at E, and EH is perpendicular to AB. We need to find a way to relate the lengths BC and BH.
+    -   The auxiliary line OE is drawn from the center of the circle O to the point of tangency E. By the property of a circle's tangent, OE is perpendicular to the tangent line AC. Therefore, ∠OEA = 90°.
+    -   Since EH is perpendicular to AB, we have ∠EHA = 90°. This means that the quadrilateral EAHO has two right angles at H and E. If we can show that the other two angles are also right angles, we would have a rectangle. However, since OE is a radius and AC is a tangent, OE is perpendicular to AC, so ∠OEC = 90°. This makes EAHO a rectangle.
+
+2.  **Analyze the properties of the rectangle EAHO**:
+    -   Since EAHO is a rectangle, its opposite sides are parallel and equal in length. Therefore, OH is parallel to AE and OH = AE.
+    -   Since O is the midpoint of the diameter BD, we have OD = OB. Since BD is a straight line, OB = OD = OH + DH. This implies that OH = DH. Thus, DH = AE.
+
+3.  **Use the tangent properties to establish angle relationships**:
+    -   Since AC is tangent to circle O at E, and BD is the diameter, the angle ∠AEB is formed by a tangent AE and a secant BE. The angle ∠AEB is equal to half the measure of the intercepted arc AB. The measure of arc AB is 180° (since BD is a diameter). Therefore, ∠AEB = 1/2 * 180° = 90°. So, ∠AEB = 90°.
+    -   Since EH is perpendicular to AB, ∠EHB = 90°. This means that triangle BEH is a right-angled triangle at H.
+    -   In a right-angled triangle, the altitude from the right angle to the hypotenuse divides the hypotenuse into two segments that are proportional to the lengths of the other two sides. Specifically, BH/BE = BE/BA. This implies that BE² = BH * BA.
+
+4.  **Establish the relationship between BE, AE, and AB**:
+    -   In right-angled triangle AEB, by the Pythagorean theorem, we have AE² + BE² = AB².
+    -   From the previous step, we have BE² = BH * BA.
+    -   Substituting BE² from the second equation into the first equation, we get AE² + BH * BA = AB².
+    -   Rearranging this equation, we get AE² = AB² - BH * BA = AB(AB - BH).
+    -   We can factor the right side as AE² = AB(BH + DH).
+    -   Since DH = AE (from the rectangle EAHO), we can substitute DH for AE in the equation: AE² = AB(BH + AE).
+    -   Rearranging this equation, we get AE² - AB * AE - AB * BH = 0.
+    -   This is a quadratic equation in terms of AE: AE² - AB * AE - AB * BH = 0.
+    -   Factoring the left side, we get AE(AE

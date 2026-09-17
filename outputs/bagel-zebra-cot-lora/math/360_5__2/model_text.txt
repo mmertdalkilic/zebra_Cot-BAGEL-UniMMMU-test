@@ -1,0 +1,26 @@
+<think>The problem asks us to prove a geometric relationship: AC = (AD√2) + AE. We are given two isosceles right triangles, △ABC and △EDC, and a point D on side AB. The auxiliary line EF is drawn perpendicular to AE, intersecting AC at F. We need to use the properties of these triangles and the constructed line EF to establish the given equation.
+
+First, let's analyze the properties of the isosceles right triangles.
+- In △ABC, since it is an isosceles right triangle with ∠BAC = 90°, we have AB = AC and ∠B = ∠ACB = 45°.
+- In △EDC, since it is an isosceles right triangle with ∠DEC = 90°, we have DE = CE and ∠EDC = ∠ECD = 45°.
+- The point D lies on AB, so D is between A and B.
+
+Next, let's examine the construction of the auxiliary line EF. We are told to draw EF perpendicular to AE, intersecting AC at F. This means ∠AEF = 90°. Since EF is perpendicular to AE, and AE is a side of the isosceles right triangle △EDC (where DE = CE), we can consider the quadrilateral AECF. The angles at A and E are both 90°, so AECF is a rectangle. This implies that AF = EC and AE = FC.
+
+Now, let's compare the angles in the triangles △DAF and △EAD.
+- ∠DAF = ∠EAD = 90° (by construction).
+- ∠FDA = 45° (since D is on AB and ∠B = 45°, and ∠FDA = ∠B = 45°).
+- ∠DEA = 45° (since ∠DEC = 90° and ∠ECD = 45°, so ∠DEA = 180° - 90° - 45° = 45°).
+
+Since two angles are equal in both triangles, △DAF and △EAD are similar by AA similarity (Angle-Angle). This means their corresponding sides are proportional:
+- AD/DE = AF/AE = DF/AD.
+
+We know that AF = EC from the rectangle AECF. So, AF = EC = DE (since DE = CE in △EDC). Substituting AF = DE into the proportion AD/DE = AF/AE gives AD/DE = DE/AE. This implies that AD/AE = DE/DE = 1, so AD = AE.
+
+Now we can substitute AD = AE into the proportion AD/DE = DF/AD. Since AD = AE and AF = DE, we have AE/DE = DF/AE. Cross-multiplying gives AE² = DE * DF.
+
+We know that AECF is a rectangle, so AE = FC. Also, in the isosceles right triangle △EDC, DE = EC. Substituting AE = FC and DE = EC into the equation AE² = DE * DF gives FC² = EC * DF.
+
+We can now use the Pythagorean theorem in the right triangle △DFC. In a right triangle, the square of the hypotenuse (DF) is equal to the sum of the squares of the other two sides (FC and DC):
+- DF² = FC² + DC².
+Substituting FC² = EC * DF from

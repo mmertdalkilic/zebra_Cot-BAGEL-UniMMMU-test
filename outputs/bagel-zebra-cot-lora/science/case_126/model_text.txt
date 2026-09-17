@@ -1,0 +1,2 @@
+<think>The problem asks us to predict the final state of an electroplating setup after a specific duration. We are given the initial setup: a copper anode, an iron cathode, and a CuSO₄ solution, along with a 5 V DC current for 30 minutes.
+The core principle is that anode material is dissolved and deposited onto the cathode. Since copper is the anode, it will be dissolved and deposited onto the iron cathode. This process is known as electroplating.</think>

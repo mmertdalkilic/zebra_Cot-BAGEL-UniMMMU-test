@@ -1,0 +1,30 @@
+<think>1.  Overlay: The problem asks us to draw lines BH and AG.
+2.  Reasoning: We need to prove that CG = CH. We will use the given condition that ∠BAD and ∠BED are supplementary.
+    -  Let ∠BAD = x. Then ∠BED = 180° - x.
+    -  Since BD is an altitude, ∠BDA = 90°. Thus, ∠ABD = 180° - x - 90° = 90° - x.
+    -  Since AE is an altitude, ∠AED = 90°. Thus, ∠DAE = 180° - x - 90° = 90° - x.
+    -  So, ∠ABD = ∠DAE.
+    -  Since B, D, A, E are concyclic (they lie on the circle), ∠ABD = ∠AED = ∠AEB = ∠AHD = 90° - x.
+    -  Now, consider the angles at point E. We have ∠BEH = 180° - x and ∠DEA = 90° - x.
+    -  Thus, ∠BEH = ∠DEA.
+    -  Since B, E, D, H are concyclic, ∠BEH = ∠BHD = 90° - x.
+    -  So, ∠BHD = ∠DEA.
+    -  Since D, E, A, H are concyclic, ∠BHD = ∠BAH = 90° - x.
+    -  So, ∠BAH = ∠DEA.
+    -  Since A, E, D, B are concyclic, ∠BAH = ∠BDA = 90°.
+    -  Thus, ∠DEA = 90°.
+    -  Since C, E, D, G are concyclic (they lie on the circle), ∠DEA = ∠DCG = 90°.
+    -  Since C, G, D, H are concyclic, ∠DCG = ∠DCH = 90°.
+    -  So, ∠DCH = 90°.
+    -  Since C, H, D, A are concyclic, ∠DCH = ∠DAH = 90°.
+    -  So, ∠DAH = 90°.
+    -  Since A, H, D, B are concyclic, ∠DAH = ∠DBH = 90°.
+    -  So, ∠DBH = 90°.
+    -  Since C, H, B, G are concyclic, ∠DBH = ∠DGC = 90°.
+    -  Since C, G, B, E are concyclic, ∠DGC = ∠DCE = 90°.
+    -  So, ∠DCE = 90°.
+    -  Since C, E, B, H are concyclic, ∠DCE = ∠DHB = 90°.
+    -  So, ∠DHB = 90°.
+    -  Since D, H, B, A are concyclic, ∠DHB = ∠DAB = x.
+    -  So, ∠DAB = x.
+    -  Since C, H, A, B are concyclic,

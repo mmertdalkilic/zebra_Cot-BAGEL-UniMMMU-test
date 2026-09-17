@@ -1,0 +1,27 @@
+<think>Let the radius of the circle be r. Since AB is a diameter, its length is 2r. Let OG = x. The problem states OH = 2OG, so OH = 2x. Since O is the center, OA = OB = OC = OD = r. Thus, AG = AO + OG = r + x, and BG = OB - OG = r - x. Since AB is perpendicular to CD at G, triangles ACG and BGD are right-angled at G. This implies that CG = GD (perpendicular from center to chord bisects chord). Let CG = GD = y. The problem states HF = √10. We will use the Pythagorean theorem in various right triangles to find the length of EN.
+
+First, consider the right-angled triangle HFA. Its hypotenuse is HA, and the legs are HF and AF. We need to find HA and AF.
+HA = AG - HG = (r + x) - HG.
+AF = AD - DF.
+We need to find AD and DF. AD is a chord of the circle. DF is the altitude from D to the line CH (since CF is perpendicular to AD and CH is the extension of CF). We can use the power of a point theorem (or similar triangles) to find AF and DF.
+
+Consider the power of point H with respect to the circle. The power is equal to the product of the lengths of the segments of any secant line through H. The secant line can be HN (which intersects the circle at N and E) or HN extended (which intersects the circle at N and E). The power of H is:
+Power(H) = (HN)(HE) = (HA)(HD).
+We have HA = (r + x) - HG and HD = (r - x) + GD = (r - x) + y.
+So, (HN)(HE) = [(r + x) - HG][(r - x) + y].
+
+Now, consider the right-angled triangle HFA. Its hypotenuse is HA, and the legs are HF = √10 and AF. We can express AF in terms of AD and DF, and then express AD and DF in terms of r, x, and y.
+AD = √(AF² + DF²).
+DF = √(GD² - GF²) = √(y² - GF²).
+GF = √(HF² - AF²) = √(10 - AF²).
+So, DF = √(y² - (10 - AF²)) = √(AF² + y² - 10).
+Substituting back, AD = √(AF² + (√(AF² + y² - 10))²) = √(AF² + AF² + y² - 10) = √(2AF² + y² - 10).
+
+Now, we can set up an equation using the power of point H. We need to express HN and HE in terms of the other variables.
+HN = HG + GN.
+GN = GD - ND.
+ND = √(GD² - GF²) = √(y² - GF²).
+So, ND = √(y² - (10 - AF²)) = √(AF² + y² - 10).
+GN = y - √(AF² + y² - 10).
+HN = HG + (y - √(AF² + y² - 10)).
+HE = HD - ND = [(r - x) + y] - √(AF

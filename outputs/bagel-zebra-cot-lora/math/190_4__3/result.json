@@ -1,0 +1,14 @@
+{
+  "id": "190_4__3",
+  "big_key": "190_4",
+  "small_key": "3",
+  "status": "ok",
+  "ex_dir": "./outputs/bagel-zebra-cot-lora/math/190_4__3",
+  "type": "calculation",
+  "original_image": "images/190_4_3_orig.png",
+  "text_file": "./outputs/bagel-zebra-cot-lora/math/190_4__3/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/math/190_4__3/model_image_01.png"
+  ],
+  "errors": []
+}

@@ -1,0 +1,15 @@
+<think>Let’s analyze the geometry. We are given a circle with center O, AB as its diameter. CD is a chord, and the bisector of ∠BCD intersects the circle at E. AD and BE meet at F. We need to prove AB = AF.
+
+Let’s analyze the angles. Since AB is a diameter, ∠ACB = 90° (angle in a semicircle). Also, ∠ADB = 90° (angle in a semicircle). Let’s denote ∠BCD = 2α. Since CE bisects ∠BCD, ∠BCE = ∠DCE = α.
+
+Now, let’s look at the angles involving point E. Since E is on the circle, ∠DEB = ∠DCB = 2α (angles subtended by the same arc DB). Also, ∠DEB = ∠CEB + ∠DEC. Since ∠CEB = α (as CE bisects ∠BCD), then ∠DEC = ∠DEB - ∠CEB = 2α - α = α. So, ∠DEC = α.
+
+Now, let’s look at the angles at point D. Since ∠ADB = 90°, ∠ADO + ∠ODA = 90°. Since OD = OA (radii), ∠ADO = ∠OAD. Let’s denote ∠OAD = β. So, β + ∠ODA = 90°. Also, ∠ODA = ∠DEC = α (angles subtended by the same arc EC). So, β + α = 90°.
+
+Now, let’s look at the angles at point A. Since ∠ACB = 90°, ∠CAB + ∠ABC = 90°. Since OA = OB (radii), ∠OAB = ∠OBA. Let’s denote ∠OAB = γ. So, γ + ∠OBA = 90°. Also, ∠OBA = ∠ABD (angles subtended by the same arc AD). Since ∠ABD = 90° - ∠BAD = 90° - β (from ∠ADO = α = ∠ODA = β). So, γ + (90° - β) = 90°. This gives γ = β.
+
+Now, let’s look at the angles at point F. We have ∠AFB = ∠DFE (vertical angles). Let’s denote ∠AFB = ∠DFE = θ. We need to show θ = 90°.
+
+Let’s analyze the angles in triangle ADF. ∠DAF = ∠CAB = γ (angles subtended by the same arc CB). We found γ = β. We also found β + α = 90°. So, ∠DAF = β, and ∠FDA = α (angle subtended by arc DA). So, ∠DAF + ∠FDA = β + α = 90°. Therefore, ∠AFD = 90° - (β + α) = 90° - 90° = 0°. Wait, this is a mistake. Let’s correct the analysis.
+
+Wait, the angles in triangle ADF are ∠DAF, ∠FDA, and ∠AFD. We have ∠DAF = γ = β, ∠FDA = α. So, ∠AFD = 180° - ∠DAF - ∠FDA

@@ -1,0 +1,16 @@
+<think>1.  **Overlaying the auxiliary line AD**:
+    - The problem asks us to prove BD = CD.
+    - We are given that AB is the diameter of the circle and D lies on the circle, so ∠ADB = 90° (angle inscribed in a semicircle).
+    - This means AD is the altitude from A to BC.
+    - To use this, we need to show that AD is also the median, so D is the midpoint of BC.
+
+2.  **Using the property of isosceles triangles**:
+    - We are given that AB = AC.
+    - This means △ABC is an isosceles triangle with AB = AC.
+    - The altitude from the apex A (AD) in an isosceles triangle must also be the median (it bisects the base BC).
+    - Therefore, D is the midpoint of BC, which implies BD = CD.
+
+3.  **Final Conclusion**:
+    - The problem statement asks us to "prove that: BD = CD".
+    - We have shown that AD is the altitude and also the median of the isosceles triangle ABC.
+    - This directly implies that D is the midpoint of BC, so BD = CD.</think>

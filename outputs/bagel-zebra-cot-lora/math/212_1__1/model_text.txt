@@ -1,0 +1,29 @@
+<think>The problem asks for the length of the minor arc BC in a circle where triangle ABC is inscribed. We are given the measure of angle A (45°) and the length of side BC (2√2). The first step is to construct the radii OB and OC, which will help us find the central angle ∠BOC.
+
+We can use the Inscribed Angle Theorem, which states that the measure of an inscribed angle is half the measure of its intercepted arc. Here, ∠A is an inscribed angle that intercepts arc BC. Therefore, the measure of arc BC is 2 * ∠A.
+
+Let's calculate the measure of arc BC:
+m arc BC = 2 * m∠A = 2 * 45° = 90°
+
+Now we need to find the radius of the circle, r. We can use the Law of Cosines in triangle ABC. The Law of Cosines states that for any triangle with sides a, b, c, and angle C opposite side c: c² = a² + b² - 2ab * cos(C).
+In triangle ABC, angle A = 45°, side BC = 2√2, and sides AB and AC are radii of the circle, so AB = AC = r.
+Applying the Law of Cosines to triangle ABC:
+BC² = AB² + AC² - 2 * AB * AC * cos(∠A)
+(2√2)² = r² + r² - 2 * r * r * cos(45°)
+8 = 2r² - 2r² * (√2/2)
+8 = 2r² - r²√2
+8 = r²(2 - √2)
+r² = 8 / (2 - √2)
+To rationalize the denominator, multiply numerator and denominator by (2 + √2):
+r² = [8 * (2 + √2)] / [(2 - √2)(2 + √2)]
+r² = (16 + 8√2) / (4 - 2)
+r² = (16 + 8√2) / 2
+r² = 8 + 4√2
+r = √(8 + 4√2)
+r = √(4(2 + √2))
+r = 2√(2 + √2)
+
+Now we can calculate the length of the minor arc BC. The length of an arc is given by the formula L = r * θ, where θ is the central angle in radians.
+We found that the central angle ∠BOC = 90°. To convert degrees to radians, we use the conversion factor: 1° = π/180 radians.
+m∠BOC = 90° * (π/180) = π/2 radians.
+Length of arc BC = r * m∠BOC = 2√(2 + √2) * (π/2) = √(2 + √2) * π</think>

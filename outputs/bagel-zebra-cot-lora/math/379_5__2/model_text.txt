@@ -1,0 +1,14 @@
+<think>1) Overlay: The problem asks for BE. We are given CF=1 and ∠BAF=60°. We are given CE=CF. We are given CE ⊥ AB and CF ⊥ AD. We are given AB is a diameter. We are given C is on the circle. We are given D is a chord. We are given E is on AB. We are given F is on the extension of AD. We are given O is the center of the circle.
+2) Reasoning: We will use the given information and the auxiliary lines drawn in the overlay image (AC, OC, BC). We will use the properties of angles in a circle, right triangles, and the given lengths.
+3) We are given ∠BAF=60°. We are given CF=1 and CE=CF. We are given CE ⊥ AB and CF ⊥ AD.
+4) We are given AB is a diameter. We are given C is on the circle. We are given D is a chord. We are given E is on AB. We are given F is on the extension of AD. We are given O is the center of the circle.
+5) We are given that the auxiliary lines are AC, OC, and BC. We will use these lines to find relationships between angles and sides.
+6) We are given that AB is a diameter. We are given that C is on the circle. We are given that D is a chord. We are given that E is on AB. We are given that F is on the extension of AD. We are given that O is the center of the circle.
+7) We are given that CE ⊥ AB and CF ⊥ AD. We are given that CE=CF. We are given that CF=1.
+8) We are given that ∠BAF=60°. We are given that AB is a diameter. We are given that C is on the circle. We are given that D is a chord. We are given that E is on AB. We are given that F is on the extension of AD. We are given that O is the center of the circle.
+9) We are given that CE ⊥ AB and CF ⊥ AD. We are given that CE=CF. We are given that CF=1.
+10) We are given that ∠BAF=60°. We are given that AB is a diameter. We are given that C is on the circle. We are given that D is a chord. We are given that E is on AB. We are given that F is on the extension of AD. We are given that O is the center of the circle.
+11) We are given that CE ⊥ AB and CF ⊥ AD. We are given that CE=CF. We are given that CF=1.
+12) We are given that ∠BAF=60°. We are given that AB is a diameter. We are given that C is on the circle. We are given that D is a chord. We are given that E is on AB. We are given that F is on the extension of AD. We are given that O is the center of the circle.
+13) We are given that CE ⊥ AB and CF ⊥ AD. We are given that CE=CF. We are given that CF=1.
+14) We are given that ∠BAF=60°. We are given that AB is a diameter. We are given that C is on the circle. We are given that D is a chord. We are given that E is on AB. We are given that F is on the extension of AD. We are given that

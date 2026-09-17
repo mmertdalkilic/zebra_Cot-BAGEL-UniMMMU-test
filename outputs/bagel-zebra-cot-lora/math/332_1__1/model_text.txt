@@ -1,0 +1,19 @@
+<think>The problem asks for the length of the diameter AD of a circle, given that AD is the diameter, AB is a chord, and ∠BCD = 45°. We are given AB = 10. We need to find AD.
+
+We are given that AD is the diameter of the circle, so the angle ∠ABD is a right angle (90°), because any angle inscribed in a semicircle is a right angle. This means △ABD is a right-angled triangle with the right angle at B.
+
+We are given that ∠BCD = 45°. By the Inscribed Angle Theorem, an angle subtended by an arc at the circumference is half the angle subtended at the center. The arc subtended by BD is the same for both ∠BCD and ∠BAD. Therefore, ∠BAD = 2 * ∠BCD = 2 * 45° = 90°.
+
+Now we have two right angles in △ABD: ∠ABD = 90° and ∠BAD = 90°. This means that the sum of these two angles is 180°. In any triangle, the sum of the interior angles is 180°. Therefore, the third angle, ∠ADB, must be 0°. This implies that the points A, B, and D are collinear, and the line segment AD passes through the point B.
+
+Since A, B, and D are collinear, the length of AD is the sum of the lengths of AB and BD. We are given AB = 10. We need to find the length of BD.
+
+In the right-angled triangle △ABD, ∠ABD = 90° and ∠BAD = 90°. Therefore, the third angle, ∠ADB, must also be 90°. This means that △ABD is a right-angled isosceles triangle. The angles are 90°, 90°, and 0°, which is not possible. Wait, this is a mistake. Let's correct the analysis.
+
+We have ∠ABD = 90° (since AD is a diameter) and ∠BCD = 45°. The Inscribed Angle Theorem states that ∠BAD = 2 * ∠BCD = 2 * 45° = 90°. So, ∠BAD = 90°. Now, in △ABD, we have ∠ABD = 90° and ∠BAD = 90°. The sum of angles in a triangle is 180°. So, the third angle, ∠ADB, must be 180° - 90° - 90° = 0°. This is impossible. Therefore, our initial assumption must be wrong. Let's re-evaluate the angles.
+
+The correct approach is to use the Inscribed Angle Theorem correctly. The angle ∠BCD is 45°. The arc subtended by BD is the same for both ∠BCD and ∠BAD. So, ∠BAD = 2 * ∠BCD = 2 * 45° = 90°. Now, in △ABD, we have:
+- ∠ABD = 90° (since AD is a diameter).
+- ∠BAD = 90° (from the above calculation).
+- The sum of angles in a triangle is 180°.
+- So, ∠ADB = 18

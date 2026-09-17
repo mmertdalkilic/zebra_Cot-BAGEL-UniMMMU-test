@@ -1,0 +1,16 @@
+{
+  "id": "case_104",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_104",
+  "initial_image": "./data/science/imgs/d19_c002_9dd8f90284.png",
+  "condition": "Single unripe green tomato on a white windowsill; vine still attached; bright natural light. Expose to ambient room conditions at 25°C with bright sunlight for 3 days to ripen",
+  "meta": {
+    "level_1": "Biology",
+    "level_2": "Ripening / color change"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_104/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_104/model_image_01.png"
+  ],
+  "errors": []
+}

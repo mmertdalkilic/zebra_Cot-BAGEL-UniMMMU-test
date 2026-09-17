@@ -1,0 +1,21 @@
+<think>The problem asks for the area of a regular hexagon ABCDEF, given its side length AB = 4. We are given an auxiliary line OH, which is the perpendicular from the center O to the side AB. We need to find the area of the hexagon.
+
+A regular hexagon can be divided into 6 congruent equilateral triangles by drawing lines from its center to each vertex. Let's consider the triangle formed by the center O, vertex A, and vertex B. This is triangle OAB.
+
+Since ABCDEF is a regular hexagon, all its sides are equal (AB = BC = CD = DE = EF = FA = 4), and all its interior angles are equal. The sum of the interior angles of a hexagon is (6-2)×180° = 720°. Therefore, each interior angle is 720°/6 = 120°. So, ∠AOB = 120°.
+
+Triangle OAB is formed by connecting the center O to two adjacent vertices A and B. The line segment AB is a side of the hexagon, so its length is 4. The line segment OA is a radius of the circumscribed circle of the hexagon, and the line segment OB is also a radius. In a regular hexagon, all radii are equal. Therefore, OA = OB = 4.
+
+We have a triangle OAB with OA = OB = 4 and ∠AOB = 120°. To find the area of this triangle, we can drop a perpendicular from O to AB, which is the auxiliary line OH. This creates a right-angled triangle OAH, where H is the foot of the perpendicular on AB.
+
+In triangle OAH, the side OA is the hypotenuse (length 4), and the angle at A (∠OAH) is half of the interior angle at A, so ∠OAH = 120°/2 = 60°. Since ∠OHA is a right angle (90°), the third angle in triangle OAH is 180° - 90° - 60° = 30°. So, ∠AHO = 30°.
+
+Now we have a 30-60-90 right-angled triangle OAH. The side opposite the 30° angle (∠AHO) is AH, and the side opposite the 60° angle (∠OAH) is OH. The hypotenuse is OA = 4.
+
+In a 30-60-90 triangle, the sides are in the ratio 1 : √3 : 2. The side opposite the 30° angle (AH) is half the hypotenuse (OA). So, AH = OA/2 = 4/2 = 2.
+
+The side opposite the 60° angle (OH) is AH multiplied by √3. So, OH = AH × √3 = 2 × √3 = 2√3.
+
+The area of triangle OAB is (1/2) × base × height. The base of triangle OAB is AB = 4, and the height is OH = 2√3. So, Area(ΔOAB) = (1/2) × 4 × 2√3 = 4√3.
+
+The regular hexagon ABCDEF is composed of 6 congruent equilateral triangles, each with side length 4. The area of the hexagon is 6 times the area of one such triangle. So, Area(hexagon) = 6 × Area

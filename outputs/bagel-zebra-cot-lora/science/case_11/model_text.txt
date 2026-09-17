@@ -1,0 +1,2 @@
+<think>The condition describes an experiment where a rod is being heated at one end and pressed against butter at the other. The goal is to predict the final state after sufficient heating.
+The heat from the flame will cause the butter to melt. Since the rod is clamped, the melted butter will flow along the rod to the heated end.</think>

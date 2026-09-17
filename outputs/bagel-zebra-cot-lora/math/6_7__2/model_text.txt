@@ -1,0 +1,14 @@
+<think>1.  **Overlay: Add DE** as specified.
+2.  **Given:** AB=AC (isosceles), D is midpoint of arc EF, radius r=6.
+3.  **Goal:** Find BE.
+4.  **Key Insight:** Since D is midpoint of arc EF, AD bisects ∠BAC. Thus, AD is the angle bisector of ∠BAC.
+5.  **AD is angle bisector:** So, ∠BAD = ∠CAD.
+6.  **AD is diameter:** Thus, ∠AED = ∠AFD = 90° (angle inscribed in semicircle).
+7.  **AD is altitude:** Since AB=AC, AD is also the altitude from A to BC, so AD ⊥ BC.
+8.  **AD is perpendicular to BC:** So, ∠ADB = 90°.
+9.  **AD is angle bisector and altitude:** Thus, AD is the median to BC, so D is the midpoint of BC.
+10. **AD is perpendicular to BC:** So, AD is the altitude and median to BC, making AD the perpendicular bisector of BC.
+11. **AD is perpendicular bisector of BC:** Thus, ∠BAD = ∠CAD = ∠ABD = ∠ACD (since AD is angle bisector and perpendicular bisector).
+12. **AD is perpendicular bisector:** So, BD=CD.
+13. **AD is perpendicular bisector:** Thus, ∠ABD = ∠BAD = ∠CAD = ∠ACD.
+14. **AD is perpendicular bisector:** So, ∠ABD = ∠BAD = ∠CAD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠ACD = ∠AC

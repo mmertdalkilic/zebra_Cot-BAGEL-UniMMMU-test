@@ -1,0 +1,13 @@
+<think>1.  Overlay: The problem asks for the length of CE. The diagram shows a right triangle ABC, a point D (midpoint of BC), and a line AE parallel to BC with AE=BD. We are also given AB=2 and ∠AEB=60°. We are asked to find CE. The problem asks us to find the length of CE. We are given a right triangle ABC, a point D (midpoint of BC), and a line AE parallel to BC with AE=BD. We are also given AB=2 and ∠AEB=60°. We are asked to find CE. The problem asks us to find the length of CE. We are given a right triangle ABC, a point D (midpoint of BC), and a line AE parallel to BC with AE=BD. We are also given AB=2 and ∠AEB=60°. We are asked to find CE. The problem asks us to find the length of CE. We are given a right triangle ABC, a point D (midpoint of BC), and a line AE parallel to BC with AE=BD. We are also given AB=2 and ∠AEB=60°. We are asked to find CE.
+
+2.  Reasoning: Use the given information and the auxiliary line EF⊥CB to find CE.
+    - 1) We are given AB=2 and ∠AEB=60°. Triangle ABE is a right triangle with ∠BAE=90° (since AE//BC, ∠BAE=∠ABC=90°). So, ∠ABE = 180° - 90° - 60° = 30°.
+    - 2) Triangle ABE is a 30-60-90 triangle. The sides are in the ratio 1:√3:2. So, AB = 2, BE = 2 * √3, AE = 2 * 1 = 2.
+    - 3) We are given AE//BC. Since AE=BD and D is the midpoint of BC, BD=DC=AE=2. So, BC = BD + DC = 2 + 2 = 4.
+    - 4) We are given EF⊥CB. This means ∠EFB = 90°.
+    - 5) Since AE//BC, ∠EAB = ∠ABC = 90°. So, ∠EAB = ∠EFB = 90°. This means AE is parallel to EF.
+    - 6) Since AE//EF and EF is perpendicular to CB, AE is also perpendicular to CB. So, ∠AEB = 90°.
+    - 7) Triangle AEB is a right triangle with ∠AEB=90°, ∠ABE=30°, so ∠BAE=60°.
+    - 8) Triangle AEB is a 30-60-90 triangle with AB=2. So, AE=2 * √3, BE=2 * 1 = 2.
+    - 9) Since AE//BC, ∠EAD = ∠ADC. Since D is the midpoint of BC, AD is the median of triangle ABC. In a right triangle, the median to the hypotenuse is half the hypotenuse. So, AD=BD=DC=2.
+    - 10) Since AE=2 and AD=2, AE=AD. So, triangle AED is isosceles with ∠

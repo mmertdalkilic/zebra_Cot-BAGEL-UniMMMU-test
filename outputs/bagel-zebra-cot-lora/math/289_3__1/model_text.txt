@@ -1,0 +1,60 @@
+<think>The problem asks for the length of BD in a circle geometry problem. We are given that AB is the diameter, arc AD = arc CD, ∠E=90°, AB=4, and BE=3. We need to use the auxiliary line AD drawn in the diagram.
+
+First, let's interpret the given information:
+- AB is the diameter of circle O, so ∠ADB = 90° (angle inscribed in a semicircle).
+- Arc AD = arc CD, so the angles subtended by these arcs at the center are equal. Thus, ∠ABD = ∠CBD.
+- ∠E = 90°, so triangle EBD is a right-angled triangle at E.
+
+Now, let's analyze the triangle ABD. We know AB = 4 and we want to find BD. We can use the Pythagorean theorem if we know AD. Let's find AD.
+
+Consider triangle ABE. We know AB = 4 and BE = 3. We can find AE using the Pythagorean theorem in triangle ABE.
+AE² + BE² = AB²
+AE² + 3² = 4²
+AE² + 9 = 16
+AE² = 16 - 9 = 7
+AE = √7
+
+Now, let's consider the quadrilateral AEDC. Since AD and CD are arcs of equal length, the chords AD and CD are equal in length. So, AD = CD.
+
+The triangles AED and CED are right-angled at E (as shown in the diagram). We have:
+- AD = CD (from above)
+- ED = ED (common side)
+- ∠AED = ∠CED = 90°
+
+By the Hypotenuse-Leg (HL) theorem, triangle AED ≅ triangle CED.
+
+Since the triangles are congruent, their corresponding sides are equal. Therefore, AE = CE. We found AE = √7, so CE = √7.
+
+Now we can find BC. Since BE = 3 and CE = √7, we can find BC using the Pythagorean theorem in triangle BEC.
+BC² = BE² - CE²
+BC² = 3² - (√7)²
+BC² = 9 - 7
+BC² = 2
+BC = √2
+
+Now consider triangle BCD. We have:
+- CD = AD (from above)
+- ∠E = 90° (from the diagram)
+- CE = AE = √7 (from congruent triangles AED and CED)
+
+Triangle BCD is a right-angled triangle at E. We can use the Pythagorean theorem to find BD.
+BD² = BC² + CD²
+BD² = (√2)² + AD²
+BD² = 2 + AD²
+
+Now we need to find AD. Consider triangle ADE. We have:
+- ∠AED = 90° (from the diagram)
+- AE = √7 (from above)
+- AD = CD (from above)
+
+Triangle ADE is a right-angled triangle at E. We can use the Pythagorean theorem to find AD.
+AD² = AE² + DE²
+AD² = (√7)² + DE²
+AD² = 7 + DE²
+
+Now we need to find DE. Consider triangle BDE. We have:
+- ∠E = 90° (from the diagram)
+- BE = 3 (given)
+- DE = ?
+
+Triangle BDE is a right-angled triangle at E. We can use the Pythagorean theorem to find

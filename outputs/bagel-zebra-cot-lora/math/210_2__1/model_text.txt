@@ -1,0 +1,21 @@
+<think>The problem asks for the ratio FG/BC in a square ABCD with side length 4. The area of triangle EBG is given as 6. We are given that EB and EC intersect AD at F and G, respectively. We are asked to find the ratio of the lengths of FG to BC. The first step is to draw the auxiliary lines as specified: EM perpendicular to BC, intersecting AD at N.
+
+Let's analyze the relationships between the triangles formed by these lines and the given area.
+1.  **Triangle EBC**: The base is BC = 4. The area is given as 6. The height from E to BC is EM. Area = 1/2 * base * height => 6 = 1/2 * 4 * EM => EM = 3.
+2.  **Triangle EFG**: The base is FG. The height from E to FG is EN. Since EM is perpendicular to BC and AD is parallel to BC, EM is also perpendicular to AD. Thus, EN = EM = 3.
+3.  **Triangle EFG**: The area is 1/2 * FG * EN = 1/2 * FG * 3 = (3/2) * FG.
+4.  **Triangle EBC**: The area is 6.
+5.  **Triangle EFG** is similar to **Triangle EBC** because they share angle E and have parallel lines AD || BC, which means their corresponding angles are equal. Therefore, the ratio of their areas is the square of the ratio of their corresponding sides: (FG/BC)^2 = (Area of EFG)/(Area of EBC) = (3/2 * FG)/(6) = FG/4.
+
+Now we can solve for FG.
+From the similarity relationship: (FG/BC)^2 = FG/4.
+Substitute BC = 4: (FG/4)^2 = FG/4.
+Let x = FG/4. Then the equation becomes x^2 = x.
+x^2 - x = 0.
+x(x - 1) = 0.
+So, x = 0 or x = 1.
+Since FG is a length, x = FG/4 = 1.
+Thus, FG = 4.
+
+Finally, we calculate the ratio FG/BC.
+FG/BC = 4/4 = 1.</think>

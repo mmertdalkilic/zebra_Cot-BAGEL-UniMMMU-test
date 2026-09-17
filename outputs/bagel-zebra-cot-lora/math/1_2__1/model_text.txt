@@ -1,0 +1,28 @@
+<think>Let’s analyze the geometry. We are given two circles: Circle M (center M) and Circle N (center N). Both pass through A and B. Point N is on Circle M. Point C is on the major arc AE (C ≠ A, B). AC meets Circle N at P. AB, BC, BP are drawn. We are given ∠APB=30° and AB=3. We need to find MN.
+
+Let’s analyze the angles. Since A, B, C, P are on Circle N, ∠APB = ∠ACB (angles subtended by the same arc AB). So, ∠ACB = 30°. Let’s look at ∠ANB. Since N is on Circle M, ∠ANB is subtended by arc AB. So, ∠ANB = 2∠ACB = 60°.
+
+Now, let’s analyze triangle AMN. We need to find MN. Let’s look at the angles in triangle AMN. We know that AM = MN (radii of Circle M). So, triangle AMN is isosceles with AM = MN. Thus, ∠MAN = ∠MNA.
+
+Let’s find ∠MAN. ∠MAN is subtended by arc BN. So, ∠MAN = 1/2 ∠ANB = 1/2 * 60° = 30°. Since ∠MAN = 30°, ∠MNA = 30°. Therefore, ∠AMN = 180° - 30° - 30° = 120°.
+
+Now, let’s analyze triangle AMB. We know that AM = BM (radii of Circle M). So, triangle AMB is isosceles with AM = BM. Thus, ∠MAB = ∠MBA.
+
+Let’s find ∠MAB. ∠MAB is subtended by arc MB. So, ∠MAB = 1/2 ∠ANB = 1/2 * 60° = 30°. Since ∠MAB = 30°, ∠MBA = 30°. Therefore, ∠AMB = 180° - 30° - 30° = 120°.
+
+Now, let’s look at quadrilateral AMNB. We have:
+- AM = MN (radii of Circle M)
+- BM = BN (radii of Circle N)
+- ∠AMN = 120°
+- ∠AMB = 120°
+So, AMNB is a kite (two pairs of adjacent sides equal) with two opposite angles equal (120°). A kite with two opposite angles equal is a cyclic quadrilateral (the sum of each pair of opposite angles is 180°). Thus, AMNB is cyclic.
+
+Since AMNB is cyclic, ∠MAN = ∠MBN (angles subtended by arc BN). We found ∠MAN = 30°, so ∠MBN = 30°.
+
+Now, let’s analyze triangle ABN. We know:
+- ∠MBN = 30° (from above)
+- ∠ANB = 60° (from above)
+So, ∠BAN = 180° - 30° - 60° = 90°. Triangle ABN is a right-angled triangle at A.
+
+We are given AB = 3. In the right-angled triangle ABN, we have:
+- ∠BAN

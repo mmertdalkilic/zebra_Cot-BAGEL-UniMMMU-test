@@ -1,0 +1,36 @@
+<think>The problem asks for the length of DE in a geometric figure involving a rhombus ABCD and a rectangle EFGD. We are given the side length of the rhombus (AB = 6), the angle at B (∠B = 60°), and the length of DG (DG = 4√3). The key is to use the auxiliary line DH, which is perpendicular to BC.
+
+First, let's analyze the properties of the rhombus ABCD. In a rhombus, all sides are equal, so AB = BC = CD = DA = 6. The angle at B is ∠B = 60°. This means that triangle ABC is an equilateral triangle (all sides equal, all angles 60°). Therefore, AC = AB = 6. Since ABCD is a rhombus, AD is parallel to BC, and AD = BC = 6. The diagonal AC divides the rhombus into two congruent triangles, ABC and ADC.
+
+Next, we look at the rectangle EFGD. In a rectangle, all angles are 90°, so ∠DGH = 90°. The side DG is given as 4√3. We need to find the length of DE. We can use the Pythagorean theorem in the right-angled triangle DGH to find GH.
+
+In the right-angled triangle DGH, we have:
+DG = 4√3 (hypotenuse)
+∠DGH = 90° (from the rectangle property)
+DH is the altitude from D to BC. Since ABCD is a rhombus, DH is also the altitude from D to AB. The area of the rhombus ABCD can be calculated in two ways:
+Area = AB × DH = BC × AC
+Since AB = BC = AC = 6 (from the equilateral triangle ABC), we have 6 × DH = 6 × 6, so DH = 6.
+Now, we can find GH using the Pythagorean theorem in triangle DGH:
+GH² + DH² = DG²
+GH² + 6² = (4√3)²
+GH² + 36 = 16 × 3
+GH² + 36 = 48
+GH² = 48 - 36
+GH² = 12
+GH = √12 = 2√3
+
+Now we can find the length of the side of the rectangle EFGD, which is DG = 4√3. Since EFGD is a rectangle, its opposite sides are equal (EF = DG, FG = DE). We can use the Pythagorean theorem in the right-angled triangle DGH to find DE. The side GH is the height of the rectangle EFGD, and DG is the hypotenuse.
+
+In the right-angled triangle DGH, we have:
+GH = 2√3 (from previous calculation)
+∠DGH = 90° (from the rectangle property)
+DE is the side of the rectangle EFGD, so DE = DG (opposite sides of a rectangle are equal).
+Using the Pythagorean theorem in triangle DGH:
+GH² + DE² = DG²
+(2√3)² + DE² = (4√3)²
+4 × 3 + DE² = 16 × 3
+12 + DE² = 48
+DE² = 48 - 12
+DE² = 36
+DE = √36
+DE = 6</think>

@@ -1,0 +1,2 @@
+<think>The condition specifies a swap between the red and yellow bottles, leaving the blue bottle in its original position.
+To visualize the effect of the swap, I will generate an image showing the bottles in their new arrangement.</think>

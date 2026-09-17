@@ -1,0 +1,16 @@
+{
+  "id": "case_43",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_43",
+  "initial_image": "./data/science/imgs/d11_c004_64a43b4d3a.png",
+  "condition": "Methyl orange indicator in acidic solution;  Add 5 mL of 0.1 M NaOH to the beaker and swirl for 20 seconds",
+  "meta": {
+    "level_1": "Chemistry",
+    "level_2": "Acid-base indicator"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_43/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_43/model_image_01.png"
+  ],
+  "errors": []
+}

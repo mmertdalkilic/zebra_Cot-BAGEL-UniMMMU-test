@@ -1,0 +1,16 @@
+{
+  "id": "case_16",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_16",
+  "initial_image": "./data/science/imgs/d04_c010_f7ea442055.png",
+  "condition": "Scenario 10: Sugar solution density 1.2 with aluminum and Styrofoam.Put both into the water. Let the beaker stand undisturbed for a sufficiently long time",
+  "meta": {
+    "level_1": "Fluid mechanics",
+    "level_2": "Floating and sinking"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_16/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_16/model_image_01.png"
+  ],
+  "errors": []
+}

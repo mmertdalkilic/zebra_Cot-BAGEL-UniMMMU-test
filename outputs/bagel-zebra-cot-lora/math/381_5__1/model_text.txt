@@ -1,0 +1,13 @@
+<think>The problem asks us to prove that PC is a tangent to the circle ☉O. The key information is that AB is the diameter of the circle, and C lies on the circle. We are given a line PD that intersects the extension of BA at P and the extension of BE at D. We need to show that the line PC is perpendicular to the radius OC, which is the definition of a tangent.
+
+To prove that PC is a tangent, we need to show that OC is perpendicular to PC. We can use the property that the angle subtended by a diameter in a semicircle is a right angle. Let's consider the triangle ABC. Since AB is the diameter of ☉O, the angle ACB is a right angle (90°). This means that the points A, C, and B form a right-angled triangle at C.
+
+Now, let's analyze the angles in triangle ABC. We know that ∠ACB = 90°. The sum of angles in a triangle is 180°, so ∠CAB + ∠CBA = 180° - 90° = 90°. The line segment AB is a diameter, so O is the midpoint of AB. Therefore, OA = OB = OC (all are radii of the circle). This means that triangle OAC is an isosceles triangle with OA = OC. So, ∠OAC = ∠OCA. Similarly, triangle OBC is an isosceles triangle with OB = OC, so ∠OCB = ∠OBC.
+
+We can now find the measure of ∠ACO. We know that ∠ACB = 90°. We can express ∠ACO as ∠ACB - ∠OCB. From the previous step, we have ∠OCB = ∠OBC. So, ∠ACO = 90° - ∠OBC.
+
+Next, we need to find the measure of ∠BCO. We can express ∠BCO as ∠OCB - ∠ACO. Substituting the expressions we found, we get ∠BCO = ∠OBC - (90° - ∠OBC). Simplifying this gives ∠BCO = 2∠OBC - 90°.
+
+Now we need to find the measure of ∠OCA. We know that ∠OCA = ∠OAC. We can express ∠OAC as ∠CAB - ∠OAB. From the triangle ABC, we have ∠CAB + ∠CBA = 90°. Since OA = OB, ∠OAB = ∠OBA. So, ∠CAB = 90° - ∠OBA. Substituting this into the expression for ∠OAC, we get ∠OAC = (90° - ∠OBA) - ∠OBA = 90° - 2∠OBA.
+
+We can now find the measure of ∠BCO in terms of ∠OCA. We have ∠BCO = 2∠OBC - 90° and ∠OCA = 90° - 2∠OBA. Since ∠OBC and ∠OBA are angles in the same segment of the circle, they are equal (∠OBC = ∠OBA). So, ∠BCO = 2∠OBC - 90° = 2∠OBA - 90° = 2(90° - 2∠OBA) - 9

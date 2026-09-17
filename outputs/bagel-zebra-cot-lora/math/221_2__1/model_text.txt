@@ -1,0 +1,33 @@
+<think>The problem asks for the length of FG in a rhombus ABCD with given conditions and auxiliary lines. We are given AB=5, ∠D=120°, and AE=2ED. The solution will use the constructed auxiliary lines to establish relationships between segments and angles.
+
+First, let's analyze the properties of the rhombus and the given conditions:
+- ABCD is a rhombus, so AB=BC=CD=DA=5.
+- The diagonals of a rhombus bisect each other at right angles. So, AC ⊥ BD and O is the midpoint of both AC and BD.
+- The diagonals bisect the angles of the rhombus. Thus, ∠BAO = ∠BCO = ∠CDO = ∠DAO = 60° (since ∠D=120°).
+- The angles ∠ABC and ∠ADC are supplementary, so ∠ABC = 180° - 120° = 60°. This means △ABC is an equilateral triangle.
+
+Next, let's analyze the given ratio AE=2ED. Since AD=5, we have AE = (2/3) * AD = (2/3)*5 = 10/3 and ED = (1/3)*AD = 5/3. This ratio will be important for establishing segment ratios in triangles.
+
+Now, let's analyze the segment FG. We need to find its length. The problem provides a construction: BM is parallel to GF, and MN is perpendicular to BC. We need to show that FG = MN, which is the length we need to find.
+
+To do this, we will show that FG = MN by showing that the triangles △BFG and △BMN are congruent.
+
+Let's analyze the angles in △BFG:
+- ∠FBG = ∠FBM + ∠MBG.
+- Since BM is parallel to GF, ∠FBM = ∠GFB (alternate interior angles).
+- Since FG is perpendicular to AB (from the construction), ∠FBG = ∠FBM + 90°.
+- So, ∠FBG = (∠GFB + 90°) + ∠MBG = ∠GFB + 90° + ∠MBG.
+- Since FG is perpendicular to AB, ∠FBG = 90°.
+- Therefore, 90° = ∠GFB + 90° + ∠MBG, which implies ∠MBG = 0°. This means G and M coincide.
+
+Now, let's analyze the angles in △BMN:
+- ∠BMN = 90° (given MN is perpendicular to BC).
+- Since BM is parallel to GF, ∠BMN = ∠GFB (alternate interior angles).
+- Since FG is perpendicular to AB, ∠GFB = 90°.
+- So, ∠BMN = 90° = ∠GFB.
+
+We have established that G and M coincide, and ∠FBG = ∠BMN = 90°. The side BG is common to both triangles. Therefore, by ASA (Angle-Side-Angle) congruence, △BFG ≅ △BMN.
+
+Since △BFG ≅ △BMN, their corresponding sides are equal. Therefore, FG = MN.
+
+Now we need to find the length of MN. Let's analyze the segment MN. Since MN is perpendicular to BC, ∠MNC = 90°. We need to show that �

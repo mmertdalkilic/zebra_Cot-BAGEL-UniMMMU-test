@@ -1,0 +1,16 @@
+{
+  "id": "case_140",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_140",
+  "initial_image": "./data/science/imgs/d27_c011_7d0beae925.png",
+  "condition": "A diamond scribe is slid horizontally across a marble plate.",
+  "meta": {
+    "level_1": "Material science",
+    "level_2": "Material hardness"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_140/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_140/model_image_01.png"
+  ],
+  "errors": []
+}

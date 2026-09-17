@@ -1,0 +1,31 @@
+<think>The problem asks for the length of AC in an isosceles right triangle ABC. We are given that AD=3, and point C lies on the hypotenuse DE of the isosceles right triangle ADE. The ratio EC:CD=1:2 is also given. We need to use the provided auxiliary line BD to find AC.
+
+First, let's analyze the properties of the isosceles right triangles.
+- For △ABC: It is an isosceles right triangle with ∠BAC = 90°. Therefore, AB = AC, and ∠B = ∠ACB = 45°.
+- For △ADE: It is also an isosceles right triangle with ∠DAE = 90°. Therefore, AD = AE, and ∠ADE = ∠AED = 45°.
+
+Next, we need to relate the angles in the given figure. We are given that EC:CD = 1:2. Let's denote EC = x, so CD = 2x. This means DE = EC + CD = x + 2x = 3x. We can also find the angles at point D and E in triangle ADE.
+- In △ADE, since ∠ADE = 45°, we have ∠CDA = 180° - ∠ADE = 180° - 45° = 135°.
+- Similarly, ∠CEA = 180° - ∠AED = 180° - 45° = 135°.
+
+Now, let's consider the angles at point A. We know ∠BAC = 90°. We need to find the relationship between ∠BAD and ∠CAE.
+- ∠BAD = ∠BAC - ∠CAD = 90° - ∠CAD.
+- ∠CAE = ∠DAE - ∠CAD = 90° - ∠CAD.
+- Therefore, ∠BAD = ∠CAE.
+
+We have established that ∠BAD = ∠CAE, AB = AC, and AD = AE. This means that △BAD and △CAE are congruent by the SAS (Side-Angle-Side) congruence criterion.
+
+Since △BAD ≅ △CAE, their corresponding sides and angles are equal.
+- BD = CE = x (since EC = x).
+- ∠ABD = ∠ACE.
+- ∠BDA = ∠CEA = 135°.
+
+We can now find the value of x. Consider triangle BCD. The sum of its interior angles must be 180°.
+- ∠BDC = ∠BDA = 135° (from the congruence).
+- ∠BCD = ∠ACB + ∠ACE = 45° + ∠ACE.
+- ∠CBD = ∠ABD + ∠ABC = ∠ACE + 45°.
+- Sum of angles: ∠BDC + ∠BCD + ∠CBD = 180°.
+- 135° + (45° + ∠ACE) + (∠ACE + 45°) = 180°.
+- 225° + 2∠ACE = 180°.
+- 2∠ACE = 180° - 225° = -45°.
+- ∠ACE = -45° / 2 = -22.

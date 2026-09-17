@@ -1,0 +1,2 @@
+<think>The condition describes a specific setup: a sintered ceramic bead at the bottom of a capillary tube. The key action is "wait for a sufficiently long time."
+This implies the bead's micro-channeling effect will persist over time. The question asks for the UNIQUE final state, so we must infer the effect of this long-term interaction.</think>

@@ -1,0 +1,9 @@
+<think>1.  First, I will connect OB, as per the problem's auxiliary line instruction. This will help establish relationships between angles and radii.
+2.  The problem asks for ∠ABD. I will first find ∠OBD, which is part of the triangle OBD. Since BD is tangent to the circle at B, the radius OB is perpendicular to BD. Thus, ∠OBD = 90°.
+3.  Now, I need to find ∠OBC. I know that ∠BCE = 25°. Since the arc BE subtends ∠BCE, the central angle ∠BOE = 2 * ∠BCE = 2 * 25° = 50°.
+4.  Since OB and OC are radii of the circle, triangle OBC is isosceles with OB = OC. Therefore, ∠OBC = ∠OCB.
+5.  The sum of angles in triangle OBC is 180°. So, ∠OBC + ∠OCB + ∠BOE = 180°.
+6.  Substituting the known values: 2 * ∠OBC + 50° = 180°. This simplifies to 2 * ∠OBC = 130°, so ∠OBC = 65°.
+7.  Now I have both ∠OBD = 90° and ∠OBC = 65°. To find ∠ABD, I need to find ∠ABO, which is the angle between the diameter AE and the radius OB.
+8.  Since AE is a diameter, the angle ∠ABO is half of the central angle ∠AOE. ∠AOE = 2 * ∠ACE = 2 * ∠BCE = 2 * 25° = 50°. So, ∠ABO = 50° / 2 = 25°.
+9.  Finally, ∠ABD = ∠ABO + ∠OBD = 25° + 90° = 115°.</think>

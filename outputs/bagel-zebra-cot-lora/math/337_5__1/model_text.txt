@@ -1,0 +1,42 @@
+<think>The problem asks for the length of arc DE. We are given an isosceles triangle ABC with AB=AC=6 cm and ∠BAC=50°. A semicircle is drawn with AB as its diameter, intersecting BC at D and AC at E. We need to find the length of the arc DE.
+
+First, let's analyze the angles in triangle ABC. Since AB=AC, it is an isosceles triangle. Therefore, ∠ABC = ∠ACB. The sum of angles in a triangle is 180°.
+∠ABC + ∠ACB + ∠BAC = 180°
+2∠ABC + 50° = 180°
+2∠ABC = 130°
+∠ABC = 65°
+So, ∠ACB = 65°.
+
+Next, we need to find the angles related to the semicircle. A semicircle inscribed in a triangle with AB as diameter implies that any point on the semicircle forms a right angle with A and B. This means ∠AEB = 90° and ∠ADB = 90°.
+
+Let's consider the right-angled triangle ABD. Since ∠ADB = 90° and ∠ABC = 65°, we can find ∠BAD.
+In triangle ABD:
+∠BAD + ∠ABD + ∠ADB = 180°
+∠BAD + 65° + 90° = 180°
+∠BAD = 180° - 155° = 25°.
+
+Now, let's consider the right-angled triangle AEC. Since ∠AEB = 90°, we can find ∠EAC.
+In triangle AEC:
+∠EAC + ∠ACE + ∠AEC = 180°
+∠EAC + 65° + 90° = 180°
+∠EAC = 180° - 155° = 25°.
+
+We have found that ∠BAD = 25° and ∠EAC = 25°. Since ∠BAC = 50°, we can see that ∠BAD = ∠EAC. This means that AD is the angle bisector of ∠BAC.
+
+Since AD is the angle bisector of ∠BAC, and ∠BAC = 50°, then ∠DAE = ∠BAD = 25°.
+
+Now, we need to find the measure of ∠DOE, which is the central angle corresponding to arc DE.
+In triangle AOE and triangle AOD:
+OA = OE (both are radii of the semicircle).
+OA = OD (both are radii of the semicircle).
+AE = AD (both are chords of the semicircle subtending equal angles at the center, ∠DAE = ∠DOE).
+Therefore, triangle AOE is congruent to triangle AOD (SSS congruence).
+So, ∠DOE = ∠AOE.
+
+Now, let's find the measure of ∠AOE.
+In triangle AOE:
+OA = OE (radii).
+So, triangle AOE is isosceles with ∠OAE = ∠OEA = 25°.
+The sum of angles in triangle AOE is 180°.
+∠AOE + ∠OAE + ∠OEA = 180°
+∠AOE + 25° +

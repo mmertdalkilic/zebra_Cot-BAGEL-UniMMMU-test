@@ -1,0 +1,47 @@
+<think>1.  **Identify properties of the rhombus**:
+   - All sides are equal: AB = BC = CD = DA = 4.
+   - Diagonals bisect each other at right angles: AC ⊥ BD, BO = OD, AO = OC.
+   - Diagonals bisect the angles: ∠ABD = ∠CBD = 1/2 ∠ABC = 22.5°.
+   - The diagonals create four congruent right-angled triangles.
+
+2.  **Analyze the given angle ∠ABC = 45°**:
+    - This means the rhombus is a square (since all angles are 90°). However, we are given AB=4, which is consistent with a square with side length 4.
+
+3.  **Analyze the construction of AM and NH**:
+    - AM is drawn from A perpendicular to BC, intersecting BD at N.
+    - NH is drawn from N perpendicular to AB.
+
+4.  **Analyze the geometry of the right-angled triangles**:
+    - In the right-angled triangle AMB, ∠AMB = 90°. Since ∠ABC = 45°, ∠BAM = 45°. Thus, ∠ABM = 45°.
+    - This makes triangle AMB an isosceles right-angled triangle (45°-45°-90°).
+    - Therefore, AM = BM.
+
+5.  **Analyze the geometry of the right-angled triangle ANH**:
+    - In the right-angled triangle ANH, ∠AHN = 90°.
+    - Since NH is perpendicular to AB and AM is perpendicular to BC, NH is parallel to AM (both are perpendicular to AB).
+    - Thus, NH = AM (corresponding sides of parallel lines cut by a transversal).
+
+6.  **Conclude that NH = BM**:
+    - From the previous step, NH = AM.
+    - From step 4, AM = BM.
+    - Therefore, NH = BM.
+
+7.  **Analyze the geometry of the right-angled triangle BNH**:
+    - In the right-angled triangle BNH, ∠BNH = 90°.
+    - Since NH = BM, and NH is perpendicular to AB, BM is also perpendicular to AB.
+    - This means that N lies on the perpendicular bisector of AB.
+    - Therefore, AN = BN.
+
+8.  **Analyze the geometry of the right-angled triangle ANB**:
+    - In the right-angled triangle ANB, ∠ANB = 90°.
+    - Since ∠ABC = 45°, ∠BAN = 45°.
+    - This makes triangle ANB an isosceles right-angled triangle (45°-45°-90°).
+    - Therefore, AN = BN.
+
+9.  **Conclude AN = BN = AB**:
+    - From the previous step, AN = BN.
+    - From step 7, AN = BN.
+    - From step 4, AB = 4.
+    - Therefore, AN = BN = AB = 4.
+
+10. **Final Answer**: The length of AN is 4.</think>
