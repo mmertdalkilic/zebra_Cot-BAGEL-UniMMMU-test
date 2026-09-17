@@ -1,8 +1,12 @@
 {
   "id": "242_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line AF",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line AF\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks key congruence steps and incomplete reasoning. Fails to establish critical angle relationships and triangle congruence (SAS) used in ground-truth solution. Final conclusion not reached.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks key congruence steps and incomplete reasoning. Fails to establish critical angle relationships and triangle congruence (SAS) used in ground-truth solution. Final conclusion not reached."
 }

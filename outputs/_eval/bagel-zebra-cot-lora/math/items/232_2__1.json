@@ -1,8 +1,12 @@
 {
   "id": "232_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line AC and intersection point O",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC and intersection point O\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly applies rhombus properties, angle bisector, and 30-60-90 triangle relationships. All steps logically follow with accurate calculations leading to the correct BD length of 2√3.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly applies rhombus properties, angle bisector, and 30-60-90 triangle relationships. All steps logically follow with accurate calculations leading to the correct BD length of 2√3."
 }

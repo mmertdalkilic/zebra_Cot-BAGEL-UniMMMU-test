@@ -1,8 +1,12 @@
 {
   "id": "219_3__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "DO does not extend to intersect AB at F",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"DO does not extend to intersect AB at F\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes angles ∠ACD and ∠BCD are 90° based on arc equality, which is invalid. The reasoning chain relies on flawed angle relationships and misapplies circle theorems. The conclusion DE⊥BE is not rigorously established.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes angles ∠ACD and ∠BCD are 90° based on arc equality, which is invalid. The reasoning chain relies on flawed angle relationships and misapplies circle theorems. The conclusion DE⊥BE is not rigorously established."
 }

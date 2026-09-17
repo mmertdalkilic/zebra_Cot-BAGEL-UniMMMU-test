@@ -1,8 +1,12 @@
 {
   "id": "233_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line DE⊥AB",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line DE⊥AB\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical errors in angle analysis leading to contradiction. Fails to establish key relationships (e.g., AE=DE) and solve for AB. Final answer not reached.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical errors in angle analysis leading to contradiction. Fails to establish key relationships (e.g., AE=DE) and solve for AB. Final answer not reached."
 }

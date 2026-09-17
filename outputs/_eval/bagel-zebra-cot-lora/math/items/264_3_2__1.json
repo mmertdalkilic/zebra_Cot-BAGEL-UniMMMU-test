@@ -1,8 +1,12 @@
 {
   "id": "264_3_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line EF parallel to AD and intersection point F.",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EF parallel to AD and intersection point F.\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate introduces undefined point F and line EF, leading to invalid reasoning. Repeated redundant claims about angles being 90° without justification. Logical gaps in angle equality derivations. Final answer not reached.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces undefined point F and line EF, leading to invalid reasoning. Repeated redundant claims about angles being 90° without justification. Logical gaps in angle equality derivations. Final answer not reached."
 }

@@ -1,8 +1,12 @@
 {
   "id": "221_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing all required auxiliary lines",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing all required auxiliary lines\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple critical errors: incorrect angle calculations (e.g., claiming ∠BAO=60° instead of 30°), false assertion that △ABC is equilateral (it's not), and invalid congruence argument for △BFG≡△BMN. Final answer not computed due to flawed reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple critical errors: incorrect angle calculations (e.g., claiming ∠BAO=60° instead of 30°), false assertion that △ABC is equilateral (it's not), and invalid congruence argument for △BFG≡△BMN. Final answer not computed due to flawed reasoning."
 }

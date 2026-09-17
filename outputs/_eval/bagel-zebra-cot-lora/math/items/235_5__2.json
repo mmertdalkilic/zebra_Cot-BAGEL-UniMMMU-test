@@ -1,8 +1,12 @@
 {
   "id": "235_5__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "BC line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"BC line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate answer 2/3 does not match reference √2/2. No reasoning provided to assess rigor.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate answer 2/3 does not match reference √2/2. No reasoning provided to assess rigor."
 }

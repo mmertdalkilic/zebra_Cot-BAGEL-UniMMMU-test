@@ -1,8 +1,12 @@
 {
   "id": "262_3__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "BD line correctly drawn",
-  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line correctly drawn\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates arc lengths and arrives at a negative arc AB, then fails to properly resolve the error. However, the correct answer (20°) is eventually stated, matching the reference. The reasoning path is invalid due to incorrect arc relationships and flawed logic.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates arc lengths and arrives at a negative arc AB, then fails to properly resolve the error. However, the correct answer (20°) is eventually stated, matching the reference. The reasoning path is invalid due to incorrect arc relationships and flawed logic."
 }
