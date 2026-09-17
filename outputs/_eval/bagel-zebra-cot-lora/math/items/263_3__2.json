@@ -1,0 +1,8 @@
+{
+  "id": "263_3__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing DM perpendicular line",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing DM perpendicular line\"}"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "329_3__2",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines are present and correctly placed.",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"All required lines are present and correctly placed.\"}"
+}

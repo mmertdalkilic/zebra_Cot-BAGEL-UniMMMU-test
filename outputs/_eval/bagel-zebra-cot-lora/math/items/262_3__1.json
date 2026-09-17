@@ -1,0 +1,8 @@
+{
+  "id": "262_3__1",
+  "type": "calculation",
+  "status": "overlay_done",
+  "overlay_ok": 1,
+  "overlay_reason": "BD line correctly drawn",
+  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line correctly drawn\"}"
+}

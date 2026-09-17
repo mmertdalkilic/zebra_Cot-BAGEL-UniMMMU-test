@@ -1,0 +1,8 @@
+{
+  "id": "377_6__1",
+  "type": "proving",
+  "status": "overlay_done",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line DF extended to intersect BE at point N",
+  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line DF extended to intersect BE at point N\"}"
+}
