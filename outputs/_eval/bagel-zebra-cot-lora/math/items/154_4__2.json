@@ -1,8 +1,12 @@
 {
   "id": "154_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line AC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line AC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ED=EB and unproven right angle in triangle EFB. Power of a Point application is invalid due to these errors. Final equations derive from flawed premises, leading to incorrect radius calculation.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ED=EB and unproven right angle in triangle EFB. Power of a Point application is invalid due to these errors. Final equations derive from flawed premises, leading to incorrect radius calculation."
 }

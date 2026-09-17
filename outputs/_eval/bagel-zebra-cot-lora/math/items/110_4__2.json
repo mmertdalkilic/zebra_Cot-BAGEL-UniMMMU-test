@@ -1,8 +1,12 @@
 {
   "id": "110_4__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "AD line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"AD line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates AD using an invalid altitude formula (AD=(AB*AC)/BC instead of AC=AD=8). Also, BD calculation is flawed (BD²=BC²-CD²=36-36=0). Final DF=32/3 is correct but derived via invalid steps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates AD using an invalid altitude formula (AD=(AB*AC)/BC instead of AC=AD=8). Also, BD calculation is flawed (BD²=BC²-CD²=36-36=0). Final DF=32/3 is correct but derived via invalid steps."
 }

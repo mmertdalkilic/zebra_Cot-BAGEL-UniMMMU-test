@@ -1,8 +1,12 @@
 {
   "id": "153_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OE",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OE\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims AC=AD (triangle ACD is isosceles) without justification. Misapplies inscribed angle theorem to ∠OEB. Fails to establish OE∥AB via angle equality as in reference solution. Contains multiple false geometric claims.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims AC=AD (triangle ACD is isosceles) without justification. Misapplies inscribed angle theorem to ∠OEB. Fails to establish OE∥AB via angle equality as in reference solution. Contains multiple false geometric claims."
 }

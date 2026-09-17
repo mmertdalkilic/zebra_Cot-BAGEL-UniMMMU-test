@@ -2,7 +2,7 @@
 
 | Task | Saved | Expected |
 |---|---:|---:|
-| math | 36 | 140 |
+| math | 57 | 140 |
 | science | 157 | 157 |
 | code | 200 | 200 |
 | jigsaw | 0 | 150 |

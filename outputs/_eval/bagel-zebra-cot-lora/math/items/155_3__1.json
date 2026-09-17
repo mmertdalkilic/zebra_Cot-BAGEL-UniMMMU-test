@@ -1,8 +1,12 @@
 {
   "id": "155_3__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line OD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., claiming DF is tangent without justification) and flawed angle relationships. The reference solution uses parallel lines and perpendicularity, which the candidate fails to replicate rigorously.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect assumptions (e.g., claiming DF is tangent without justification) and flawed angle relationships. The reference solution uses parallel lines and perpendicularity, which the candidate fails to replicate rigorously."
 }

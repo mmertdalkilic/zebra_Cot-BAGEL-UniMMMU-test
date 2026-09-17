@@ -1,8 +1,12 @@
 {
   "id": "114_3__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line EG perpendicular to BD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line EG perpendicular to BD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠ACD=∠CAD in a rectangle without justification, leading to invalid tan∠CAB=3/4 substitution. The angle bisector and similarity arguments are based on flawed premises. Final answer derivation is invalid.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠ACD=∠CAD in a rectangle without justification, leading to invalid tan∠CAB=3/4 substitution. The angle bisector and similarity arguments are based on flawed premises. Final answer derivation is invalid."
 }

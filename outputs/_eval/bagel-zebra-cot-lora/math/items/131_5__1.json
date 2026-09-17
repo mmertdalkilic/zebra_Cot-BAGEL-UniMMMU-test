@@ -1,8 +1,12 @@
 {
   "id": "131_5__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution lacks critical angle relationships and parallel line reasoning needed to establish OC⊥CD. Concludes goal without rigorous proof steps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution lacks critical angle relationships and parallel line reasoning needed to establish OC⊥CD. Concludes goal without rigorous proof steps."
 }

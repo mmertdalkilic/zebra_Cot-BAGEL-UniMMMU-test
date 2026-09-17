@@ -1,8 +1,12 @@
 {
   "id": "138_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required line OD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required line OD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution only mentions auxiliary lines without any logical steps or angle relationships. No proof that AD⊥OD or tangent property is established.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution only mentions auxiliary lines without any logical steps or angle relationships. No proof that AD⊥OD or tangent property is established."
 }
