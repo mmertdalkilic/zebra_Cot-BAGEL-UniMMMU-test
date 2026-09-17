@@ -1,0 +1,1 @@
+<ANSWER>["up","left","down"]</ANSWER>

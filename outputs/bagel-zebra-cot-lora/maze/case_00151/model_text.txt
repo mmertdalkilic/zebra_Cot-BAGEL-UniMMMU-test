@@ -1,0 +1,1 @@
+<think>Finalize the output: Generate four separate images showing the path, and output the JSON array of moves as specified.</think>

@@ -1,0 +1,17 @@
+{
+  "id": "00111",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/maze/case_00111",
+  "step0": "./data/maze/maze_6x6_00111_steps/maze_step_0000.png",
+  "text_file": "./outputs/bagel-zebra-cot-lora/maze/case_00111/model_text.txt",
+  "images_saved_flatten": [
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0001.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0002.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0003.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0004.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0005.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0006.png",
+    "./outputs/bagel-zebra-cot-lora/maze/case_00111/cand_01/maze_step_0000_step_0007.png"
+  ],
+  "errors": []
+}

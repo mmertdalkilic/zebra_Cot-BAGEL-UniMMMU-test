@@ -1,0 +1,1 @@
+<think>THOUGHT: The final move list is ["right", "right", "down"]. This is the only sequence of three moves that leads from the start to the goal in the fewest steps, avoiding all obstacles.</think>

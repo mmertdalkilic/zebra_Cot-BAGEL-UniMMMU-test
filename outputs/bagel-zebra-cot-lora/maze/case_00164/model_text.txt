@@ -1,0 +1,5 @@
+<think>THOUGHT: The shortest path is found by moving right one cell, then down one cell, then left one cell. This sequence of three moves leads directly into the green rectangular area, which is the goal. The total number of moves is three.
+
+THOUGHT: The images will show the blue dot moving one step at a time. The final image will show the blue dot inside the green rectangle, indicating success.
+
+THOUGHT: The final move list is ["right", "down", "left"]. This is the only sequence of three moves that leads from the starting point to the goal in the shortest possible way, adhering to the maze rules.</think>

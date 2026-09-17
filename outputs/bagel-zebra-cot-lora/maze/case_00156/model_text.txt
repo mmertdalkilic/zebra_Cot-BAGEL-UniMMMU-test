@@ -1,0 +1,1 @@
+<think>THOUGHT: The final move list is ["right", "down", "left"]. This is the only valid sequence of moves that leads from the blue square to a white cell inside the green frame, following the maze rules.</think>

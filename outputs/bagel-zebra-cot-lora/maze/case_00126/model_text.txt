@@ -1,0 +1,1 @@
+<think>After the images, emit EXACTLY ONE LINE containing ONLY the final move list as <ANSWER_JSON>[...]</ANSWER_JSON>. No other text.</think>

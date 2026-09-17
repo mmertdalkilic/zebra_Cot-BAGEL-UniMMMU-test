@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be a JSON array containing the sequence of moves: ["right", "down", "left"]. This array represents the complete path from the start to the goal. The images will show the intermediate steps of this path.</think>
