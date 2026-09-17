@@ -1,8 +1,12 @@
 {
   "id": "314_4__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line EM and point M",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line EM and point M\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims EM is perpendicular to AB (should be 45°), misapplies angle sums, and makes invalid congruence claims. Final answer not stated but reasoning is flawed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims EM is perpendicular to AB (should be 45°), misapplies angle sums, and makes invalid congruence claims. Final answer not stated but reasoning is flawed."
 }

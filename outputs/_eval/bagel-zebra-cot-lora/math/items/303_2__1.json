@@ -1,8 +1,12 @@
 {
   "id": "303_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line CD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line CD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"Candidate solution correctly applies inscribed angle theorem and triangle angle sum, with valid reasoning and correct numeric answer matching reference.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies inscribed angle theorem and triangle angle sum, with valid reasoning and correct numeric answer matching reference."
 }

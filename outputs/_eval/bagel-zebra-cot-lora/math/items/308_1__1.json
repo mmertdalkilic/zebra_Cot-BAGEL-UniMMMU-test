@@ -1,8 +1,12 @@
 {
   "id": "308_1__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line OC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line OC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes collinearity of A,P,B (triangle angle sum error). Incorrectly calculates angle DOE as 230° instead of 65°. Major logical gaps in reasoning about geometric configuration.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes collinearity of A,P,B (triangle angle sum error). Incorrectly calculates angle DOE as 230° instead of 65°. Major logical gaps in reasoning about geometric configuration."
 }

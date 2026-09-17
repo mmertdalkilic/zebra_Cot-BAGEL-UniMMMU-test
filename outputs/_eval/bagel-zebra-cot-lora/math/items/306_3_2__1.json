@@ -1,8 +1,12 @@
 {
   "id": "306_3_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "BM line missing",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"BM line missing\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AD/BC are tangents (only CD is tangent). Fails to establish key equilateral triangle (△OBM) and angle relationships. Angle calculations are circular/unsolved. Final CD calculation missing.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AD/BC are tangents (only CD is tangent). Fails to establish key equilateral triangle (△OBM) and angle relationships. Angle calculations are circular/unsolved. Final CD calculation missing."
 }

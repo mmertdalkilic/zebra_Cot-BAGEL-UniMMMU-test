@@ -1,8 +1,12 @@
 {
   "id": "333_9__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required lines DF, AF, BF, AC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required lines DF, AF, BF, AC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., OE=4 instead of sqrt(7)), flawed triangle similarity arguments, and invalid proportion derivations. While the final numeric answer matches the reference (16/3), the reasoning lacks rigor and contains mathematical errors.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect assumptions (e.g., OE=4 instead of sqrt(7)), flawed triangle similarity arguments, and invalid proportion derivations. While the final numeric answer matches the reference (16/3), the reasoning lacks rigor and contains mathematical errors."
 }

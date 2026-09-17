@@ -1,8 +1,12 @@
 {
   "id": "289_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 1,
   "overlay_reason": "BD line correctly drawn",
-  "raw_judgment": "{\"overlay_ok\": 1, \"overlay_reason\": \"BD line correctly drawn\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates angles in triangle BCD leading to impossible negative angle (-22.5°). Ground-truth uses Pythagorean theorem with BD=√2 and DC=2√2 to find BC=√10 then AC=√5. Candidate's angle sum approach is invalid and contradicts geometric constraints.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates angles in triangle BCD leading to impossible negative angle (-22.5°). Ground-truth uses Pythagorean theorem with BD=√2 and DC=2√2 to find BC=√10 then AC=√5. Candidate's angle sum approach is invalid and contradicts geometric constraints."
 }
