@@ -2699,3 +2699,15 @@ jigsaw,ex_00149,text_correct,0
 jigsaw,ex_00149,d0,0.4958347678184509
 jigsaw,ex_00149,d1,0.32140231132507324
 jigsaw,ex_00149,d_mean,0.4086185395717621
+maze,SUMMARY,total_candidates,149
+maze,SUMMARY,text_accuracy_exact,0.0
+maze,SUMMARY,text_accuracy_frame_macro,0.026957494407158836
+maze,SUMMARY,img_accuracy_exact,0.0
+maze,SUMMARY,img_accuracy_frame_macro,0.0
+maze,SUMMARY,parse_accuracy_all_ok,0.006711409395973154
+maze,SUMMARY,parse_accuracy_frame_macro,0.019383189517417704
+sliding,SUMMARY,total_candidates,84
+sliding,SUMMARY,text_accuracy_exact,0.0
+sliding,SUMMARY,text_accuracy_frame_macro,0.0
+sliding,SUMMARY,img_accuracy_exact,0.0
+sliding,SUMMARY,img_accuracy_frame_macro,0.0

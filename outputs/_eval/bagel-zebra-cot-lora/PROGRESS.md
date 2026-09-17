@@ -6,10 +6,10 @@
 | science | 157 | 157 |
 | code | 200 | 200 |
 | jigsaw | 150 | 150 |
-| maze | 0 | 149 |
-| sliding | 0 | 84 |
+| maze | 149 | 149 |
+| sliding | 84 | 84 |
 
-Complete: **False**
+Complete: **True**
 
 scores.csv contains every numeric field saved so far.
 Partial task averages are not final benchmark results.

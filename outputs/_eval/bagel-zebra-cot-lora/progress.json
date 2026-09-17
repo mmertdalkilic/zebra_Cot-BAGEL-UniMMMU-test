@@ -1,5 +1,5 @@
 {
-  "complete": false,
+  "complete": true,
   "tasks": {
     "math": {
       "saved": 140,
@@ -22,11 +22,11 @@
       "expected": 150
     },
     "maze": {
-      "saved": 0,
+      "saved": 149,
       "expected": 149
     },
     "sliding": {
-      "saved": 0,
+      "saved": 84,
       "expected": 84
     }
   }
