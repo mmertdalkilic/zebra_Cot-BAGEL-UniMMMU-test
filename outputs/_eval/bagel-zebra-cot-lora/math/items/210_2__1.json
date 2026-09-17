@@ -1,8 +1,12 @@
 {
   "id": "210_2__1",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing required line EM⊥BC and intersection point N on AD.",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing required line EM⊥BC and intersection point N on AD.\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes area of triangle EBC is 6 (actual area is 14). This leads to wrong calculation of EM=3 instead of 7, and incorrect similarity ratio derivation. Final answer 1 contradicts correct 3/7.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes area of triangle EBC is 6 (actual area is 14). This leads to wrong calculation of EM=3 instead of 7, and incorrect similarity ratio derivation. Final answer 1 contradicts correct 3/7."
 }

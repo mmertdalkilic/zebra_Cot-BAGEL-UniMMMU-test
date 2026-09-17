@@ -1,8 +1,12 @@
 {
   "id": "179_3__2",
   "type": "calculation",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing OG perpendicular to AB.",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing OG perpendicular to AB.\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly derives AO as (2+√2)-r instead of √2r. This leads to an invalid quadratic equation. The ground-truth uses AO=√2r and solves directly to r=√2. The candidate's reasoning contains a major logical error in the relationship between AO and r.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly derives AO as (2+√2)-r instead of √2r. This leads to an invalid quadratic equation. The ground-truth uses AO=√2r and solves directly to r=√2. The candidate's reasoning contains a major logical error in the relationship between AO and r."
 }

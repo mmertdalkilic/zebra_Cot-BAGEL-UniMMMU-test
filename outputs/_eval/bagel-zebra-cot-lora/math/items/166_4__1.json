@@ -1,8 +1,12 @@
 {
   "id": "166_4__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing required lines",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing required lines\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"The candidate solution correctly concludes AM⊥BC but lacks rigorous justification for the key angle substitution (∠ABD=∠ACM). The reference solution uses triangle congruence to establish this relationship, which is omitted here, creating a logical gap.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "The candidate solution correctly concludes AM⊥BC but lacks rigorous justification for the key angle substitution (∠ABD=∠ACM). The reference solution uses triangle congruence to establish this relationship, which is omitted here, creating a logical gap."
 }

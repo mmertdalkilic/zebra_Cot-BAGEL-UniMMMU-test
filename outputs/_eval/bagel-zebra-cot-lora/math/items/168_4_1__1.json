@@ -1,8 +1,12 @@
 {
   "id": "168_4_1__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "missing line AC",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"missing line AC\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies the exterior angle theorem to ∠CFA, leading to invalid equations and a contradiction. The reasoning contains major logical errors in relating angles to arcs, and the conclusion is not properly established.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies the exterior angle theorem to ∠CFA, leading to invalid equations and a contradiction. The reasoning contains major logical errors in relating angles to arcs, and the conclusion is not properly established."
 }

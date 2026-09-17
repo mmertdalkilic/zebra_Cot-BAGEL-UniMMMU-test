@@ -1,8 +1,12 @@
 {
   "id": "163_3__1",
   "type": "proving",
-  "status": "overlay_done",
+  "status": "ok",
   "overlay_ok": 0,
   "overlay_reason": "Missing line OD",
-  "raw_judgment": "{\"overlay_ok\": 0, \"overlay_reason\": \"Missing line OD\"}"
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect assumptions (e.g., step 3 claims OD⊥BC without justification) and convoluted angle-chasing that doesn't logically establish OD⊥DE. While the conclusion is correct, the reasoning lacks rigor and contains logical gaps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect assumptions (e.g., step 3 claims OD⊥BC without justification) and convoluted angle-chasing that doesn't logically establish OD⊥DE. While the conclusion is correct, the reasoning lacks rigor and contains logical gaps."
 }
