@@ -1,0 +1,33 @@
+{
+  "complete": false,
+  "tasks": {
+    "math": {
+      "saved": 0,
+      "files": 0,
+      "expected": 140
+    },
+    "science": {
+      "saved": 0,
+      "files": 0,
+      "expected": 157
+    },
+    "code": {
+      "saved": 0,
+      "files": 0,
+      "expected": 200
+    },
+    "jigsaw": {
+      "saved": 0,
+      "files": 0,
+      "expected": 150
+    },
+    "maze": {
+      "saved": 0,
+      "expected": 149
+    },
+    "sliding": {
+      "saved": 0,
+      "expected": 84
+    }
+  }
+}
