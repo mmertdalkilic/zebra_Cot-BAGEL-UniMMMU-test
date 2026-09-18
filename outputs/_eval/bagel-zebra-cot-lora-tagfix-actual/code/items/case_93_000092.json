@@ -1,0 +1,18 @@
+{
+  "case_dir": "/content/bagel_tagfix_g4/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_93_000092",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains complex text and graphics unrelated to the simple purple square in the reference image. Both shape and position are entirely mismatched.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description mentions two rectangles, but image shows one. Position and count mismatch."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

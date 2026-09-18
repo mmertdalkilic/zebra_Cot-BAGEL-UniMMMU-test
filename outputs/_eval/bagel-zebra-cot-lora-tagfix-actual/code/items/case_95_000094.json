@@ -1,0 +1,18 @@
+{
+  "case_dir": "/content/bagel_tagfix_g4/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_95_000094",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate contains unrelated shapes and colors; no circles or red hues present. Layout and positioning do not match the reference image at all.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Mismatch in object count and positions; reference has four spaced circles, candidate describes three overlapping circles."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}

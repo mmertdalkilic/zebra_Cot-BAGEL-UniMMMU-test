@@ -1,0 +1,18 @@
+{
+  "case_dir": "/content/bagel_tagfix_g4/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_91_000090",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 2,
+      "position_accuracy": 2,
+      "verdict": "mismatch",
+      "explanation": "Candidate has correct circle shape and color but is much larger and positioned differently, breaking size and placement accuracy.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "All objects, colors, and positions match perfectly as described in the candidate description."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
