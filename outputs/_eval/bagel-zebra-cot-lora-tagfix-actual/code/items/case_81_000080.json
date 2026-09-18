@@ -1,0 +1,18 @@
+{
+  "case_dir": "/content/bagel_tagfix_g4/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_81_000080",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate contains unrelated shapes and text, lacking the blue squares. No resemblance in shapes, colors, or layout.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 1,
+    "explanation": "Two blue squares correctly positioned side-by-side near the top, matching object type, count, color, and layout."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
