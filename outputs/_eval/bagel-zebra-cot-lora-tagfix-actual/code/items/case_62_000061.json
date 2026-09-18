@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_62_000061",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has entirely different content with black rectangles and symbols instead of orange squares. No resemblance in shapes, colors, or layout.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Rectangles do not overlap; they are evenly spaced without stacking."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
