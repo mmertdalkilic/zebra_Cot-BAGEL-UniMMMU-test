@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_149_000148",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate image contains only noise, lacking any shapes, colors, or positions resembling the reference drawing.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Colors do not match: description states red rectangles, but image shows blue. Object count and positions also differ."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
