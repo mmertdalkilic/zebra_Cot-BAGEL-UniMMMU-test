@@ -1,0 +1,14 @@
+<think>Let's analyze the geometry. We are given a circle with center O, diameter AB, and point C on the circle. CD is a tangent to the circle at C, so OC is perpendicular to CD (tangent-radius theorem). We also know that OE is perpendicular to BC.
+
+First, let's find ∠BCD. Since CD is tangent to the circle at C, OC is perpendicular to CD. Therefore, ∠OCD = 90°. The angle ∠BCD is the difference between ∠OCD and ∠OCB. So, ∠BCD = 90° - ∠OCB.
+
+Next, let's find ∠BOE. Since OE is perpendicular to BC, ∠OEB = 90°. The angle ∠BOE is the difference between ∠OEB and ∠OBC. So, ∠BOE = 90° - ∠OBC.
+
+Now, we need to show that ∠BCD = ∠BOE. This means we need to show that ∠OCB = ∠OBC.
+We know that OB and OC are radii of the same circle, so OB = OC. This means triangle OBC is isosceles, with OB = OC. In an isosceles triangle, the angles opposite the equal sides are equal. Therefore, ∠OCB = ∠OBC.
+
+We have shown that ∠OCB = ∠OBC. Substituting these into our expressions for ∠BCD and ∠BOE:
+∠BCD = 90° - ∠OCB
+∠BOE = 90° - ∠OBC
+Since ∠OCB = ∠OBC, it follows that 90° - ∠OCB = 90° - ∠OBC.
+Therefore, ∠BCD = ∠BOE.</think>

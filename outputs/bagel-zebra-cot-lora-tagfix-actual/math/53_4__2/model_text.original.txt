@@ -1,0 +1,15 @@
+<think>1.  **Overlay Construction**: The problem asks us to find the length of BC. We are given that AB is the diameter of the circle, so ∠ACB = 90° (angle inscribed in a semicircle). We are also given that sin∠AFE = 4/5 and BF = 1. We need to relate these angles and lengths to the triangle ABC.
+2.  **First Angle Relationship**: We are given that ∠AFE = ∠ABC. This is a crucial piece of information.
+3.  **Second Angle Relationship**: We are given that ∠CAB = 2∠EAB. This will allow us to relate ∠CAB to ∠EAB.
+4.  **Third Angle Relationship**: Since OE is a radius and E is on the circle, ∠OEA = ∠OAE. This is because the radius is equal to the chord (OE = OA).
+5.  **Fourth Angle Relationship**: Since OE is a radius and E is on the circle, ∠OEB = ∠OBE. This is because the radius is equal to the chord (OE = OB).
+6.  **Angle Relationships in Triangle OAE**: Since OE = OA, ∠OEA = ∠OAE. Since OE = OB, ∠OEB = ∠OBE. Therefore, ∠OEA + ∠OEB = ∠OAE + ∠OBE. This means that ∠AEB = ∠AOB.
+7.  **Angle Relationships in Triangle AEB**: Since AB is a diameter, ∠AEB = 90°. Therefore, ∠AOB = 90°.
+8.  **Angle Relationships in Triangle AEB**: Since ∠AOB = 90°, ∠OAE + ∠OBE = 90°. Since OE = OA, ∠OEA = ∠OAE. Since OE = OB, ∠OEB = ∠OBE. Therefore, ∠OEA + ∠OEB = 90°. This means that ∠AEB = 90°.
+9.  **Angle Relationships in Triangle AEB**: Since ∠AEB = 90°, ∠EAB + ∠EBA = 90°.
+10. **Angle Relationships in Triangle ABC**: Since AB is a diameter, ∠ACB = 90°. Therefore, ∠CAB + ∠CBA = 90°.
+11. **Angle Relationships between ∠CAB and ∠EAB**: We are given that ∠CAB = 2∠EAB. Therefore, 2∠EAB + ∠CBA = 90°.
+12. **Angle Relationships between ∠AFE and ∠CBA**: We are given that ∠AFE = ∠ABC. Therefore, ∠AFE + ∠CBA = 90°.
+13.  **Angle Relationships between ∠AFE and ∠EAB**: From steps 10 and 11, we have 2∠EAB + ∠CBA = 90°. From step 12, we have ∠AFE + ∠CBA = 90°. Therefore, 2∠EAB = ∠AFE.
+14.  **Angle Relationships between ∠AFE and ∠EAB**: Since 2∠EAB = ∠AFE, ∠EAB = 1/2 ∠AFE.
+15.  **Angle Relationships between ∠AFE and ∠OAE**: Since �

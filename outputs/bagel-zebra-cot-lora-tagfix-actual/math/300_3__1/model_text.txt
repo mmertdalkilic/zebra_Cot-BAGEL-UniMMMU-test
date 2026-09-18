@@ -1,0 +1,29 @@
+<think>The problem asks for the measure of angle ABC in a cyclic quadrilateral ABCD inscribed in a semicircle. The key information provided is that AB is the diameter of the semicircle, point C is the midpoint of arc BD, and angle BCD is 140°. We are also asked to use the auxiliary line AC.
+
+First, let's analyze the properties of the semicircle and the inscribed quadrilateral.
+- Since AB is the diameter of the semicircle, the angle ACB is a right angle (90°). This is because any angle inscribed in a semicircle is a right angle.
+- The sum of angles in a quadrilateral is 360°. So, for quadrilateral ABCD, we have ∠ABC + ∠BCD + ∠CDA + ∠DAB = 360°.
+
+Next, let's use the given information about point C being the midpoint of arc BD.
+- If C is the midpoint of arc BD, then the arcs BC and CD are equal in length. This means the angles subtended by these arcs at the center O are equal. Therefore, ∠BOC = ∠COD.
+- The angle ∠BCD is an inscribed angle that subtends arc BD. The measure of an inscribed angle is half the measure of the arc it subtends. So, ∠BCD = 1/2(∠BOC + ∠COD) = 1/2(2∠BOC) = ∠BOC.
+- We are given that ∠BCD = 140°. Therefore, ∠BOC = 140°.
+- Since ∠BOC = ∠COD, we have ∠COD = 140°.
+
+Now we can calculate the measure of the central angle ∠BOD.
+- The sum of angles around point O is 360°. We have ∠BOC = 140° and ∠COD = 140°.
+- So, ∠BOD = 360° - ∠BOC - ∠COD = 360° - 140° - 140° = 80°.
+
+We can now find the measure of the inscribed angle ∠BAD, which subtends the same arc BD as ∠BOD.
+- The measure of an inscribed angle is half the measure of its subtended arc. So, ∠BAD = 1/2(∠BOD) = 1/2(80°) = 40°.
+
+We can now find the measure of angle ∠DAB.
+- Since AB is the diameter of the semicircle, ∠ACB = 90°.
+- In triangle ABC, the sum of angles is 180°. So, ∠ABC + ∠ACB + ∠CAB = 180°.
+- We know ∠ACB = 90° and we just found ∠CAB = ∠BAD = 40°.
+- Therefore, ∠ABC = 180° - 90° - 40° = 50°.
+
+We can also find the measure of angle ∠ABC using the quadrilateral angle sum property.
+- We know ∠BCD = 140° and ∠DAB = 40°.
+- We also found ∠CDA = 180° - ∠BCD = 180° - 140° = 40°.
+- Using the quadr

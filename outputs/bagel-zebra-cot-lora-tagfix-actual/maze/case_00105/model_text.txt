@@ -1,0 +1,1 @@
+<think>THOUGHT: The output should be a single JSON line containing the sequence of moves. The shortest path found is "right" followed by "down". This sequence is the most direct and efficient way to reach the green goal.</think>

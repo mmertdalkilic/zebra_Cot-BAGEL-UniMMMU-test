@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition requires swapping the green and orange blocks while keeping the purple block in the middle. I will visualize the new arrangement.
+To illustrate the swapped blocks, I will generate an image showing the green block on the right and the orange block on the left, with the purple block in the center.
+</OUTPUT_PROMPT>

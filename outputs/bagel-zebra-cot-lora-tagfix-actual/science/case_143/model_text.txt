@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the outcome of a collision between an egg and a stone. We need to determine what happens to each object and how they appear in the final state.
+Since an egg is a fragile, organic structure, it is highly susceptible to breaking upon impact with a hard, inorganic object like a stone. The stone, being much more durable, will survive the collision.
+</OUTPUT_PROMPT>

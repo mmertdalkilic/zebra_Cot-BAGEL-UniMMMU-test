@@ -1,0 +1,12 @@
+{
+  "id": "334_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing AH⊥BC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes similarity between triangles ABH and BPC without valid justification. Concludes ∠BPC=90° (tan undefined) instead of correctly using right triangle ABH to find tan(∠BAH)=4/3. Major logical errors invalidate reasoning and conclusion.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes similarity between triangles ABH and BPC without valid justification. Concludes ∠BPC=90° (tan undefined) instead of correctly using right triangle ABH to find tan(∠BAH)=4/3. Major logical errors invalidate reasoning and conclusion."
+}

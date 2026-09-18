@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an experiment: ignite a calcium chip in open air for 5 seconds. I need to predict the outcome of this reaction.
+Calcium metal reacts vigorously with oxygen in open air, producing calcium oxide and heat. This reaction is exothermic and produces a bright flame. I will visualize the expected outcome.
+</OUTPUT_PROMPT>

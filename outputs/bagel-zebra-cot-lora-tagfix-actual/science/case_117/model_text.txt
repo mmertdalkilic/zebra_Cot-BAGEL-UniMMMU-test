@@ -1,0 +1,7 @@
+<OUTPUT_PROMPT>
+First, I observe the initial state: a glass vial containing a slice of bread with mold growth. The condition specifies sealing the container and storing it at room temperature in darkness for a long period.
+Next, I consider the physical properties of the bread and mold. Bread is a porous food, and mold spores are present. Over time, mold spores can germinate and grow on the bread.
+The condition implies a long-term storage environment. Bread and mold are sensitive to light and temperature. If the bread is not properly stored, it will eventually spoil.
+Given the long-term storage at room temperature in darkness, the bread will continue to age and spoil. The mold will likely continue to grow, spreading and consuming the bread.
+The bread will eventually become moldy and decayed, losing its original form and texture. The mold will cover the bread, and the vial will contain the remnants of the bread and mold.
+</OUTPUT_PROMPT>

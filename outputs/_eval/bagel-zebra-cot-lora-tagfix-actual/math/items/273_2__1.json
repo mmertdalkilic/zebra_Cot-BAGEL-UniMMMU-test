@@ -1,0 +1,12 @@
+{
+  "id": "273_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "EH perpendicular missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes F is centroid of ABE and misapplies properties. Claims triangle EFC is equilateral without justification. Final ratio 3/2 contradicts correct answer √7/3. Major logical gaps in centroid reasoning and triangle properties.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes F is centroid of ABE and misapplies properties. Claims triangle EFC is equilateral without justification. Final ratio 3/2 contradicts correct answer √7/3. Major logical gaps in centroid reasoning and triangle properties."
+}

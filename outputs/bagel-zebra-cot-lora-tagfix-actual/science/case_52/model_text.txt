@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of the beaker after adding a specific solution to the purple cabbage indicator. We need to analyze the physical properties of the indicator and the solution.
+The initial image shows a beaker containing a purple liquid, which is the red cabbage indicator. The condition states that we add 5 mL of 0.1 M HCl (hydrochloric acid) to this indicator. We need to determine what happens to the indicator when an acid is added to it.
+</OUTPUT_PROMPT>

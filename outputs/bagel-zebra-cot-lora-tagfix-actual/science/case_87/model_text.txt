@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the outcome of a chemical reaction between two solutions. We are given two beakers, one containing a 0.1 M AgNO3 solution (Beaker A) and the other a 0.1 M NaCl solution (Beaker B). The instruction is to pour Beaker B into Beaker A and stir for 20 seconds.
+
+To understand the reaction, it's helpful to visualize the interaction of the two solutions. I will generate a sketch to represent the moment the solutions are mixed.
+</OUTPUT_PROMPT>

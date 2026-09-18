@@ -1,0 +1,6 @@
+<OUTPUT_PROMPT>
+The condition specifies that a blue litmus paper is in a basic solution and then a 0.1 M HCl solution is added, held for 10 seconds.
+ litmus paper in basic solution
+litmus paper in basic solution
+litmus paper in basic solution
+</OUTPUT_PROMPT>

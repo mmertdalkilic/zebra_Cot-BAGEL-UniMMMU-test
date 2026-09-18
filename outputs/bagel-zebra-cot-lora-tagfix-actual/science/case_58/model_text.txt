@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an experiment with lithium metal in open air. Lithium is highly reactive and ignites spontaneously in air, producing a bright flame and producing white powder (lithium oxide).
+The image shows the setup before ignition. The text "NO OPEN FLAME" is visible, which is ironic as the reaction will produce an open flame. The reaction will proceed rapidly.
+</OUTPUT_PROMPT>

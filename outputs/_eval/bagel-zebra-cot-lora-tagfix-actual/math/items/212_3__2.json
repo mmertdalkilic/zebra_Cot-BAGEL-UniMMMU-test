@@ -1,0 +1,12 @@
+{
+  "id": "212_3__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines BD and DE are present.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect angle equalities (e.g., ∠ODA=∠DEC, ∠OBA=∠ABD) without proper justification. While the final conclusion AB=AF is correct, the reasoning has major logical gaps and false claims.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect angle equalities (e.g., ∠ODA=∠DEC, ∠OBA=∠ABD) without proper justification. While the final conclusion AB=AF is correct, the reasoning has major logical gaps and false claims."
+}

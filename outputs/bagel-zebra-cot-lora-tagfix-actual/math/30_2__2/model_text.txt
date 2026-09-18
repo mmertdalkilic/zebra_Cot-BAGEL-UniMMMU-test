@@ -1,0 +1,11 @@
+<think>1.  Overlay: The problem asks us to draw the line AE.
+2.  Reasoning: We are given that AC is the diameter of the circle, so ∠ADC = 90° (angle inscribed in a semicircle). We are given tanB = 2, so tan(∠BAD) = 2. We are given ∠B = ∠ADE, so tan(∠ADE) = 2. Since ∠ADE = ∠BAD (angles subtended by the same arc AD), we have ∠BAD = ∠ADE = ∠B. Therefore, ∠BAD = ∠ADE = ∠B = θ, where θ is an acute angle.
+3.  Since ∠ADC = 90°, we have ∠BAD + ∠B + ∠BCA = 180°. Substituting ∠BAD = ∠B = θ, we get 2θ + ∠BCA = 180°. Thus, ∠BCA = 180° - 2θ.
+4.  Since CE//AB, ∠B = ∠BCE (alternate interior angles). So, ∠BCE = θ. This means ∠BCA = ∠DCE = 180° - 2θ.
+5.  Now consider the quadrilateral ADCE. The sum of its interior angles is 360°. So, ∠ADC + ∠DCE + ∠DEA + ∠EAC = 360°. Substituting the known angles: 90° + (180° - 2θ) + ∠DEA + ∠EAC = 360°. This simplifies to ∠DEA + ∠EAC = 90°.
+6.  Since ∠EAC = ∠EDC (angles subtended by the same arc EC), we have ∠DEA + ∠EDC = 90°. This means ∠DEC = 90°.
+7.  Now consider the right-angled triangle DEC. We know CD = 3 and tan(∠DCE) = tan(180° - 2θ) = tan(2θ) = 2. So, DE/CD = 2. Substituting CD = 3, we get DE/3 = 2, so DE = 6.
+8.  Consider the right-angled triangle ADC. We know CD = 3 and tan(∠BAD) = tan(θ) = 2. So, AD/CD = 2. Substituting CD = 3, we get AD/3 = 2, so AD = 6.
+9.  Since AC is the diameter, ∠ADC = 90°. So, ∠ACD = 90° - ∠BAD = 90° - θ. Since ∠DCE = 180° - 2θ, we have ∠ACD = ∠DCE/2 = (180° - 2θ)/2 = 90° - θ. Thus, ∠ACD = ∠DCE. This means AC is the angle bisector of ∠BCD.
+10.  Since AC is the angle bisector of ∠BCD and AD is perpendicular to BC, AD is the altitude on the angle bisector. This means AD = DE = 6.
+11.  Since AD = DE = 6 and AD = AC/2

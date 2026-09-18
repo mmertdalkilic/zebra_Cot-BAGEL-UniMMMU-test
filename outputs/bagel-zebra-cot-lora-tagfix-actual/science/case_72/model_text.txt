@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that the nail is placed in a humid open-air environment at room temperature for a long time. This implies a prolonged exposure to moisture.
+Nails are made of iron, which is susceptible to rusting when exposed to moisture over time. Therefore, the nail will corrode.
+</OUTPUT_PROMPT>

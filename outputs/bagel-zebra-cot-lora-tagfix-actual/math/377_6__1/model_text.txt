@@ -1,0 +1,24 @@
+<think>Let’s analyze the geometry. We have a square ABCD and an isosceles right triangle AEF, both sharing vertex A. The square has all right angles and equal sides. The triangle AEF has a right angle at A and AE=AF. The problem asks us to prove two things: BE=DF and BE⊥DF. We are given that DF is extended to intersect BE at N.
+
+Let’s first analyze the triangles involved. Consider triangles AEF and ADF. We know AE=AF (triangle AEF is isosceles). AD=AB (sides of square). The angle ∠EAF is a right angle (90°), and ∠BAD is also a right angle (90°). So, ∠EAF = ∠BAD. This means ∠EAF - ∠BAF = ∠BAD - ∠BAF, so ∠EAB = ∠FAD. Therefore, by SAS congruence, △AEF ≅ △ADF. This gives us EF=DF and ∠AEF=∠ADF.
+
+Now, let’s consider triangles AEF and ABE. We know AE=AB (sides of square). The angle ∠EAF is a right angle (90°), and ∠BAD is also a right angle (90°). So, ∠EAF = ∠BAD. This means ∠EAF - ∠BAF = ∠BAD - ∠BAF, so ∠EAB = ∠FAD. Therefore, by SAS congruence, △AEF ≅ △ABE. This gives us EF=BE and ∠AEF=∠ABE.
+
+We have proved that EF=DF and EF=BE. Therefore, by transitivity, BE=DF.
+
+Now, let’s prove BE⊥DF. We know that ∠AEF=∠ABE (from the congruent triangles AEF and ABE). We also know that ∠AEF=∠ADF (from the congruent triangles AEF and ADF). So, ∠ABE=∠ADF.
+
+Consider the quadrilateral AENF. The sum of its interior angles is 360°. We have:
+∠EAF = 90° (right angle at A).
+∠ENF = 180° (since N is the intersection of BE and DF, so EN and NF are straight lines).
+So, the sum of the other two angles is 360° - 90° - 180° = 90°.
+∠EAF + ∠ENF = 90° + 180° = 270°.
+Therefore, ∠EAN + ∠ANF = 360° - 270° = 90°.
+
+Now, consider the angles around point N. The sum of angles around N is 360°.
+∠ENF = 180° (straight angle).
+∠ANF = 180° (straight angle).
+So, the sum of the other two angles is 360° - 180° - 180° = 0°.
+∠ENF + ∠ANF = 180° + 180° = 360°.
+Therefore, ∠ANE + ∠BNF = 360° - 360° = 0°.
+So, ∠ANE = 0° and ∠BNF = 0°. This means that points A, N, and E are collinear

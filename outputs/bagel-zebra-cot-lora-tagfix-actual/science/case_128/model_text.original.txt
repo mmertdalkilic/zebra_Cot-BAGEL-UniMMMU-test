@@ -1,0 +1,2 @@
+<think>The condition describes two sequential actions: rubbing a brush with a cloth and then moving the brush towards a tissue. The initial image shows the brush and the tissue.
+To determine the final state, I need to visualize the outcome of these actions. I will generate an image that depicts the brush after the described movements.</think>

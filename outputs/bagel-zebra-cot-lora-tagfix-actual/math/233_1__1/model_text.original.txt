@@ -1,0 +1,14 @@
+<think>The problem asks for the length of the minor arc AC in a regular pentagon ABCDE, where the circle O (radius 1) is tangent to the pentagon at points A and C. We are given the radius of the circle. We need to use the geometric properties of the regular pentagon and the circle.
+
+First, let's determine the measure of the interior angle of a regular pentagon. The sum of interior angles in an n-sided polygon is (n-2)×180°. For a pentagon (n=5), the sum is (5-2)×180° = 3×180° = 540°. Since all angles are equal in a regular pentagon, each angle measures 540°/5 = 108°. So, ∠ABC = 108°.
+
+Next, let's analyze the triangle formed by the center of the circle and the point of tangency. The line from the center of a circle to a point of tangency is perpendicular to the tangent line. Therefore, OA is perpendicular to the tangent line AE at point A, so ∠OAE = 90°. Similarly, OC is perpendicular to the tangent line CD at point C, so ∠OCD = 90°.
+
+Now we can find the measure of ∠BOC. The sum of angles around point O is 360°. We have ∠OAE = 90°, ∠ABC = 108°, and ∠OCD = 90°. The angle ∠BOC is the remaining angle at point O. So, ∠BOC = 360° - 90° - 108° - 90° = 72°.
+
+The length of an arc is proportional to the measure of its central angle. The formula for arc length is (θ/360) × 2πr, where θ is the central angle and r is the radius. Here, the central angle for arc AC is ∠AOC, and the radius r = 1. We need to find ∠AOC.
+
+The sum of angles in a quadrilateral ABCD (formed by the points A, B, C, and the center O) is 360°. We know ∠ABC = 108°, ∠BOC = 72°, and ∠OAE = 90° (or ∠OCD = 90°). The angle at D (∠ODC) is also 90° because CD is tangent to the circle at C. So, ∠ODC = 90°. Therefore, ∠AOC = 360° - 108° - 72° - 90° = 90°.
+
+Now we can calculate the length of the minor arc AC. Using the formula for arc length: Length = (θ/360) × 2πr. Here, θ = ∠AOC = 90°, r = 1.
+Length = (90°/360°) × 2π × 1 = (1/4) × 2π = π/2.</think>

@@ -1,0 +1,21 @@
+<think>Parse the SVG source code to identify all shapes, their attributes, and their positions relative to the viewBox.
+For each shape, extract its fill, stroke, opacity, and coordinates, respecting viewBox scaling.
+Determine the order of rendering: later shapes overlay earlier ones.
+Apply transformations (e.g., scale, rotate, translate) from right to left.
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For paths, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule="非零" (non-zero winding rule) and stroke-linecap="round" (round caps).
+For text, use fill-rule

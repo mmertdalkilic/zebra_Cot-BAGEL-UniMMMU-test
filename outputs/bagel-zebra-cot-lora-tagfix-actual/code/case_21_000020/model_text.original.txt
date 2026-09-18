@@ -1,0 +1,1 @@
+<think>Visualize the SVG structure as a tree, starting from the root <svg> element, with its child elements and their nesting.</think>

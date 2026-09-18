@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a scientific experiment: placing a beaker with a layer of oil on water, along with a wooden block and a copper coin, into a container of freshwater. The key is that the beaker remains undisturbed for a long time.
+The oil will float on the water, forming a distinct layer. Over time, the oil will absorb water due to capillary action, causing the oil-water interface to rise and eventually form a distinct, stable layer. The wooden block will also absorb water, causing it to swell. The copper coin will not absorb water and will remain unchanged.
+</OUTPUT_PROMPT>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a specific action: a glass scribe moving horizontally across a quartz crystal plate. This action implies a physical interaction.
+To understand the outcome, I need to visualize the effect of the scribe's movement on the crystal plate. I will generate an image showing the result of this action.
+</OUTPUT_PROMPT>

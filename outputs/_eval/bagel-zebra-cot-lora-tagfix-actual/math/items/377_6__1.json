@@ -1,0 +1,12 @@
+{
+  "id": "377_6__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line DF extended to intersect BE at point N",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: incorrect congruence claims (△AEF ≅ △ADF and △AEF ≅ △ABE) based on invalid angle subtraction. Angle reasoning in the perpendicularity proof is contradictory and mathematically impossible (e.g., angles summing to 0°). Ground-truth uses valid SAS congruence (△ABE ≌ △ADF) and angle chasing, which the candidate solution omits.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors: incorrect congruence claims (△AEF ≅ △ADF and △AEF ≅ △ABE) based on invalid angle subtraction. Angle reasoning in the perpendicularity proof is contradictory and mathematically impossible (e.g., angles summing to 0°). Ground-truth uses valid SAS congruence (△ABE ≌ △ADF) and angle chasing, which the candidate solution omits."
+}

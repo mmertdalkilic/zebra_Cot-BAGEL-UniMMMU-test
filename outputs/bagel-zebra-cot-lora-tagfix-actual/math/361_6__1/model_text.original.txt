@@ -1,0 +1,7 @@
+<think>1.  **Overlaying the line DF** is the first step. This line will be crucial for the subsequent geometric deductions.
+2.  **Triangle congruence** is a key concept. The problem states that △BCD ≌ △BAF. This implies that BD = BF and ∠FBD = ∠DBA = 60°.
+3.  Since ∠FBD = 60° and BD = BF, △BDF is an isosceles triangle with a 60° angle. Therefore, △BDF is an equilateral triangle.
+4.  The problem asks to prove that △BDF is an equilateral triangle. This can be done by showing that BD = BF and ∠FBD = 60°.
+5.  The statement "BD = BF" is given by the congruence of △BCD ≌ △BAF.
+6.  The statement "∠FBD = 60°" is also given by the congruence of △BCD ≌ △BAF.
+7.  Since BD = BF and ∠FBD = 60°, △BDF is an isosceles triangle with a 60° angle. Therefore, △BDF is an equilateral triangle.</think>

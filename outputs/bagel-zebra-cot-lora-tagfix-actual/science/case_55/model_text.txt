@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies dropping an Alka-Seltzer tablet into a bottle of water, sealing it with a balloon, and then waiting 30 seconds. This implies a reaction will occur within the bottle.
+Based on the condition, the Alka-Seltzer tablet will dissolve in the water, releasing carbon dioxide. This gas will expand the balloon, causing it to inflate. The image below shows the expected outcome.
+</OUTPUT_PROMPT>

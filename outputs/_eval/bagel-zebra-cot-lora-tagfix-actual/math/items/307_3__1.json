@@ -1,0 +1,12 @@
+{
+  "id": "307_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: incorrect angle bisector application, invalid triangle similarity (ECD~EBC), and flawed congruence. The reference solution uses triangle similarity (ADB~COE) which is not addressed. The conclusion is based on invalid premises.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors: incorrect angle bisector application, invalid triangle similarity (ECD~EBC), and flawed congruence. The reference solution uses triangle similarity (ADB~COE) which is not addressed. The conclusion is based on invalid premises."
+}

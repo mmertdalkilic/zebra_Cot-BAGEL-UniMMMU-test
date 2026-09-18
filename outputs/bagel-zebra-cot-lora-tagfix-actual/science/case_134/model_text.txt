@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a specific action: a calcite scribe moving horizontally on a sapphire plate. This implies the scribe will leave a distinct mark on the plate.
+To visualize the outcome of this action, I will generate an image showing the scribe and the resulting mark on the plate.
+</OUTPUT_PROMPT>

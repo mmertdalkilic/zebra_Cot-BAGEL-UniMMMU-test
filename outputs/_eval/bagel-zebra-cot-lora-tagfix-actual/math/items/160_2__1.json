@@ -1,0 +1,12 @@
+{
+  "id": "160_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates angles around point O (e.g., ∠BOF=0°, ∠AOF=0°) leading to invalid triangle AOF analysis. Concludes ∠BAF=45° instead of correct 15°. Major logical errors in angle relationships and collinearity assumptions.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates angles around point O (e.g., ∠BOF=0°, ∠AOF=0°) leading to invalid triangle AOF analysis. Concludes ∠BAF=45° instead of correct 15°. Major logical errors in angle relationships and collinearity assumptions."
+}

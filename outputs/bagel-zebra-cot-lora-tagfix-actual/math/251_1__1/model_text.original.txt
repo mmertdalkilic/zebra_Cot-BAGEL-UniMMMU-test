@@ -1,0 +1,15 @@
+<think>The problem asks for the length of OP in a circle with radius 5, where AB and CD are perpendicular chords of equal length (AB=CD=6). We are given the base figure and asked to add specific auxiliary lines: OM perpendicular to AB at M, ON perpendicular to CD at N, and connect OB and OD. The goal is to find OP.
+
+First, let's analyze the properties of the chords and the perpendiculars. Since OM is perpendicular to AB and ON is perpendicular to CD, triangles OMB and OND are right-angled triangles. The length of a chord is twice the length of its segment from the center to the chord. So, MB = AB/2 = 6/2 = 3, and ND = CD/2 = 6/2 = 3. This means MB = ND.
+
+Next, we consider the angles. Since AB is perpendicular to CD, the angle between AB and CD is 90°. The line OP connects the intersection point P to the center O. The angles formed by these lines are related. Specifically, ∠OPB and ∠OPD are angles formed by OP with the perpendiculars to AB and CD at P. Since AB is perpendicular to CD, the sum of these two angles is 90°.
+
+Now, let's analyze the triangles involving the center O and the chords. Consider triangle OMB. OM is perpendicular to AB, so ∠OMB = 90°. MB = 3. OB is a radius of the circle, so OB = 5. This means triangle OMB is a right-angled triangle with hypotenuse OB = 5 and leg MB = 3. By the Pythagorean theorem, OM² + MB² = OB². So, OM² + 3² = 5², which gives OM² = 25 - 9 = 16. Therefore, OM = 4.
+
+Similarly, consider triangle OND. ON is perpendicular to CD, so ∠OND = 90°. ND = 3. OD is also a radius of the circle, so OD = 5. This means triangle OND is a right-angled triangle with hypotenuse OD = 5 and leg ND = 3. By the Pythagorean theorem, ON² + ND² = OD². So, ON² + 3² = 5², which gives ON² = 25 - 9 = 16. Therefore, ON = 4.
+
+We have found that OM = 4 and ON = 4. The auxiliary lines OM and ON are both perpendicular to the chords AB and CD respectively, and their lengths are equal. This means that the perpendiculars from the center O to the two equal chords AB and CD are equal in length. This is a key geometric property: if two chords of a circle are equal, then the perpendicular distance from the center to each chord is equal.
+
+Now we can use these properties to find OP. The angles ∠OPB and ∠OPD are related to the perpendiculars OM and ON. Since OM and ON are both perpendicular to AB and CD, and OM = ON = 4, the quadrilateral formed by these lines and the segments OP is a rectangle. Specifically, the quadrilateral OMPN (or any similar quadrilateral) is a rectangle because it has four right angles (e.g., ∠OMP = 90°, ∠ONP = 90°, ∠MPN = 90°, and ∠OPM = 90°). In a rectangle, the diagonals are equal in length. Therefore, OP = MN.
+
+The segment MN is the difference

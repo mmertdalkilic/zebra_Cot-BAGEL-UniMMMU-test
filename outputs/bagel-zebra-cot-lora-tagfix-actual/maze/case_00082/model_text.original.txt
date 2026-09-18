@@ -1,0 +1,1 @@
+<think>THOUGHT: The final move list is ["left", "down", "right"]. This sequence of three moves is the shortest path from the blue dot to the green goal. The output must be a JSON array containing these three moves in order, separated by commas, enclosed in square brackets.</think>

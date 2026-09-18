@@ -1,0 +1,27 @@
+<think>The problem asks for the length of diagonal BD in a rhombus ABCD. We are given that ∠ABC = 60° and DF = 1, where DF is the perpendicular from D to CM, and CM bisects ∠DCE. We need to use the auxiliary lines AC and DF to find the length of BD.
+
+First, let's analyze the properties of the rhombus and the given angles.
+- ABCD is a rhombus, so AB = BC = CD = DA.
+- The diagonals of a rhombus bisect each other at right angles and bisect the angles of the rhombus.
+- ∠ABC = 60°. Since ABCD is a rhombus, ∠BCD = 180° - 60° = 120°.
+- The diagonals AC and BD intersect at O. So, ∠BCD = ∠BCO + ∠OCD = 120°.
+- Since AC bisects ∠BCD, ∠BCO = ∠OCD = 120° / 2 = 60°.
+- In triangle BCO, ∠BCO = 60° and ∠BOC = 90° (since diagonals intersect at right angles). Therefore, ∠OBC = 180° - 90° - 60° = 30°.
+- Since ABCD is a rhombus, ∠ABD = ∠CBD = 30° (diagonals bisect the angles).
+- The diagonal AC is drawn, so O is the midpoint of AC. The diagonal BD is also drawn, so O is the midpoint of BD.
+
+Next, let's analyze the angles related to the auxiliary lines.
+- DF is drawn perpendicular to CM, so ∠DFM = 90°.
+- CM bisects ∠DCE. Since ∠DCE = 180° - ∠BCD = 180° - 120° = 60°, then ∠MCE = 60° / 2 = 30°.
+- In triangle DCE, ∠DCE = 60° and ∠MCE = 30°, so ∠MDC = 180° - 60° - 30° = 90°.
+- Since DF is perpendicular to CM, ∠DFM = 90°, and ∠MDC = 90°.
+
+Now, let's analyze the triangles formed by these auxiliary lines.
+- Consider triangle DCF. We know ∠DFM = 90° and ∠MDC = 90°.
+- Since CM bisects ∠DCE, ∠MCD = ∠MCE = 30°.
+- In triangle DCF, ∠CDF = 180° - ∠MDC - ∠MCD = 180° - 90° - 30° = 60°.
+- In triangle DCF, ∠CDF = 60° and ∠DFC = 90°, so ∠FCD = 180° - 90° - 60° = 30°.
+- Therefore, triangle DCF is a 30-60-90 triangle.
+
+Let's apply the properties of the rhombus and the 30-60-90 triangle DCF to find the length of BD.
+- In a rh

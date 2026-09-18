@@ -1,0 +1,3 @@
+<think>First, I will examine the initial image to identify the bottle's contents and the presence of any air space.
+Next, I will analyze the provided condition. The instruction specifies that the bottle will not break, and the only change is heating it at a high temperature for a sufficient amount of time.
+Given the bottle will not break and the only change is heating, I will infer the likely outcome of heating a sealed container.</think>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of the litmus strip after it is dipped into a 0.1 M NaOH solution. The initial image shows the litmus strip in an acidic solution.
+The litmus strip is initially red in an acidic solution. When dipped into a strong base like 0.1 M NaOH, the pH increases, causing the litmus to change color. The final state will be a blue litmus strip.
+</OUTPUT_PROMPT>

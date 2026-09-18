@@ -1,0 +1,34 @@
+<think>The problem asks us to prove that the angle ∠BAD is twice the angle ∠CBD, given that quadrilateral ABCD is inscribed in a circle (i.e., ABCD is a cyclic quadrilateral) and that the sides BC and CD are equal (BC = CD). The first step is to visualize the problem by drawing the required auxiliary lines.
+
+Let's add the auxiliary line AC to the diagram. This line will help us form triangles and use properties of cyclic quadrilaterals and isosceles triangles.
+
+Now, let's analyze the angles. Since ABCD is cyclic, we know that the sum of opposite angles in a cyclic quadrilateral is 180°. Therefore, ∠ABC + ∠ADC = 180°.
+
+Next, let's consider the isosceles triangle BCD, where BC = CD. In an isosceles triangle, the angles opposite the equal sides are equal. So, ∠CBD = ∠CDB.
+
+We can express ∠ABC as the sum of two angles: ∠ABD and ∠CBD. Similarly, we can express ∠ADC as the sum of two angles: ∠ADB and ∠CDB.
+
+Now, let's substitute these expressions into the cyclic quadrilateral angle sum property:
+(∠ABD + ∠CBD) + (∠ADB + ∠CDB) = 180°
+Substituting ∠CBD = ∠CDB:
+(∠ABD + ∠CDB) + (∠ADB + ∠CDB) = 180°
+This simplifies to:
+∠ABD + ∠ADB + 2∠CDB = 180°
+
+In any triangle (including △ABD), the sum of the interior angles is 180°. So, in △ABD, we have:
+∠BAD + ∠ABD + ∠ADB = 180°
+
+We can now compare the two equations we derived:
+1) ∠BAD + ∠ABD + ∠ADB = 180°
+2) ∠ABD + ∠ADB + 2∠CDB = 180°
+
+Since both equations equal 180°, we can set them equal to each other:
+∠BAD + ∠ABD + ∠ADB = ∠ABD + ∠ADB + 2∠CDB
+
+By subtracting (∠ABD + ∠ADB) from both sides, we get:
+∠BAD = 2∠CDB
+
+We need to show that ∠CDB = ∠CBD. We know that ∠CDB = ∠CBD from the isosceles triangle BCD (BC = CD). Therefore, we can substitute ∠CDB for ∠CBD in the equation:
+∠BAD = 2∠CBD
+
+This completes the proof.</think>

@@ -1,0 +1,8 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code as a sequence of commands to render a simple image.
+The SVG defines a template (a 60x60 fill rectangle) and applies it four times at (20,226), (120,226), (220,226), (320,226).
+The background is a 512x512 white rectangle. All elements are in user space, so their coordinates are relative to the viewBox.
+The template is a small fill rectangle at (0,0) in the template's local coordinate system.
+The four uses apply the template to positions (20,226), (120,226), (220,226), (320,226) in the user space.
+The final image is a 512x512 grid of four 60x60 fill rectangles, offset by (20,226), (120,226), (220,226), (320,226) respectively.
+</RENDER_SUMMARY>

@@ -1,0 +1,12 @@
+{
+  "id": "259_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly equates ∠BPC to ∠BDC (90°) instead of recognizing ∠BPC subtends arc BC with measure 90°, making ∠BPC=45° as per inscribed angle theorem. Major logical error in arc-angle relationship.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly equates ∠BPC to ∠BDC (90°) instead of recognizing ∠BPC subtends arc BC with measure 90°, making ∠BPC=45° as per inscribed angle theorem. Major logical error in arc-angle relationship."
+}

@@ -1,0 +1,24 @@
+<think>Let’s analyze the geometry. We are given a circle with center O, diameter AB, and point D on BC. DE is perpendicular to AB, and CF is a tangent to the circle at C. We need to find CF, given D is the midpoint of BC, the radius is 5, and cos∠CDF = 3/5.
+
+First, let’s draw the auxiliary line OC. This connects the center O to the point of tangency C. Since CF is a tangent to the circle at C, the radius OC is perpendicular to CF. Thus, ∠OCF = 90°. This forms a right-angled triangle OCF.
+
+Now, let’s look at triangle DCF. We are given cos∠CDF = 3/5. Let’s denote the length of DF as 3k and the length of CD as 5k (using the Pythagorean theorem). Since D is the midpoint of BC, CD = DB. Thus, DB = 5k. Triangle DBE is also a right-angled triangle (DE ⊥ AB). Let’s denote the length of DE as 3m and the length of BE as 4m (using the Pythagorean theorem). Since D is the midpoint of BC, BD = DC = 5k. So, BC = 10k.
+
+Now, let’s relate the triangles. We have two right-angled triangles: OCF and DBE. Let’s find the lengths of OC and OB. Since O is the center and AB is the diameter, OB = OC = 5 (radius). Let’s denote the length of OE as x. Then, BE = OB - OE = 5 - x. Since BE = 4m, we have 5 - x = 4m, so x = 5 - 4m. Thus, OE = 5 - 4m.
+
+In triangle DBE, DE = 3m and BE = 4m. By the Pythagorean theorem, BD² = DE² + BE². So, (5k)² = (3m)² + (4m)². This simplifies to 25k² = 9m² + 16m² = 25m². Thus, k² = m², so k = m (since lengths are positive). Therefore, BD = 5k = 5m and DE = 3m.
+
+Now, let’s relate the triangles OCF and DBE. We have:
+- ∠OCF = 90° (radius perpendicular to tangent)
+- ∠DEB = 90° (given)
+- ∠CDF = ∠DBE (vertical angles at point D)
+Thus, △OCF ~ △DBE by AA similarity.
+
+From the similarity of △OCF and △DBE, we get the ratio of corresponding sides:
+OC / DB = CF / BE = OF / DE
+We know OC = 5, DB = 5k = 5m, BE = 4m, DE = 3m.
+So, 5 / (5m) = CF / (4m) = OF / (3m)
+This simplifies to 1/m = CF / (4m) = OF / (3m)
+From 1/m = CF / (4m), we get CF = 4.
+From 1/m = OF / (3m), we get OF = 3.
+Since OC = 5, CF = √(OC² - OF²) = √(5² - 3²) = √(25 - 9) = √

@@ -1,0 +1,12 @@
+{
+  "id": "295_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly calculates ∠ABO using angle AOE (180°) instead of using isosceles triangle OAB with OA=OB and ∠BAE=25°. Final answer is correct but reasoning has a major flaw.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly calculates ∠ABO using angle AOE (180°) instead of using isosceles triangle OAB with OA=OB and ∠BAE=25°. Final answer is correct but reasoning has a major flaw."
+}

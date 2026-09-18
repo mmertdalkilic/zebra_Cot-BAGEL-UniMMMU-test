@@ -1,0 +1,12 @@
+{
+  "id": "200_6__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution attempts angle chasing but lacks rigorous justification for key relationships (e.g., ∠MAE=75°, ∠AME=75°). Ground-truth uses isosceles triangle properties and central angles which are not properly replicated. Conclusion is correct but reasoning has logical gaps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution attempts angle chasing but lacks rigorous justification for key relationships (e.g., ∠MAE=75°, ∠AME=75°). Ground-truth uses isosceles triangle properties and central angles which are not properly replicated. Conclusion is correct but reasoning has logical gaps."
+}

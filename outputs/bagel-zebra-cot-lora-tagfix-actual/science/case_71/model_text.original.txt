@@ -1,0 +1,2 @@
+<think>The problem asks us to predict the state of a metallic sodium block after it is exposed to open air and is burning. The initial image shows the block before the condition is applied.
+When sodium is exposed to air and burned, it reacts with oxygen to form sodium oxide. This reaction releases heat and light, characteristic of combustion.</think>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies a green tomato on a windowsill, exposed to sunlight. The goal is to determine its final state after ripening.
+Tomatoes ripen from green to red due to the breakdown of chlorophyll. To visualize this change, I will generate an image showing a ripe tomato.
+</OUTPUT_PROMPT>

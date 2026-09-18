@@ -1,0 +1,12 @@
+{
+  "id": "168_4_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line AE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate introduces variables without establishing key relationships (e.g., r=4x), fails to derive critical steps like CH=CB or angle equivalences, and does not resolve variables properly. The power of a point approach is attempted but lacks sufficient constraints to solve for EN. Final answer not derived correctly.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces variables without establishing key relationships (e.g., r=4x), fails to derive critical steps like CH=CB or angle equivalences, and does not resolve variables properly. The power of a point approach is attempted but lacks sufficient constraints to solve for EN. Final answer not derived correctly."
+}

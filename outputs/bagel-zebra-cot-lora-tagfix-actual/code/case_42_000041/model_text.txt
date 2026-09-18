@@ -1,0 +1,11 @@
+<RENDER_SUMMARY>
+Interpret the SVG code:
+- The outermost <svg> has a viewBox of 0,0,512,512, so the canvas is 512x512.
+- A white background is defined by a <rect> covering the entire canvas.
+- Three <use> elements reference a template <g> (a circle at (30,30) with fill=black).
+- The first <use> is rotated 30 degrees around (50,256) and placed at (20,226).
+- The second <use> is at (115,226).
+- The third <use> is rotated 30 degrees around (240,256) and placed at (210,226).
+
+Visualize the final image by applying the transforms and placements. The image will show three black circles, each rotated and placed at different positions on the white background.
+</RENDER_SUMMARY>

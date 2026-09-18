@@ -1,0 +1,12 @@
+{
+  "id": "372_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"Candidate uses SAS congruence with correct angle (semicircle theorem) and side equalities. Reasoning is valid alternative to reference solution's perpendicular bisector approach. Conclusion AB=AC is correct.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate uses SAS congruence with correct angle (semicircle theorem) and side equalities. Reasoning is valid alternative to reference solution's perpendicular bisector approach. Conclusion AB=AC is correct."
+}

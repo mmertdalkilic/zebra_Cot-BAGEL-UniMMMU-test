@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty 512×512 canvas as a blank grid to understand the layout before any shapes are drawn.</think>

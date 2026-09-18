@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition requires swapping the positions of the blue and yellow cups while keeping the red cup in the center.
+To visualize the effect of this swap, I will generate an image showing the cups in their new positions on the saucer.
+</OUTPUT_PROMPT>

@@ -1,0 +1,8 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify the shapes, their positions, and their styles.
+The SVG contains 4 identical circles, each with a fill color and radius, positioned at (x,y,r,cx,cy, etc.) relative to the viewBox.
+The circles are stacked from left to right, with the first at (0,0,30,0,0,0), the second at (15,0,30,15,0,0), the third at (30,0,30,30,0,0), and the fourth at (45,0,30,45,0,0).
+The background is a large white rectangle filling the entire canvas.
+The first circle is at the bottom-left, the second is slightly rotated and above the first, the third is slightly rotated and to the right of the second, and the fourth is slightly rotated and to the right of the third.
+The final image will show these four circles, each rotated 15 degrees, stacked horizontally, with the first at the bottom-left, the second above the first, the third to the right of the second, and the fourth to the right of the third, all with a fill color of #9B59B6 and radius 30.
+</RENDER_SUMMARY>

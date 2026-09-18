@@ -1,0 +1,12 @@
+{
+  "id": "196_6__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line OH⊥AB.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution provides final answer 3, which is incorrect (ground-truth is 9). No reasoning shown to assess rigor.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution provides final answer 3, which is incorrect (ground-truth is 9). No reasoning shown to assess rigor."
+}

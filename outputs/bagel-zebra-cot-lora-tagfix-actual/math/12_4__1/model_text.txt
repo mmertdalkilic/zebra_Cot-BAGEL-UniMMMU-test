@@ -1,0 +1,11 @@
+<think>The problem asks for the length of AD in a quadrilateral ABCD, given that AD is parallel to BC, ∠C = 45°, and an isosceles right triangle BAE (with AB as a leg) is constructed such that E lies on CD. We are given CE = 6. We need to use the auxiliary line EF, which is perpendicular to CD and intersects BC at F.
+
+First, let's analyze the properties of the isosceles right triangle BAE. Since it is isosceles and right-angled, the legs AB and AE are equal in length. Therefore, AB = AE. The right angle is at A, so ∠BAE = 90°. This means that ∠ABE = ∠AEB = (180° - 90°) / 2 = 45°.
+
+Next, let's examine the properties of the quadrilateral ABCD. We are given that AD is parallel to BC. This means that the opposite angles formed by a transversal cutting parallel lines are equal. So, ∠C and ∠D are supplementary. Since ∠C = 45°, it follows that ∠D = 180° - 45° = 135°. Additionally, the sum of the interior angles of any quadrilateral is 360°. Therefore, ∠ABC + ∠C + ∠D + ∠BAD = 360°. Substituting the known values, we get ∠ABC + 45° + 135° + ∠BAD = 360°. Simplifying, ∠ABC + ∠BAD = 180°. This implies that ∠ABC and ∠BAD are supplementary.
+
+Now, let's analyze the angles formed by the auxiliary line EF. Since EF is perpendicular to CD, ∠EFC = 90°. The sum of angles in triangle EFC is 180°, so ∠FEC + ∠C + ∠EFC = 180°. Substituting the known values, ∠FEC + 45° + 90° = 180°. This gives ∠FEC = 180° - 135° = 45°.
+
+We need to find the length of AD. Let's consider triangles ABE and EFC. We know that AB = AE (from the isosceles right triangle BAE) and ∠ABE = 45° (from the isosceles right triangle BAE). We also know that ∠FEC = 45° (from the calculation above). Since AD is parallel to BC, ∠EAD = ∠AEB = 45° (alternate interior angles). Therefore, in triangle ABE, ∠BAE = 90°, ∠ABE = 45°, and ∠AEB = 45°. In triangle EFC, ∠EFC = 90°, ∠FEC = 45°, and ∠ECF = 45°. This means that both triangles ABE and EFC are 45-45-90 triangles.
+
+In a 45-45-90 triangle, the legs are equal in length, and the hypotenuse is √2 times the length of a leg. So, in triangle ABE, AB = AE. In triangle EFC, EF = FC. Since AB = AE, it follows that AB = EF.

@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be the JSON array of moves, followed by three separate images showing the blue dot's position after each move, starting from the initial state and ending at the green target square. The images will be identical to the maze with the blue dot at the new position after each move.</think>

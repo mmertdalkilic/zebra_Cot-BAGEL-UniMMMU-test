@@ -1,0 +1,12 @@
+{
+  "id": "238_5_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "DF line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AB=AC (problem states AB=BC), leading to invalid equations. Despite this, the final numeric answer matches the reference (9/5) due to coincidental error cancellation. Reasoning is flawed but conclusion is correct.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AB=AC (problem states AB=BC), leading to invalid equations. Despite this, the final numeric answer matches the reference (9/5) due to coincidental error cancellation. Reasoning is flawed but conclusion is correct."
+}

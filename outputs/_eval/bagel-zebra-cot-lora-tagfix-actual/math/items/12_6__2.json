@@ -1,0 +1,12 @@
+{
+  "id": "12_6__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABC is isosceles right-angled (45-45-90) based on flawed angle reasoning. This leads to incorrect calculations for AC and BC. The critical error invalidates the entire derivation, resulting in a numeric mismatch with the ground-truth solution.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle ABC is isosceles right-angled (45-45-90) based on flawed angle reasoning. This leads to incorrect calculations for AC and BC. The critical error invalidates the entire derivation, resulting in a numeric mismatch with the ground-truth solution."
+}

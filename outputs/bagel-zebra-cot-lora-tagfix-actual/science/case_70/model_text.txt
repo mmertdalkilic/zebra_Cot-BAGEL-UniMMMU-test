@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that the aluminum powder is to be ignited in open air. This implies a chemical reaction will occur.
+Aluminum powder ignites in open air to form aluminum oxide. The image will show the powder fully burned.
+</OUTPUT_PROMPT>

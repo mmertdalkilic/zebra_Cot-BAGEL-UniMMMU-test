@@ -1,0 +1,18 @@
+<think>The problem asks us to prove that the angle ∠ABC is twice the angle ∠ACD in a right-angled triangle △ABC. We are given that the circle centered at O (with radius OC) is tangent to AB at D, and O lies on AC. The first step is to visualize the relationships between the angles and segments introduced by the tangent and the circle.
+
+To better understand the geometric relationships, let's analyze the properties of the tangent and the circle. We are given that the circle is tangent to AB at D. By the definition of a tangent to a circle, the radius to the point of tangency is perpendicular to the tangent line. Therefore, OD is perpendicular to AB, so ∠ODA = 90°.
+
+Next, let's consider the angles formed by the radius OC and the tangent AB. Since OC is the radius of the circle and AB is its tangent at D, the radius OC is perpendicular to the tangent AB. Thus, ∠OCD = 90°.
+
+Now, let's look at the right-angled triangle △ABC. We know that ∠ACB = 90°. The line segment CD connects the right angle vertex C to the point D on the hypotenuse AB. In a right-angled triangle, the altitude from the right angle to the hypotenuse divides the triangle into two smaller, similar triangles. Specifically, in △ABC, CD is the altitude from C to AB. Therefore, △ACD and △CBD are similar to △ABC and to each other.
+
+Let's analyze the similarity of △ACD and △ABC. Both triangles share the angle ∠A. Since ∠ACB = 90° and ∠ODA = 90°, and OC is a radius, OC = OD (radii of the same circle). This means that the segment OD is equal in length to the radius OC. Since OC is the radius of the circle, and OD is a radius, OD = OC. Therefore, the lengths of the corresponding sides of the similar triangles △ACD and △ABC are proportional (AD/AC = CD/BC = OD/OC = 1). This implies that △ACD is congruent to △ABC.
+
+Since △ACD ≅ △ABC, their corresponding angles are equal. Therefore, ∠ACD = ∠ABC.
+
+The problem asks us to prove that ∠ABC = 2∠ACD. We have established that ∠ACD = ∠ABC. Now, let's look at the right-angled triangle △OCD. We know that ∠OCD = 90° (from the tangent property). Since OC = OD (radii of the same circle), △OCD is an isosceles right-angled triangle. In an isosceles right-angled triangle, the two acute angles are equal and their sum is 90°. Therefore, ∠ODC = ∠OCD = 45°.
+
+We have found that ∠ODC = 45°. We also know that ∠ODC is an exterior angle for △ACD. An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles. In △ACD, the exterior angle at D (∠ODC) is formed by the side CD and the extension of the side AD. The two non-adjacent interior angles are ∠ACD and ∠CAD. Therefore, we can write the equation:
+∠ODC = ∠ACD + ∠CAD.
+
+We have established that ∠ACD =

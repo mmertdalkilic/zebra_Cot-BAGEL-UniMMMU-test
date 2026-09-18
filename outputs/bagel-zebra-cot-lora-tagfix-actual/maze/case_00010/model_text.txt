@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is the JSON array representing the sequence of moves. The image sequence will show the agent moving right, then up, then left, each time updating the agent's position.</think>

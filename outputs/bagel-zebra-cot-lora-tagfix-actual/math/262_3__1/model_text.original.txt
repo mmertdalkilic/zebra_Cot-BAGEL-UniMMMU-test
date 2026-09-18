@@ -1,0 +1,15 @@
+<think>The problem asks for the measure of ∠AEB in a circle with points A, B, C, D, E on its circumference. The center O lies on the diameter AD. We are given that ∠BCD = 110°. We need to use the auxiliary line BD to find the relationship between ∠AEB and ∠BCD.
+
+First, let's analyze the given information and the construction. We are told that O is on AD, which means AD is a diameter of the circle. The points A, B, C, D, E are on the circumference, and we are asked to find ∠AEB. We are given ∠BCD = 110°. We are also told to connect BD. The diagram shows that BD is drawn.
+
+Now, let's analyze the angles in the circle. The points A, B, C, D are on the circumference. The angle ∠BCD is an inscribed angle that subtends the arc BD. The measure of an inscribed angle is half the measure of the arc it subtends. So, ∠BCD = 1/2 * arc BD. We are given ∠BCD = 110°, so arc BD = 2 * 110° = 220°.
+
+Next, let's consider the arc AD. Since AD is a diameter, the arc AD subtends a semicircle, which is 180°. The points A, B, C, D are on the circumference. The arc AB + arc BC + arc CD = arc AD. We know arc AD = 180°. We are given ∠BCD = 110°, which subtends arc BD. The arc BD is composed of arc BC + arc CD. So, arc BD = arc BC + arc CD. We found arc BD = 220°. Therefore, arc BC + arc CD = 220°.
+
+Now, let's find the measure of arc AB. We know arc AB + arc BC + arc CD = arc AD. We found arc AD = 180° and arc BC + arc CD = 220°. So, arc AB + 220° = 180°. Solving for arc AB, we get arc AB = 180° - 220° = -40°. This result is not possible for an arc length. This indicates an error in our reasoning. Let's re-evaluate our steps.
+
+Upon reviewing the diagram and the problem statement, we should consider that the points A, B, C, D are not necessarily in the order A, B, C, D along the circumference. The problem states that O is on AD, which means AD is a diameter. The points A, B, C, D, E are on the circumference. We are given ∠BCD = 110°. The construction is to connect BD. Let's re-examine the angles.
+
+The angle ∠BCD is an inscribed angle that subtends the arc BD. The measure of an inscribed angle is half the measure of the arc it subtends. So, ∠BCD = 1/2 * arc BD. We are given ∠BCD = 110°, so arc BD = 2 * 110° = 220°.
+
+The points A, B, C, D are on the circumference. The angle ∠AEB is an inscribed angle that subtends the arc AB. The measure of an inscribed angle is half the measure of the arc it subtends.

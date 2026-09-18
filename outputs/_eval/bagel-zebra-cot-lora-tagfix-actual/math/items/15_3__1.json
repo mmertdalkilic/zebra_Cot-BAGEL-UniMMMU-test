@@ -1,0 +1,12 @@
+{
+  "id": "15_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing perpendicular line DH",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle ABC is equilateral (invalid in rhombus with 60° angle), miscalculates DH as 6 instead of 3√3, and applies Pythagorean theorem with wrong values leading to DE=6 instead of 9/2. Multiple logical errors invalidate reasoning and conclusion.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle ABC is equilateral (invalid in rhombus with 60° angle), miscalculates DH as 6 instead of 3√3, and applies Pythagorean theorem with wrong values leading to DE=6 instead of 9/2. Multiple logical errors invalidate reasoning and conclusion."
+}

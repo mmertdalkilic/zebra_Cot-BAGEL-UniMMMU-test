@@ -1,0 +1,12 @@
+<RENDER_SUMMARY>
+Interpret the SVG code to identify the shapes, their properties, and their relative positions. The canvas is 512x512, and the viewBox is 0,0,512,512, so all coordinates are in user space.
+The background is a white rectangle covering the entire canvas.
+The first polygon (with fill="#34495E") is a complex shape with vertices at (342.25,172.8), (296.3,140.8), (301.05,85), (351.75,61.2), (397.69,93.2), (392.95,149).
+The second polygon (with fill="#3498DB") is a smaller, simpler shape with vertices at (110,167), (369,106), (221,87).
+The third path (with fill="none", stroke="#34495E") is a curved line from (53,181) to (427,399).
+The fourth line (with fill="none", stroke="#3498DB") connects (225,449) to (423,492).
+The fifth path (with fill="none", stroke="#34495E") is a curved line from (110,167) to (314,439).
+The sixth polygon (with fill="#3498DB") is a small triangle with vertices at (265.29,126.45), (374.4,160.55), (290.31,238).
+The order of rendering is: background, then all polygons and paths in the order they appear in the source code.
+The shapes are stacked, so later elements overlay earlier ones. The last element is the small triangle at the top right.
+</RENDER_SUMMARY>

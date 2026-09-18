@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that a bunch of green bananas is exposed to room temperature for an extended period.
+Bananas are a perishable fruit. Over time, exposure to room temperature will cause them to ripen and eventually decay.
+</OUTPUT_PROMPT>

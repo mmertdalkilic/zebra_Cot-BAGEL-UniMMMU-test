@@ -1,0 +1,12 @@
+{
+  "id": "149_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution incorrectly assumes EAHO is a rectangle and makes invalid algebraic manipulations. The reference uses valid congruent triangles (HL) for the proof. While the conclusion BC=BH is correct, the reasoning contains logical gaps and false claims (e.g., rectangle properties, quadratic derivation).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution incorrectly assumes EAHO is a rectangle and makes invalid algebraic manipulations. The reference uses valid congruent triangles (HL) for the proof. While the conclusion BC=BH is correct, the reasoning contains logical gaps and false claims (e.g., rectangle properties, quadratic derivation)."
+}

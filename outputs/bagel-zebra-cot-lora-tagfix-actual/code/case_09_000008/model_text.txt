@@ -1,0 +1,5 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code. The SVG contains a white rectangle and five identical rectangles (from a template definition) positioned at (20,226), (104,226), (188,226), (272,226), and (356,226). All rectangles have a fill of "#3498DB" and a height/width of 60. The viewBox is 0,0,512,512. The background is white, as only rectangles are explicitly drawn.
+
+The five rectangles are placed along the vertical center line (x=226) at equal intervals. They are stacked on top of each other, with the topmost rectangle at the bottom of the view. The background is white, so no default colors are added. The final image is five stacked rectangles, all filled with "#3498DB", against a white background.
+</RENDER_SUMMARY>

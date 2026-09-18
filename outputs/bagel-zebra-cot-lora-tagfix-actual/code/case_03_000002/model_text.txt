@@ -1,0 +1,7 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: the root element is `<svg>`, with a `viewBox` of 0,0,512,512. The root `<svg>` contains a `<rect>` with fill white, covering the entire 512x512 canvas. Inside this, there are five identical circles, each with fill "#2ECC71" (green), centered at (60,256), (139,256), (218,256), (297,256), (376,256), and a radius of 40. The circles are stacked horizontally, centered vertically on the 256 line.
+
+The background is white, as set by the `<rect>`. The five green circles are all centered at the same y-coordinate (256), but their x-coordinates are spaced 79 units apart (60, 139, 218, 297, 376). This means the circles are arranged in a horizontal line, each slightly offset from the previous one. The last circle is at x=376, which is 376 units from the left edge (0), and the first is at x=60, which is 60 units from the left edge. The total width covered by the circles is 40 (radius) + 40 (radius) + 79 (offset) * 4 = 40 + 40 + 316 = 436 units. Since the viewBox is 512, there is a 76-unit gap on the right side of the last circle.
+
+The summary should describe the overall scene: a white background with five green circles arranged horizontally, centered vertically, with a gap on the right. The circles are not stacked on top of each other, but side by side.
+</RENDER_SUMMARY>

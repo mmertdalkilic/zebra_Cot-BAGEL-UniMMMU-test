@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+First, I will examine the initial image to identify the components involved in the described experiment: the copper wire with barium chloride crystals and the tile surface.
+To understand the experiment's progression, I need to visualize the wire's behavior after being ignited for 5 seconds. I will generate an image showing the wire after the specified duration.
+</OUTPUT_PROMPT>

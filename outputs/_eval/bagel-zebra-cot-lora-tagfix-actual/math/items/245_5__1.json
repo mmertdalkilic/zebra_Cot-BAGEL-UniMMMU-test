@@ -1,0 +1,12 @@
+{
+  "id": "245_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors (e.g., incorrectly claims ∠OBA=90°, flawed parallel line reasoning, and misapplies angle relationships). While the conclusion is correct, the reasoning is not rigorous.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors (e.g., incorrectly claims ∠OBA=90°, flawed parallel line reasoning, and misapplies angle relationships). While the conclusion is correct, the reasoning is not rigorous."
+}

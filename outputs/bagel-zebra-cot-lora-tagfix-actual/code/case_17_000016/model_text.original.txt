@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty white canvas as a placeholder for the final rendered image.</think>

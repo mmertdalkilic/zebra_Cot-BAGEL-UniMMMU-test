@@ -1,0 +1,1 @@
+<think>Let’s visualize the full SVG structure as a tree to see the nesting and order of elements.</think>

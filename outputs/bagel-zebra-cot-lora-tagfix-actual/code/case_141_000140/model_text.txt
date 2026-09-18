@@ -1,0 +1,5 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: the background is white (from the <rect> tag). The main elements are a large white rectangle, a smaller green rectangle, and a green circle.
+The green rectangle and circle are positioned at (x=188, y=303) with a width/height of 98. This means they are located in the lower-right corner of the white canvas.
+The white rectangle fills the entire canvas, so the green elements are simply overlays on top of the white background.
+</RENDER_SUMMARY>

@@ -1,0 +1,12 @@
+{
+  "id": "377_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly uses the properties of a semicircle (angle ADB=90°), isosceles triangle BDC, and congruent triangles (SAS) to prove AB=AC. All logical steps are valid and rigorous.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly uses the properties of a semicircle (angle ADB=90°), isosceles triangle BDC, and congruent triangles (SAS) to prove AB=AC. All logical steps are valid and rigorous."
+}

@@ -1,0 +1,1 @@
+<think>THOUGHT: The output should be a single line containing the sequence of moves as a JSON array. The moves are "right" and "down".</think>

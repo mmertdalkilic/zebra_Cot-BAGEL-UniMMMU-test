@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the state of a chemical reaction involving a zinc strip in a copper sulfate solution after a specific time frame. The initial image shows the setup before the reaction begins.
+The condition specifies a 24-hour period. This duration is long enough for a chemical displacement reaction to occur. In this reaction, zinc is more reactive than copper, so it will replace copper from the solution.
+The visual representation of the final state will show the reaction's outcome. The image will depict the solution color changing and the zinc strip's appearance after the reaction is complete.
+</OUTPUT_PROMPT>

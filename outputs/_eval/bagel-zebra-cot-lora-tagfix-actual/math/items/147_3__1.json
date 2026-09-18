@@ -1,0 +1,12 @@
+{
+  "id": "147_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Extra lines and marks distort the required line BC.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes angles intercept same arc (AD=CD), misapplies 30-60-90 triangle logic, and calculates AB=6 instead of 2√5. Final radius 3 ≠ ground-truth √5.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes angles intercept same arc (AD=CD), misapplies 30-60-90 triangle logic, and calculates AB=6 instead of 2√5. Final radius 3 ≠ ground-truth √5."
+}

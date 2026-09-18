@@ -1,0 +1,15 @@
+<think>The problem asks for the length of BD in triangle ABC, where AB is the diameter of circle O, D is the intersection of BC with the circle, and DE is perpendicular to AC. We are given that AB=AC, ∠C=30°, and CD=2√3.
+
+First, let's analyze the properties of the triangle and the circle. Since AB is the diameter of circle O, any angle inscribed in the semicircle ADB is a right angle. Therefore, ∠ADB = 90°. This means that AD is perpendicular to BC. Since AB=AC, triangle ABC is isosceles with AB=AC. In an isosceles triangle, the altitude from the apex (A) to the base (BC) also bisects the base. Thus, AD is the median to BC, so D is the midpoint of BC. This implies BD=DC. We are given CD=2√3, so BD=2√3.
+
+Next, let's consider triangle CDE. We know that DE is perpendicular to AC, so ∠DEC=90°. We are given ∠C=30°. The sum of angles in a triangle is 180°, so ∠CDE = 180° - ∠DEC - ∠C = 180° - 90° - 30° = 60°.
+
+Now, let's look at the angles involving point D. Since AD is perpendicular to BC (from the property of the isosceles triangle), ∠ADC = 90°. We have already found that ∠CDE = 60°. Therefore, ∠ADE = ∠ADC - ∠CDE = 90° - 60° = 30°.
+
+We can now analyze triangle ADE. We know that ∠AED = 90° (given DE⊥AC) and ∠ADE = 30°. The sum of angles in a triangle is 180°, so ∠DAE = 180° - ∠AED - ∠ADE = 180° - 90° - 30° = 60°.
+
+Now we have a triangle ADE with angles 30°, 60°, and 90°. This is a 30-60-90 triangle. In a 30-60-90 triangle, the sides are in the ratio 1 : √3 : 2, where the side opposite the 30° angle is the shortest side (half the hypotenuse), the side opposite the 60° angle is the longer leg (√3 times the shortest side), and the hypotenuse is twice the shortest side.
+
+In triangle ADE, ∠ADE = 30°, so the side opposite to it is AE. ∠DAE = 60°, so the side opposite to it is DE. The hypotenuse is AD. Therefore, AE = 1/2 * AD, and DE = √3 * AE = √3 * (1/2 * AD) = (1/2) * AD * √3. So, AD = 2 * AE = 2 * DE / √3.
+
+Now we need to find the length of AD. We can use the fact that AD is the altitude of the isosceles triangle ABC. Let's drop a perpendicular from A to BC, let's call the foot of this perpendicular F. Since ABC is isosceles with AB=

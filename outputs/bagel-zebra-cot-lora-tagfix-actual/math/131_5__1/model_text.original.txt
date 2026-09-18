@@ -1,0 +1,3 @@
+<think>Let’s analyze the geometry. We need to prove CD is tangent to the circle at C. The key is to show that the radius OC is perpendicular to CD. The problem states that AC bisects ∠DAB. Let’s draw the radius OC to use the property that OA=OC (radii of the same circle).
+
+Let’s sketch the radius OC. This will help us relate angles and lengths.</think>

@@ -1,0 +1,12 @@
+{
+  "id": "107_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AD is perpendicular to BC (not justified). Introduces unnecessary variables and convoluted equations without establishing key angle relationships (e.g., ∠ACB = ∠DAB). Fails to directly prove ∠BAC = 90° as required for tangency.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AD is perpendicular to BC (not justified). Introduces unnecessary variables and convoluted equations without establishing key angle relationships (e.g., ∠ACB = ∠DAB). Fails to directly prove ∠BAC = 90° as required for tangency."
+}

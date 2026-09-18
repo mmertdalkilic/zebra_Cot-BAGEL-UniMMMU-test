@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to determine the final state of a copper wire subjected to a specific type of loading. The initial state is shown in the problem image, which is a copper wire clamped between two fixtures.
+The condition specifies cyclic axial tension-tension loading with a given amplitude and frequency. This type of loading is known to cause fatigue and can lead to failure. The wire's diameter and length are also provided. The condition does not mention any deliberate notch, which means the wire is not pre-damaged.
+</OUTPUT_PROMPT>

@@ -1,0 +1,3 @@
+<RENDER_SUMMARY>
+Interpret the SVG code to understand the shapes, their positions, sizes, colors, and any transforms. The shapes are rectangles with fill color #F1C40F, placed at (20,216), (127,216), and (234,216) with width 80 and height 80. The background is white. The viewBox is 0,0,512,512, so the shapes are centered at (20,216) and (127,216) and (234,216) respectively, but the viewBox is 512x512, so the shapes are at (20,216), (127,216), and (234,216) relative to the viewBox center (256,256). The shapes are stacked, so the rightmost one is on top.
+</RENDER_SUMMARY>

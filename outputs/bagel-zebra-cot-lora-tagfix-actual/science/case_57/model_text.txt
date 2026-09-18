@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an experiment with sodium in a lab setting. The key information is that the sodium cube will be ignited and the ignition will continue for 5 seconds.
+Since the condition specifies that the ignition will be maintained for 5 seconds, the sodium cube will continue to burn for this duration. The image must show the cube in its burning state.
+</OUTPUT_PROMPT>

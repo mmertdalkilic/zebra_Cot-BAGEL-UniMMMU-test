@@ -1,0 +1,2 @@
+<think>First, I will analyze the initial image to identify the objects present: a beaker with water, a cork, and a rock on a table.
+Next, I will apply the condition: place both the cork and the rock into the water. This will cause the water level to rise and possibly cause the cork to float and the rock to sink.</think>

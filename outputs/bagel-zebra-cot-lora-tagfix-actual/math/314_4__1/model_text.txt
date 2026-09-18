@@ -1,0 +1,21 @@
+<think>The problem asks for the measure of ∠GCF. We are given a rhombus ABCD, an isosceles right triangle △AEF, and a point E on side BC. We need to use the auxiliary line EM, where M is on AB such that BM=BE.
+
+Let's analyze the properties of the rhombus ABCD. Since ABCD is a rhombus, all its angles are 90°, so it is a square. This means ∠ABC = ∠BCD = 90°. The problem states that ∠AEF = ∠ABC = 90°, so ∠AEF = 90°. Since △AEF is isosceles with AE=EF, it is a right isosceles triangle, so ∠EAF = 45°.
+
+Now, let's analyze the auxiliary line EM. M is a point on AB such that BM=BE. Since E is on BC and M is on AB, the line segment EM connects points on the adjacent sides of the square ABCD. This means that EM is a diagonal of a rectangle formed by the sides of the square and the segments BM and BE. Therefore, EM is perpendicular to AB (and to BC). So, ∠BEM = 90°.
+
+We need to find ∠GCF. Let's consider triangle △ECF. We need to find the measures of its angles to determine ∠GCF. We know that ∠AEF = 90° and ∠BEM = 90°. Let's find the measure of ∠MEF.
+
+The sum of angles around point E is 360°. The angles at E are ∠BEM, ∠AEM, ∠AEF, and ∠FEC. We know ∠BEM = 90° and ∠AEF = 90°. Since ∠AEF = ∠ABC = 90°, and ∠ABC = ∠BEM (both are 90°), the lines AB and EM are parallel. Since AB is parallel to CD (as ABCD is a square), EM is also parallel to CD. Thus, ∠MEF = ∠ECD (alternate interior angles). Since ABCD is a square, ∠ECD = 90°. So, ∠MEF = 90°.
+
+Now we can calculate ∠MEF:
+∠MEF = 360° - (∠BEM + ∠AEF + ∠ECD)
+∠MEF = 360° - (90° + 90° + 90°)
+∠MEF = 360° - 270°
+∠MEF = 90°
+
+We have found that ∠MEF = 90°. Since BM=BE, triangle △BEM is an isosceles triangle. Therefore, ∠BEM = ∠BME = 90°. This means that EM is the altitude from E to the hypotenuse BM of the isosceles triangle △BEM. In an isosceles triangle, the altitude from the apex bisects the base. So, EM bisects the base BE. This means that M is the midpoint of BE.
+
+Now, let's consider triangles △ECF and △EMF. We need to show that they are congruent.
+1.  EM is common to both triangles.
+2.  ∠MEF = ∠FEC = 90°

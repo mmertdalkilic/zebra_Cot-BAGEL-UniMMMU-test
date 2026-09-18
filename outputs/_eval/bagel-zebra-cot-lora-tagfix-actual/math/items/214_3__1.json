@@ -1,0 +1,12 @@
+{
+  "id": "214_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line BD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes DF=CE in parallelogram CDFE (DF should equal PE, not CE). Misapplies similarity between △BCE and △BCA instead of △BEP and △BCD. Incorrectly derives BE/BC=1/2 without valid similarity justification. Fails to properly use centroid ratios and area subtraction steps from reference solution. Final answer would be incorrect.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes DF=CE in parallelogram CDFE (DF should equal PE, not CE). Misapplies similarity between △BCE and △BCA instead of △BEP and △BCD. Incorrectly derives BE/BC=1/2 without valid similarity justification. Fails to properly use centroid ratios and area subtraction steps from reference solution. Final answer would be incorrect."
+}

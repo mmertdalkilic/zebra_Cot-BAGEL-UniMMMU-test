@@ -1,0 +1,6 @@
+<RENDER_SUMMARY>
+Identify the SVG elements: a white background, four red circles, and no other shapes or text.
+Determine the canvas size: 512x512, viewBox 0,0,512,512.
+The four red circles are centered at (60,256), (163,256), (266,256), (369,256) with radius 40.
+Plot these circles on the white background canvas. The circles are stacked, so the last one drawn is on top.
+</RENDER_SUMMARY>

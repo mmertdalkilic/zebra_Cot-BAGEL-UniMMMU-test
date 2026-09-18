@@ -1,0 +1,7 @@
+<think>The problem asks for the measure of ∠DAC. We are given that AD is the diameter of the circle, and ∠B = 40°. We are also told to add the auxiliary line CD to the diagram. We will use the properties of angles in a circle, particularly the inscribed angle theorem and the fact that an angle inscribed in a semicircle is a right angle.
+
+First, let's consider the inscribed angle theorem. The inscribed angle theorem states that an angle formed by two chords in a circle (with the vertex on the circle) is half the measure of the arc it subtends. We are given ∠B = 40°. The angle ∠B subtends the arc AC. Therefore, the measure of arc AC is 2 * ∠B = 2 * 40° = 80°.
+
+Next, let's consider the relationship between ∠ACD and arc AD. The angle ∠ACD is an inscribed angle that subtends arc AD. Since AD is the diameter of the circle, arc AD is a semicircle, which measures 180°. Therefore, the measure of ∠ACD is half of the measure of arc AD, so ∠ACD = 180° / 2 = 90°.
+
+Now we can find the measure of ∠DAC. We know that the sum of angles in a triangle is 180°. In triangle ACD, we have ∠ACD = 90° and ∠ADC = ∠ABC = 40° (because they subtend the same arc AC). Therefore, ∠DAC = 180° - ∠ACD - ∠ADC = 180° - 90° - 40° = 50°.</think>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies that the ice cube is placed in a room at 25°C. This temperature is above the melting point of ice (0°C at standard atmospheric pressure). Therefore, the ice cube will melt.
+Since the ice cube melts, it will transform from a solid state to a liquid state. The visual representation of the final state will show the melted ice, which is water, in the bowl.
+</OUTPUT_PROMPT>

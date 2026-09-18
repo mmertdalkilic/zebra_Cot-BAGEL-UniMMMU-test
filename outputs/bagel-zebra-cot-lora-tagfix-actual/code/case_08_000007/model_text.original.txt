@@ -1,0 +1,1 @@
+<think>Let’s sketch the main shapes: a large rectangle, a polygon, and a circle, as they are the only explicit shapes in the SVG.</think>

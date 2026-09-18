@@ -1,0 +1,1 @@
+<think>Let’s visualize the construction of the auxiliary lines: connect OD, and draw OE perpendicular to BC from O. This completes the overlay as specified.</think>

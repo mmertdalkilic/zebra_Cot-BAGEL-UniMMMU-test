@@ -1,0 +1,9 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify all elements, their attributes, and their positions relative to the viewBox.
+Determine the canvas size (512x512) and background (white, as explicitly defined by a <rect>).
+Analyze each element's properties: fill, stroke, opacity, stroke-width, fill-rule, stroke-linecap/join, and their positions (x, y, cx, cy, r, etc.).
+Process transformations (e.g., scale, rotate, translate) from right to left, applying them to all path/text elements.
+Determine the order of elements, as later elements overlay earlier ones.
+Build the final image by placing elements in the correct order, respecting the viewBox and transformations.
+The final image will be a simple, unadorned white rectangle.
+</RENDER_SUMMARY>

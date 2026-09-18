@@ -1,0 +1,6 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify all shapes, their properties, and their relative positions.
+Extract the shapes and their coordinates, including fill, stroke, and opacity.
+Determine the viewBox and canvas size.
+Plot the shapes on the canvas, respecting the viewBox and stacking order.
+</RENDER_SUMMARY>

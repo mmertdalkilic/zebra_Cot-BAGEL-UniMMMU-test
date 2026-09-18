@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG structure: a large white rectangle, with several paths (stroke lines) drawn over it, varying in color and style.
+The paths are drawn with fill="none" (transparent), so they overlay the white background. The strokes are thick and colored.
+</RENDER_SUMMARY>

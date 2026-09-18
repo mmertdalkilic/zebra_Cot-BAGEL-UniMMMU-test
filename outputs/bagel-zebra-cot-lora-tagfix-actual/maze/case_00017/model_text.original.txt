@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be a single line containing the sequence of moves as a JSON array. This line will be the final answer to the problem, summarizing the shortest path found.</think>

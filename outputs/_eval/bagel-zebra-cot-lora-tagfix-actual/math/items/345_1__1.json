@@ -1,0 +1,12 @@
+{
+  "id": "345_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC and OE lines",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠CBE=45° (actual angle is arctan(1/2)), misapplies similarity criteria between triangles OEC and OEF (angles don't match), and derives EF=√2 instead of correct 2√5/5. Key geometric relationships (similar triangles DEF and BEC) are omitted.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠CBE=45° (actual angle is arctan(1/2)), misapplies similarity criteria between triangles OEC and OEF (angles don't match), and derives EF=√2 instead of correct 2√5/5. Key geometric relationships (similar triangles DEF and BEC) are omitted."
+}

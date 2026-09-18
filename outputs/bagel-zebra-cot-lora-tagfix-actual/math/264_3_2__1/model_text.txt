@@ -1,0 +1,27 @@
+<think>Let L be the intersection of BE and AD. Let F be the intersection of EF and BC. We are given AB=AE, ∠BAD=∠C, AD⊥BE, CE=1, AE=3.
+1.  Since AB=AE, we have ∠ABE=∠AEB.
+2.  Since AD⊥BE, we have ∠ALB=∠ELD=90°.
+3.  Since L is on BE, we have ∠BLA=∠ELD.
+4.  From 1, 2, 3, we have ∠ABE=∠AEB=∠BLA=∠ELD.
+5.  Thus, ∠BAD=∠C (given).
+6.  Therefore, ∠BAD+∠ABE=∠C+∠AEB.
+7.  Since ∠BAD+∠ABE=180°-∠ALB and ∠C+∠AEB=180°-∠AEB, we have 180°-∠ALB=180°-∠AEB.
+8.  Thus, ∠ALB=∠AEB.
+9.  From 5 and 8, we have ∠BAD=∠C=∠ABE=∠AEB.
+10.  Since EF//AD, we have ∠EFC=∠ADC=90° (as AD⊥BE).
+11.  Since ∠EFC=∠ADC, we have EF//AD.
+12.  Since EF//AD, we have ∠EFC=∠FEC (alternate interior angles).
+13.  Since ∠EFC=∠ADC=90°, we have ∠FEC=90°.
+14.  Since ∠FEC=90°, we have ∠FEC=∠EFC=∠ADC=90°.
+15.  Since ∠FEC=∠EFC=∠ADC=90°, we have ∠FEC=∠ADC=90°.
+16.  Since ∠FEC=∠ADC=90°, we have EF//AD.
+17.  Since EF//AD, we have ∠EFC=∠ADC=90°.
+18.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+19.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+20.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+21.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+22.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+23.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+24.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+25.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°.
+26.  Since ∠EFC=∠ADC=90°, we have ∠EFC=∠ADC=90°

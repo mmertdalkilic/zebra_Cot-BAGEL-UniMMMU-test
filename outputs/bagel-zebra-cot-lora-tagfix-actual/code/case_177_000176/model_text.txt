@@ -1,0 +1,44 @@
+<RENDER_SUMMARY>
+Parse the SVG source code to identify all elements, their properties, and their positions relative to the viewBox.
+Determine the canvas size (512x512), background (white), and all element positions, sizes, and fills/strokes.
+Apply transforms (none specified in source, so identity), respecting viewBox coordinates.
+Stack elements from right to left, ensuring later elements overlay earlier ones.
+Apply fill, stroke, stroke-width, and other styles as specified.
+For paths and polygons, apply fill and stroke as specified, respecting fill-rule and stroke-linecap/join if needed.
+For circles, apply fill and radius as specified.
+For text, apply fill and font as specified.
+For polygons, apply fill and points as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke, and stroke-width as specified.
+For circle, apply fill and radius as specified.
+For polygon, apply fill and points as specified.
+For text, apply fill and font as specified.
+For path, apply fill, stroke,
+</RENDER_SUMMARY>

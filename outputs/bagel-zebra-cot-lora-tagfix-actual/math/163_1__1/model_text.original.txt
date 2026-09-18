@@ -1,0 +1,27 @@
+<think>The problem asks for the measure of angle ∠ABD. We are given that AB is the diameter of the circle and that ∠BCD = 40°. We have been instructed to add the auxiliary line AC.
+
+First, let's establish a key property of the circle. Since AB is the diameter of the circle, any angle inscribed in the semicircle formed by AB (i.e., an angle with its vertex on the circle and its sides passing through the endpoints of AB) is a right angle. Therefore, ∠ACB = 90°.
+
+Now, we can use the fact that angles inscribed in the same arc are equal. The arc BD subtends ∠BCD and ∠BAD at the circumference. So, ∠BCD = ∠BAD. We are given that ∠BCD = 40°, which means ∠BAD = 40°.
+
+We have identified two angles in triangle ABD: ∠BAD = 40° and ∠ACB = 90°. The sum of angles in any triangle is 180°. In triangle ABD, the angles are ∠BAD, ∠ABD, and ∠ADB. We can express the sum of these angles as:
+∠BAD + ∠ABD + ∠ADB = 180°
+
+Now, let's analyze the angles in triangle BCD. The sum of its angles is also 180°. The angles in triangle BCD are ∠BCD, ∠CBD, and ∠CDB. We know ∠BCD = 40°. Since ∠ACB = 90° and ∠ACB = ∠ACD + ∠BCD, we can find ∠ACD:
+∠ACD = ∠ACB - ∠BCD = 90° - 40° = 50°.
+
+In triangle ACD, the angles are ∠CAD, ∠ACD, and ∠ADC. We know ∠ACD = 50°. Since ∠CAD and ∠BAD are angles in the same segment AD, they are equal. So, ∠CAD = ∠BAD = 40°. The sum of angles in triangle ACD is:
+∠CAD + ∠ACD + ∠ADC = 180°
+40° + 50° + ∠ADC = 180°
+∠ADC = 180° - 90° = 90°.
+
+Now we have the measures for all angles in triangle ABD:
+∠BAD = 40°
+∠ADB = ∠ADC = 90° (as calculated in the previous step)
+∠ABD = 180° - (∠BAD + ∠ADB) = 180° - (40° + 90°) = 180° - 130° = 50°.
+
+Alternatively, we can use the property that the sum of angles around point D (where lines CD, BD, and AD meet) is 360°. The angles are ∠ADB, ∠BDC, ∠CDA, and ∠ADC.
+∠ADB + ∠BDC + ∠CDA + ∠ADC = 360°
+90° + ∠BDC + 90° + 90° = 360°
+∠BDC = 360° - 270° = 90°.
+Since ∠BDC and ∠

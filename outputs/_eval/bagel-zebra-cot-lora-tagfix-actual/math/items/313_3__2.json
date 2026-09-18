@@ -1,0 +1,12 @@
+{
+  "id": "313_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line AG perpendicular to BO.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes CAOD is a parallelogram (invalid geometric construction) and concludes AD=4, while reference solution uses Pythagorean theorem in right triangles to find AD=4√7. The candidate's reasoning contains major logical errors in geometric relationships.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes CAOD is a parallelogram (invalid geometric construction) and concludes AD=4, while reference solution uses Pythagorean theorem in right triangles to find AD=4√7. The candidate's reasoning contains major logical errors in geometric relationships."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "205_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AD",
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"Candidate solution correctly applies inscribed angle theorem and triangle angle sum. Both methods (direct calculation and alternative angle subtraction) arrive at ∠ABD=62°, matching the reference solution. All logical steps are valid with no gaps.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "Candidate solution correctly applies inscribed angle theorem and triangle angle sum. Both methods (direct calculation and alternative angle subtraction) arrive at ∠ABD=62°, matching the reference solution. All logical steps are valid with no gaps."
+}

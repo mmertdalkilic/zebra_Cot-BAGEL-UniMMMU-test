@@ -1,0 +1,3 @@
+<RENDER_SUMMARY>
+Visualize the SVG structure, focusing on the nested shapes and their relative positions. The innermost shapes are the two rectangles and the circle, which are centered and overlaid on the outer rectangle.
+</RENDER_SUMMARY>

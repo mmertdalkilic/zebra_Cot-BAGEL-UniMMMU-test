@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the long-term state of a beaker containing specific materials (iron filings, coal powder, sand) when left at room temperature. The initial image shows the beaker filled with this mixture.
+Iron filings and coal powder are both ferrous oxides (iron(III) oxide and iron(II) oxide, respectively). Sand is primarily silicon dioxide. At room temperature, these materials are stable. However, if the mixture is wet, it can form a solid mass due to the hydroxyl groups on the iron oxides reacting with water to form hydroxides. This process is known as rusting or hydrate formation.
+If the mixture is not wet, it will not form a solid mass. The problem states "leave the beaker undisturbed at room temperature (~25°C) for a sufficiently long time." This implies that the mixture is not wet. Therefore, the beaker will remain filled with the original dry mixture of iron filings, coal powder, and sand.
+</OUTPUT_PROMPT>

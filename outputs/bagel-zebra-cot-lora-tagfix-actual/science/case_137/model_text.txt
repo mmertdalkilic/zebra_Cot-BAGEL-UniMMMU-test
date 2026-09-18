@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of an object (a sapphire scribe) on a surface (a gypsum plate) after a specific horizontal motion. The initial image shows the sapphire scribe resting on the plate.
+The condition specifies that the sapphire scribe is slid horizontally across the plate. This implies that the scribe will leave a distinct mark or trail on the plate's surface due to friction or pressure.
+</OUTPUT_PROMPT>

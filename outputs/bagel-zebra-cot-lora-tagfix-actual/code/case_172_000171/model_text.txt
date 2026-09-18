@@ -1,0 +1,45 @@
+<RENDER_SUMMARY>
+Parse the SVG source code to identify all elements, their properties, and their relative positions.
+Determine the canvas size (512x512) and viewBox (0,0,512,512).
+Evaluate each element's coordinates, size, and stacking order.
+For each element, respect the viewBox for coordinates and apply transforms as specified.
+For text elements, apply text-alignment and text-anchor as specified.
+For paths, apply stroke and fill as specified.
+For polygons, apply points and fill as specified.
+For circles, apply cx, cy, r, fill, and stroke as specified.
+For rectangles, apply fill and height as specified.
+For polygons, apply fill and points as specified.
+For text elements, apply text-alignment and text-anchor as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font as specified.
+For text elements, apply fill and font
+</RENDER_SUMMARY>

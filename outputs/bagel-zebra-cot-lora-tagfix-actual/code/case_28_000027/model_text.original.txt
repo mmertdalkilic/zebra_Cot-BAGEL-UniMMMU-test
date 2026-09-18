@@ -1,0 +1,1 @@
+<think>Let’s sketch the initial empty 512×512 canvas, as defined by the SVG viewBox and width/height.</think>

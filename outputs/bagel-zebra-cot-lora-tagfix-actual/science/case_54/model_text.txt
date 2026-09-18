@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that a purple litmus paper strip is dipped into lemon juice. Litmus paper changes color in acidic conditions (red in acid, blue in base).
+Lemon juice is acidic. Therefore, the purple litmus paper will change color to red upon contact with lemon juice. The bottle and purple strip remain unchanged.
+</OUTPUT_PROMPT>

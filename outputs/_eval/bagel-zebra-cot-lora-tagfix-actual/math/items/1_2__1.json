@@ -1,0 +1,12 @@
+{
+  "id": "1_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing MD perpendicular line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly relates angles across different circles (e.g., angle MAN as half angle ANB). Misapplies inscribed angle theorem. Concludes triangle ABN is right-angled (incorrect; reference shows it's equilateral). Final answer derived from flawed logic.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly relates angles across different circles (e.g., angle MAN as half angle ANB). Misapplies inscribed angle theorem. Concludes triangle ABN is right-angled (incorrect; reference shows it's equilateral). Final answer derived from flawed logic."
+}

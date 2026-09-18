@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states the green grapefruit is stored at a specific temperature for a certain period. This implies a change in the environment, specifically a heating process.
+Assuming the grapefruit is stored in a suitable container, the temperature change will cause it to warm up and potentially soften or change texture. To visualize this, I will generate an image showing the grapefruit after the specified storage period.
+</OUTPUT_PROMPT>

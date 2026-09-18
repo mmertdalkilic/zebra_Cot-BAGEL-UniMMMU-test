@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an initial state with a drop of oil on the surface of water. It then instructs to gently swirl the glass for 15 seconds.
+Swirling the glass will cause the oil to mix with the water, creating a distinct layer or pattern due to their immiscibility.
+</OUTPUT_PROMPT>

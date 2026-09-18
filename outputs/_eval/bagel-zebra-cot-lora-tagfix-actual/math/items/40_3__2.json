@@ -1,0 +1,12 @@
+{
+  "id": "40_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line FG perpendicular to CB.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠BAF=90° (no justification), leading to invalid angle calculations. Repeated errors in angle relationships show flawed reasoning. Final answer not reached due to logical inconsistencies.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠BAF=90° (no justification), leading to invalid angle calculations. Repeated errors in angle relationships show flawed reasoning. Final answer not reached due to logical inconsistencies."
+}

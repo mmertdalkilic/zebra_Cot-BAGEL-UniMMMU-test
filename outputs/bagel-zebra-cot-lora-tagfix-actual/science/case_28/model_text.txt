@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a simple physical interaction: a drop of ethanol is placed on the water surface, and the cork is present. The task is to predict the final state of the scene after a short waiting period.
+Since ethanol is a volatile solvent, it will evaporate into the air. This evaporation will cause the water level in the dish to decrease over time. To illustrate this process, I will generate an image showing the expected state after the ethanol has evaporated.
+</OUTPUT_PROMPT>

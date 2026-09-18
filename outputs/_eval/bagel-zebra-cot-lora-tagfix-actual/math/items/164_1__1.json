@@ -1,0 +1,12 @@
+{
+  "id": "164_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "OB does not intersect ED at point G.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate introduces extraneous point F' not in original problem, incorrectly constructs kite, fails to use incenter properties (angle bisectors, perpendicular bisector of DE). Calculation path is invalid and doesn't reach correct 35° conclusion.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces extraneous point F' not in original problem, incorrectly constructs kite, fails to use incenter properties (angle bisectors, perpendicular bisector of DE). Calculation path is invalid and doesn't reach correct 35° conclusion."
+}

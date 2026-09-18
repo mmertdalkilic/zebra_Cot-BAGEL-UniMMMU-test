@@ -1,0 +1,12 @@
+{
+  "id": "272_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line BD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly identifies angle ACB as the right angle subtended by diameter AC (should be angle ABC). While the numeric answer matches, the flawed reasoning introduces a major logical error.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly identifies angle ACB as the right angle subtended by diameter AC (should be angle ABC). While the numeric answer matches, the flawed reasoning introduces a major logical error."
+}

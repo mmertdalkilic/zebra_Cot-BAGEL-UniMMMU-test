@@ -1,0 +1,53 @@
+<RENDER_SUMMARY>
+Parse the SVG source code to identify all elements, their properties, and their relative positions.
+Determine the canvas size from the viewBox and width/height attributes.
+Extract and apply all styles, including fill, stroke, stroke-width, and fill-rule, respecting the viewBox for coordinate systems.
+Apply all transforms, interpreting them from right to left, and update element positions accordingly.
+For each element, respect the stacking order: later elements overlay earlier ones.
+For text elements, apply the specified fill and transform.
+For path elements, apply the fill and stroke properties.
+For rect elements, apply fill, stroke, and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and transform.
+For text elements, apply fill and transform.
+For polygon elements, apply fill and transform.
+For path elements, apply fill and stroke.
+For rect elements, apply fill and
+</RENDER_SUMMARY>

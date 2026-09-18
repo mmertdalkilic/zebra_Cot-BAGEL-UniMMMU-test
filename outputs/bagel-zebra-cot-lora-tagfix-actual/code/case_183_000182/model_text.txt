@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code: it defines a 512x512 canvas, fills it white, and draws two circles with a dark grey fill inside it.
+The first circle is centered at (60, 256) with a radius of 40. The second circle is centered at (160, 256) with a radius of 40. Both have no stroke.
+</RENDER_SUMMARY>

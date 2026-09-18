@@ -1,0 +1,12 @@
+{
+  "id": "170_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required lines",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠BOC=90° via flawed angle sum reasoning. Fails to establish rhombus property and midline similarity. Calculation attempts lead to contradictions and incomplete solution.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠BOC=90° via flawed angle sum reasoning. Fails to establish rhombus property and midline similarity. Calculation attempts lead to contradictions and incomplete solution."
+}

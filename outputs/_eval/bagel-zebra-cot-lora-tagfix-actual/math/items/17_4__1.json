@@ -1,0 +1,12 @@
+{
+  "id": "17_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly derives angle relationships (e.g., ∠ADB=90° is valid but misused in angle decomposition). The conclusion is correct (DE is tangent) but the reasoning contains logical gaps and invalid angle deductions (e.g., ∠ADE=90° derived from inconsistent equations).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly derives angle relationships (e.g., ∠ADB=90° is valid but misused in angle decomposition). The conclusion is correct (DE is tangent) but the reasoning contains logical gaps and invalid angle deductions (e.g., ∠ADE=90° derived from inconsistent equations)."
+}

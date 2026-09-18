@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG code to understand the shapes, their positions, and their fills. The code defines a rectangle and five rotated circles, all centered at (256, 226) and rotated by 45°, 15°, 15°, 30°, and 30° respectively, all with a fill of #E74C3C (red).
+The five circles are stacked in a vertical line, with the first at the top and the last at the bottom, creating a vertical stack of five red circles.
+</RENDER_SUMMARY>

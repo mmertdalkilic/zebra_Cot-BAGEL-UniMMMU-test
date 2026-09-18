@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that dishwashing liquid is dropped on the water, which will cause ripples and potentially disturb the paper boat.
+To illustrate the boat's response to the disturbance, I will visualize the boat moving due to the ripples.
+</OUTPUT_PROMPT>

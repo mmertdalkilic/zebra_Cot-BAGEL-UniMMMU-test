@@ -1,0 +1,12 @@
+{
+  "id": "38_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OA",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly equates ∠ADE to ∠ADB without justification. The reference solution uses OA=OD and angle bisector to establish parallel lines, which the candidate omits. The conclusion is correct but the reasoning has logical gaps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly equates ∠ADE to ∠ADB without justification. The reference solution uses OA=OD and angle bisector to establish parallel lines, which the candidate omits. The conclusion is correct but the reasoning has logical gaps."
+}

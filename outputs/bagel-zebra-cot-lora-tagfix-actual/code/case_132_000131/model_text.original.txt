@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas and the first rectangle (white) to understand the base layout.</think>

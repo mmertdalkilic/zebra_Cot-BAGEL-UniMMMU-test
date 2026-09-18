@@ -1,0 +1,42 @@
+<think>The problem asks for the length of arc BD. We are given that AB is the diameter of the circumcircle ☉O, so the center O is the midpoint of AB. We are also given that ∠CEA = ∠CAD and that arc AC = arc BD. We are given OA = 8, which means the radius of the circle is 8, so the diameter AB = 2*OA = 16.
+
+Let’s analyze the angles. We are given that ∠CEA = ∠CAD. Let’s denote ∠CEA = ∠CAD = x. We are also given that ∠CEA = 2∠DAB. So, 2∠DAB = x. Let’s denote ∠DAB = y. Therefore, x = 2y.
+
+Now, let’s consider triangle ABC. AB is the diameter, so ∠ACB = 90° (angle inscribed in a semicircle). Therefore, ∠CAB + ∠ABC = 90°. We need to find the measure of ∠DAB. We can use the fact that arc AC = arc BD. The measure of an arc is equal to the measure of its central angle. So, ∠AOC = ∠BOD. Since OA = OB = OC = OD (all radii), triangles AOC and BOD are isosceles.
+
+Let’s denote the measure of ∠AOC = ∠BOD = z. Since OA = OC, ∠OAC = ∠OCA = (180° - z)/2. Similarly, since OB = OD, ∠OBD = ∠ODB = (180° - z)/2.
+
+Now, let’s relate these angles to the angles we defined earlier (x and y).
+From the isosceles triangles AOC and BOD:
+∠OAC = (180° - z)/2
+∠OBD = (180° - z)/2
+
+We know that ∠CAB + ∠ABC = 90°.
+Let’s express ∠CAB and ∠ABC in terms of z.
+∠CAB = ∠OAC + ∠DAB = (180° - z)/2 + y
+∠ABC = ∠OBD + ∠DBA = (180° - z)/2 + y
+
+So, (180° - z)/2 + y + (180° - z)/2 + y = 90°
+(180° - z) + 2y = 90°
+180° - z + 2y = 90°
+-z + 2y = -90°
+z - 2y = 90°
+
+We have two equations:
+1) x = 2y
+2) z - 2y = 90°
+
+We can solve for z in terms of y:
+z = 90° + 2y
+
+Now, let’s find the measure of ∠DAB = y.
+We know that ∠DAB = y = ∠DBA.
+So, ∠DAB = ∠DBA = y.
+
+We can use the fact that the sum of angles in triangle ABD is 180°.
+∠DAB + ∠DBA + ∠ADB = 180°
+y + y + ∠ADB = 180°
+2y + ∠ADB = 180°
+∠ADB = 180° - 2y
+
+Now, let

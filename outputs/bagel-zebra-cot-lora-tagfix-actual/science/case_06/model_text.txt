@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies a sugar cube being heated by a small flame. This implies the sugar will melt.
+Melted sugar, or molten sugar, will flow down the spoon, leaving a residue behind. The original image shows the setup before the melting process begins.
+</OUTPUT_PROMPT>

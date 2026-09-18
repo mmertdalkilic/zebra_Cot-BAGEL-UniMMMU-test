@@ -1,0 +1,24 @@
+<think>The problem asks for the measure of ∠ABD. We are given that AB is the diameter of the circle, so ∠ACB = 90° (angle inscribed in a semicircle). We are also given that ∠BCD = 28°. Our goal is to relate these angles to find ∠ABD.
+
+To find ∠ABD, we can use the property that angles subtended by the same arc are equal. We can find an angle that is equal to ∠ABD by connecting AD and using the inscribed angle theorem. Let's connect AD as shown in the overlay diagram. The arc AD subtends ∠ABD and ∠ACD at the circumference.
+
+Now, let's analyze the angles in the circle. Since AB is a diameter, ∠ACB = 90°. We are given that ∠BCD = 28°. The sum of angles around point C is 360°, but we are only interested in the angles that form triangles or arcs. The key is to relate ∠ABD to other angles in the figure.
+
+Let's look at the triangle BCD. The sum of its angles is 180°. We know ∠BCD = 28°. The other two angles are ∠CBD and ∠CDB. We need to find these angles or relate them to other known angles. Let's consider the inscribed angle theorem for the arc BD.
+
+The arc BD subtends ∠BCD and ∠BAD at the circumference. Therefore, ∠BAD = ∠BCD = 28°. This is because they both subtend the same arc BD.
+
+Now, let's consider the triangle ABD. The sum of its angles is 180°. We know that AB is a diameter, so ∠ADB = 90° (angle inscribed in a semicircle). We found that ∠BAD = 28°. The third angle is ∠ABD.
+
+So, in triangle ABD:
+∠BAD + ∠ABD + ∠ADB = 180°
+28° + ∠ABD + 90° = 180°
+∠ABD + 118° = 180°
+∠ABD = 180° - 118°
+∠ABD = 62°
+
+Alternatively, we can use the fact that ∠ABD and ∠ACD subtend the same arc AD. Therefore, ∠ABD = ∠ACD.
+
+We know that ∠ACB = 90° and ∠BCD = 28°. So, ∠ACD = ∠ACB - ∠BCD = 90° - 28° = 62°.
+
+Since ∠ABD = ∠ACD, we have ∠ABD = 62°.</think>

@@ -1,0 +1,12 @@
+{
+  "id": "235_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 1, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 1, \"text_reason\": \"The candidate solution correctly identifies the triangle properties, applies 30-60-90 ratios, and computes areas with valid steps. The numeric answer matches the reference.\"}",
+  "reasoning_rigorous": 1,
+  "conclusion_correct": 1,
+  "text_ok": 1,
+  "text_reason": "The candidate solution correctly identifies the triangle properties, applies 30-60-90 ratios, and computes areas with valid steps. The numeric answer matches the reference."
+}

@@ -1,0 +1,5 @@
+<think>The problem asks us to predict the final state of the scene after a specific interaction. We need to analyze the initial setup and the described actions.
+First, let's examine the initial scene. The balloon is floating, and there is a pile of confetti on the white surface. The condition describes rubbing the balloon with a wool sweater for 2 seconds and then bringing it near the confetti for 3 seconds.
+Rubbing a balloon with a wool sweater is a common way to charge it by friction. This process would cause the balloon to become negatively charged. The condition specifies a short duration (2 seconds) for this action.
+The next step is to bring the charged balloon near the confetti for 3 seconds. The condition does not specify touching, so the balloon's charge will induce an attractive force on the confetti, causing it to move towards the balloon.
+To visualize this interaction, let's consider the effect of the charged balloon on the confetti. The confetti will be drawn towards the balloon, creating a visual effect.</think>

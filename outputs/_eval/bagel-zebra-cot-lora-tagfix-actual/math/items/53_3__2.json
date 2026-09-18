@@ -1,0 +1,12 @@
+{
+  "id": "53_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required line EF perpendicular to CB.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: incorrectly assumes ∠BAE=90° (AE is parallel to BC, not perpendicular), misclassifies triangle ABE as 30-60-90 instead of equilateral, and derives incorrect side lengths (BE=2√3 instead of 2). These errors propagate to incorrect calculations for CE (would be √(5² + (√3)²)=√28=2√7 vs. candidate's invalid result).\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors: incorrectly assumes ∠BAE=90° (AE is parallel to BC, not perpendicular), misclassifies triangle ABE as 30-60-90 instead of equilateral, and derives incorrect side lengths (BE=2√3 instead of 2). These errors propagate to incorrect calculations for CE (would be √(5² + (√3)²)=√28=2√7 vs. candidate's invalid result)."
+}

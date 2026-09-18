@@ -1,0 +1,44 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify all elements, their properties, and their relative positions.
+Determine the canvas size (512x512), background color (white), and coordinate system (user space).
+Evaluate all elements for visibility (e.g., fill, stroke, opacity, z-index), applying stacking rules.
+For each element, calculate its geometric representation (e.g., path, text, polygon) and its position relative to viewBox.
+For text elements, determine their character sequence and rendering order.
+For paths, determine their geometric representation and rendering order.
+For polygons, determine their vertices and rendering order.
+For all elements, apply transforms (e.g., scale, rotate, translate) from right to left.
+For all elements, apply styles (fill, stroke, stroke-width, opacity, fill-rule, stroke-linecap/join).
+For text elements, apply text effects (font, fill, fill-rule).
+For all elements, respect the viewBox for coordinates.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for styles.
+For all elements, respect the viewBox for text effects.
+For all
+</RENDER_SUMMARY>

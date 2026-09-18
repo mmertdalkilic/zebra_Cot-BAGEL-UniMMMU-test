@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 0, "rationale": "Candidate 0 matches the missing bottom-right quadrant of the reference image. Candidate 1 does not. Visual inspection confirms the correct fit."}</FINAL_ANSWER_JSON>

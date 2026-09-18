@@ -1,0 +1,1 @@
+<think>Let’s visualize the empty 512×512 canvas to confirm the base structure before adding elements.</think>

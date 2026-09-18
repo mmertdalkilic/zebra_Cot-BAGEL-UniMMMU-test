@@ -1,0 +1,14 @@
+<think>Let D be the intersection of AM and BC. We must prove that AM is perpendicular to BC, i.e., ∠BDM = 90°.
+
+AM is the diameter of circle O, so ∠ABM = 90° (angle inscribed in a semicircle).
+Since AM bisects ∠BAC, we have ∠BAM = ∠CAM.
+
+Now, consider the angles formed at D:
+∠BDM = ∠CAM + ∠ACM (exterior angle theorem).
+∠ABM = ∠BAM + ∠ABD (exterior angle theorem).
+Since ∠ABM = 90° and ∠BAM = ∠CAM, it follows that ∠ABD = ∠ACM.
+
+Substitute ∠ABD = ∠ACM into the equation for ∠BDM:
+∠BDM = ∠CAM + ∠ACM = ∠BAM + ∠ABD = ∠ABM = 90°.
+
+Since ∠BDM = 90°, AM is perpendicular to BC.</think>

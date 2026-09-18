@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an action: a diamond scribe moving horizontally on a marble surface. This implies the scribe will leave a distinct mark.
+To determine the final state, I need to visualize the result of the scribe's movement on the marble surface.
+</OUTPUT_PROMPT>

@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: the main canvas is 512x512. There are five identical rectangles (from <use> tags), each with fill=white and positioned at (20,226), (107,226), (194,226), (281,226), (368,226). The rectangles are stacked horizontally, each shifted right from the previous one, but all share the same y-coordinate (226). This creates a horizontal line of five white rectangles.
+The code does not specify a background color, so the canvas background is black (default). The five rectangles are drawn on top of the black canvas, so the final image will be a black background with a horizontal white line of five identical rectangles.
+</RENDER_SUMMARY>

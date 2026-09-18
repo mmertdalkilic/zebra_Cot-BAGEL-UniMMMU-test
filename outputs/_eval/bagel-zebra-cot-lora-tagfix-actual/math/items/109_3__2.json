@@ -1,0 +1,12 @@
+{
+  "id": "109_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line BD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly claims ∠ACD=∠CDB (angles in same segment) despite different arcs. This invalidates angle calculations. Ground-truth uses ∠CDB=∠CAB via arc CB, leading to correct radius calculation. Candidate's repeated contradictions and false angle equalities show major logical gaps.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly claims ∠ACD=∠CDB (angles in same segment) despite different arcs. This invalidates angle calculations. Ground-truth uses ∠CDB=∠CAB via arc CB, leading to correct radius calculation. Candidate's repeated contradictions and false angle equalities show major logical gaps."
+}

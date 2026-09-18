@@ -1,0 +1,19 @@
+<think>Let’s analyze the geometry. We are given a square ABCD. E is the midpoint of AB, so AE=EB=AB/2. F is on DE. We are given BC=BF and ∠DCF=a. We need to find ∠BFE.
+
+Let’s extend DE and CB to intersect at point G. This completes the diagram with the required auxiliary lines. Let’s label the new point of intersection as G.
+
+Let’s analyze the angles in triangle BCG. Since ABCD is a square, ∠ABC=90°. Since we extended CB to G, ∠CBG=180°-∠ABC=180°-90°=90°. So triangle BCG is a right-angled triangle at B.
+
+We are given that BC=BF. In triangle BCG, we have BG=BC (since G is on the extension of CB, and BC=BG). So triangle BCG is isosceles with BG=BC. Therefore, ∠G=∠GCB.
+
+Since ∠CBG=90°, the sum of angles in triangle BCG is 180°. So ∠G+∠GCB+∠CBG=180°. Substituting, we get 2∠G+90°=180°. So 2∠G=90°, which means ∠G=45°. Therefore, ∠GCB=45°.
+
+Now, let’s consider triangle DGC. We have ∠GCB=45° (from above). Since ABCD is a square, DC is parallel to AB, and AD is parallel to BC. So ∠DCG=∠GCB=45° (alternate interior angles). Also, ∠CDG=90° (since ABCD is a square).
+
+We are given that ∠DCF=a. So ∠FCD=∠DCG-∠DCF=45°-a.
+
+Now, let’s consider triangle DFC. We have ∠FDC=90° (since ABCD is a square). We found that ∠FCD=45°-a. So the sum of angles in triangle DFC is 180°. Therefore, ∠DFC=180°-∠FDC-∠FCD=180°-90°-(45°-a)=90°-45°+a=45°+a.
+
+We need to find ∠BFE. Notice that ∠DFC and ∠BFE are vertically opposite angles. Vertically opposite angles are equal. So ∠BFE=∠DFC=45°+a.
+
+P.S. We could also use the fact that BF=BC. Since ABCD is a square, BC=CD. So BF=CD. In triangle BFC, BF=BC, so it is an isosceles triangle. Therefore, ∠BFC=∠BCF. We found ∠BCF=45°, so ∠BFC=45°. Now, ∠DFC=180°-∠BFC-∠BCD. Since ∠BCD=90°, ∠DFC=180°-45°-90°=45°. This matches our previous result. So ∠BFE=45°+a.</think>

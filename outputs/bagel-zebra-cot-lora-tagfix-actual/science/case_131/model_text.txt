@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a wire being repeatedly bent at a specific point. This repeated bending will cause the wire to deform and eventually break.
+To visualize the final state, I will generate an image showing the wire after it has been bent and broken.
+</OUTPUT_PROMPT>

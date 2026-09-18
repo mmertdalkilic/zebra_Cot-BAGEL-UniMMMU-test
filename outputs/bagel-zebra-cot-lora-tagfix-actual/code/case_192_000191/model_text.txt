@@ -1,0 +1,6 @@
+<RENDER_SUMMARY>
+Examine the SVG source code to identify all elements, their positions, sizes, and properties.
+The SVG contains a white background (a large rectangle), a circle with fill "#34495E" and cx=400, cy=205, r=72.
+The circle is centered at (400,205) with a radius of 72, so its bottom-left corner is (400-72, 205-72) = (328,133), and its top-right corner is (400+72, 205+72) = (472,277).
+The white background is the entire canvas.
+</RENDER_SUMMARY>

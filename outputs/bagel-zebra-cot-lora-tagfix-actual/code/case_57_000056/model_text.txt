@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: it defines a white rectangle as the background, and five identical green circles centered at (60,256), (135,256), (210,256), (285,256), and (360,256) with a radius of 40.
+The circles are stacked, so the last one (at 360) is on top, covering the others.
+</RENDER_SUMMARY>

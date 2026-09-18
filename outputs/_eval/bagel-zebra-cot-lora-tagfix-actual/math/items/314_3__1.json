@@ -1,0 +1,12 @@
+{
+  "id": "314_3__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly derives ∠BOE as 90°−∠OBC without valid justification. The ground-truth uses parallel lines (OE∥AC) and angle chasing, which the candidate omits. While the conclusion is correct, the reasoning has a major logical gap.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly derives ∠BOE as 90°−∠OBC without valid justification. The ground-truth uses parallel lines (OE∥AC) and angle chasing, which the candidate omits. While the conclusion is correct, the reasoning has a major logical gap."
+}

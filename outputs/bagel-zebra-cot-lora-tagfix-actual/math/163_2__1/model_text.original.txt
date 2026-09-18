@@ -1,0 +1,13 @@
+<think>The problem asks for the radius of the circle in which the inscribed quadrilateral ABCD is located. We are given that ∠ADC = 150° and the length of chord AC = 2. The radius can be found if we can show that triangle AOC is an equilateral triangle, which would imply that ∠AOC = 60°. This is because the radius OA and OC are both equal to the radius of the circle.
+
+To show that triangle AOC is equilateral, we need to find the measure of ∠AOC. We are given the measure of the inscribed angle ∠ABC. Since ABCD is an inscribed quadrilateral, the sum of opposite angles is 180°. Therefore, ∠ABC + ∠ADC = 180°. Substituting the given value, we get ∠ABC + 150° = 180°, which means ∠ABC = 30°.
+
+Now, we use the Inscribed Angle Theorem, which states that an inscribed angle is half the measure of its intercepted arc. The inscribed angle ∠ABC intercepts the arc AC. Therefore, the measure of arc AC is 2 * ∠ABC = 2 * 30° = 60°.
+
+The central angle ∠AOC intercepts the same arc AC. By the Inscribed Angle Theorem, the measure of the central angle ∠AOC is twice the measure of the inscribed angle that intercepts the same arc. So, ∠AOC = 2 * arc AC = 2 * 60° = 120°.
+
+Now we have the measures of two angles in triangle AOC: ∠AOC = 120° and ∠OAC = ∠OCA (since OA = OC, triangle AOC is isosceles). The sum of angles in a triangle is 180°. So, ∠OAC + ∠OCA + ∠AOC = 180°. Substituting the known values, we get 2 * ∠OAC + 120° = 180°. Solving for ∠OAC, we find 2 * ∠OAC = 60°, so ∠OAC = 30°.
+
+We have found that ∠AOC = 120° and ∠OAC = 30°. The third angle in triangle AOC, ∠OCA, is also 30° (since it's isosceles). Therefore, all three angles of triangle AOC are 30°, 30°, and 120°. This means triangle AOC is an equilateral triangle.
+
+Since triangle AOC is equilateral, all its sides are equal. The length of chord AC is given as 2. Therefore, the length of the radius OA (and OC) is also 2.</think>

@@ -1,0 +1,12 @@
+{
+  "id": "327_4__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "AD line present as required",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution introduces incorrect triangles (ABD, DCE) and makes invalid angle assumptions. Fails to establish AD as diameter or use SAS congruence. Concludes angle relationships without proper justification. Key steps from reference solution (congruence, diameter property) are missing.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution introduces incorrect triangles (ABD, DCE) and makes invalid angle assumptions. Fails to establish AD as diameter or use SAS congruence. Concludes angle relationships without proper justification. Key steps from reference solution (congruence, diameter property) are missing."
+}

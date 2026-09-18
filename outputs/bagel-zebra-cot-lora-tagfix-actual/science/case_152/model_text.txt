@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies swapping the leftmost and rightmost vases while keeping the middle one unchanged. The initial image shows the vases in their original positions.
+To visualize the effect of swapping, I will generate an image showing the vases in their new positions.
+</OUTPUT_PROMPT>

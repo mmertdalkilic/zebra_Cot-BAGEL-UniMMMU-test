@@ -1,0 +1,5 @@
+<think>THOUGHT: The final output for the image sequence will be three images, each showing the blue dot after one move: first, after moving up; second, after moving left; and third, after moving down. The final output for the move list will be the JSON array ["up","left","down"].
+
+THOUGHT: The images will show the blue dot moving from its original position, then after the first move, then after the second, and finally after the third. The final image will show the blue dot inside the green frame, confirming the goal has been reached.
+
+THOUGHT: The complete</think>

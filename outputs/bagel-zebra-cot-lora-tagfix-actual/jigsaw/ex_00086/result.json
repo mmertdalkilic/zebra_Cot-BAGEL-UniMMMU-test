@@ -1,0 +1,15 @@
+{
+  "id": "ex_00086",
+  "dataset_index": 86,
+  "status": "ok",
+  "ex_dir": "./outputs/bagel-zebra-cot-lora/jigsaw/ex_00086",
+  "ref_2x2": "./data/jigsaw_dataset_2x2ref/ex_00086/ref_2x2.png",
+  "cand0": "./data/jigsaw_dataset_2x2ref/ex_00086/cand0.png",
+  "cand1": "./data/jigsaw_dataset_2x2ref/ex_00086/cand1.png",
+  "text_file": "./outputs/bagel-zebra-cot-lora/jigsaw/ex_00086/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/jigsaw/ex_00086/model_image_01.png",
+    "./outputs/bagel-zebra-cot-lora/jigsaw/ex_00086/model_image_02.png"
+  ],
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "289_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "AD line missing",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains multiple logical errors: 1) Incorrectly applies Pythagorean theorem in triangle BEC (BC²=BE²-CE² instead of +). 2) Makes unfounded congruence claims about triangles AED/CED. 3) Creates circular dependencies in calculating AD/DE. 4) Final answer doesn't match reference solution's 2√3. The reasoning path is fundamentally flawed and arrives at incorrect conclusion.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains multiple logical errors: 1) Incorrectly applies Pythagorean theorem in triangle BEC (BC²=BE²-CE² instead of +). 2) Makes unfounded congruence claims about triangles AED/CED. 3) Creates circular dependencies in calculating AD/DE. 4) Final answer doesn't match reference solution's 2√3. The reasoning path is fundamentally flawed and arrives at incorrect conclusion."
+}

@@ -1,0 +1,2 @@
+<think>THOUGHT: The output must be a single JSON line containing the sequence of moves. The sequence is ["right","down","left"]. The image sequence will show the agent moving right, then down, then left to reach the green goal.
+THOUGHT: The shortest path from the blue square to the green rectangle is 3 steps: right, down, and left. The output will be a single JSON line containing this sequence.</think>

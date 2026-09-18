@@ -1,0 +1,1 @@
+<think>Visualize the SVG structure, focusing on the nested elements, their transforms, and the order of drawing. This helps understand how the final image will be constructed.</think>

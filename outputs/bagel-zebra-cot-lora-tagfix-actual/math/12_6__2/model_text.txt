@@ -1,0 +1,13 @@
+<think>The problem asks for the length of AD. We are given a circle with center O, a tangent AB at A, and a radius OC parallel to AB. BC intersects the circle at D, and AD is drawn. We are also given the radius of the circle (r = 6) and tan(B) = 1/3. Our strategy will be to use the tangent properties, parallel lines, and trigonometry to find the lengths of related segments and then use the power of a point theorem to find AD.
+
+First, let's analyze the tangent properties. Since AB is tangent to the circle at A, OA is perpendicular to AB (tangent is perpendicular to the radius at the point of contact). Also, since OC is parallel to AB, OC is perpendicular to OA (if a line is parallel to one of two parallel lines, it is also parallel to the other, and the perpendicularity is preserved).
+
+Next, let's analyze the triangle formed by the tangent, the radius, and the secant. We have triangle OAB. OA is perpendicular to AB, so ∠OAB = 90°. We are given tan(B) = 1/3. In triangle OAB, tan(B) = opposite/adjacent = OA/AB. Since OA is the radius (r = 6), we have 6/AB = 1/3. This gives AB = 18.
+
+Now, let's analyze the triangle formed by the secant, the chord, and the tangent. We have triangle ABC. We know that ∠OAB = 90° and OC is parallel to AB. Therefore, ∠OCA = 90° (alternate interior angles are equal). So, triangle OAC is a right-angled triangle at C. The hypotenuse OA is the radius, so OA = 6. The leg OC is also a radius, so OC = 6. Since triangle OAC is a right-angled triangle with legs of equal length (OC = OA = 6), it is an isosceles right-angled triangle (45-45-90). Therefore, ∠OAC = 45°.
+
+Now we can find the length of AC. In the right-angled triangle OAC, AC is the hypotenuse. Using the Pythagorean theorem: AC² = OA² + OC² = 6² + 6² = 36 + 36 = 72. So, AC = √72 = 6√2.
+
+We can now find the length of BC. In triangle ABC, we know ∠OAC = 45° and ∠OAB = 90°. So, ∠BAC = ∠OAB - ∠OAC = 90° - 45° = 45°. Since ∠BAC = 45° and ∠ABC = tan⁻¹(1/3), the third angle ∠ACB must be 180° - 90° - 45° = 45°. Therefore, triangle ABC is an isosceles right-angled triangle (45-45-90) at A. So, AC = AB = 18.
+
+Now we can find the length of BD. We know AC = 18 and BC = AC + BD. So, BD = BC - AC. We found AC = 18. We need to find BC. In triangle ABC, we have ∠ACB = 45°, ∠ABC = tan⁻¹(1/3), and ∠BAC = 45

@@ -1,0 +1,35 @@
+<think>Let’s analyze the geometry. The problem asks for PB. We are given BC=8 and cos∠BAC=3/5. We are to use the auxiliary line CE⊥PB. Let’s start by finding the length of CE.
+
+We know that cos∠BAC = 3/5. Let’s construct a right-angled triangle with angle ∠BAC. Let’s let the hypotenuse be AB and the adjacent side be AC. So, cos∠BAC = AC/AB = 3/5. Let’s set AC = 3k and AB = 5k for some k.
+
+Now, let’s use the Law of Cosines in triangle ABC to find BC. We have:
+BC² = AB² + AC² - 2(AB)(AC)cos∠BAC
+BC² = (5k)² + (3k)² - 2(5k)(3k)(3/5)
+BC² = 25k² + 9k² - 18k²
+BC² = 16k²
+BC = 4k
+We are given BC = 8, so 4k = 8 ⇒ k = 2.
+Thus, AC = 3k = 6 and AB = 5k = 10.
+
+Now, let’s use the Law of Sines in triangle ABC:
+sin∠BAC / BC = sin∠ABC / AC
+sin∠BAC / 8 = sin∠ABC / 6
+sin∠ABC = (6/8)sin∠BAC = (3/4)sin∠BAC
+
+We want to find PB. Let’s consider the circle and the auxiliary line CE. Since CE is perpendicular to PB, ∠CEB = 90°. Let’s look for similar triangles or cyclic quadrilaterals. Consider quadrilateral PBCA. Since A, B, C, P are on the circle, PBCA is cyclic. Thus, ∠PBC = ∠PAC (angles subtended by the same arc PC).
+
+Let’s look at triangles PBC and PCA. Both have a right angle (∠CEB = ∠PCA = 90°). Also, ∠PBC = ∠PAC (from cyclic quadrilateral PBCA). Therefore, by AA similarity, △PBC ~ △PCA.
+
+From the similarity, PB/PC = BC/CA = 8/6 = 4/3.
+Let’s denote PB = 4x and PC = 3x for some x. Our goal is to find PB, so we need to find x.
+
+Now, let’s find the length of PC. We can use the Law of Cosines in triangle PBC. We know PB = 4x, BC = 8, and ∠BPC = ∠BAC (angles subtended by the same arc BC). So, cos∠BPC = cos∠BAC = 3/5.
+
+In △PBC:
+PC² = PB² + BC² - 2(PB)(BC)cos∠BPC
+PC² = (4x)² + 8² - 2(4x)(8)(3/5)
+PC² = 16x² + 64 - (64x)(3/5)
+PC² = 16x² + 64 - (192x/5)
+PC² = (80x² - 192x + 320)/5
+PC² = (16(5x² - 12x + 20))/5
+PC²

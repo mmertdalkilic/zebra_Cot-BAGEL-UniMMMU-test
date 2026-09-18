@@ -1,0 +1,1 @@
+<think>THOUGHT: The shortest path is "right", "down". The output must be a single line containing this sequence as a JSON array. This sequence will be output as the answer.</think>

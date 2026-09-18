@@ -1,0 +1,12 @@
+{
+  "id": "331_6__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "BD line correctly drawn",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution is incomplete and cuts off mid-argument. Fails to establish key relationships (BE perpendicular to AD, 30-60-90 triangle) needed to calculate side lengths. Cannot verify numeric match due to incomplete reasoning.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution is incomplete and cuts off mid-argument. Fails to establish key relationships (BE perpendicular to AD, 30-60-90 triangle) needed to calculate side lengths. Cannot verify numeric match due to incomplete reasoning."
+}

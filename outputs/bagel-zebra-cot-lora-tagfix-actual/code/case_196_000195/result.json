@@ -1,0 +1,13 @@
+{
+  "id": "case_196_000195",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/code/case_196_000195",
+  "svg": "svgs/000195.svg",
+  "png": "images/000195.png",
+  "difficulty": "medium",
+  "text_file": "./outputs/bagel-zebra-cot-lora/code/case_196_000195/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/code/case_196_000195/model_image_01.png"
+  ],
+  "errors": []
+}

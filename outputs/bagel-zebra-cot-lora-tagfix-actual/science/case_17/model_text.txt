@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition involves placing two blocks (one plastic, one aluminum) into a beaker of water. The blocks are described as "freshwater," which implies they are made of water. The beaker is undisturbed for a long time.
+Since the blocks are made of water, they will eventually freeze. Freezing water expands, causing the water level in the beaker to rise.
+</OUTPUT_PROMPT>

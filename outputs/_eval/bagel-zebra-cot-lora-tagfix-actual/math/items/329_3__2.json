@@ -1,0 +1,12 @@
+{
+  "id": "329_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines are present and correctly placed.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes EF is tangent (no basis), introduces irrelevant angle relationships, and fails to derive the correct equation. The conclusion lacks proper calculation steps and numeric match.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes EF is tangent (no basis), introduces irrelevant angle relationships, and fails to derive the correct equation. The conclusion lacks proper calculation steps and numeric match."
+}

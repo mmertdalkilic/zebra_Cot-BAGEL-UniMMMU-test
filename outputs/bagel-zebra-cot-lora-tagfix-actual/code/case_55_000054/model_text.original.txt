@@ -1,0 +1,43 @@
+<think>Parse the SVG source code to identify all elements, their properties, and their positions relative to the viewBox.
+Determine the canvas size (512x512), background color (white), and coordinate system (user space).
+For each element, apply transforms (e.g., scale, rotate, translate) as specified in the SVG code, respecting the right-to-left order.
+For shapes, resolve their fill, stroke, stroke-width, opacity, and fill-rule.
+For text, resolve their fill, font, font-size, and text-alignment.
+For paths, resolve their fill, stroke, stroke-width, and fill-rule.
+For all elements, respect the viewBox for coordinates.
+For all elements, respect the viewBox for transforms.
+For all elements, respect the viewBox for text alignment.
+For all elements, respect the viewBox for fill-rule.
+For all elements, respect the viewBox for stroke-linecap/join.
+For all elements, respect the viewBox for stroke-linejoin.
+For all elements, respect the viewBox for stroke-miterlimit.
+For all elements, respect the viewBox for stroke-miterjoin.
+For all elements, respect the viewBox for stroke-width.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect the viewBox for fill.
+For all elements, respect

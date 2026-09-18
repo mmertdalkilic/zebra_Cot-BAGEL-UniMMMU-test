@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is a single line containing the sequence of moves as a JSON array. The moves are "right" and "down", as determined by the shortest path.</think>

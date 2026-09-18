@@ -1,0 +1,11 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify all elements, their properties, and their relative positions. The SVG contains a white background, a large red rectangle, a green line, a yellow rectangle, a red line, a green circle, and a red circle.
+Determine the canvas size: 512x512 pixels. The viewBox is 0,0,512,512, so all elements are within this bounds.
+The red rectangle (108x57) is centered at (202,161).
+The green line (2x64) is centered at (211,277).
+The yellow rectangle (145x128) is centered at (157,217).
+The red line (2x363) is centered at (398,43).
+The green circle (80x80) is centered at (246,233).
+The red circle (80x80) is centered at (246,233).
+All elements are drawn on top of the white background.
+</RENDER_SUMMARY>

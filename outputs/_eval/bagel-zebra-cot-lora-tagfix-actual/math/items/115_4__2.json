@@ -1,0 +1,12 @@
+{
+  "id": "115_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes triangle DCF is right-angled (no justification) and misapplies similarity between △OCF and △DBE. Final answer 4≠10/3. Key angle relationships and similarity logic are flawed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes triangle DCF is right-angled (no justification) and misapplies similarity between △OCF and △DBE. Final answer 4≠10/3. Key angle relationships and similarity logic are flawed."
+}

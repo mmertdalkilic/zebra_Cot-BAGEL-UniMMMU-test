@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a setup where two spoons with butter are in boiling water. The next step is to determine what happens to the butter after 30 seconds.
+Since the butter is placed on the handles of the spoons, which are submerged in boiling water, the butter will melt due to the high temperature.
+</OUTPUT_PROMPT>

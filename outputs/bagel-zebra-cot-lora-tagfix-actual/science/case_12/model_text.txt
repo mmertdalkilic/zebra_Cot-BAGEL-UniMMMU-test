@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a setup where a block of wax is being heated by a flame on one side, with pressure applied from the opposite side. This is a classic experiment to demonstrate the principles of heat conduction and melting.
+To visualize the outcome, I will consider the expected progression of the wax block as it melts. The melted wax will flow down the rod, possibly onto the plate below.
+</OUTPUT_PROMPT>

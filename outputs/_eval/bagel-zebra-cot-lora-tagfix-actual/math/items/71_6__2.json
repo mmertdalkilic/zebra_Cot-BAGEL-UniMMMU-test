@@ -1,0 +1,12 @@
+{
+  "id": "71_6__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing perpendicular line QB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes CP is perpendicular to AD (step 3) and derives invalid conclusions. Key triangle congruences (e.g., △CDP≌△FDG) and angle relationships are missing. Final conclusion CE+EF=2FG is not rigorously established.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes CP is perpendicular to AD (step 3) and derives invalid conclusions. Key triangle congruences (e.g., △CDP≌△FDG) and angle relationships are missing. Final conclusion CE+EF=2FG is not rigorously established."
+}

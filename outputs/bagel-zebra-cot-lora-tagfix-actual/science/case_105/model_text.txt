@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of a Hass avocado after a specified storage period. The initial image shows an unripe avocado.
+The condition states that the avocado will be stored at a specific temperature for a certain duration. This implies that the avocado will undergo a ripening process.
+</OUTPUT_PROMPT>

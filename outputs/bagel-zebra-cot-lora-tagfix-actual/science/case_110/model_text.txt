@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies that the plantains are unripe and should be stored at a specific temperature for a specific duration.
+Unripe plantains are typically stored at a specific temperature to promote ripening. The provided image shows unripe plantains on a board.
+</OUTPUT_PROMPT>

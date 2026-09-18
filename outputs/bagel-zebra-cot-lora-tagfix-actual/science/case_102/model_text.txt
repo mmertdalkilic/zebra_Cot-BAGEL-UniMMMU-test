@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that the sunflower grows under sunlight only from the left side. This means the sunflower will grow towards the right, as sunlight is the primary driver of phototropism in plants.
+To illustrate the final state, I will visualize the sunflower's growth pattern over a long period, showing its orientation relative to the light source.
+</OUTPUT_PROMPT>

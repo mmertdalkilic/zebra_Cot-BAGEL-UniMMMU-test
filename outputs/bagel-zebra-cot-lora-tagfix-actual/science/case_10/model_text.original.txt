@@ -1,0 +1,2 @@
+<think>The condition describes a specific state of the railway track during winter. To determine the state during summer, we must infer the effects of the opposite season on the track.
+Rust is a common issue for metal structures like railway tracks. In a hot summer, the track would be exposed to high temperatures, which would accelerate the rusting process. Therefore, the track would likely be more rusted.</think>

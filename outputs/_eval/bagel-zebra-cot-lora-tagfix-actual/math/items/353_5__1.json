@@ -1,0 +1,12 @@
+{
+  "id": "353_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "AD line correctly drawn",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate only mentions drawing auxiliary line AD without completing the proof steps. Missing key deductions about parallel lines, angle equalities, and triangle congruence.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate only mentions drawing auxiliary line AD without completing the proof steps. Missing key deductions about parallel lines, angle equalities, and triangle congruence."
+}

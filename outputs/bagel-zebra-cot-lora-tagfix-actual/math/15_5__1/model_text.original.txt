@@ -1,0 +1,26 @@
+<think>The problem asks us to prove that the angle ∠ADB is equal to the angle ∠EAB. We are given a circle with center O, points A, B, C, D on the circle, and CB passes through O. A tangent to the circle at A intersects the extension of CB at E. We are also asked to overlay the line segment OA.
+
+Let's analyze the geometric relationships. Since CB passes through the center O, it is a diameter of the circle. Therefore, the angle ∠CAB is a right angle (90°), because an angle inscribed in a semicircle is a right angle. This means that the line segment AB is perpendicular to the diameter BC.
+
+Let's consider the triangle AEB. Since AB is perpendicular to BC, the line segment AB is an altitude of triangle AEB. The angle ∠ABE is a right angle (90°), as AB is perpendicular to BC. The angle ∠EAB is an acute angle. The angle ∠E is also an acute angle.
+
+Now, let's consider the triangle ADB. The line segment AD is a chord of the circle. The angle ∠ADB is an inscribed angle that subtends the arc AB. The angle ∠ABD is an acute angle.
+
+To find a relationship between ∠ADB and ∠EAB, we can use the properties of parallel lines and alternate interior angles. Let's consider the line segment OA. Since OA is a radius of the circle, OA = OB (all radii are equal). This means triangle OAB is isosceles, so the angles opposite the equal sides are equal: ∠OAB = ∠OBA.
+
+We can see that the line segment OA is parallel to the line segment BD. This is because the line segment BD is a chord of the circle, and the line segment OA is a radius. If we draw a line through A parallel to BD, it will pass through the center O (since BD is a chord and OA is a radius). Therefore, OA is parallel to BD.
+
+Now, let's use the parallel lines OA and BD to find relationships between angles. The line segment OA is parallel to BD. The line segment AB is common to both triangles OAB and ABD. The angle ∠OAB is equal to the angle ∠ABD (alternate interior angles, since OA || BD and AB is a transversal). The angle ∠OBA is equal to the angle ∠BAD (alternate interior angles, since OA || BD and AB is a transversal).
+
+We have established that ∠OAB = ∠ABD and ∠OBA = ∠BAD. Adding these two equations together:
+∠OAB + ∠OBA = ∠ABD + ∠BAD
+Since ∠OAB + ∠OBA + ∠AOB = 180° (sum of angles in a triangle), and ∠AOB = 180° (since BC is a diameter), we have:
+∠OAB + ∠OBA = 90°
+So, ∠ABD + ∠BAD = 90°.
+
+We know that in triangle AEB, ∠ABE = 90° (since AB is perpendicular to BC). The sum of angles in a triangle is 180°. Therefore, in triangle AEB:
+∠EAB + ∠E + ∠ABE = 180°
+∠EAB + ∠E + 90° = 180°
+∠EAB + ∠E = 90°
+
+We have found that ∠ABD + ∠

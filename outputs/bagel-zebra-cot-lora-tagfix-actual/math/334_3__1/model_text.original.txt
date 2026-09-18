@@ -1,0 +1,21 @@
+<think>The problem asks for the tangent of angle BPC in triangle ABC, given that AB = AC = 5, BC = 8, and angle BPC is half of angle BAC. We are also given a diagram with a point P and lines BP and CP. The first step is to construct the auxiliary line AH, which is the altitude from vertex A to the base BC of the isosceles triangle ABC. This construction will help us relate the angles and sides of the triangles involved.
+
+Let's analyze the angles in triangle ABC. Since AB = AC, triangle ABC is isosceles with base BC. The altitude AH from A to BC will bisect the base BC and also bisect the vertex angle ∠BAC. Thus, AH is the angle bisector of ∠BAC. This means that AH divides ∠BAC into two equal angles: ∠BAH = ∠CAH = 1/2 ∠BAC.
+
+The problem states that ∠BPC = 1/2 ∠BAC. We have just established that ∠BAH = 1/2 ∠BAC. Therefore, ∠BAH = ∠BPC.
+
+Now, let's consider triangles ABH and BPC. We have established that ∠BAH = ∠BPC. We also know that ∠ABH and ∠PBC are common angles (they are both angles at vertex B). Therefore, by the Angle-Angle (AA) similarity criterion, triangle ABH is similar to triangle BPC.
+
+Since triangle ABH is similar to triangle BPC, their corresponding angles are equal. This means that ∠AHB = ∠BPC.
+
+We are given that ∠BPC = 1/2 ∠BAC. We also know that ∠AHB is the angle formed by the altitude AH and the base BC. Since AH is perpendicular to BC (by construction), ∠AHB is a right angle, i.e., ∠AHB = 90°.
+
+From the similarity of triangles ABH and BPC, we have ∠AHB = ∠BPC = 90°.
+
+Now that we have established that ∠BPC = 90°, we can find its tangent. The tangent of an angle is defined as the ratio of the length of the side opposite the angle to the length of the side adjacent to the angle, in a right-angled triangle. In triangle BPC, with ∠BPC = 90°, the side opposite to ∠BPC is BH, and the side adjacent to ∠BPC is BP.
+
+The problem asks for tan(∠BPC). Since ∠BPC = 90°, tan(∠BPC) = tan(90°). The tangent of 90° is undefined. However, in the context of a right-angled triangle, we can interpret the question as asking for the ratio of the lengths of the sides forming the right angle. In triangle BPC, the side opposite to the right angle (90°) is BH, and the side adjacent to the right angle is BP. Therefore, tan(∠BPC) = BH/BP.
+
+To find the value of BH/BP, we can use the properties of similar triangles. We know that triangle ABH is similar to triangle BPC. The ratio of the sides of similar triangles is constant. Therefore, the ratio of the corresponding sides of triangle ABH to triangle BPC is the same as the ratio of the corresponding sides of triangle BPC to triangle ABH.
+
+Let's denote the ratio of similarity as k. So, BH/BP = BP/AB

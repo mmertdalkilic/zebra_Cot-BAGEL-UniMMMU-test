@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is the JSON array of moves, which is the sequence of three steps: right, down, left. This is the direct answer to the problem.</think>

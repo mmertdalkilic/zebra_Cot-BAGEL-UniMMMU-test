@@ -1,0 +1,12 @@
+{
+  "id": "272_6__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required lines",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains no reasoning steps, only the final conclusion. Ground-truth solution requires auxiliary construction and angle relationships to establish perpendicularity.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains no reasoning steps, only the final conclusion. Ground-truth solution requires auxiliary construction and angle relationships to establish perpendicularity."
+}

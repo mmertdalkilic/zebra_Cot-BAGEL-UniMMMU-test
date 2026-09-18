@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output will be a single line containing the JSON array of moves, formatted as specified. This will be the final answer.</think>

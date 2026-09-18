@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas (a 512×512 white rectangle) to confirm the starting state.</think>

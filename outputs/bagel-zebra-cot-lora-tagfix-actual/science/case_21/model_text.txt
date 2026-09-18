@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+After a prolonged period at room temperature, the iron filings and sand will undergo oxidation and sedimentation. This causes the iron filings to rust, forming reddish-brown flakes, and the sand to settle to the bottom of the beaker.
+The beaker will now contain a clear liquid (water) at the top, with a distinct layer of reddish-brown sediment (from oxidized iron filings) at the bottom, and a layer of fine sand below that.
+</OUTPUT_PROMPT>

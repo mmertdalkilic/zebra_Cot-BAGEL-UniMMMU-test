@@ -1,0 +1,12 @@
+{
+  "id": "223_2__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 1,
+  "overlay_reason": "All required lines OD and DF are present.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"No reasoning provided; final answer (2) does not match reference (6)\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "No reasoning provided; final answer (2) does not match reference (6)"
+}

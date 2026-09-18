@@ -1,0 +1,12 @@
+<think>1.  **Overlay the line AD** as instructed. This line connects vertex A to point D on the circle.
+2.  **Analyze the properties of the circle and triangle**:
+    -  AB is a diameter of ☉O, so ∠ADB = 90° (angle in a semicircle).
+    -  CD = BD (given).
+    -  AD is common to both triangles.
+3.  **Compare triangles ADB and ADC**:
+    -  AD = AD (common side).
+    -  BD = CD (given).
+    -  ∠ADB = ∠ADC = 90° (since AB is a diameter).
+    -  By SAS (Side-Angle-Side) congruence, △ADB ≅ △ADC.
+4.  **Conclude side lengths**:
+    -  Since △ADB ≅ △ADC, their corresponding sides are equal: AB = AC.</think>

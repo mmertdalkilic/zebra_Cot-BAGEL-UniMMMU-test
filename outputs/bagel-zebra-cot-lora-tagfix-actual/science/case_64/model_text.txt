@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the outcome of igniting a magnesium ribbon placed on a ceramic tile. The initial image shows the ribbon coiled on the tile, with no flame present.
+The key information is that the ribbon is *not* ignited yet. The condition specifies "outdoor ignition," which is a crucial detail. This means the ribbon will be ignited *in an outdoor environment*.
+</OUTPUT_PROMPT>

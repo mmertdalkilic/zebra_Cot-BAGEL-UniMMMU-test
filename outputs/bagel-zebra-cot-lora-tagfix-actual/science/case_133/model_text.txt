@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an action: a diamond scribe is being dragged across a surface. This action typically causes material to be removed from the surface.
+Based on the action described, the scribe will leave a distinct mark on the surface. I will generate an image showing this mark.
+</OUTPUT_PROMPT>

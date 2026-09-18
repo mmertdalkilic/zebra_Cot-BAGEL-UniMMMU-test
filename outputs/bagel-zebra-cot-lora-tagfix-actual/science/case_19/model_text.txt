@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies placing two blocks (wood and iron) into the water. Based on the physical properties of these materials and water, the wood will float, while the iron will sink and create a disturbance.
+To visualize the outcome, I will generate an image showing the wooden block floating on the water's surface and the iron block submerged, causing ripples or waves.
+</OUTPUT_PROMPT>

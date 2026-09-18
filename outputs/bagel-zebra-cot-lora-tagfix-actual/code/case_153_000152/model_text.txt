@@ -1,0 +1,5 @@
+<RENDER_SUMMARY>
+Interpret the SVG structure: the main element is a rectangle, and several <use> elements reference a <g> element with a circle (a template). The <use> elements apply rotation and positioning to the template, creating rotated and scaled circles.
+The <use> elements apply transformations to the template circle. The first <use> (x=20, y=226) is rotated 30 degrees clockwise. The second <use> (x=168, y=226) is also rotated 30 degrees clockwise but larger. The third <use> (x=242, y=226) is rotated 45 degrees clockwise. The fourth <use> (x=316, y=226) is rotated 30 degrees clockwise. The fifth <use> (x=390, y=226) is rotated 30 degrees clockwise. All circles are centered at (256, 226) and scaled by 1.2 (r=30*1.2=36).
+The final image will show five rotated and scaled circles centered at (256, 226), each with a radius of 36, arranged in a star-like pattern. The background is white.
+</RENDER_SUMMARY>

@@ -1,0 +1,34 @@
+<think>1.  **Overlay Construction**: As instructed, we add the line segment OC. This completes the overlay on the original figure.
+2.  **Identify Key Properties**:
+    -   BD is a diameter, so ∠BAD = 90° (angle inscribed in a semicircle).
+    -   EC is tangent to the circle at C, so ∠OCE = 90° (tangent-radius theorem).
+    -   Since OC = OD (radii of the same circle), ∠OCD = ∠ODC.
+3.  **Analyze ∠ADB = 2∠EDC**:
+    -   ∠ADB = ∠ADC + ∠CDB = 2∠CDB (since ∠ADC = ∠CDB, as they are angles subtended by the same arc CD).
+    -   Given ∠ADB = 2∠EDC, we have 2∠CDB = 2∠EDC, so ∠CDB = ∠EDC.
+    -   This implies CD is the angle bisector of ∠BDE.
+4.  **Use Angle Bisector Property**:
+    -   Since CD is the angle bisector of ∠BDE, the ratio of the adjacent sides is equal to the ratio of the opposite sides: $\frac{BE}{ED} = \frac{BC}{CD}$.
+5.  **Use Similar Triangles**:
+    -   Consider triangles $\triangle ECD$ and $\triangle EBC$.
+    -   ∠E is common to both triangles.
+    -   ∠ECD = ∠EBC = 90° (from the tangent and the right angle at B due to BD being a diameter).
+    -   Therefore, $\triangle ECD \sim \triangle EBC$ (AA similarity).
+    -   This gives the ratio of corresponding sides: $\frac{ED}{EC} = \frac{CD}{BC}$.
+6.  **Combine Ratios**:
+    -   From Step 4: $\frac{BE}{ED} = \frac{BC}{CD}$.
+    -   From Step 5: $\frac{ED}{EC} = \frac{CD}{BC}$.
+    -   Multiplying these two ratios: $\frac{BE}{ED} \cdot \frac{ED}{EC} = \frac{BC}{CD} \cdot \frac{CD}{BC}$.
+    -   Simplifies to: $\frac{BE}{EC} = 1$, so $BE = EC$.
+7.  **Apply the Side-Angle-Side (SAS) Congruence Theorem**:
+    -   In $\triangle EBC$ and $\triangle ECD$, we have:
+        -   $BE = EC$ (from Step 6).
+        -   $∠EBC = ∠ECD = 90°$ (from Step 3).
+        -   $BC = CD$ (from Step 3).
+    -   Therefore, $\triangle EBC \cong \triangle ECD$ (SAS).
+8.  **Conclude ∠ABD = ∠CED**:
+    -   Since $\triangle EBC \cong \triangle ECD$, their corresponding angles are equal.
+    -   So, $∠ECB = ∠EDC$ and $∠EBC = ∠ECD$.
+    -   We need to show $∠ABD = ∠CED$.
+    -   $∠ABD = ∠ABE + ∠EBD$.
+    -   $∠EBD = ∠EBC =

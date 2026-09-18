@@ -1,0 +1,2 @@
+<think>Interpret the SVG code: the outer shape is a large rectangle filling the entire 512x512 canvas. Inside, three identical circles are placed at (30,30), (153,256), and (256,256), each with a fill color of #F1C40F.
+The circles are positioned such that their centers are not aligned in a straight line, so they will not overlap. The outer rectangle fills the entire background.</think>

@@ -1,0 +1,15 @@
+<think>The problem asks for the length of AD in an isosceles triangle OAB with ∠AOB = 120°. We are given OC = 4, where C is the midpoint of OA, and D is the intersection of OB with the circle centered at O passing through C and D. We are to use the auxiliary line AG, which is perpendicular to BO.
+
+Let's analyze the properties of the isosceles triangle OAB. Since OA = OB and ∠AOB = 120°, the base angles ∠OAB and ∠OBA are equal. The sum of angles in a triangle is 180°, so ∠OAB = ∠OBA = (180° - 120°) / 2 = 30°.
+
+The auxiliary line AG is drawn perpendicular to BO. Since AG is perpendicular to BO, ∠AGO = 90°. This means triangle AOG is a right-angled triangle at G.
+
+We are given that C is the midpoint of OA. This implies OC = CA = 4. Since O is the center of the circle, OC = OD = 4 (radii of the circle). Therefore, OD = CA = 4.
+
+Now, let's look at the quadrilateral CAOD. The sides CA and OD are equal in length (both are 4). The sides CO and AD are both radii of the circle (OC = OD = 4), so they are also equal. Therefore, CA = OD and CO = AD. This means quadrilateral CAOD is a parallelogram.
+
+Since CAOD is a parallelogram, opposite angles are equal. Thus, ∠CAO = ∠ODA. We know ∠CAO = ∠OAB = 30° (as calculated earlier). Therefore, ∠ODA = 30°.
+
+We need to find the length of AD. We have established that quadrilateral CAOD is a parallelogram. In a parallelogram, opposite sides are equal in length. Therefore, AD = OC.
+
+We are given OC = 4. Therefore, AD = 4.</think>

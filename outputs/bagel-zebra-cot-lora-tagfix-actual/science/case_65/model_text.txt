@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that steel wool is present and a flame is to be ignited. The steel wool will then burn in open air for 5 seconds.
+Since the steel wool is not yet ignited, the scene remains as shown in the initial image. The next step is to visualize the state after the ignition and burning period.
+</OUTPUT_PROMPT>

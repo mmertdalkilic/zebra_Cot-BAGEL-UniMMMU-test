@@ -1,0 +1,1 @@
+<think>Finalize the output: generate a single JSON line containing the sequence of moves as required by the problem's output format.</think>

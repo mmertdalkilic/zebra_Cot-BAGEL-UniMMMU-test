@@ -1,0 +1,16 @@
+{
+  "id": "case_38",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_38",
+  "initial_image": "./data/science/imgs/spring-stretched.png",
+  "condition": "A metal spring is shown under tension, stretched by an external force. Draw the state of the spring when no external force is applied.",
+  "meta": {
+    "level_1": "Classical mechanics",
+    "level_2": "Elasticity"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_38/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_38/model_image_01.png"
+  ],
+  "errors": []
+}

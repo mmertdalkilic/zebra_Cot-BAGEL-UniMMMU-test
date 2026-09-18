@@ -1,0 +1,6 @@
+<OUTPUT_PROMPT>
+First, I observe the initial state: a foam piece floating in water, with a small orange foam piece on the left side of the foam piece.
+Next, I apply the condition: a small orange foam piece is dropped on the left of the existing foam piece. This will cause a disturbance in the water.
+After waiting 5 seconds, the dropped foam piece will displace water, creating ripples and eventually sink. The water level will rise, and the foam piece will be submerged.
+The final state will be the foam piece fully submerged in the water, with ripples indicating the disturbance from the dropped piece.
+</OUTPUT_PROMPT>

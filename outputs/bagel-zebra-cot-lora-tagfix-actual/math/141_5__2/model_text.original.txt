@@ -1,0 +1,16 @@
+<think>The problem asks for the distance from point B to AC. The base figure is an isosceles triangle △ABC with ∠ABC=∠ACB. A circle with AC as diameter intersects AB at M and BC at N. Point P is on the extension of AB, and 2∠BCP=∠BAC. We are given BC=3√2 and cos∠BCP=√30/6. We need to find the length of the perpendicular from B to AC.
+
+First, let's analyze the given angle relationships. We are told that 2∠BCP=∠BAC. Let's denote ∠BAC = α. Then, 2∠BCP = α, which means ∠BCP = α/2.
+Since △ABC is isosceles with ∠ABC=∠ACB, let's denote ∠ABC = ∠ACB = β. The sum of angles in a triangle is 180°, so α + 2β = 180°. This gives us a relationship between α and β.
+
+Next, consider the circle with AC as diameter. By the Thales' theorem, any angle subtended by a diameter is a right angle. Therefore, ∠ANC = 90°. This means that the line segment AN is perpendicular to the line segment CN.
+
+Now, let's analyze triangle △BCN. We know that ∠ANC = 90°, so ∠ANC = ∠BNC = 90°. Since ∠ANC and ∠BNC are both right angles, the line segment BN is tangent to the circle at point N. This is because a line drawn from a point on a circle to a point outside the circle, such that it is perpendicular to the radius at the point of contact, is a tangent.
+
+Since BN is tangent to the circle at N, we can apply the tangent-secant theorem. This theorem states that the angle between a tangent and a chord through the point of contact is equal to the angle in the alternate segment. Therefore, ∠BCP = ∠CAN. We already established that ∠BCP = α/2. So, ∠CAN = α/2.
+
+We have established that ∠CAN = α/2. We also know that ∠BAC = α. Therefore, ∠CAN = ∠BAC/2. This implies that point N is the midpoint of the arc AC that does not contain B. Since AC is the diameter, the arc AC is 180°. Therefore, the arc AC not containing B is 180°, and the arc AC containing B is also 180°. This means that point N is the midpoint of the arc AC containing B. Since AC is the diameter, the midpoint of the arc AC containing B is the center O of the circle.
+
+Now we have established that N is the midpoint of the arc AC containing B, and O is the center of the circle. This implies that ON is the radius of the circle. Since O is the midpoint of AC, ON is parallel to AB (because the line joining the center of a circle to the midpoint of a chord is perpendicular to the chord; here, AC is the chord, and ON is the line joining O to the midpoint of AC, so ON is perpendicular to AC, and AB is also perpendicular to AC). Therefore, ON is parallel to AB.
+
+We have established that ON is parallel to AB. We also know that ∠ANC = 90°. Since ON is parallel to AB, ∠ANC = ∠NAB = 90°. This means that the line segment

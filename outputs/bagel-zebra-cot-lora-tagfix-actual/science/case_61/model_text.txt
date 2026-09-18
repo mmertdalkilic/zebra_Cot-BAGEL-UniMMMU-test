@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem describes a specific chemical reaction: strontium nitrate igniting and burning in open air for a short duration. I need to determine the outcome of this reaction based on the initial state shown in the image.
+To understand the reaction, I must visualize the process of strontium nitrate burning. I will generate an image showing the strontium nitrate pellet after it has been ignited and is burning.
+</OUTPUT_PROMPT>

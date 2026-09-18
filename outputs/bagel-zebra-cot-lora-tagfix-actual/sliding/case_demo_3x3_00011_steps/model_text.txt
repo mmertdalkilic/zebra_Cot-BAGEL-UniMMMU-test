@@ -1,0 +1,1 @@
+<think>THOUGHT: The final answer is the sequence of moves to reach the final state from the initial state. The moves are "down", "right", "up".</think>

@@ -1,0 +1,12 @@
+{
+  "id": "demo_3x3_00005_steps",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/sliding/case_demo_3x3_00005_steps",
+  "init_png": "./data/sliding/demo_3x3_00005_steps/demo_step_0000.png",
+  "k": 1,
+  "text_file": "./outputs/bagel-zebra-cot-lora/sliding/case_demo_3x3_00005_steps/model_text.txt",
+  "images_saved_flatten": [
+    "./outputs/bagel-zebra-cot-lora/sliding/case_demo_3x3_00005_steps/cand_01/demo_step_0000_step_0001.png"
+  ],
+  "errors": []
+}

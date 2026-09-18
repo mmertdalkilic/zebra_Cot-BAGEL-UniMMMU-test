@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem requires me to predict the final state of the beaker's contents after a specific chemical reaction. The initial state is a beaker with a green liquid, which is bromothymol blue in a neutral solution. The condition specifies adding 5 mL of 0.1 M NaOH and swirling for 20 seconds.
+Bromothymol blue is a pH indicator. In a neutral solution, it is green. NaOH is a strong base, which increases the pH. When a strong base like NaOH is added to a neutral solution, the pH increases, causing the bromothymol blue to change color. The reaction is pH-dependent: green (pH 6.0-7.6) → yellow (pH 7.6-8.0) → blue (pH 8.0-9.6).
+The condition asks to swirl the solution for 20 seconds. This action is likely intended to ensure the base is fully mixed into the solution. This mixing will cause the color change to be uniform.
+</OUTPUT_PROMPT>

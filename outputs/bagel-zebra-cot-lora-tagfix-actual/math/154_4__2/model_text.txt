@@ -1,0 +1,39 @@
+<think>Let r be the radius of the circle. Since AB is the diameter, ∠ACB = 90° (angle in a semicircle). Triangle ABC is a right-angled triangle at C. We are given CE = 1 and EB = 3, so CB = CE + EB = 1 + 3 = 4. Let AF = x and FB = y. We need to find r.
+
+We can use the Power of a Point theorem for point E with respect to the circle. The Power of a Point theorem states that for a point E outside a circle, the product of the lengths of the segments of any two secant lines through E is equal. In this case, E lies on BC and AD. So, EC * EB = EA * ED.
+
+We need to express EA and ED in terms of x, y, and r. Triangle AFB is a right-angled triangle at F (since AB is the diameter, ∠AFB = 90°). The length of the hypotenuse AB is 2r. We can use the Pythagorean theorem: AF² + FB² = AB². So, x² + y² = (2r)² = 4r².
+
+Now, let's express EA and ED in terms of x, y, and r. Point E is on AD, so EA = AF + FE = x + FE. Point E is on BC, so EB = EC + CE = 3 + CE. We are given CE = 1, so EB = 3 + 1 = 4. Therefore, ED = EB = 4.
+
+Substitute into the Power of a Point equation: EC * EB = EA * ED.
+1 * 4 = (x + FE) * 4
+4 = 4(x + FE)
+Divide by 4: 1 = x + FE
+So, FE = 1 - x.
+
+Now we can use the Pythagorean theorem in triangle EFB. Triangle EFB is right-angled at F. So, FE² + FB² = EB².
+FE² + y² = 4² = 16.
+Substitute FE = 1 - x:
+(1 - x)² + y² = 16.
+
+We have two equations:
+1) x² + y² = 4r²
+2) (1 - x)² + y² = 16
+Subtract equation 1 from equation 2:
+[(1 - x)² + y²] - [x² + y²] = 16 - 4r²
+Expand (1 - x)²:
+[1 - 2x + x² + y²] - [x² + y²] = 16 - 4r²
+Simplify:
+1 - 2x = 16 - 4r²
+Rearrange to solve for x:
+-2x = 16 - 4r² - 1
+-2x = 15 - 4r²
+x = (4r² - 15) / 2
+
+Now we can find y. Substitute x = (4r² - 15) / 2 into equation 1:
+x² + y² = 4r²
+[(4r² - 15) / 2]² + y² = 4r²
+(16r⁴ - 120r² + 225) / 4 + y² = 4r²
+Multiply by 4 to clear the denominator:
+16r⁴ - 120r

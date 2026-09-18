@@ -1,0 +1,1 @@
+<think>Let’s sketch the empty 512×512 canvas, as defined by the viewBox and width/height. This is the starting point for all geometric shapes.</think>

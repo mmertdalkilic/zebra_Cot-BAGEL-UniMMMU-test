@@ -1,0 +1,12 @@
+{
+  "id": "206_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing required line CO",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes MC = MD + DC (10) without geometric justification. This invalidates subsequent calculations. The correct approach uses triangle ACD (45° isosceles) and central angle theorem, which the candidate omits entirely.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes MC = MD + DC (10) without geometric justification. This invalidates subsequent calculations. The correct approach uses triangle ACD (45° isosceles) and central angle theorem, which the candidate omits entirely."
+}

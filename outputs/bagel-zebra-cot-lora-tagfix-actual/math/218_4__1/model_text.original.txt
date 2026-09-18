@@ -1,0 +1,42 @@
+<think>The problem asks for the area of triangle ABC. We are given that AB=AC=5, BC=6, and ∠BCD=90°. We are also given that ∠ADB=2∠CBD. We need to use the auxiliary line AH⊥BC, which we can see in the problem image.
+
+First, let's analyze triangle ABC. We know AB=AC=5 and BC=6.
+Using the Pythagorean theorem in a right-angled triangle (or by calculation), we can check if ABC is a right-angled triangle.
+AB² = 5² = 25
+AC² = 5² = 25
+BC² = 6² = 36
+If ABC were a right-angled triangle, we would have either AB² + AC² = BC² or AB² + BC² = AC² or AC² + BC² = AB².
+Let's check:
+AB² + AC² = 25 + 25 = 50 ≠ 36 = BC²
+AB² + BC² = 25 + 36 = 61 ≠ 25 = AC²
+AC² + BC² = 25 + 36 = 61 ≠ 25 = AB²
+So, ABC is not a right-angled triangle. However, the problem states that ∠BCD=90°. This is a key piece of information.
+
+We are given that ∠ADB=2∠CBD. Let's denote ∠CBD as x. Then, ∠ADB=2x.
+We can use the property of the exterior angle of a triangle. In triangle BCD, ∠BCD=90°. The exterior angle at D is ∠ADB. So, ∠ADB = ∠CBD + ∠BCD.
+Substituting the given values:
+2x = x + 90°
+2x - x = 90°
+x = 90°
+So, ∠CBD = 90°.
+Since ∠BCD=90° and ∠CBD=90°, triangle BCD is a right-angled triangle with the right angle at C.
+
+Now we can find the area of triangle ABC. The formula for the area of a triangle is (1/2) * base * height.
+We can use BC as the base. The height corresponding to this base is the perpendicular from A to BC, which is AH.
+AH = AH (common side)
+AB = AC (given)
+BC = BC (common side)
+So, triangle ABC is an isosceles triangle with AB = AC. The altitude AH from A to BC will bisect BC. Therefore, H is the midpoint of BC.
+BH = CH = BC/2 = 6/2 = 3.
+
+Now we can calculate the length of AH. We have a right-angled triangle AHB.
+In triangle AHB:
+AB² = AH² + BH² (Pythagorean theorem)
+AH² = AB² - BH²
+AH² = 5² - 3² = 25 - 9 = 16
+AH = √16 = 4.
+
+Finally, we can calculate the area of triangle ABC.
+Area(ABC) = (1/2) * BC * AH
+Area(ABC) = (1/2) * 6 * 4
+Area(ABC) = 3 * 4 = 12.</think>

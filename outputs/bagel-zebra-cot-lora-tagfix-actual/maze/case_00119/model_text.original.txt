@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is a JSON array containing the move sequence. This array will be output after the image sequence is generated, which shows the blue dot moving one step at a time, and the final JSON will contain the complete move list.</think>

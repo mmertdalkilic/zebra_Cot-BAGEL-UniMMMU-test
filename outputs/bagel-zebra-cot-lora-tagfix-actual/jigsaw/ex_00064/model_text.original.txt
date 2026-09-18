@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 0, "rationale": "Candidate 0 aligns seamlessly with the reference image's bottom-right quadrant."}</FINAL_ANSWER_JSON>

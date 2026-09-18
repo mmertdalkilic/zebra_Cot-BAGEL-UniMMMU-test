@@ -1,0 +1,5 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: the background is a white rectangle covering the entire 512x512 canvas. There are two shapes: a green rectangle at (86,167,54,76) and a green-yellow polygon at (158.67,393.46,87.33,400.73,58.37,335.12,111.82,287.31,173.81,323.37).
+The polygon is centered at (111.82, 323.37), so it is in the lower-right quadrant of the canvas. The green rectangle is also in the lower-right quadrant.
+The polygon's fill is green-yellow, and its stroke is "none". The rectangle's fill is white, and its stroke is "none". The polygon's fill is more vibrant, so it will appear on top.
+</RENDER_SUMMARY>

@@ -1,0 +1,12 @@
+{
+  "id": "381_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing intersection point F on extended DC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes multiple triangles are right-angled where they are not (e.g., ADF, CDF). Misapplies Pythagorean theorem to non-right triangles. Fails to use angle bisector condition properly. Final expression AE=x√30 is invalid as x is not determined. Ground-truth answer is √79/2 ≈4.41, while candidate's approach yields undefined value.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes multiple triangles are right-angled where they are not (e.g., ADF, CDF). Misapplies Pythagorean theorem to non-right triangles. Fails to use angle bisector condition properly. Final expression AE=x√30 is invalid as x is not determined. Ground-truth answer is √79/2 ≈4.41, while candidate's approach yields undefined value."
+}

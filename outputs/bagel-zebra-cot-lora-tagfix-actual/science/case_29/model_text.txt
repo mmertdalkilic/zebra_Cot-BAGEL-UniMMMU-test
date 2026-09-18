@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition requires observing the effect of sprinkling salt onto the soap film. Salt dissolves in water, causing the soap film to break and spread.
+To visualize the outcome, I will generate an image showing the film after the salt is sprinkled and the effect of the salt dissolving.
+</OUTPUT_PROMPT>

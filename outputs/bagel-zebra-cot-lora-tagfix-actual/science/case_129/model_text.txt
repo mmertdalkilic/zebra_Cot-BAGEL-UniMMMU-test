@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a specific action: rubbing a comb on hair and then rubbing it on paper scraps. This action is known to cause static electricity, which can attract and stick the paper scraps to the comb.
+To visualize the outcome, I will generate an image showing the comb with the paper scraps attached to it, demonstrating the effect of static electricity.
+</OUTPUT_PROMPT>

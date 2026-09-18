@@ -1,0 +1,12 @@
+{
+  "id": "263_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing DM perpendicular line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains incorrect reasoning (e.g., claims DB=4 which contradicts equilateral triangle ABD with sides=2). Final answer matches ground-truth numerically but reasoning has major logical flaws.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains incorrect reasoning (e.g., claims DB=4 which contradicts equilateral triangle ABD with sides=2). Final answer matches ground-truth numerically but reasoning has major logical flaws."
+}

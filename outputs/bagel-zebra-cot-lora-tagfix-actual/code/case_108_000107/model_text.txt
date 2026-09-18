@@ -1,0 +1,8 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code to identify all elements, their properties, and their spatial relationships.
+Analyze the shapes and their coordinates relative to the viewBox. The first polygon is filled with #1ABC9C, the second with #2ECC71, and both are outlined with "none".
+The first polygon is positioned at (445.676, 136.263), (397.737, 173.677), (360.323, 125.737), (408.263, 88.323). The second rectangle is at (40, 410), with dimensions 142x70.
+The background is a white rectangle covering the entire 512x512 canvas. The polygons and rectangle are all within the viewBox.
+The first polygon is large and dominates the right side of the viewBox. The second rectangle is a small green rectangle at the bottom right.
+The first polygon is a large, irregular, dark green shape. The second is a small, light green rectangle. The white background fills the rest of the canvas.
+</RENDER_SUMMARY>

@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is a single JSON line containing the sequence of moves: ["right", "down"]. This matches the path determined and adheres to the strict output format.</think>

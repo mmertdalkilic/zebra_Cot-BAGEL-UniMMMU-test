@@ -1,0 +1,16 @@
+{
+  "id": "case_70",
+  "status": "ok",
+  "case_dir": "./outputs/bagel-zebra-cot-lora/science/case_70",
+  "initial_image": "./data/science/imgs/d13_c015_fd4d4a498d.png",
+  "condition": "A small amount of aluminum powder on a tile; no flame yet. Ignite the aluminum powder in open air and Draw the state when ignited",
+  "meta": {
+    "level_1": "Chemistry",
+    "level_2": "Combustion"
+  },
+  "text_file": "./outputs/bagel-zebra-cot-lora/science/case_70/model_text.txt",
+  "images_saved": [
+    "./outputs/bagel-zebra-cot-lora/science/case_70/model_image_01.png"
+  ],
+  "errors": []
+}

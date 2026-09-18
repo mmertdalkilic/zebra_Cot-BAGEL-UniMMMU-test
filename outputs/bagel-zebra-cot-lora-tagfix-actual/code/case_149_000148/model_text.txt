@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+The SVG contains a single <rect> element with white fill, and two <use> elements referencing a template <g> that contains a red <rect> of size 60x60. The viewBox is 0,0,512,512, meaning the entire image is within a 512x512 grid.
+The two <use> elements are positioned at (20,226) and (128,226). The template <g> is centered at (30,226) and contains a red <rect> centered at (30,226). The white <rect> fills the entire 512x512 area.
+</RENDER_SUMMARY>

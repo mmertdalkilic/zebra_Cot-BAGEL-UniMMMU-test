@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial SVG structure to understand the composition and how the template is applied.</think>

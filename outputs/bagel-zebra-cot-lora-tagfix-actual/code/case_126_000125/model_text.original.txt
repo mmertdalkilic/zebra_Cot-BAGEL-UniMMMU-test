@@ -1,0 +1,1 @@
+<think>Visualize the SVG structure: a white background rectangle, a circle centered at (349,355) with a large radius.</think>

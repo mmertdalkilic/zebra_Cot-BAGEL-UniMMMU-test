@@ -1,0 +1,9 @@
+<think>1.  Overlaid lines: The problem asks us to prove AB=AC. We are given AB is a diameter of the circle, so ∠ADB=90° (angle in a semicircle). We are also given BD=CD. We are asked to add the line AD.
+2.  Let’s analyze the angles in the diagram. Since AB is a diameter, ∠ADB = 90°. So, ∠BDA = 90°. Since BD=CD, triangle BDC is isosceles, so ∠DBC = ∠DCB.
+3.  Now, let’s look at ∠ADC. Since ∠ADB = 90°, ∠ADC = 180° - ∠ADB = 180° - 90° = 90°. So, ∠ADC = 90°.
+4.  Since ∠ADC = 90° and ∠BDA = 90°, ∠ADC = ∠BDA. This means that AD is the angle bisector of ∠BDC.
+5.  Since AD is the angle bisector of ∠BDC and BD=CD, triangle BDC is isosceles. Therefore, AD is also the altitude and the median to BC. This means D is the midpoint of BC.
+6.  Since D is the midpoint of BC, BD=DC. We are given BD=CD. So, BD=DC=DC=BD. This means BD=DC.
+7.  Now, let’s look at ∠ABD and ∠ACD. ∠ABD and ∠ACD are angles in the same segment BD. Therefore, ∠ABD = ∠ACD.
+8.  Since ∠ABD = ∠ACD and BD=CD, triangles ABD and ACD are congruent by SAS (Side-Angle-Side).
+9.  Since triangles ABD and ACD are congruent, their corresponding sides are equal. Therefore, AB=AC.</think>

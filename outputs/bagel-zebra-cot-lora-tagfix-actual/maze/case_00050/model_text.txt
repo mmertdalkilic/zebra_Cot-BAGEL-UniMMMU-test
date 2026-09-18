@@ -1,0 +1,1 @@
+<think>THOUGHT: The output should be a JSON array containing the sequence of moves. The moves are "right", "down", and "left". This is the final answer to the problem.</think>

@@ -1,0 +1,12 @@
+{
+  "id": "83_2__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes D,A,C are collinear (invalidates key steps) and misuses OD as diameter. Final numeric answer matches reference but reasoning is flawed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes D,A,C are collinear (invalidates key steps) and misuses OD as diameter. Final numeric answer matches reference but reasoning is flawed."
+}

@@ -1,0 +1,26 @@
+<think>The problem asks for the length of the chord EF in a triangle ABC with AB=√10, AC=2, and an isosceles triangle. The circle O is tangent to BC at D and has AD as its diameter. We are given that DF is an auxiliary line. We need to find EF. The key is to relate EF to other lengths in the triangle.
+
+Since AD is the diameter of circle O, the angle ∠AFD is a right angle (angle inscribed in a semicircle). This means that triangle AFD is a right-angled triangle with the right angle at F.
+
+Since BC is tangent to circle O at D, the radius OD is perpendicular to BC. Therefore, AD is perpendicular to BC. This means that triangle ADC is a right-angled triangle with the right angle at D.
+
+We have two right-angled triangles, AFD and ADC. They share the angle ∠FAD. Therefore, these triangles are similar by AA (Angle-Angle) similarity.
+
+Since triangles AFD and ADC are similar, their corresponding sides are proportional. We can write the proportion AD/AC = AF/AD.
+
+We are given that AB=√10 and AC=2. We need to find the length of AD. We can use the Pythagorean theorem in triangle ABC. Since AB=AC, triangle ABC is isosceles, and AD is the altitude from A to BC. Therefore, AD is also the median and the angle bisector. This means that BD=DC and ∠BAD=∠CAD. We can use the Pythagorean theorem in triangle ABD.
+
+In triangle ABD, AB² = AD² + BD².
+AB = √10, so (√10)² = AD² + BD².
+10 = AD² + BD².
+
+In triangle ADC, AC² = AD² + DC².
+AC = 2, so 2² = AD² + DC².
+4 = AD² + DC².
+
+Since BD=DC, we can substitute DC for BD in the second equation:
+4 = AD² + BD².
+This is the same as the first equation: 10 = AD² + BD².
+So, 4 = 10 - 6 = AD² + BD² - 6.
+4 = 10 - 6 = 4 = AD² + BD² - 6.
+4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 - 6 = 4 = 10 -

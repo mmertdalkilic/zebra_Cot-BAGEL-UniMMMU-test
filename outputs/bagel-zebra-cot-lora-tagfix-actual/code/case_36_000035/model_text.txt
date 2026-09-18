@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG source code: the root element is an SVG with a viewBox of (0,0,512,512). The root element is a rectangle with fill=white, covering the entire canvas. Inside, there are five identical rectangles, each with fill=E74C3C, arranged in a horizontal line at y=226, with x positions 20, 100, 180, 260, 340.
+The five rectangles are stacked horizontally, each with a 60x60 fill area, centered at x=20, 100, 180, 260, 340 respectively, and aligned vertically at y=226. The background is white, so no default colors are added.
+</RENDER_SUMMARY>

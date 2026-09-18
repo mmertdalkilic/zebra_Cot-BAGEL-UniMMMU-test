@@ -1,0 +1,2 @@
+<think>The problem asks us to predict the final state of the scene after changing the light direction. We start with a young sunflower seedling in a pot.
+The condition specifies that the light source is moved to the right. This means the light will now illuminate the right side of the plant and the pot, casting shadows on the left side. We need to visualize this new lighting.</think>

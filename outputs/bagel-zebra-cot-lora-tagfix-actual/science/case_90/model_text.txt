@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of a chemical solution after a specific cooling and stirring process. The initial image shows a beaker with a thermometer, ice, and a stirring rod, indicating a solution is being cooled.
+The condition specifies a hot saturated solution of potassium nitrate. When this solution is cooled to 25°C, the temperature is below the solubility threshold for potassium nitrate at room temperature. This means the solution will become supersaturated. When a supersaturated solution is disturbed (swirled), it can suddenly release all dissolved solute at once, forming a crystalline precipitate.
+</OUTPUT_PROMPT>

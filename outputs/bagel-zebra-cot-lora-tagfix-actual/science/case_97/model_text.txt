@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of a chemical reaction over 24 hours, given the initial setup. The condition specifies a copper(II) sulfate solution and a flat iron strip, which are the primary reactants.
+Copper(II) sulfate (CuSO4) is a strong electrolyte. When an iron strip (Fe) is immersed in a copper(II) sulfate solution, a chemical reaction occurs. Iron is more reactive than copper, so it will displace copper from the solution. This reaction is a redox process: Fe → Fe²⁺ + 2e⁻ and Cu²⁺ + 2e⁻ → Cu.
+Over 24 hours, the iron strip will gradually dissolve, and copper metal will precipitate out of the solution. The solution will become less blue as copper ions are consumed. The iron strip will appear corroded and lighter in color, and a reddish-brown solid (copper) will accumulate at the bottom of the beaker.
+</OUTPUT_PROMPT>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a chemical reaction between two aqueous solutions: calcium chloride and sodium carbonate. The initial image shows two separate beakers, each containing one of these solutions.
+A chemical reaction between CaCl₂ and Na₂CO₃ typically results in the formation of calcium carbonate (CaCO₃) precipitate and sodium chloride (NaCl) solution. This is a classic double displacement reaction. The problem asks to visualize the state after mixing.
+</OUTPUT_PROMPT>

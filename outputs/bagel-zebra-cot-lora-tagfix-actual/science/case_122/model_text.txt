@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies that a straw is being inserted into the water. This action will cause the straw to appear distorted or bent due to the bending of light as it passes from air into water at an angle.
+To visualize the effect of the straw being inserted, I will generate an image showing the straw inside the glass, illustrating the bending effect.
+</OUTPUT_PROMPT>

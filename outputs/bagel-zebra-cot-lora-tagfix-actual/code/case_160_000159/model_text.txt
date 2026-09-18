@@ -1,0 +1,7 @@
+<RENDER_SUMMARY>
+First, identify the SVG's viewBox (0,0,512,512) and its width/height (512x512). The background is white, as drawn by the first <rect> element.
+Next, locate the second <rect> element. Its fill is "#E67E22" (orange), width=139, height=110, and it's positioned at (x=338, y=253) in user space.
+The orange rectangle is positioned towards the right-top of the 512x512 canvas. It will overlay the white background.
+The orange rectangle's size is 139x110, so its right-top corner is at (338+139, 253+110) = (477, 363). This is well within the 512x512 viewBox.
+The orange rectangle will cover a portion of the white background, leaving a white border around it.
+</RENDER_SUMMARY>

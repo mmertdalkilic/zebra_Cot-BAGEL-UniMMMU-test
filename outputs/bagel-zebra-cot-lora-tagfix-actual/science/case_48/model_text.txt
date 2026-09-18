@@ -1,0 +1,6 @@
+<OUTPUT_PROMPT>
+The condition describes a chemical reaction: an acid-base neutralization. The universal indicator is a pH indicator, and the solution is initially neutral. Adding 0.1 M HCl (a strong acid) to a neutral solution will change its pH.
+The reaction will proceed until the acid is fully consumed. Since the acid concentration is 0.1 M and the initial volume is 100 mL, the moles of acid added are 0.1 mol. The initial neutral solution must contain 0.1 mol of base (e.g., NaOH) to be perfectly neutral. This is exactly the case, as the initial volume is 100 mL and the concentration is 1.0 M (1.0 mol/L * 100 mL = 100 mmol = 0.1 mol).
+The 20-second swirling is a mixing action, not a reaction. The final state will be a solution with a pH determined by the excess acid. Since the acid and base are in a 1:1 ratio, the excess acid is 0.1 - 0.1 = 0.0 mol. The final solution will be acidic, with a pH less than 7.
+The universal indicator will change color to indicate the acidic pH. The final image should show the beaker with the same liquid level, but the liquid will be colored to reflect the acidic pH.
+</OUTPUT_PROMPT>

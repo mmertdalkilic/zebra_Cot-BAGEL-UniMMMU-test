@@ -1,0 +1,12 @@
+{
+  "id": "337_5__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly uses SSS congruence for triangles AOE and AOD without valid justification. The critical step of establishing ∠DOE=50° is missing proper reasoning (should use inscribed angle theorem). Final answer matches reference but reasoning has major flaws.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly uses SSS congruence for triangles AOE and AOD without valid justification. The critical step of establishing ∠DOE=50° is missing proper reasoning (should use inscribed angle theorem). Final answer matches reference but reasoning has major flaws."
+}

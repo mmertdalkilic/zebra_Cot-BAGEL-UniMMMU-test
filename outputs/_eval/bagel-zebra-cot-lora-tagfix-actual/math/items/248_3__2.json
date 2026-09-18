@@ -1,0 +1,12 @@
+{
+  "id": "248_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing NH⊥AB line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes the rhombus is a square (invalidating all subsequent steps). Key errors include claiming NH=AM via flawed parallelism and deriving AN=4 instead of the correct 4√2−4. The reasoning contains multiple logical gaps and false premises.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes the rhombus is a square (invalidating all subsequent steps). Key errors include claiming NH=AM via flawed parallelism and deriving AN=4 instead of the correct 4√2−4. The reasoning contains multiple logical gaps and false premises."
+}

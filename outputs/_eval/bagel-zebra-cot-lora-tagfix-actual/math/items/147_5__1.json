@@ -1,0 +1,12 @@
+{
+  "id": "147_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OF",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes ∠FAO and ∠AFO are 90° in isosceles triangle AOF (impossible). Uses circular reasoning by assuming ∠OFG=90° (tangency) to prove tangency. Fails to properly use given ∠DGF=∠AEB and square properties as in reference solution.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes ∠FAO and ∠AFO are 90° in isosceles triangle AOF (impossible). Uses circular reasoning by assuming ∠OFG=90° (tangency) to prove tangency. Fails to properly use given ∠DGF=∠AEB and square properties as in reference solution."
+}

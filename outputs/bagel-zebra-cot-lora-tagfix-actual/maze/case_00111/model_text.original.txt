@@ -1,0 +1,1 @@
+<think>THOUGHT: The output should be a JSON array of moves. The shortest path is "right", "down", "left".</think>

@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is the JSON array of moves. The image sequence will show the path taken from the start to the goal, with each image representing the state after one move. The final image will show the agent at the green frame, having completed the path.</think>

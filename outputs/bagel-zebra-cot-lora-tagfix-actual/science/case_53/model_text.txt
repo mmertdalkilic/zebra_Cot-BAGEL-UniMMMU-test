@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a chemical reaction involving a beaker with a red cabbage indicator in a neutral solution. The next step is to add 5 mL of 0.1 M NaOH and mix.
+To determine the final state, I need to visualize the outcome of adding NaOH to the red cabbage indicator. This will involve understanding the chemical reaction and the resulting color change.
+</OUTPUT_PROMPT>

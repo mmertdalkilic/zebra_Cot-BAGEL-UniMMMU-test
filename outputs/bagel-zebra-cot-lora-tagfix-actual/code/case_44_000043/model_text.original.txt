@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas (white) and the first two rectangles (one white, one blue) as a sketch to understand their positions and sizes.</think>

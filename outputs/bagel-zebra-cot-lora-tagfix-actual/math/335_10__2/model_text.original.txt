@@ -1,0 +1,9 @@
+<think>Let AF = x.  We are given DE = EF, which implies that the arc ED = the arc EF.  This means that the angles subtended by these arcs at the center O are equal, so ∠DOE = ∠FOE.  Since OE is a radius, OE = OF.  Thus, triangle OEF is isosceles with OE = OF and ∠DOE = ∠FOE.  Therefore, ∠OEF = ∠OFE.  Since OE is perpendicular to AC (tangent at E), ∠OEA = 90°.  This means that ∠OEF + ∠A = 90°.  Since ∠OEF = ∠OFE, we have 2∠OFE + ∠A = 90°.  Since ∠OFE = ∠OBD (angles subtended by the same arc OD), we have 2∠OBD + ∠A = 90°.
+
+Now, consider triangle ABE.  The sum of its angles is 180°, so ∠A + ∠ABE + ∠AEB = 180°.  We know that ∠AEB = 90°, so ∠A + ∠ABE = 90°.  We can express ∠ABE as ∠ABD + ∠DBE.  We have ∠OBD = ∠OFE = ∠OEF.  Since ∠OEF = ∠DBE (angles subtended by the same arc DE), we have ∠OBD = ∠DBE.  Therefore, ∠ABE = 2∠OBD.  Substituting this into the equation ∠A + ∠ABE = 90°, we get ∠A + 2∠OBD = 90°.  This is the same as our earlier result for 2∠OBD + ∠A = 90°.  Therefore, ∠OBD = ∠ABD.
+
+Since ∠OBD = ∠ABD, triangle ABD is isosceles with AD = AB.  We are given that BC = 3.  Since AD = AB, we have AB = AD = AC + CD = AC + BC - BD = AC + 3 - BD.  Since AD = AB, we have AC + 3 - BD = AB.  Rearranging, AC + 3 = AB + BD.  Since AD = AB, we can write AC + 3 = AD + BD.
+
+Now, consider the right triangle AOE.  We are given that cos∠A = 4/5.  Let the hypotenuse AO = 5k and the adjacent side AE = 4k.  By the Pythagorean theorem, the opposite side OE = √(AO² - AE²) = √((5k)² - (4k)²) = √(25k² - 16k²) = √(9k²) = 3k.  Since OE = OF (OE is a radius, OF is also a radius), we have OF = 3k.  Since AF = AO - OF, AF = 5k - 3k = 2k.  Thus, AF = 2k.
+
+Now, let's find the length of AC.  We know that AC = AE + EC.  Since OE is perpendicular to AC at E, EC = OE = 3k.  So, AC = 4

@@ -1,0 +1,1 @@
+<think>Let’s visualize the initial empty canvas (512x512) and the first rectangle, which fills it.</think>

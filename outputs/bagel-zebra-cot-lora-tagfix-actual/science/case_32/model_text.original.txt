@@ -1,0 +1,2 @@
+<think>The condition describes a specific object (cotton wick) in a specific environment (blue water in a beaker). The instruction is to wait a long time.
+Waiting a long time implies that the object will undergo a specific process. Cotton wick is typically made of cotton, which is a hydrophilic material.</think>

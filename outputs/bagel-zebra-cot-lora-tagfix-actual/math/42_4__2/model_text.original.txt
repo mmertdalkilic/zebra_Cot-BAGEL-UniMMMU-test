@@ -1,0 +1,25 @@
+<think>1.  **Overlay Construction**: The problem asks us to find the area of △CEF. We are given that D and E are midpoints of AB and AC, respectively, and EF=DE. We are also told that △ABC is equilateral with BC=6. We are asked to find the area of △CEF. The problem provides an overlay instruction: draw AG⊥BC from A, intersecting DF at H. We will use this construction to find the area of △CEF.
+
+2.  **Identify Key Properties**:
+    - D and E are midpoints of AB and AC, so DE is the midline of △ABC. Thus, DE || BC and DE = 1/2 BC.
+    - Since EF = DE, we have EF || BC and EF = 1/2 BC. This means DF is parallel to BC and DF = BC. So, quadrilateral BCFD is a parallelogram (opposite sides are parallel and equal).
+    - Since BCFD is a parallelogram, BD = CF. As D is the midpoint of AB, BD = 1/2 AB. Thus, CF = 1/2 AB.
+    - Since △ABC is equilateral, AB = BC = AC = 6. So, CF = 1/2 * 6 = 3.
+
+3.  **Use the Overlay: AG⊥BC at H**:
+    - Since △ABC is equilateral, AG is the altitude from A to BC. In an equilateral triangle, the altitude also bisects the base. Thus, H is the midpoint of BC, and H is the foot of the altitude.
+    - Therefore, BH = 1/2 BC = 1/2 * 6 = 3.
+    - Since BCFD is a parallelogram, BD = CF = 3.
+    - Since D is the midpoint of AB, AD = 1/2 AB = 1/2 * 6 = 3.
+    - Now, we have AD = BD = 3.
+    - Since AG is perpendicular to BC and H is the midpoint of BC, AG is the altitude of the parallelogram BCFD. Thus, AG is also the altitude of △BCF.
+
+4.  **Calculate the Area of △BCF**:
+    - The base of △BCF is BC = 6.
+    - The height of △BCF is the length of AG. Since AG is the altitude of the equilateral triangle ABC, AG = √(AB² - BH²) = √(6² - 3²) = √(36 - 9) = √27 = 3√3.
+    - Area of △BCF = 1/2 * base * height = 1/2 * 6 * 3√3 = 9√3.
+
+5.  **Determine the Area of △CEF**:
+    - Since BCFD is a parallelogram, the diagonal DF divides it into two congruent triangles: △BCF and △CDF.
+    - Therefore, the area of △CEF is half the area of △BCF.
+    - Area of △CEF = 1/2 * Area of △BCF = 1/2 * 9√3 = 9√3 / 2.</think>

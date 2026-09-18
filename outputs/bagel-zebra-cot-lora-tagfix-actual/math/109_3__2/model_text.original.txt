@@ -1,0 +1,32 @@
+<think>1.  **Overlay the auxiliary lines** as specified: connect OD, OC, and BD.
+2.  **Identify key angles and relationships**:
+    -  AB is a diameter, so ∠ACB = 90° (angle in a semicircle).
+    -  CD bisects ∠ACB, so ∠ACD = ∠BCD = 45°.
+    -  ∠CDB = 30° (given).
+    -  ∠ACD = ∠CDB (angles in the same segment), so ∠ACD = 30°.
+    -  ∠ACD = ∠BCD = 45°, so ∠BCD = 45°.
+    -  ∠ACB = 90°, so ∠ACD + ∠BCD = 90°, which is consistent.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD = 45°.
+    -  ∠ACD = 30°, so ∠BCD =

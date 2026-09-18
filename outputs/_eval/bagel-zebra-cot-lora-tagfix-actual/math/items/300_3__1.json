@@ -1,0 +1,12 @@
+{
+  "id": "300_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line AC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly equates inscribed angle ∠BCD (140°) to central angle ∠BOC (should be ∠BCD=1/2∠BOD). Miscalculates ∠BOD as 80° instead of 280°, leading to wrong ∠BAD=40°. Then incorrectly computes ∠ABC=50° instead of 70°. Key logical errors in angle relationships.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly equates inscribed angle ∠BCD (140°) to central angle ∠BOC (should be ∠BCD=1/2∠BOD). Miscalculates ∠BOD as 80° instead of 280°, leading to wrong ∠BAD=40°. Then incorrectly computes ∠ABC=50° instead of 70°. Key logical errors in angle relationships."
+}

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies a white paper strip partially submerged in blue water. The instruction is to "wait for a sufficiently long time." This implies a physical process will occur over time.
+Over a sufficiently long period, the paper strip will absorb the blue water. This absorption will cause the water level to decrease.
+</OUTPUT_PROMPT>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes an experiment where a rod is being heated at one end and pressed against a block of cheese. The core principle is that the heat from the rod will transfer to the cheese.
+Since the rod is being heated and pressed against the cheese, the cheese will melt due to the heat transfer. The image depicts the setup before melting begins.
+</OUTPUT_PROMPT>

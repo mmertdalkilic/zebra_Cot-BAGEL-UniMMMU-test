@@ -1,0 +1,1 @@
+<think>Let’s sketch the overall structure of the SVG, which is a simple composition of a white background, a green triangle, and two overlapping circles.</think>

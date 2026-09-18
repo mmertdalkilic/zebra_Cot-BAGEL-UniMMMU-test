@@ -1,0 +1,12 @@
+{
+  "id": "233_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly includes ∠ABC (108°) in angle sum around point O, leading to wrong ∠BOC=72° and ∠AOC=90°. Reference correctly calculates ∠AOC=144° via 540°-∠E-∠D-2×90°. Final arc length π/2≠4π/5.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly includes ∠ABC (108°) in angle sum around point O, leading to wrong ∠BOC=72° and ∠AOC=90°. Reference correctly calculates ∠AOC=144° via 540°-∠E-∠D-2×90°. Final arc length π/2≠4π/5."
+}

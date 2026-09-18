@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG code: it defines a 512x512 grid, places a white rectangle, and then places four smaller rectangles (in the template style) at positions (20,226), (101,226), (182,226), (263,226), (344,226). The template style is a 60x60 white rectangle.
+The rectangles are placed at x=20,101,182,263,344 and y=226. These x-coordinates are all less than 512/2=256, so the rectangles are on the left side of the grid. The y-coordinate is 226, which is less than 512/2=256, so the rectangles are below the center line. The template rectangles are white.
+</RENDER_SUMMARY>

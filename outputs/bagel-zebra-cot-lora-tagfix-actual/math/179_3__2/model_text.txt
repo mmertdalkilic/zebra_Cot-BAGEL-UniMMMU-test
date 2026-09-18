@@ -1,0 +1,26 @@
+<think>The problem asks for the radius of circle O, given the side length of square ABCD and the tangent point E. We are given that E is the point of tangency of AD with the circle centered at O, and O lies on the diagonal AC. We need to use the auxiliary lines OE and OG, where OG is perpendicular to AB.
+
+Let the radius of the circle be r. Since OE is a radius and AD is tangent to the circle at E, the line segment OE is perpendicular to AD. Thus, ∠AEO = 90°. Triangle AEO is a right-angled triangle with the right angle at E.
+
+The diagonal AC of the square ABCD bisects the angle BAD (which is 90°). Therefore, ∠OAE = 45°. In the right-angled triangle AEO, the angles are 90°, 45°, and 45°. This means that triangle AEO is an isosceles right-angled triangle. Therefore, the lengths of the two legs AE and EO are equal. Since EO is the radius r, we have AE = r.
+
+Now, let's consider the square ABCD. Its side length is given as √2 + 1. The diagonal AC of a square with side length s is s√2. So, for this square, AC = (√2 + 1) * √2 = 2 + √2.
+
+The point O lies on the diagonal AC. We know that AE = r and EC is the radius of the circle, so EC = r. The length of the diagonal AC is the sum of the lengths of AO and OC. Since O is the center of the circle, OC = r (the radius). Therefore, AO = AC - OC = (√2 + 1) * √2 - r = (2 + √2) - r.
+
+Now, consider the right-angled triangle AEO. We have AE = r and AO = (2 + √2) - r. We can apply the Pythagorean theorem to this triangle: AO² = AE² + EO². Substituting the known values:
+[(2 + √2) - r]² = r² + r²
+(2 + √2)² - 2r(2 + √2) + r² = 2r²
+Expanding (2 + √2)²:
+(2 + √2)² = 4 + 4√2 + 2 = 6 + 4√2
+So the equation becomes:
+(6 + 4√2) - 2r(2 + √2) + r² = 2r²
+Rearranging terms:
+6 + 4√2 - 2r(2 + √2) = r²
+6 + 4√2 - 4r - 2r√2 = r²
+Let's rearrange the terms to form a quadratic equation in r:
+r² + (4 + 2√2)r - (6 + 4√2) = 0
+
+We can solve this quadratic equation for r using the quadratic formula: r = [-b ± √(b² - 4ac)] / (2a), where a = 1, b = 4 + 2√2, and c = -(6 + 4√2).
+Discriminant D = (4 + 2√2)² - 4 * 1 * (-6 - 4√2)
+D = (16 + 16√2 + 8) + 24 +

@@ -1,0 +1,15 @@
+<think>The problem asks for the length of AE in a parallelogram ABCD. We are given that AO=BO, which implies that the diagonals AC and BD bisect each other, making ABCD a rectangle (since the diagonals of a parallelogram are equal if they bisect each other). We are also given AD=3 and tan∠CAB=3/4. The auxiliary line EG is drawn perpendicular to BD through point E.
+
+First, let's analyze the properties of the figure. Since AO=BO, the diagonals AC and BD bisect each other. In a parallelogram, if the diagonals bisect each other, the parallelogram is a rectangle. Thus, ABCD is a rectangle. This means all angles are 90°, so ∠DAB=∠ABC=∠BCD=∠CDA=90°. The angle bisector DE divides ∠ADB into two equal angles: ∠ADE=∠EDB.
+
+Now, let's analyze the right-angled triangle ADE. We know AD=3. We are given tan∠CAB = 3/4. Since ABCD is a rectangle, AB is parallel to CD. Therefore, ∠CAB = ∠ACD (alternate interior angles). In a rectangle, ∠ACD = ∠CAD (angles opposite equal sides in an isosceles triangle). So, tan∠CAB = tan∠CAD = 3/4. This means that in triangle ADE, tan(∠ADE) = 3/4. Since ∠ADE = ∠EDB, tan(∠EDB) = 3/4.
+
+The auxiliary line EG is perpendicular to BD. This means that triangle DEG is a right-angled triangle with the right angle at G. In triangle DEG, tan(∠EDG) = EG/DG. Since tan(∠EDG) = tan(∠EDB) = 3/4, we have EG/DG = 3/4. This implies that the ratio of the opposite side (EG) to the adjacent side (DG) is 3:4.
+
+To find the length of AE, we need to relate it to the other sides of the triangles. We can use similar triangles or the Pythagorean theorem. Let's consider triangle ADE and triangle DEG. Since ∠DAE = 90° and ∠DGE = 90°, and ∠ADE is common to both triangles, triangles ADE and DEG are similar by AA similarity.
+
+From the similarity of triangles ADE and DEG, we have the ratio of their corresponding sides is equal: AE/DG = AD/DE = DE/EG. We know AD=3 and EG/DG = 3/4. Let's denote DG = 4x and EG = 3x for some positive real number x. Then, from the ratio AE/DG = AD/DE, we have AE/(4x) = 3/DE. From the ratio AD/DE = DE/EG, we have 3/DE = DE/(3x). Solving for DE, we get DE^2 = 9x, so DE = 3√x.
+
+Now we can find AE in terms of x. From AE/DG = AD/DE, we have AE/(4x) = 3/(3√x). Simplifying this equation gives AE = 4x * (3/(3√x)) = 4x * (√x) = 4x^(3/2).
+
+Next, we need to find the value of x. We can use the Pythagorean theorem in triangle

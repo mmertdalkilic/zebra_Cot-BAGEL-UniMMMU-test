@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition specifies a change in light intensity and angle for a long period. The initial image shows a sunflower seedling in a pot with light coming from the left at a shallow angle. To increase the left-side light intensity while maintaining the shallow angle, the light source must be made brighter or more powerful.
+To accurately depict the final state, I will generate an image showing the same pot and seedling, but with a visibly brighter light source on the left, demonstrating the increased intensity while preserving the original angle.
+</OUTPUT_PROMPT>

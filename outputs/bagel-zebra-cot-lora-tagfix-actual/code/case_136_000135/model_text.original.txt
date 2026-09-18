@@ -1,0 +1,1 @@
+<think>Let’s highlight the main shapes in the SVG to understand their arrangement and relative positions.</think>

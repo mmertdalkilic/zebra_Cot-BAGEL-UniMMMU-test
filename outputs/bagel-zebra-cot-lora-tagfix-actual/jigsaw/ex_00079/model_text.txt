@@ -1,0 +1,2 @@
+<FINAL_ANSWER_JSON>
+{"choice": 1, "rationale": "Candidate 1 matches the top-right quadrant seamlessly, while Candidate 0 does not. Visual inspection confirms the correct fit."}</FINAL_ANSWER_JSON>

@@ -1,0 +1,12 @@
+{
+  "id": "113_4__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OC line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes angle F is 36° from sinF=3/5 (invalid), makes impossible angle calculations (-36°), and fails to use key properties like OD⊥AC and similar triangles. Final answer πr² is undefined.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes angle F is 36° from sinF=3/5 (invalid), makes impossible angle calculations (-36°), and fails to use key properties like OD⊥AC and similar triangles. Final answer πr² is undefined."
+}

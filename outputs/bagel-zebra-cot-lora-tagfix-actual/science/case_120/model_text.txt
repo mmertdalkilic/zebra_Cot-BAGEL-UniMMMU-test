@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+First, I will examine the initial image to understand the setup: a glass jar with a lit candle, water, and sprouting plants.
+The condition specifies the duration (1 hour) and asks for the state *after* the candle has burned. This implies the candle will be extinguished.
+To visualize the final state, I will consider what happens to a burning candle when it's enclosed and the candle is not being replenished. The candle will eventually burn out.
+</OUTPUT_PROMPT>

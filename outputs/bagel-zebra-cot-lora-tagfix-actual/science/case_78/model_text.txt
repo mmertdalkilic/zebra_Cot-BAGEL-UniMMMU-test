@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a copper pipe exposed to humid air. Copper is known to oxidize or corrode over time when exposed to moisture.
+To visualize the expected outcome, I will generate an image showing the pipe after prolonged exposure to humid air.
+</OUTPUT_PROMPT>

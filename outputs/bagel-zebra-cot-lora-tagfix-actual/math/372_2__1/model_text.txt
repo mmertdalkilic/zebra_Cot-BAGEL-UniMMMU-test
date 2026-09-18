@@ -1,0 +1,28 @@
+<think>The problem asks for the cosine of an angle in a circle. We are given a triangle ABC inscribed in a circle (circumcircle) with center O. We are told the radius of the circle is 5, and the length of side AB is 8. We need to find cos(∠ACB). We are also given an auxiliary line to draw: a diameter BD, and to connect AD.
+
+The key to solving this problem is to relate the angle ∠ACB to a right-angled triangle. We will use the property that the angle subtended by a diameter at the circumference is a right angle. This means that ∠ADB = 90°.
+
+First, let's find the length of the diameter BD. Since the radius of the circle is 5, the diameter BD is 2 * radius = 2 * 5 = 10.
+
+Now, consider the triangle ABD. We know that BD is the diameter of the circle, so ∠ADB = 90° (angle inscribed in a semicircle). We are given that AB = 8. We can find the length of AD using the Pythagorean theorem in triangle ABD.
+
+In triangle ABD:
+BD² = AD² + AB²
+10² = AD² + 8²
+100 = AD² + 64
+AD² = 100 - 64
+AD² = 36
+AD = √36 = 6.
+
+Now we have the lengths of the two legs of the right-angled triangle ABD: AD = 6 and AB = 8. We can find the length of the hypotenuse, BD, which we already calculated as 10. We want to find cos(∠ACB). We can relate this angle to ∠ABD, which is the angle we can find in triangle ABD.
+
+Since ∠ACB and ∠ABD are angles subtended by the same arc AB (arc ACB), they are equal. That is, ∠ACB = ∠ABD.
+
+Now we can find cos(∠ABD) using the sides of triangle ABD. The hypotenuse is BD = 10, and the adjacent side to ∠ABD is AD = 6.
+
+cos(∠ABD) = AD / BD
+cos(∠ABD) = 6 / 10
+cos(∠ABD) = 3 / 5.
+
+Since ∠ACB = ∠ABD, we have:
+cos(∠ACB) = cos(∠ABD) = 3 / 5.</think>

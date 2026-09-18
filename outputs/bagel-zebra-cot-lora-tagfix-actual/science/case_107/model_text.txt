@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states the pear is ripe at 20°C for 3 days. Pears ripen by softening and changing color. This duration is sufficient for a Bartlett pear to ripen to a soft, yellowish state.
+Based on the ripening process, the pear will soften and change color. To illustrate this, I will generate an image showing a ripe pear.
+</OUTPUT_PROMPT>

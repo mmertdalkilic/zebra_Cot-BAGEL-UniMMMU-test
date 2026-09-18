@@ -1,0 +1,1 @@
+<think>Finalize the output by generating the sequence of moves as a JSON array, followed by the final image showing the completed path.</think>

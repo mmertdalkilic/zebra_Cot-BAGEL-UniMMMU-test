@@ -1,0 +1,1 @@
+<think>THOUGHT: The final output is a single JSON line containing the sequence of moves. The sequence is "right", "down". This is the shortest path to the green rectangular area.</think>

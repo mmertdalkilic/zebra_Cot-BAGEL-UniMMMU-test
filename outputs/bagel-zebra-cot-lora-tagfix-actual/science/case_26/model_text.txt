@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition states that the glass, containing a mixture of water and soil/sand, is left untouched for an extended period. This implies a natural process will occur.
+Over time, the soil and sand particles will settle to the bottom of the glass, and the water will clear. This process will cause the mixture to separate.
+</OUTPUT_PROMPT>

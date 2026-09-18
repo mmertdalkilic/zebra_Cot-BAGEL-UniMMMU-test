@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition requires swapping the red and yellow bottles. The initial image shows the bottles in their original positions.
+To visualize the result of swapping, I will generate an image where the red bottle is now on the right, and the yellow bottle is now on the left, while the blue bottle remains in the middle.
+</OUTPUT_PROMPT>

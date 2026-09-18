@@ -1,0 +1,11 @@
+<think>1.  **Overlay Step**: The problem asks us to prove ∠ABC = ∠DBC. The provided solution image shows the original figure with the requested auxiliary line OC drawn, intersecting AF at G. This line OC is crucial for the proof.
+2.  **Proof Strategy**: We will use the properties of angles in a circle and the properties of parallel lines. We will show that ∠ABC = ∠OCB and ∠OCB = ∠DBC, which will imply ∠ABC = ∠DBC.
+3.  **Step 1: ∠ABC = ∠OCB**
+    -  Since OC is a radius and CE is a tangent at C, the radius is perpendicular to the tangent at the point of contact. Thus, OC ⊥ CE.
+    -  BD ⊥ CE, so BD is parallel to OC (both perpendicular to the same line CE).
+    -  AB is the diameter, so ∠ACB = 90° (angle inscribed in a semicircle).
+    -  Since OC || BD, ∠OCB = ∠DBC (alternate interior angles).
+    -  ∠ABC = ∠OCB (angles in the same segment ACB).
+4.  **Step 2: ∠OCB = ∠DBC**
+    -  We have already established this in Step 1.
+5.  **Conclusion**: Since ∠ABC = ∠OCB and ∠OCB = ∠DBC, by transitivity, ∠ABC = ∠DBC.</think>

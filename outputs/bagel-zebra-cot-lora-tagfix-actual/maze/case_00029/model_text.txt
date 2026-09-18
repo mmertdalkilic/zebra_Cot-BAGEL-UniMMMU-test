@@ -1,0 +1,1 @@
+<think>Finalize the output by generating the image sequence and the final JSON move list. The image sequence will show the blue dot moving right, then down, then left, each time updating its position within the maze. The final image will show the blue dot inside the green goal area.</think>

@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a bronze bracelet left outdoors with high humidity. This environmental exposure will cause the bracelet to corrode.
+Corrosion of bronze over time, especially in humid conditions, results in the formation of a distinct greenish layer. This visual change is the final state.
+</OUTPUT_PROMPT>

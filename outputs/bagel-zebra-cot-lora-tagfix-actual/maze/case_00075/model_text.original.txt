@@ -1,0 +1,1 @@
+<think>The final output is the sequence of moves ["right", "down", "right"], as determined by the shortest path. This matches the solution.</think>

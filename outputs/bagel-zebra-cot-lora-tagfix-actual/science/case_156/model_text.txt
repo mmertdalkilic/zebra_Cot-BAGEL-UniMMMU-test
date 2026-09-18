@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The condition specifies a sequence of swaps: first, swap the blue ball with the red ball, then the green ball remains in the middle. This means the blue ball will move to the rightmost position, and the red ball will move to the leftmost position, while the green ball stays in the center.
+
+To visualize the final state after these swaps, I will generate an image showing the new arrangement of the balls on the shelf.
+</OUTPUT_PROMPT>

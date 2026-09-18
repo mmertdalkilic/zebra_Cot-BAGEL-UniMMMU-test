@@ -1,0 +1,5 @@
+<RENDER_SUMMARY>
+Interpret the SVG code to identify the shapes, their properties, and their relative positions. The shapes are rectangles, some with fill color, others with fill and stroke. The viewBox is 0,0,512,512.
+The rectangles are placed in a horizontal row, centered at x=216, with a total width of 480 (80*6). The fill color is #E74C3C. The background is white.
+The final image will be a white rectangle with a horizontal band of 80px high, colored #E74C3C, centered at x=216, from y=216 to y=296.
+</RENDER_SUMMARY>

@@ -1,0 +1,3 @@
+<think>First, I will examine the initial image to understand the current state of the cantaloupe and its surroundings.
+Next, I will apply the given condition: keep the cantaloupe at 22°C for 4 days. This implies a controlled environment, likely a refrigerator, where the temperature is maintained.
+To visualize the effect of the 4-day temperature exposure, I will generate an image showing the cantaloupe after the specified period.</think>

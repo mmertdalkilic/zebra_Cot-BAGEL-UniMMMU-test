@@ -1,0 +1,12 @@
+{
+  "id": "164_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines OA, OB, and OD",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate misapplies Angle Bisector Theorem (which applies to segments on a side, not a circle intersection) and incorrectly assumes ∠ACD+∠ABD=180° in cyclic quadrilateral. The flawed reasoning leads to an invalid conclusion. Reference solution uses central angle relationships which are not addressed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate misapplies Angle Bisector Theorem (which applies to segments on a side, not a circle intersection) and incorrectly assumes ∠ACD+∠ABD=180° in cyclic quadrilateral. The flawed reasoning leads to an invalid conclusion. Reference solution uses central angle relationships which are not addressed."
+}

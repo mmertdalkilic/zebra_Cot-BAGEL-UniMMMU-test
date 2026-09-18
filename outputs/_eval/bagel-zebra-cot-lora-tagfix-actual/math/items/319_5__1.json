@@ -1,0 +1,12 @@
+{
+  "id": "319_5__1",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing diameter AF and line CF",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate solution contains logical gaps and incorrect assertions (e.g., OA parallel to CF without justification, 45° angle assumption). The proof structure diverges from valid congruence reasoning in the reference solution.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution contains logical gaps and incorrect assertions (e.g., OA parallel to CF without justification, 45° angle assumption). The proof structure diverges from valid congruence reasoning in the reference solution."
+}

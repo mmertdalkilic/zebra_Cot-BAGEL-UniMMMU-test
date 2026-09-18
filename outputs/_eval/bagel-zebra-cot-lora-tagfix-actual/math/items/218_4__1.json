@@ -1,0 +1,12 @@
+{
+  "id": "218_4__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing AH perpendicular line",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly applies exterior angle theorem (invalidly concludes ∠CBD=90°), but correctly derives AH=4 via isosceles triangle properties and computes area=12. The angle reasoning is logically flawed but final numeric answer matches reference.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly applies exterior angle theorem (invalidly concludes ∠CBD=90°), but correctly derives AH=4 via isosceles triangle properties and computes area=12. The angle reasoning is logically flawed but final numeric answer matches reference."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "334_7__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly equates OA to the radius (3) instead of solving for it. The reasoning fails to use tan∠E=1/2 and the geometric relationships (similar triangles, right angles) required to derive OA=5. Repeated redundant statements about radii do not address the problem's constraints.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly equates OA to the radius (3) instead of solving for it. The reasoning fails to use tan∠E=1/2 and the geometric relationships (similar triangles, right angles) required to derive OA=5. Repeated redundant statements about radii do not address the problem's constraints."
+}

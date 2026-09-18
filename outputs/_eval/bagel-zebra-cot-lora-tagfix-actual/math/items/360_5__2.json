@@ -1,0 +1,12 @@
+{
+  "id": "360_5__2",
+  "type": "proving",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line EF perpendicular to AE",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": null, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes AECF is a rectangle (only two right angles), leading to invalid equalities. Angle chasing and similarity claims lack proper justification. Final conclusion matches but reasoning is flawed.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes AECF is a rectangle (only two right angles), leading to invalid equalities. Angle chasing and similarity claims lack proper justification. Final conclusion matches but reasoning is flawed."
+}

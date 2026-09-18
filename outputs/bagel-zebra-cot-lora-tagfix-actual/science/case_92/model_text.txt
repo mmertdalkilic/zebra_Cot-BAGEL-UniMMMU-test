@@ -1,0 +1,5 @@
+<OUTPUT_PROMPT>
+The problem asks us to predict the final state of a chemical reaction involving chalk (calcium carbonate, CaCO3) in water, after adding hydrochloric acid (HCl) and stirring.
+Chalk dissolves in water to form calcium hydroxide (Ca(OH)2). When hydrochloric acid is added, it reacts with the calcium hydroxide to form calcium chloride (CaCl2) and water. This is a neutralization reaction. The initial image shows chalk powder in water, with a label indicating CaCO3.
+The condition specifies adding 1 M HCl and stirring for 30 seconds. This indicates a chemical reaction will occur. The provided reasoning image illustrates the reaction: chalk dissolves, and the resulting solution turns clear, indicating the formation of a soluble compound.
+</OUTPUT_PROMPT>

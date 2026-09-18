@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition requires swapping the positions of the red and orange pots while keeping the purple pot in the middle. The initial image shows the pots in their original positions.
+To visualize the final state after the swap, I will generate an image showing the red pot on the right, the purple pot in the middle, and the orange pot on the left.
+</OUTPUT_PROMPT>

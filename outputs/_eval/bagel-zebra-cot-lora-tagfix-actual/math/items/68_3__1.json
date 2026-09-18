@@ -1,0 +1,12 @@
+{
+  "id": "68_3__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing line OC",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate solution correctly identifies ∠OCA=40° but then incorrectly calculates ∠BAC as 140° instead of 40°. The error occurs when adding 180° to ∠OAC and then subtracting from 180°, which contradicts the isosceles triangle property that directly gives ∠BAC=∠OCA=40°.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate solution correctly identifies ∠OCA=40° but then incorrectly calculates ∠BAC as 140° instead of 40°. The error occurs when adding 180° to ∠OAC and then subtracting from 180°, which contradicts the isosceles triangle property that directly gives ∠BAC=∠OCA=40°."
+}

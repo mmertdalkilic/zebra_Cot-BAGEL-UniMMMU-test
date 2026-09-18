@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The problem requires identifying the final state of the mango after a specified period of ripening at a constant temperature.
+Ripening is a physical process that occurs over time. To determine the final state, I need to visualize the mango at the end of the ripening period.
+</OUTPUT_PROMPT>

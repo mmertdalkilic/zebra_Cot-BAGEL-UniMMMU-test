@@ -1,0 +1,37 @@
+<RENDER_SUMMARY>
+Parse the SVG source code to identify all elements, their properties (position, size, fill, stroke, opacity, transforms), and their order.
+Determine the viewBox and canvas size from the viewBox attribute.
+For each element, resolve its position and size relative to the viewBox, applying any transforms.
+For circles, calculate their center and radius in user space. For rectangles, calculate their position and size.
+For text, calculate its position and size in user space.
+For each element, resolve its fill, stroke, stroke-width, opacity, and fill-rule from the SVG attributes.
+For transforms, apply them from right to left, updating the element's position and size accordingly.
+For text, resolve its font, fill, and fill-rule from the SVG attributes.
+For each element, resolve its stroke-linecap and stroke-join from the SVG attributes.
+For each element, resolve its fill and fill-rule from the SVG attributes.
+For each element, resolve its stroke and stroke-width from the SVG attributes.
+For each element, resolve its opacity from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke-linecap from the SVG attributes.
+For each element, resolve its stroke-join from the SVG attributes.
+For each element, resolve its fill from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke from the SVG attributes.
+For each element, resolve its stroke-width from the SVG attributes.
+For each element, resolve its opacity from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke-linecap from the SVG attributes.
+For each element, resolve its stroke-join from the SVG attributes.
+For each element, resolve its fill from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke from the SVG attributes.
+For each element, resolve its stroke-width from the SVG attributes.
+For each element, resolve its opacity from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke-linecap from the SVG attributes.
+For each element, resolve its stroke-join from the SVG attributes.
+For each element, resolve its fill from the SVG attributes.
+For each element, resolve its fill-rule from the SVG attributes.
+For each element, resolve its stroke from the SVG attributes.
+For each element, resolve its stroke-width from the SVG attributes.
+</RENDER_SUMMARY>

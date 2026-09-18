@@ -1,0 +1,12 @@
+{
+  "id": "251_3__2",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing OE perpendicular to AB",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate introduces unmentioned point E and invalidly assumes OE=OC (tangent length equals radius at non-tangency point). Incorrectly identifies vertical angles and derives 45° angles without justification. Miscalculates tan(∠DBC) and OE length. Final AD calculation based on flawed premises.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate introduces unmentioned point E and invalidly assumes OE=OC (tangent length equals radius at non-tangency point). Incorrectly identifies vertical angles and derives 45° angles without justification. Miscalculates tan(∠DBC) and OE length. Final AD calculation based on flawed premises."
+}

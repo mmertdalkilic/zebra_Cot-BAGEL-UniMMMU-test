@@ -1,0 +1,12 @@
+{
+  "id": "8_2__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "missing circumcircle and line BF",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 1, \"calc_numeric_match\": 1, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly assumes FE is tangent to circumcircle (not stated in problem) and makes invalid angle relations. Final answer 60° matches reference but reasoning has major flaws.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 1,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly assumes FE is tangent to circumcircle (not stated in problem) and makes invalid angle relations. Final answer 60° matches reference but reasoning has major flaws."
+}

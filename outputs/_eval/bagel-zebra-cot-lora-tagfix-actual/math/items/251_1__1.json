@@ -1,0 +1,12 @@
+{
+  "id": "251_1__1",
+  "type": "calculation",
+  "status": "ok",
+  "overlay_ok": 0,
+  "overlay_reason": "Missing required lines OM, ON, OB, and OD.",
+  "raw_judgment": "{\"reasoning_rigorous\": 0, \"conclusion_correct\": 0, \"calc_numeric_match\": 0, \"text_ok\": 0, \"text_reason\": \"Candidate incorrectly concludes OP=MN (4) instead of recognizing square MONP with diagonal OP=4√2. Missing key step about rectangle/square properties and diagonal calculation.\"}",
+  "reasoning_rigorous": 0,
+  "conclusion_correct": 0,
+  "text_ok": 0,
+  "text_reason": "Candidate incorrectly concludes OP=MN (4) instead of recognizing square MONP with diagonal OP=4√2. Missing key step about rectangle/square properties and diagonal calculation."
+}

@@ -1,0 +1,21 @@
+<think>The problem asks us to prove that the lengths of two segments, EF and CF, are equal. We are given a parallelogram ABCD, with AD = 2AB, and F is the midpoint of AD. CE is perpendicular to AB, and E is the foot of the perpendicular on AB. We are also asked to extend BA and CF to intersect at point G. The diagram shows the original configuration and the auxiliary lines we are to draw.
+
+We can use the properties of the constructed triangles. Let's analyze the triangles formed by the auxiliary lines. We have triangle GBC and triangle GAF. Since ABCD is a parallelogram, AD is parallel to BC. Therefore, AF is parallel to BC. This means that angle GAF is equal to angle GBC (alternate interior angles). Similarly, angle GFA is equal to angle GCB (alternate interior angles). We also know that angle AGF is common to both triangles GBC and GAF. Therefore, by the Angle-Angle-Angle (AAA) criterion, triangle GBC is congruent to triangle GAF. This congruence gives us two key equalities: GB = GA and GC = GF.
+
+Now we can use the given information AD = 2AB and the fact that F is the midpoint of AD. Since F is the midpoint of AD, AF = FD = AD/2. Given that AD = 2AB, we have AF = FD = (2AB)/2 = AB. This means AF = AB.
+
+We need to show that triangles GEF and GEC are congruent. We have the following equalities:
+1. GB = GA (from the congruence of triangles GBC and GAF).
+2. AF = AB (from the given information and the definition of midpoint).
+3. GB = AF (from 1 and 2).
+4. Angle GEF = Angle GEC = 90° (since CE is perpendicular to AB, and E is on AB, so CE is perpendicular to BA, and G is on BA extended, so CE is perpendicular to GA).
+5. GE = GE (common side).
+
+Now we can use the Side-Angle-Side (SAS) congruence criterion for triangles GEF and GEC. We have:
+- Side GE is common to both triangles.
+- Angle GEF = Angle GEC = 90°.
+- Side GF = GC (from the congruence of triangles GBC and GAF).
+
+Therefore, triangle GEF is congruent to triangle GEC by SAS. This congruence implies that the corresponding sides EF and EC are equal. So, EF = EC.
+
+We need to show that EC = CF. We can use the fact that triangle GBC is congruent to triangle GAF. This congruence gives us GB = GA and GC = GF. Since F is the midpoint of AD and AD = 2AB, we have AF = AB. Therefore, AF = AB = GB. This means that point G lies on the perpendicular bisector of AB. Since CE is perpendicular to AB and E is the foot of the perpendicular, CE is the perpendicular bisector of AB. Therefore, any point on CE is equidistant from A and B. Since G is on CE, we have GA = GB. We already have GB = AF = AB. So, GA = AF = AB. This means that G is on the perpendicular bisector of AF as well. Since GF = GC (from the congruence of triangles GBC and GAF), G is equidistant from A, F, and C. Therefore, G lies on the perpendicular bisector of AC. This means that the perpendicular bisector of AC passes through G. Since

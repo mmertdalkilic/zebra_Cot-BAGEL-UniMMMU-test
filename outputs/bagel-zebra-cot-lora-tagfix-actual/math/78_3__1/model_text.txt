@@ -1,0 +1,1 @@
+<think>Let’s sketch the auxiliary line OC to help visualize the problem. This line connects the center O to point C on the circle, which is also the point of tangency for the tangent line PC.</think>

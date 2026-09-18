@@ -1,0 +1,4 @@
+<RENDER_SUMMARY>
+Interpret the SVG code as a series of nested rectangles, each with a specific fill color and position, all sharing the same size and overlapping at the center.
+The innermost rectangles are centered at (20,226), (128,226), (236,226), and (344,226), each with a 60x60 fill. The outermost is a large white rectangle filling the entire view.
+</RENDER_SUMMARY>

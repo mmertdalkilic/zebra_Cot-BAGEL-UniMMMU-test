@@ -1,0 +1,2 @@
+<think>The condition states that the ice cream melts due to a high temperature. The initial image shows a cone with two scoops of ice cream.
+Ice cream melts rapidly at high temperatures. Over time, the ice cream will completely melt, leaving only the waffle cone.</think>

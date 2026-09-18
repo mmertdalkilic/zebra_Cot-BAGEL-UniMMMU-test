@@ -1,0 +1,4 @@
+<OUTPUT_PROMPT>
+The condition describes a chemical reaction between two specific solutions. I need to determine the outcome of this reaction.
+The reaction between K2CrO4 and BaCl2 is a double displacement reaction that forms a precipitate. I will visualize the expected result.
+</OUTPUT_PROMPT>

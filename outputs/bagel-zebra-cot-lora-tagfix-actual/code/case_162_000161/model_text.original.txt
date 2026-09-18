@@ -1,0 +1,1 @@
+<think>Let’s visualize the empty canvas and the initial circle to understand the layout.</think>

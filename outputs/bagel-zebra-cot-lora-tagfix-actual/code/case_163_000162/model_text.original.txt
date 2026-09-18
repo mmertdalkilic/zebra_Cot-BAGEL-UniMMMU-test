@@ -1,0 +1,8 @@
+<think>Interpret the SVG code to identify all elements, their properties, and their relative positions.  
+The SVG contains a white background, a red rectangle, a green circle, and a green rectangle.  
+The red rectangle is positioned at (44, 81) with dimensions (110, 82).  
+The green circle is centered at (377, 289) with a radius of 51.  
+The green rectangle is at (284, 409) with dimensions (148, 52).  
+The viewBox defines the coordinate system: x=0, y=0, width=512, height=512.  
+The red rectangle is at the top-left, the green circle is near the center-right, and the green rectangle is near the bottom-left.  
+The final image will show these elements stacked as specified by the SVG's order and transforms.</think>
