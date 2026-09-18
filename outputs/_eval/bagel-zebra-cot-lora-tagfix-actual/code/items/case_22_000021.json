@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_22_000021",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains chaotic, unrelated shapes and colors, completely differing from the simple purple squares pattern in the reference.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "SVG describes white rectangles; image shows purple. Position and count match but color does not."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
