@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_49_000048",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "Candidate has multiple squares with noisy borders and incorrect colors; reference is a single green hexagon. Shapes, colors, and layout completely mismatch.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "No grid, border, or full canvas span. Only one green polygon present."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
