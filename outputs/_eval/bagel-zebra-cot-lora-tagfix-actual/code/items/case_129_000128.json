@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_129_000128",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate image contains numerous shapes and colors not present in the reference, which has a single blue square. Layout and content are entirely different.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Description discusses SVG structure, not blue square object, color, or position."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
