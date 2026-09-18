@@ -1,0 +1,18 @@
+{
+  "case_dir": "/home/marimo/bagel_molab_sessions/20260918-074708-4a52f5/runtime/Uni-MMMU/outputs/bagel-zebra-cot-lora-tagfix-actual/code/case_56_000055",
+  "image_evals": [
+    {
+      "shape_color_accuracy": 0,
+      "position_accuracy": 0,
+      "verdict": "mismatch",
+      "explanation": "The candidate contains unrelated shapes, colors, and text, completely differing from the reference's simple geometric layout and color scheme.",
+      "image_match_binary": 0
+    }
+  ],
+  "text_eval": {
+    "text_semantic_match": 0,
+    "explanation": "Mismatch in object types, colors, and positions compared to reference image."
+  },
+  "image_from": "copied_from_original_eval",
+  "text_from": "tagfix"
+}
