@@ -1,0 +1,9 @@
+{
+  "total_cases": 157,
+  "text_reasoning_correct": 83,
+  "text_result_correct": 52,
+  "image_correct": 14,
+  "text_reasoning_acc": 0.5286624203821656,
+  "text_result_acc": 0.33121019108280253,
+  "image_acc": 0.08917197452229299
+}
