@@ -40,3 +40,8 @@ Uploading LFS objects: 100% (2/2), 232 KB | 0 B/s, done.
 To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
    99e6f8d..c393489  HEAD -> unicot-eval-molab
 [git-sync] 2026-09-19T22:48:31Z
+[unicot-eval-molab fc15f78] checkpoint: unicot_native_v02_state_v2 2026-09-19T22:48:31Z
+ 2 files changed, 1072 insertions(+)
+To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
+   c393489..fc15f78  HEAD -> unicot-eval-molab
+[git-sync] 2026-09-19T23:03:33Z
