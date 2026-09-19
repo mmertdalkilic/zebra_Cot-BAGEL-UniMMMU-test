@@ -1,0 +1,16 @@
+{
+  "id": "demo_3x3_00001_steps",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/sliding/case_demo_3x3_00001_steps",
+  "init_png": "/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/data/sliding/demo_3x3_00001_steps/demo_step_0000.png",
+  "final_png": "/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/data/sliding/demo_3x3_00001_steps/demo_step_0003.png",
+  "gt_json": "/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/./data/sliding/demo_3x3_steps_words_00001.json",
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/sliding/case_demo_3x3_00001_steps/model_text.txt",
+  "images_saved_flatten": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0001.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0002.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0003.png"
+  ],
+  "errors": [],
+  "regen": false
+}
