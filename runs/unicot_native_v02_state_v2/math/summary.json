@@ -1,0 +1,30 @@
+{
+  "runner": "ovis-u1 two-stage (image→text)",
+  "filtered_json": "data/math_data/filtered.json",
+  "out_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/math",
+  "count_total": 1,
+  "count_processed": 1,
+  "count_success": 1,
+  "count_error": 0,
+  "count_skipped": 0,
+  "per_item": [
+    {
+      "id": "1_2__1",
+      "big_key": "1_2",
+      "small_key": "1",
+      "status": "ok",
+      "ex_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/math/1_2__1",
+      "type": "calculation",
+      "problem_text_en": "As shown in the figure, Circle M and Circle N both pass through points A and B, and point N is on Circle M. Point C is a point on major arc AE (point C does not coincide with A or B). The extension of AC intersects Circle N at point P. Connect AB, BC, BP. If ∠APB=30°, AB=3, then the length of MN is",
+      "problem_text": "如图，☉M和☉N都经过A，B两点，且点N在☉M上.点C是优弧AE上的一点（点C不与A，B重合)，AC的延长线交☉N于点P，连接AB,BC,BP．若∠APB=30°，AB=3，则MN长为",
+      "choices_en": null,
+      "auxiliary_text_en": "Connect MN, AN, BN. Draw MD⊥AN from point M to D.",
+      "original_image": "images/1_2_1_orig.png",
+      "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/math/1_2__1/model_text.txt",
+      "images_saved": [
+        "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/math/1_2__1/model_image_01.png"
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+**Solution:**  The angle subtended by arc AB at point P is 30°, so the central angle for arc AB is 60°. Since triangle AMB is equilateral (radii AM and BM are equal), angle AMB is 60°.  The distance between the centers M and N of the circles is the same as the length of the side of the equilateral triangle AMB, which is 3.  **Final answer: 3**

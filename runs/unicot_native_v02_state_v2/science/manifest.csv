@@ -1,2 +1,2 @@
 case_idx,initial_image,condition_text_preview,generated_image_first_rel,notes
-1,./data/science/imgs/d01_c001_52c79f0380.png,Solid ice cube placed on a small white ceramic dish in a bright kitchen setting. Place the dish in a room at 25°C; maintain ambient temperature for a sufficiently long time,/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/science/case_01/model_image_01.png,
+1,./data/science/imgs/d01_c001_52c79f0380.png,Solid ice cube placed on a small white ceramic dish in a bright kitchen setting. Place the dish in a room at 25°C; maintain ambient temperature for a sufficiently long time,,[SKIPPED]

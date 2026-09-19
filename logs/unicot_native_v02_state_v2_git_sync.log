@@ -1,0 +1,15 @@
+[unicot-eval-molab 75ce794] checkpoint: unicot_native_v02_state_v2 2026-09-19T22:02:34Z
+ 10 files changed, 138 insertions(+)
+ create mode 100644 logs/unicot_native_v02_state_v2.log
+ create mode 100644 logs/unicot_native_v02_state_v2_git_sync.log
+ create mode 100644 runs/unicot_native_v02_state_v2/PROVENANCE.txt
+ create mode 100644 runs/unicot_native_v02_state_v2/RUN_STATUS_smoke.txt
+ create mode 100644 runs/unicot_native_v02_state_v2/science/case_01/_done.ok
+ create mode 100644 runs/unicot_native_v02_state_v2/science/case_01/model_image_01.png
+ create mode 100644 runs/unicot_native_v02_state_v2/science/case_01/model_text.txt
+ create mode 100644 runs/unicot_native_v02_state_v2/science/case_01/result.json
+ create mode 100644 runs/unicot_native_v02_state_v2/science/manifest.csv
+ create mode 100644 runs/unicot_native_v02_state_v2/science/summary.json
+To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
+   36a47c8..75ce794  HEAD -> unicot-eval-molab
+[git-sync] 2026-09-19T22:18:26Z
