@@ -53,3 +53,17 @@ rest of the upstream requirements.
 
 This package starts the **generation/inference** half of Uni-MMMU. Official
 Uni-MMMU scoring/judge evaluation is a separate later process.
+
+
+## v2 MoLab runtime fix
+
+MoLab exposes the RTX PRO 6000 driver/runtime but may not include `nvcc`.
+v2 no longer compiles FlashAttention from source. It installs the official
+FlashAttention 2.8.3 release wheel matching PyTorch 2.8, CUDA 12, CPython 3.10,
+and the detected PyTorch CXX11 ABI, then launches a real BF16 attention kernel
+as a setup check.
+
+v2 also preserves UniCoT's `huggingface_hub==0.29.1` compatibility with
+`transformers==4.49.0` instead of accidentally upgrading HF Hub to 1.x, and
+skips UI/training-only requirements (`gradio`, `wandb`, `bitsandbytes`,
+`xlsxwriter`) during the inference environment install.

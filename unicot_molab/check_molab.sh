@@ -13,18 +13,24 @@ git -C "$ROOT" branch --show-current
 git -C "$ROOT" status --short
 
 echo
-echo "=== GPU ==="
-nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader
-
-echo
-echo "=== environment ==="
+echo "=== GPU / runtime ==="
 "$VENV/bin/python" - <<'PY'
-import torch, flash_attn
+import torch, transformers, huggingface_hub, flash_attn
+from flash_attn import flash_attn_func
+
 print("torch:", torch.__version__)
+print("transformers:", transformers.__version__)
+print("huggingface_hub:", huggingface_hub.__version__)
+print("flash_attn:", flash_attn.__version__)
 print("cuda:", torch.version.cuda)
 print("gpu:", torch.cuda.get_device_name(0))
 print("capability:", torch.cuda.get_device_capability(0))
-print("flash_attn:", flash_attn.__version__)
+print("arch:", torch.cuda.get_arch_list())
+
+q = torch.randn((1, 32, 4, 64), device="cuda", dtype=torch.bfloat16)
+y = flash_attn_func(q, q, q, causal=True)
+torch.cuda.synchronize()
+print("flash_attn forward:", tuple(y.shape), y.dtype)
 PY
 
 echo

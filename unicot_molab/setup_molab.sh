@@ -24,11 +24,13 @@ echo "[setup] shared=$SHARED"
 
 if command -v apt-get >/dev/null 2>&1; then
   if command -v sudo >/dev/null 2>&1; then
-    sudo apt-get update -qq || true
-    sudo apt-get install -y -qq git git-lfs rsync tmux build-essential ninja-build || true
+    sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq || true
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
+      git git-lfs rsync tmux build-essential ninja-build unzip || true
   else
-    apt-get update -qq || true
-    apt-get install -y -qq git git-lfs rsync tmux build-essential ninja-build || true
+    DEBIAN_FRONTEND=noninteractive apt-get update -qq || true
+    DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
+      git git-lfs rsync tmux build-essential ninja-build unzip || true
   fi
 fi
 
@@ -40,7 +42,9 @@ for cmd in git git-lfs; do
 done
 git lfs install
 
-python3 -m pip install -q -U uv huggingface_hub hf_transfer
+# uv is only used to create the Python 3.10 venv. Do not upgrade the host
+# marimo environment's huggingface_hub; UniCoT pins HF Hub <1.0.
+python3 -m pip install -q -U uv
 export HF_HOME="${HF_HOME:-$SHARED/hf_cache}"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
@@ -49,6 +53,7 @@ clone_or_update() {
   if [[ -d "$dst/.git" ]]; then
     echo "[setup] updating $dst"
     git -C "$dst" fetch --all --prune
+    local branch
     branch="$(git -C "$dst" symbolic-ref --short HEAD 2>/dev/null || true)"
     if [[ -n "$branch" ]]; then
       git -C "$dst" pull --ff-only || true
@@ -62,65 +67,94 @@ clone_or_update() {
 clone_or_update https://github.com/Fr0zenCrane/UniCoT.git "$UNICOT"
 clone_or_update https://github.com/Vchitect/Uni-MMMU.git "$UMMMU"
 
-# Blackwell requires a newer torch/CUDA stack than UniCoT's historical torch 2.5.1 pin.
-ENV_MARKER="$SHARED/setup_markers/unicot-py310-torch280-cu128-fa283post1.ok"
+# MoLab's RTX PRO 6000 runtime has the CUDA driver but not nvcc. Use the
+# official FlashAttention v2.8.3 prebuilt wheel for PyTorch 2.8 / CUDA 12 /
+# Python 3.10 instead of compiling from source.
+ENV_MARKER="$SHARED/setup_markers/unicot-py310-torch280-cu128-fa283wheel-v2.ok"
+
 if [[ ! -x "$VENV/bin/python" || ! -f "$ENV_MARKER" ]]; then
   echo "[setup] creating Python 3.10 UniCoT environment"
   rm -rf "$VENV"
+  rm -f "$SHARED/setup_markers"/unicot-py310-*.ok
+
   uv venv --python 3.10 --seed "$VENV"
-  "$VENV/bin/python" -m pip install -U "pip<26" "setuptools<82" wheel packaging ninja
+  "$VENV/bin/python" -m pip install -U \
+    "pip<26" "setuptools<82" wheel packaging ninja
 
   "$VENV/bin/python" -m pip install \
     torch==2.8.0 torchvision==0.23.0 \
     --index-url https://download.pytorch.org/whl/cu128
 
+  # Keep the inference-relevant upstream requirements. These four packages are
+  # UI/training/reporting extras and cause expensive resolver backtracking but
+  # are not imported by inference_unicot_v0.2.py.
   tmpreq="$(mktemp)"
-  grep -Ev '^[[:space:]]*(torch==|torchvision==|triton([[:space:];=]|$)|flash_attn|flash-attn|#.*flash_attn)' \
+  grep -Eiv '^[[:space:]]*(torch==|torchvision==|triton([[:space:];=]|$)|flash_attn|flash-attn|gradio([<=>[:space:]]|$)|wandb([<=>[:space:]]|$)|bitsandbytes([<=>[:space:]]|$)|xlsxwriter([<=>[:space:]]|$)|#.*flash_attn)' \
     "$UNICOT/requirements.txt" > "$tmpreq"
+
   "$VENV/bin/python" -m pip install -r "$tmpreq"
   rm -f "$tmpreq"
 
+  # UniCoT requires transformers==4.49.0, whose compatible HF Hub range is
+  # <1.0. Preserve the upstream 0.29.1 pin instead of upgrading to 1.x.
   "$VENV/bin/python" -m pip install \
-    huggingface_hub hf_transfer gradio_client tqdm pillow accelerate safetensors
+    "huggingface_hub==0.29.1" \
+    "hf_transfer==0.1.9" \
+    tqdm pillow "accelerate>=0.34.0" safetensors
 
-  if ! command -v nvcc >/dev/null 2>&1; then
-    echo "[ERROR] nvcc is required for an SM120 FlashAttention build." >&2
-    echo "        Start a MoLab image/runtime with CUDA 12.8+ developer toolkit and rerun setup." >&2
-    exit 1
-  fi
+  # Select the official FA wheel that matches the ABI of the installed PyTorch.
+  ABI="$("$VENV/bin/python" - <<'PY'
+import torch
+print("TRUE" if torch._C._GLIBCXX_USE_CXX11_ABI else "FALSE")
+PY
+)"
+  FA_WHEEL="https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.8cxx11abi${ABI}-cp310-cp310-linux_x86_64.whl"
 
-  echo "[setup] nvcc: $(nvcc --version | tail -n 1)"
-  echo "[setup] building FlashAttention 2.8.3.post1 for Blackwell SM120"
-  env \
-    FLASH_ATTN_CUDA_ARCHS=120 \
-    TORCH_CUDA_ARCH_LIST=12.0 \
-    FLASH_ATTENTION_FORCE_BUILD=TRUE \
-    MAX_JOBS="${MAX_JOBS:-4}" \
-    NVCC_THREADS="${NVCC_THREADS:-2}" \
-    "$VENV/bin/python" -m pip install -v \
-      --no-build-isolation --no-deps --no-cache-dir --no-binary=flash-attn \
-      "flash-attn==2.8.3.post1"
+  echo "[setup] PyTorch CXX11 ABI=$ABI"
+  echo "[setup] installing official FlashAttention wheel:"
+  echo "        $FA_WHEEL"
+
+  "$VENV/bin/python" -m pip install --no-deps "$FA_WHEEL"
+
+  # Validate imports, versions, Blackwell support, and run an actual FA kernel.
+  "$VENV/bin/python" - <<'PY'
+import torch
+import transformers
+import huggingface_hub
+import flash_attn
+from flash_attn import flash_attn_func
+
+print("torch:", torch.__version__)
+print("transformers:", transformers.__version__)
+print("huggingface_hub:", huggingface_hub.__version__)
+print("flash_attn:", flash_attn.__version__)
+print("cuda:", torch.version.cuda)
+print("gpu:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "NO CUDA")
+print("capability:", torch.cuda.get_device_capability(0) if torch.cuda.is_available() else None)
+print("arch list:", torch.cuda.get_arch_list() if torch.cuda.is_available() else [])
+
+if not torch.cuda.is_available():
+    raise SystemExit("CUDA is not available")
+if torch.cuda.get_device_capability(0) != (12, 0):
+    print("[WARN] Expected RTX PRO 6000 Blackwell / SM120")
+if "sm_120" not in torch.cuda.get_arch_list():
+    raise SystemExit("PyTorch build does not include sm_120")
+if transformers.__version__ != "4.49.0":
+    raise SystemExit(f"Unexpected transformers version {transformers.__version__}")
+if not huggingface_hub.__version__.startswith("0.29."):
+    raise SystemExit(f"Unexpected huggingface_hub version {huggingface_hub.__version__}")
+
+# Real forward kernel launch, not merely an import.
+q = torch.randn((1, 64, 4, 64), device="cuda", dtype=torch.bfloat16)
+out = flash_attn_func(q, q, q, causal=True)
+torch.cuda.synchronize()
+print("flash_attn SM120 forward kernel OK:", tuple(out.shape), out.dtype)
+PY
 
   touch "$ENV_MARKER"
 else
   echo "[setup] reusing existing venv"
 fi
-
-"$VENV/bin/python" - <<'PY'
-import torch, flash_attn
-print("torch:", torch.__version__)
-print("cuda :", torch.version.cuda)
-print("gpu  :", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "NO CUDA")
-print("cap  :", torch.cuda.get_device_capability(0) if torch.cuda.is_available() else None)
-print("arch :", torch.cuda.get_arch_list() if torch.cuda.is_available() else [])
-print("flash_attn:", flash_attn.__version__)
-if not torch.cuda.is_available():
-    raise SystemExit("CUDA is not available")
-if torch.cuda.get_device_capability(0) != (12, 0):
-    print("[WARN] Expected RTX PRO 6000 Blackwell / SM120 for this MoLab setup")
-if "sm_120" not in torch.cuda.get_arch_list():
-    raise SystemExit("PyTorch build does not include sm_120")
-PY
 
 echo "[setup] downloading UniCoT-v0.2 checkpoint and Uni-MMMU dataset"
 "$VENV/bin/python" - "$MODEL" "$DATA_SNAPSHOT" <<'PY'
@@ -165,7 +199,6 @@ fi
 rm -rf "$UMMMU/data"
 ln -s "$DATA_EXTRACT/data" "$UMMMU/data"
 
-# Run outputs live inside the Git repo while the native runner sees them through SHARED/outputs.
 mkdir -p "$ROOT/runs/$OUTPUT_NAME" "$ROOT/logs" "$SHARED/outputs"
 rm -rf "$SHARED/outputs/$OUTPUT_NAME"
 ln -s "$ROOT/runs/$OUTPUT_NAME" "$SHARED/outputs/$OUTPUT_NAME"
@@ -193,7 +226,10 @@ done
   echo "unimmmu_commit=$(git -C "$UMMMU" rev-parse HEAD)"
   echo "checkpoint=Fr0zencr4nE/UniCoT-7B-MoT-v0.2"
   echo "torch=$("$VENV/bin/python" -c 'import torch; print(torch.__version__)')"
+  echo "transformers=$("$VENV/bin/python" -c 'import transformers; print(transformers.__version__)')"
+  echo "huggingface_hub=$("$VENV/bin/python" -c 'import huggingface_hub; print(huggingface_hub.__version__)')"
   echo "flash_attn=$("$VENV/bin/python" -c 'import flash_attn; print(flash_attn.__version__)')"
+  echo "flash_attn_install=official-v2.8.3-prebuilt-cu12-torch2.8-cp310"
 } > "$ROOT/runs/$OUTPUT_NAME/PROVENANCE.txt"
 
 echo
