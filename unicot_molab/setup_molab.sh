@@ -100,6 +100,7 @@ if [[ ! -x "$VENV/bin/python" || ! -f "$ENV_MARKER" ]]; then
   "$VENV/bin/python" -m pip install \
     "huggingface_hub==0.29.1" \
     "hf_transfer==0.1.9" \
+    "gradio_client==1.11.0" \
     tqdm pillow "accelerate>=0.34.0" safetensors
 
   # Select the official FA wheel that matches the ABI of the installed PyTorch.
