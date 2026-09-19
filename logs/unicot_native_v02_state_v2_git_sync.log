@@ -57,3 +57,17 @@ To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
 To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
    3edec79..57017f3  HEAD -> unicot-eval-molab
 [git-sync] 2026-09-19T23:33:38Z
+[unicot-eval-molab a64e8a8] checkpoint: unicot_native_v02_state_v2 2026-09-19T23:33:38Z
+ 11 files changed, 386 insertions(+)
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/case_00001/_done.ok
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0005.png
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/case_00001/model_text.txt
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/case_00001/result.json
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/manifest.csv
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/summary.json
+ create mode 100644 runs/unicot_native_v02_state_v2/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0001.png
+ create mode 100644 runs/unicot_native_v02_state_v2/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0002.png
+ create mode 100644 runs/unicot_native_v02_state_v2/sliding/case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0003.png
+Uploading LFS objects: 100% (3/3), 2.3 MB | 0 B/s, done.
+To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
+   57017f3..a64e8a8  HEAD -> unicot-eval-molab

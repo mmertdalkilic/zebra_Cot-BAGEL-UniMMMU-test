@@ -1,0 +1,2 @@
+case_name,initial_png,final_png,generated_first_image_rel,notes
+demo_3x3_00001_steps,/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/data/sliding/demo_3x3_00001_steps/demo_step_0000.png,/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/data/sliding/demo_3x3_00001_steps/demo_step_0003.png,case_demo_3x3_00001_steps/cand_01/demo_step_0000_step_0001.png,

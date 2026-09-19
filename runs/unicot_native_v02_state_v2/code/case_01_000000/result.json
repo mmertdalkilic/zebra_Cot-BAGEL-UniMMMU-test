@@ -1,0 +1,15 @@
+{
+  "id": "case_01_000000",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/code/case_01_000000",
+  "svg": "svgs/000000.svg",
+  "png": "images/000000.png",
+  "difficulty": "complex",
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/code/case_01_000000/model_text.txt",
+  "images_saved": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/code/case_01_000000/model_image_01.png"
+  ],
+  "errors": [],
+  "regen": false,
+  "regen_reason": ""
+}

@@ -1,0 +1,2 @@
+case_idx,id,difficulty,svg_rel,gt_png_rel,generated_first_image_rel,model_text_preview,notes
+1,000000,complex,svgs/000000.svg,images/000000.png,case_01_000000/model_image_01.png,"[Prompt Translation] <think> The model should generate an SVG image with a white background, a large white rectangle, a red-orange triangle, a green pentagon, a blue hexagon, and a green path connecti",
