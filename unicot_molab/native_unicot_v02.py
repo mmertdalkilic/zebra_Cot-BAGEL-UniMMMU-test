@@ -359,7 +359,11 @@ class NativeUniCoTV02:
         prompt = self._prompt_from_context(ctx, prompt_suffix=prompt_suffix)
         images = self._images_from_context(ctx)
         if images:
-            source = self._montage(images)
+            # Uni-MMMU task-aware source policy
+            if os.environ.get("UNIMMMU_TASK") == "jigsaw":
+                source = self._montage(images)
+            else:
+                source = images[-1]
             output = self._image_to_image_self_reflect(source, prompt)
         else:
             output = self._text_to_image_breakdown(prompt)

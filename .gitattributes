@@ -2,3 +2,7 @@ runs/unicot_native_v02/**/*.png filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02/**/*.webp filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v2/**/*.png filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v2/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v2/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v2/**/*.webp filter=lfs diff=lfs merge=lfs -text
