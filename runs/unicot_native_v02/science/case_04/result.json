@@ -1,0 +1,29 @@
+{
+  "id": "case_04",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_04",
+  "initial_image": "./data/science/imgs/d01_c006_960e5d4e36.png",
+  "condition": "A pat of butter in a small frying pan on a stove. Heat the pan to 70°C and maintain for a sufficient time",
+  "meta": {
+    "level_1": "Thermal",
+    "level_2": "Phase change: melting point & boiling point",
+    "raw": {
+      "input_prompt": "A pat of butter in a small frying pan on a stove. Heat the pan to 70°C and maintain for a sufficient time",
+      "input_image_file_path_list": [
+        "./data/science/imgs/d01_c006_960e5d4e36.png"
+      ],
+      "output_prompt": "The solid butter has melted into a uniform liquid layer coating the pan; the butter surface is glossy with a light reflection.",
+      "output_image_file_path_list": [
+        "./data/science/imgs/out-d01_c006_960e5d4e36.png"
+      ],
+      "output_image_edit_prompt": "Edit the initial image to replace the solid butter with a liquid pool that coats the pan; show a smooth, shiny surface and subtle edges along the pan rim."
+    }
+  },
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_04/model_text.txt",
+  "images_saved": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_04/model_image_01.png"
+  ],
+  "errors": [],
+  "regen": false,
+  "regen_reason": ""
+}

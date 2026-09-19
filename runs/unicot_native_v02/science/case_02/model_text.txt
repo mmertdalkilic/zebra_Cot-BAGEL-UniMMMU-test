@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image showing the paraffin wax block partially melted, with a smooth, glossy surface and a slightly irregular shape due to the melting process. The pan should remain on the stove, and the wax should appear to be in a semi-liquid state.
+The refined prompt is: A close-up, ultra-realistic image of a solid block of paraffin wax partially melted in a shallow, stainless steel pan resting on a gas stove. The wax has a smooth, glossy surface with a slightly irregular, uneven shape due to the melting process. The stove burner is visibly lit, with a subtle flame and heat effect around the pan. The scene is well-lit with soft, natural lighting, emphasizing the reflective metallic surface of the pan and the translucent, slightly viscous texture of the melting wax. The background is slightly blurred, featuring a clean, modern kitchen environment with neutral tones to maintain focus on the main subject.
+</think>
+[/Prompt Translation]

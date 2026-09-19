@@ -1,0 +1,29 @@
+{
+  "id": "case_02",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_02",
+  "initial_image": "./data/science/imgs/d01_c004_82533cc2b7.png",
+  "condition": "A solid block of paraffin wax resting in a shallow metal pan on a stove. Heat the pan to 75°C and maintain for a sufficient time",
+  "meta": {
+    "level_1": "Thermal",
+    "level_2": "Phase change: melting point & boiling point",
+    "raw": {
+      "input_prompt": "A solid block of paraffin wax resting in a shallow metal pan on a stove. Heat the pan to 75°C and maintain for a sufficient time",
+      "input_image_file_path_list": [
+        "./data/science/imgs/d01_c004_82533cc2b7.png"
+      ],
+      "output_prompt": "The solid wax has melted into a glossy liquid pool that fills the pan; no solid chunks remain; the surface shows a slight bead at the edge.",
+      "output_image_file_path_list": [
+        "./data/science/imgs/out-d01_c004_82533cc2b7.png"
+      ],
+      "output_image_edit_prompt": "Edit the initial image to replace the solid wax block with a smooth liquid pool of wax occupying most of the pan; add a glossy sheen to the surface."
+    }
+  },
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_02/model_text.txt",
+  "images_saved": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_02/model_image_01.png"
+  ],
+  "errors": [],
+  "regen": false,
+  "regen_reason": ""
+}

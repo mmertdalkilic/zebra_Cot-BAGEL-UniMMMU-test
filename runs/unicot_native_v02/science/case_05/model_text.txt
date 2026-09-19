@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image showing the metallic gallium block starting to melt, with a liquid pool forming around it in the shallow glass dish, as it transitions from solid to liquid at 40°C.
+Here’s the finished detailed prompt: A close-up, ultra-realistic image of a small metallic gallium block placed in a shallow, transparent glass dish on a laboratory countertop. The block is partially melted, with a smooth, reflective liquid pool forming around it, showcasing the transition from solid to liquid at 40°C. The scene is illuminated with soft, diffused lighting to emphasize the metallic texture of the block and the clarity of the glass dish. The background features a blurred laboratory setting with subtle details such as beakers, test tubes, and scientific equipment, creating a clean and professional atmosphere. The focus is sharp on the gallium block and the melting process, with a slight bokeh effect to enhance depth and realism.
+</think>
+[/Prompt Translation]

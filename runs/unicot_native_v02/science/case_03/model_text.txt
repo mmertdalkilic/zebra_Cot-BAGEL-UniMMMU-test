@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image showing the white chocolate melting slightly, with a glossy texture forming on the spoon, indicating it has reached the melting point at 40°C.
+The refined prompt is: White chocolate bar pieces resting on a warm metal spoon over a gentle blue flame, with the chocolate slightly melting and forming a glossy, smooth texture on the spoon's surface, indicating it has reached the melting point at 40°C. The scene is set in a kitchen environment with a subtle focus on the spoon and chocolate, using soft, natural lighting and a shallow depth of field for a realistic and inviting atmosphere.
+</think>
+[/Prompt Translation]

@@ -1,0 +1,29 @@
+{
+  "id": "case_05",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_05",
+  "initial_image": "./data/science/imgs/d01_c008_f3b486f267.png",
+  "condition": "A small metallic gallium block in a shallow glass dish at room temperature. Carefully heat to 40°C and maintain for a sufficient time",
+  "meta": {
+    "level_1": "Thermal",
+    "level_2": "Phase change: melting point & boiling point",
+    "raw": {
+      "input_prompt": "A small metallic gallium block in a shallow glass dish at room temperature. Carefully heat to 40°C and maintain for a sufficient time",
+      "input_image_file_path_list": [
+        "./data/science/imgs/d01_c008_f3b486f267.png"
+      ],
+      "output_prompt": "The solid gallium has melted completely into a bright, reflective liquid pool; no solid fragments remain.",
+      "output_image_file_path_list": [
+        "./data/science/imgs/out-d01_c008_f3b486f267.png"
+      ],
+      "output_image_edit_prompt": "Edit the initial image to replace the solid gallium block with a liquid gallium droplet/pool in the dish, maintaining the same lighting and hue."
+    }
+  },
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_05/model_text.txt",
+  "images_saved": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/science/case_05/model_image_01.png"
+  ],
+  "errors": [],
+  "regen": false,
+  "regen_reason": ""
+}

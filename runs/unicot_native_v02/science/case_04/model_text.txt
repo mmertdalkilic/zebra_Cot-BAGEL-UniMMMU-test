@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image of a pat of butter in a small frying pan on a stove, with the butter beginning to melt slightly, showing a smooth, glossy surface as it reaches 70°C.
+The comprehensive prompt is: A pat of butter in a small, black non-stick frying pan sits on a modern gas stove, positioned over a lit burner. The butter is beginning to melt slightly, with a smooth, glossy surface reflecting the warm light. The stove is clean and minimalistic, with metallic burners and knobs, set against a softly lit kitchen background. The scene is ultra-realistic, with fine details such as the texture of the butter, the subtle sheen of the pan, and the gentle glow of the burner. The atmosphere is calm and domestic, emphasizing the simple act of melting butter.
+</think>
+[/Prompt Translation]

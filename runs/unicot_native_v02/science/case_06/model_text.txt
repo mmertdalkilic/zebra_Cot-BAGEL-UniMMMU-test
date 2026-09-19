@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image showing the sugar cube melting and dissolving into the spoon, with a slight haze or steam indicating the transition from solid to liquid due to the heat applied.
+The refined prompt is: A close-up, ultra-realistic image of a small sugar cube resting on a metal spoon above a gentle blue flame, with the sugar cube visibly melting and dissolving into the spoon. The scene captures the transition from solid to liquid, with subtle steam or haze rising from the spoon to indicate the heat effect. The background is softly blurred, featuring a neutral, slightly dark kitchen setting with warm ambient lighting that highlights the texture of the sugar and the metallic sheen of the spoon. The atmosphere is calm and scientific, with a focus on the chemical process of melting.
+</think>
+[/Prompt Translation]
