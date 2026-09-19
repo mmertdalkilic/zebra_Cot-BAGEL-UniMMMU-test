@@ -1,0 +1,15 @@
+{
+  "id": "ex_00000",
+  "dataset_index": 0,
+  "status": "error",
+  "ex_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000",
+  "ref_2x2": "./data/jigsaw_dataset_2x2ref/ex_00000/ref_2x2.png",
+  "cand0": "./data/jigsaw_dataset_2x2ref/ex_00000/cand0.png",
+  "cand1": "./data/jigsaw_dataset_2x2ref/ex_00000/cand1.png",
+  "text_file": null,
+  "images_saved": [],
+  "errors": [
+    "Runner exception: Missing input ref_2x2: data/jigsaw_dataset_2x2ref/data/jigsaw_dataset_2x2ref/ex_00000/ref_2x2.png",
+    "Traceback (most recent call last):\n  File \"/workspace/unicot_unimmmu_shared/repos/Uni-MMMU/sample_code_example/gpt/jigsaw.py\", line 149, in main\n    raise FileNotFoundError(f\"Missing input {lbl}: {p}\")\nFileNotFoundError: Missing input ref_2x2: data/jigsaw_dataset_2x2ref/data/jigsaw_dataset_2x2ref/ex_00000/ref_2x2.png\n"
+  ]
+}
