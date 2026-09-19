@@ -1,0 +1,16 @@
+{
+  "id": "00001",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001",
+  "step0": "data/maze/maze_6x6_00001_steps/maze_step_0000.png",
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/model_text.txt",
+  "images_saved_flatten": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0001.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0002.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0003.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0004.png",
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0005.png"
+  ],
+  "errors": [],
+  "regen": false
+}
