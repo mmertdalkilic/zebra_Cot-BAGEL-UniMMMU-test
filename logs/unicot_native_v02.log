@@ -1563,3 +1563,2751 @@ The model should generate an image showing the blue dot moving one step to the r
 Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
 </think>
 [/Prompt Translation]
+============================== original breakdown ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:11,  4.36it/s][A
+  4%|▍         | 2/49 [00:00<00:09,  4.88it/s][A
+  6%|▌         | 3/49 [00:00<00:09,  5.07it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.17it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.23it/s][A
+ 12%|█▏        | 6/49 [00:01<00:08,  5.25it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.28it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.29it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.30it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.27it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.29it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.29it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.28it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.29it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.30it/s][A
+ 33%|███▎      | 16/49 [00:03<00:06,  5.31it/s][A
+ 35%|███▍      | 17/49 [00:03<00:06,  5.27it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.29it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.25it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.28it/s][A
+ 43%|████▎     | 21/49 [00:04<00:05,  5.28it/s][A
+ 45%|████▍     | 22/49 [00:04<00:05,  5.31it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.31it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.33it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.35it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.29it/s][A
+ 55%|█████▌    | 27/49 [00:05<00:04,  5.31it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.27it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.31it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.32it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.34it/s][A
+ 65%|██████▌   | 32/49 [00:06<00:03,  5.34it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:03,  5.32it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.29it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.31it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.33it/s][A
+ 76%|███████▌  | 37/49 [00:07<00:02,  5.35it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.34it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.35it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.37it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.37it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.37it/s][A
+ 88%|████████▊ | 43/49 [00:08<00:01,  5.37it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.37it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.38it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.38it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.38it/s][A
+ 98%|█████████▊| 48/49 [00:09<00:00,  5.38it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.34it/s][A100%|██████████| 49/49 [00:09<00:00,  5.30it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.35it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.35it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.36it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.36it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.37it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.38it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.37it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.37it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.37it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.37it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.37it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.37it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.36it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.36it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.37it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.38it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.36it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.37it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.36it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.39it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.40it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.43it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.41it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.40it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.39it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.38it/s][A
+ 55%|█████▌    | 27/49 [00:05<00:04,  5.39it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.39it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.41it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.42it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.42it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.43it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.42it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.43it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.44it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.41it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.40it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.39it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.37it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.39it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.41it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.42it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.43it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.44it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.44it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.44it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.43it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.44it/s][A100%|██████████| 49/49 [00:09<00:00,  5.40it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.39it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.38it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.38it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.38it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.37it/s][A
+ 12%|█▏        | 6/49 [00:01<00:08,  5.37it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.39it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.41it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.37it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.37it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.35it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.37it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.38it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.39it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.39it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.31it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.34it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.37it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.35it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.38it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.36it/s][A
+ 45%|████▍     | 22/49 [00:04<00:05,  5.35it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.37it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.39it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.37it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.38it/s][A
+ 55%|█████▌    | 27/49 [00:05<00:04,  5.40it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.37it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.39it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.41it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.42it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.43it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.40it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.39it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.41it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.42it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.42it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.39it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.40it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.41it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.43it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.42it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.43it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.44it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.43it/s][A100%|██████████| 49/49 [00:09<00:00,  5.40it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.37it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.37it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.37it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.38it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.38it/s][A
+ 12%|█▏        | 6/49 [00:01<00:08,  5.37it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.37it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.37it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.38it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.38it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.36it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.34it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.36it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.39it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.41it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.36it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.38it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.40it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.37it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.39it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.40it/s][A
+ 45%|████▍     | 22/49 [00:04<00:05,  5.39it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.39it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.40it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.41it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.41it/s][A
+ 55%|█████▌    | 27/49 [00:05<00:04,  5.39it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.41it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.41it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.41it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.40it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.42it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.43it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.44it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.44it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.42it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.43it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.44it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.45it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.45it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.46it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.41it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.41it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.42it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.44it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.44it/s][A100%|██████████| 49/49 [00:09<00:00,  5.41it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.36it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.37it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.40it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.41it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.43it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.43it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.44it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.45it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.44it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.44it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.45it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.42it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.42it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.42it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.39it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.40it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.41it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.42it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.43it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.41it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.42it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.42it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.40it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.39it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.41it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.42it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.43it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.44it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.44it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.39it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.41it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.43it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.44it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.44it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.40it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.42it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.42it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.43it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.38it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.37it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.37it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.37it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.36it/s][A
+ 12%|█▏        | 6/49 [00:01<00:08,  5.36it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.36it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.36it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.37it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.36it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.33it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.35it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.38it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.36it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.38it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.40it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.42it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.43it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.43it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.44it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.44it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.44it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.44it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.45it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.45it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.45it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.45it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.45it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.46it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.46it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.46it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.46it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.46it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.46it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.45it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.46it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.44it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.44it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.44it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.40it/s][A100%|██████████| 49/49 [00:09<00:00,  5.42it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.39it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.38it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.39it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.39it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.33it/s][A
+ 12%|█▏        | 6/49 [00:01<00:08,  5.32it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.34it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.35it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.36it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.38it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.40it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.42it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.43it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.43it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.44it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.44it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.46it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.45it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.46it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.46it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.46it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.46it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.47it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.47it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.46it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.46it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.46it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.46it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.45it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.44it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.45it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.45it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.45it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.40it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.41it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.43it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.43it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.44it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.45it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.45it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.46it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.38it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.38it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.40it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.41it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.43it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.44it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.43it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.43it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.44it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.45it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.44it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.44it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.43it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.44it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.43it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.42it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.44it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.44it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.44it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.43it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.43it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.42it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.43it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.44it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.44it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.45it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.45it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.46it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.44it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.44it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.42it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.43it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.44it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.43it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.43it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.44it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.44it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.45it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.46it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.44it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.38it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.37it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.38it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.40it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.41it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.40it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.41it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.42it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.42it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.42it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.43it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.40it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.41it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.42it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.43it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.43it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.41it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.42it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.43it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.44it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.44it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.43it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.43it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.44it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.44it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.45it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.45it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.46it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.46it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.44it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.44it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.43it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.45it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.45it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.46it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.46it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.44it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.44it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.41it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.39it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.37it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.37it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.39it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.38it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.39it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.41it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.42it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.42it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.43it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.45it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.46it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.46it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.45it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.45it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.46it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.47it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.46it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.46it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.46it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.45it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.46it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.44it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.44it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.44it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.45it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.45it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.46it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.46it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.45it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.45it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.46it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.46it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.45it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.45it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.43it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.40it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.42it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.43it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.44it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.44it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.43it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.44it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.40it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.43it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.44it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.45it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.45it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.45it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.46it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.43it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.44it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.44it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.43it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.44it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.45it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.45it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.45it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.43it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.43it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.43it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.43it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.43it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.45it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.44it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.45it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.40it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.40it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.42it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.40it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.40it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.42it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.43it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.44it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.43it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.44it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.44it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.43it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.43it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.43it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.40it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.41it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.42it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.43it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.44it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.48it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.45it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.45it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.45it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.46it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.46it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.44it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.45it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.45it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.43it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.44it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.45it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.45it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.45it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.46it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.44it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.44it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.43it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.42it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.42it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.42it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.43it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.43it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.42it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.43it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.39it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.36it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.38it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.38it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.38it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.38it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.40it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.39it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.42it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.39it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.39it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.40it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.41it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.42it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.42it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.42it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.43it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.39it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.39it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.41it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.42it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.43it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.43it/s][A100%|██████████| 49/49 [00:09<00:00,  5.42it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.41it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.31it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.37it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.40it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.42it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.43it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.43it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.39it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.41it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.43it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.43it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.44it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.45it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.45it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.46it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.41it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.42it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.39it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.40it/s][A
+ 45%|████▍     | 22/49 [00:04<00:05,  5.37it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.37it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.37it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.34it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.37it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.39it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.36it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.38it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.35it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.37it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.40it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.42it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.43it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.43it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.39it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.38it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.39it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.41it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.43it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.43it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.38it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.39it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.40it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.42it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.43it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.41it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.42it/s][A100%|██████████| 49/49 [00:09<00:00,  5.41it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.39it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.30it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.36it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.40it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.41it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.42it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.43it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.44it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.45it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.45it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.44it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.44it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.44it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.44it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.45it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.46it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.41it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.42it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.42it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.44it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.45it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.45it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.46it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.45it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.46it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.44it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.43it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.44it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.44it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.44it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.45it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.45it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.45it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.45it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.45it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.45it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.40it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.42it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.42it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.43it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.44it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.46it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.44it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.37it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.39it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.38it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.38it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.39it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.39it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.40it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.40it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.41it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.42it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.43it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.41it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.41it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.42it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.43it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.44it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.44it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.44it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.44it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.45it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.45it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.45it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.44it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.44it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.45it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.43it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.44it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.43it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.43it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.43it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.44it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.44it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.44it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.44it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.44it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.45it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.44it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.44it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.45it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.39it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.40it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.39it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.41it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.40it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.39it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.40it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.42it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.38it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.35it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.37it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.38it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.41it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.42it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.41it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.42it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.41it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.42it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.42it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.43it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.43it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.43it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.43it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.43it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.40it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.37it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.38it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.40it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.39it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.37it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.39it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.41it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.42it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.39it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.41it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.41it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.42it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.39it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.40it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.42it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.43it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.45it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.46it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.45it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.41it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.40it/s][A100%|██████████| 49/49 [00:09<00:00,  5.41it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.38it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.38it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.38it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.40it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.42it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.42it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.43it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.44it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.45it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.45it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.40it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.38it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.39it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.37it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.39it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.41it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.43it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.43it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.44it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.45it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.42it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.43it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.42it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.44it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.44it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.46it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.46it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.46it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.46it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.44it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.44it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.44it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.43it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.45it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.44it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.42it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.40it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.41it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.42it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.43it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.45it/s][A100%|██████████| 49/49 [00:09<00:00,  5.43it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.41it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.44it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.45it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.44it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.45it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.40it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.42it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.43it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.43it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.41it/s][A
+ 22%|██▏       | 11/49 [00:02<00:07,  5.42it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.41it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.40it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.42it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.44it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.44it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.40it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.41it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.42it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.43it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.43it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.43it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.43it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.44it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.45it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.43it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.44it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.39it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.37it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.40it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.38it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.38it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.40it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.41it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.42it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.44it/s][A
+ 78%|███████▊  | 38/49 [00:07<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.45it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.43it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.45it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.42it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.38it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.40it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.41it/s][A100%|██████████| 49/49 [00:09<00:00,  5.42it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.42it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.43it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.43it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.44it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.43it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.44it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.43it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.44it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.44it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.44it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.44it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.45it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.45it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.46it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.46it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.45it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.45it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.46it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.45it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.45it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.45it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.46it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.46it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.45it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.42it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.43it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.44it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.44it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.45it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.45it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.45it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.46it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.47it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.47it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.44it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.45it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.46it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.45it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.46it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.45it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.45it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.46it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.46it/s][A
+100%|██████████| 49/49 [00:08<00:00,  5.47it/s][A100%|██████████| 49/49 [00:08<00:00,  5.45it/s]
+Image size: H-128 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, positioned in a new white square, with the green frame still marking the goal area.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-128 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.40it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.38it/s][A
+  6%|▌         | 3/49 [00:00<00:08,  5.39it/s][A
+  8%|▊         | 4/49 [00:00<00:08,  5.43it/s][A
+ 10%|█         | 5/49 [00:00<00:08,  5.43it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.45it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.45it/s][A
+ 16%|█▋        | 8/49 [00:01<00:07,  5.45it/s][A
+ 18%|█▊        | 9/49 [00:01<00:07,  5.45it/s][A
+ 20%|██        | 10/49 [00:01<00:07,  5.45it/s][A
+ 22%|██▏       | 11/49 [00:02<00:06,  5.46it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.45it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.46it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.45it/s][A
+ 31%|███       | 15/49 [00:02<00:06,  5.46it/s][A
+ 33%|███▎      | 16/49 [00:02<00:06,  5.41it/s][A
+ 35%|███▍      | 17/49 [00:03<00:05,  5.42it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.44it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.45it/s][A
+ 41%|████      | 20/49 [00:03<00:05,  5.45it/s][A
+ 43%|████▎     | 21/49 [00:03<00:05,  5.44it/s][A
+ 45%|████▍     | 22/49 [00:04<00:04,  5.44it/s][A
+ 47%|████▋     | 23/49 [00:04<00:04,  5.44it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.44it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.45it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:04,  5.45it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:04,  5.45it/s][A
+ 57%|█████▋    | 28/49 [00:05<00:03,  5.45it/s][A
+ 59%|█████▉    | 29/49 [00:05<00:03,  5.45it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.45it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.45it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:03,  5.44it/s][A
+ 67%|██████▋   | 33/49 [00:06<00:02,  5.45it/s][A
+ 69%|██████▉   | 34/49 [00:06<00:02,  5.46it/s][A
+ 71%|███████▏  | 35/49 [00:06<00:02,  5.46it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.45it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.45it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:02,  5.44it/s][A
+ 80%|███████▉  | 39/49 [00:07<00:01,  5.45it/s][A
+ 82%|████████▏ | 40/49 [00:07<00:01,  5.45it/s][A
+ 84%|████████▎ | 41/49 [00:07<00:01,  5.44it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  5.44it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.44it/s][A
+ 90%|████████▉ | 44/49 [00:08<00:00,  5.36it/s][A
+ 92%|█████████▏| 45/49 [00:08<00:00,  5.38it/s][A
+ 94%|█████████▍| 46/49 [00:08<00:00,  5.40it/s][A
+ 96%|█████████▌| 47/49 [00:08<00:00,  5.42it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.44it/s][A
+100%|██████████| 49/49 [00:09<00:00,  5.44it/s][A100%|██████████| 49/49 [00:09<00:00,  5.44it/s]
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+============================== original think ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+============================== original breakdown ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.05it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.05it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.05it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.01it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.94it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.95it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.96it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  5.99it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.01it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.03it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.04it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.04it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.05it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.05it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.04it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.04it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.05it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.04it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.04it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.04it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.05it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.05it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.05it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.05it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.99it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.00it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.02it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.03it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.02it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.03it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.04it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.01it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.02it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.04it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.05it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.05it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.06it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.01it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.03it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.05it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.00it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.02it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.03it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.03it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.04it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.06it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.03it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.05it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.05it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.99it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.01it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.01it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.02it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.02it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.02it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.03it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.02it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.03it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.03it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.00it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.02it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.02it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.03it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.05it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.05it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.05it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.05it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.06it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.05it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.04it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.04it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.05it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.05it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.06it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.06it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.06it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.02it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.03it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.01it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.00it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.01it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.02it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.04it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.04it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.05it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.05it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.03it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.05it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.04it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.05it/s][A100%|██████████| 49/49 [00:08<00:00,  6.04it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.05it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.95it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.99it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  5.96it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.98it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  6.00it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.96it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.99it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  5.96it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  5.98it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.00it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.97it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.95it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  5.95it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.93it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  5.96it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  5.93it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.96it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.94it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.96it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.97it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.93it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.92it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.92it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.92it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  5.94it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.93it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.96it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.95it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.97it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.99it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  5.96it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  5.94it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  5.97it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  5.95it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  5.97it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.99it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.00it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.01it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.02it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.01it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  6.02it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.03it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.02it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.03it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.05it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.06it/s][A100%|██████████| 49/49 [00:08<00:00,  5.98it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.91it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.98it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.02it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.02it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.98it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.99it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.02it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.00it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.00it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.01it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.02it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.03it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.03it/s][A
+ 29%|██▊       | 14/49 [00:02<00:06,  5.82it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.88it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  5.91it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  5.95it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.93it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.97it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.99it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.01it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.03it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.03it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.04it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.04it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.05it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.06it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.06it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.06it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.06it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.06it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.05it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.05it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.05it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.06it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.05it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.06it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.06it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.04it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.99it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.01it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.02it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  5.98it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.00it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.02it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.01it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.87it/s][A
+  4%|▍         | 2/49 [00:00<00:08,  5.85it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.86it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  5.93it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.97it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.98it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.00it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.96it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  5.98it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.00it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.01it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.97it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.99it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.01it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.03it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.03it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.03it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.99it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.97it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.94it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.96it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.99it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.98it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  6.00it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  6.00it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  5.99it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.98it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.99it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.96it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.97it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.99it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.00it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.02it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.03it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.03it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  6.03it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.03it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  5.99it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  5.99it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.02it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  6.03it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.04it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.05it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  5.99it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  6.00it/s][A
+100%|██████████| 49/49 [00:08<00:00,  5.96it/s][A100%|██████████| 49/49 [00:08<00:00,  5.99it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.91it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.98it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.02it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.04it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.98it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  6.00it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.01it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.99it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.01it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.03it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  5.99it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.01it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.01it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.02it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.04it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.04it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.04it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.98it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.96it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.98it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.00it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.00it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.73it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.82it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  5.86it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.91it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.90it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.94it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.98it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.00it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.01it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.03it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.03it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  5.99it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  6.00it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.96it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  5.91it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  5.94it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  5.97it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  5.99it/s][A
+ 86%|████████▌ | 42/49 [00:07<00:01,  6.00it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.03it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.03it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  5.99it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.01it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  5.96it/s][A
+ 98%|█████████▊| 48/49 [00:08<00:00,  5.95it/s][A
+100%|██████████| 49/49 [00:08<00:00,  5.97it/s][A100%|██████████| 49/49 [00:08<00:00,  5.98it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.08it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.06it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.01it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.02it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.04it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.04it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.04it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  5.99it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  5.95it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  5.98it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  6.00it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  5.96it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.96it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  5.99it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.01it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.02it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.03it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.98it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.95it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.98it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.00it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  5.97it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.97it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  5.99it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.96it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.99it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.96it/s][A
+ 61%|██████    | 30/49 [00:05<00:03,  5.95it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.97it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  5.95it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  5.98it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  5.99it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.01it/s][A
+ 73%|███████▎  | 36/49 [00:06<00:02,  6.01it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.02it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.04it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.05it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.05it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.05it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.05it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.04it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.04it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.01it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.02it/s][A100%|██████████| 49/49 [00:08<00:00,  6.01it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.07it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.96it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.00it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.02it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.97it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.99it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.01it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.03it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.04it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.04it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.04it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  5.99it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.01it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.02it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.04it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.04it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.05it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.05it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.06it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.06it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.06it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.04it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.96it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  5.98it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.99it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.01it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.97it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.99it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.01it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.02it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.04it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.05it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.04it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.05it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.04it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.05it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.99it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  5.99it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.01it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.03it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.04it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  5.99it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  6.00it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.01it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.01it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.02it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.02it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.04it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.02it/s][A100%|██████████| 49/49 [00:08<00:00,  6.02it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:08,  5.90it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.98it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.01it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  5.94it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.92it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.94it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.96it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.99it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.01it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.02it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.03it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  6.04it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.05it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  5.99it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.96it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  5.98it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  5.95it/s][A
+ 37%|███▋      | 18/49 [00:03<00:05,  5.98it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.99it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.96it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.99it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.01it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.03it/s][A
+ 49%|████▉     | 24/49 [00:04<00:04,  6.03it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.05it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.05it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.05it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.05it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.04it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.05it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.05it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.05it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.06it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.06it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.06it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.06it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  5.99it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  5.95it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  5.94it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  5.95it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  5.98it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  6.00it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.02it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.01it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.02it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.03it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.04it/s][A
+100%|██████████| 49/49 [00:08<00:00,  5.98it/s][A100%|██████████| 49/49 [00:08<00:00,  6.01it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.08it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  5.95it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.99it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.01it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.97it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.98it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  6.00it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.02it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.03it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.04it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  5.98it/s][A
+ 24%|██▍       | 12/49 [00:02<00:06,  5.95it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.98it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  5.99it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.97it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  5.99it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.02it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.04it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.05it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.98it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.97it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.00it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.01it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  5.96it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  5.98it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.00it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.01it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.02it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.02it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.03it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.04it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.04it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.04it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.05it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.04it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.04it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.05it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.05it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.05it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  5.99it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.01it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.02it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.03it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.03it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.03it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.03it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.02it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.09it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.08it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.07it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.07it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.06it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.05it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.05it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.06it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.06it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.06it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.07it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.06it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.06it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.06it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.05it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.03it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.04it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.05it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.04it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.04it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.03it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.04it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.03it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.03it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.02it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.03it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.02it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.03it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.03it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.03it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.02it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.04it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.04it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.02it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.03it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.04it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.04it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.04it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.05it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.04it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.05it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.05it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.05it/s][A100%|██████████| 49/49 [00:08<00:00,  6.04it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.08it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.07it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.05it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.06it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.05it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.06it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.06it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.05it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.05it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.00it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.01it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.03it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.04it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.04it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.04it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.03it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  5.98it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.99it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.01it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.00it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.01it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.03it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.04it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.05it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.00it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.93it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.96it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  5.99it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.01it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.02it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.04it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.05it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.04it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.05it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.03it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.04it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.05it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.05it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.05it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.05it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.05it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.05it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.04it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.05it/s][A100%|██████████| 49/49 [00:08<00:00,  6.03it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.09it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.00it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.02it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.03it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.03it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.03it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.04it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.04it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.04it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.04it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.04it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.04it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.04it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.05it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.98it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.00it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.02it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:05,  5.98it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.00it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.02it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.97it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.99it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.00it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.02it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.03it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.03it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.02it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.03it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.04it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.05it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  5.99it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.01it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.00it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.01it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.01it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.02it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.04it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.05it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.05it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.05it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.05it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.05it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.07it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.07it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.05it/s][A100%|██████████| 49/49 [00:08<00:00,  6.03it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.09it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.06it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.05it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.05it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.05it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.06it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.05it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.04it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.04it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.05it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.00it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.01it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.02it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.03it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.03it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  5.98it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.00it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.00it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.02it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.01it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.02it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.02it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.03it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.04it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  5.99it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.01it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.02it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.03it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.03it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.04it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.03it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.02it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.02it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.04it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  5.99it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.01it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.02it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.03it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.03it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.01it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.01it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.03it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.03it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.03it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.09it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.08it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.95it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  5.99it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  5.94it/s][A
+ 12%|█▏        | 6/49 [00:01<00:07,  5.96it/s][A
+ 14%|█▍        | 7/49 [00:01<00:07,  5.98it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.01it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.01it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.03it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.01it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.03it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.02it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.03it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.03it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.03it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.03it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.04it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.04it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.05it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.05it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.01it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.03it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.03it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.04it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.04it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.04it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.05it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.05it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.05it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.04it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.05it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.05it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.05it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.01it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.99it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.01it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.01it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.02it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.03it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.04it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.04it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.04it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  5.98it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  5.99it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.00it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.02it/s][A100%|██████████| 49/49 [00:08<00:00,  6.02it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.07it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.05it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.06it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.07it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.07it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.06it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.06it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.06it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.06it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.06it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.06it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.06it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.06it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.06it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.06it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.06it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.06it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.05it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.06it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.05it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.04it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.04it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.05it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.06it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.06it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.06it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.05it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.05it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.04it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.03it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  5.98it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  5.99it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.01it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.00it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.01it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  5.99it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.02it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.03it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.02it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.02it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.03it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.04it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.05it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.00it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.01it/s][A100%|██████████| 49/49 [00:08<00:00,  6.04it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.07it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.05it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.06it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.06it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.05it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.06it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.03it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  5.97it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.00it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.02it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.03it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.04it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.05it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.03it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.04it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.04it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.97it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  5.95it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.95it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  5.98it/s][A
+ 51%|█████     | 25/49 [00:04<00:04,  6.00it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.02it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  5.96it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  5.99it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.00it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.03it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.03it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.05it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.05it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.03it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.04it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.03it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:02,  5.99it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  5.98it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.00it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  5.96it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  5.99it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  5.95it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:01,  5.98it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.01it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.02it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.03it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.03it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.04it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.02it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.06it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.06it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.07it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.06it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.05it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.04it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.02it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.03it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  5.98it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  5.99it/s][A
+ 27%|██▋       | 13/49 [00:02<00:06,  5.96it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  5.94it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  5.98it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.00it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.02it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.03it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.04it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.04it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  5.99it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.00it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  5.96it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  5.97it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.00it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.01it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.01it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.02it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.03it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.04it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:03,  5.99it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.00it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  5.97it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  5.99it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.01it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.01it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.03it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  5.98it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  5.99it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.01it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.02it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.04it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.04it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.04it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.04it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  5.99it/s][A100%|██████████| 49/49 [00:08<00:00,  6.01it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.09it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.04it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  5.97it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  5.99it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.00it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.02it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.02it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  5.98it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.00it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.00it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.02it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.03it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.04it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.04it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.05it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.05it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  6.05it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.06it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.06it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.06it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.06it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.06it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.06it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.01it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.03it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.04it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.04it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.04it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.05it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.05it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.06it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.05it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.06it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.06it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.06it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.06it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.03it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.03it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.03it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.04it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.04it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.03it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.04it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.05it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.05it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.05it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.05it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.06it/s][A100%|██████████| 49/49 [00:08<00:00,  6.04it/s]
+Image size: H-64 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step to the right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-64 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.08it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.06it/s][A
+  6%|▌         | 3/49 [00:00<00:07,  6.05it/s][A
+  8%|▊         | 4/49 [00:00<00:07,  6.05it/s][A
+ 10%|█         | 5/49 [00:00<00:07,  6.06it/s][A
+ 12%|█▏        | 6/49 [00:00<00:07,  6.06it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.06it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.05it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.06it/s][A
+ 20%|██        | 10/49 [00:01<00:06,  6.05it/s][A
+ 22%|██▏       | 11/49 [00:01<00:06,  6.06it/s][A
+ 24%|██▍       | 12/49 [00:01<00:06,  6.05it/s][A
+ 27%|██▋       | 13/49 [00:02<00:05,  6.06it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.05it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.06it/s][A
+ 33%|███▎      | 16/49 [00:02<00:05,  6.06it/s][A
+ 35%|███▍      | 17/49 [00:02<00:05,  5.99it/s][A
+ 37%|███▋      | 18/49 [00:02<00:05,  6.00it/s][A
+ 39%|███▉      | 19/49 [00:03<00:04,  6.01it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.02it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.03it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.04it/s][A
+ 47%|████▋     | 23/49 [00:03<00:04,  6.04it/s][A
+ 49%|████▉     | 24/49 [00:03<00:04,  6.05it/s][A
+ 51%|█████     | 25/49 [00:04<00:03,  6.06it/s][A
+ 53%|█████▎    | 26/49 [00:04<00:03,  6.05it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.05it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.05it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:03,  6.04it/s][A
+ 61%|██████    | 30/49 [00:04<00:03,  6.04it/s][A
+ 63%|██████▎   | 31/49 [00:05<00:02,  6.04it/s][A
+ 65%|██████▌   | 32/49 [00:05<00:02,  6.05it/s][A
+ 67%|██████▋   | 33/49 [00:05<00:02,  6.04it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.05it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.05it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:02,  6.05it/s][A
+ 76%|███████▌  | 37/49 [00:06<00:01,  6.05it/s][A
+ 78%|███████▊  | 38/49 [00:06<00:01,  6.05it/s][A
+ 80%|███████▉  | 39/49 [00:06<00:01,  6.05it/s][A
+ 82%|████████▏ | 40/49 [00:06<00:01,  6.05it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.06it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.06it/s][A
+ 88%|████████▊ | 43/49 [00:07<00:00,  6.05it/s][A
+ 90%|████████▉ | 44/49 [00:07<00:00,  6.05it/s][A
+ 92%|█████████▏| 45/49 [00:07<00:00,  6.05it/s][A
+ 94%|█████████▍| 46/49 [00:07<00:00,  6.05it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.04it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.04it/s][A
+100%|██████████| 49/49 [00:08<00:00,  6.04it/s][A100%|██████████| 49/49 [00:08<00:00,  6.05it/s]
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step up, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step up in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell upward, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+============================== original think ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step down, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step down in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell downward, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+============================== original breakdown ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step left, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step left in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the left, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.50it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.63it/s][A
+  6%|▌         | 3/49 [00:00<00:06,  6.68it/s][A
+  8%|▊         | 4/49 [00:00<00:06,  6.70it/s][A
+ 10%|█         | 5/49 [00:00<00:06,  6.64it/s][A
+ 12%|█▏        | 6/49 [00:00<00:06,  6.67it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.68it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.69it/s][A
+ 18%|█▊        | 9/49 [00:01<00:06,  6.60it/s][A
+ 20%|██        | 10/49 [00:01<00:05,  6.63it/s][A
+ 22%|██▏       | 11/49 [00:01<00:05,  6.65it/s][A
+ 24%|██▍       | 12/49 [00:01<00:05,  6.65it/s][A
+ 27%|██▋       | 13/49 [00:01<00:05,  6.61it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.65it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.68it/s][A
+ 33%|███▎      | 16/49 [00:02<00:04,  6.70it/s][A
+ 35%|███▍      | 17/49 [00:02<00:04,  6.71it/s][A
+ 37%|███▋      | 18/49 [00:02<00:04,  6.72it/s][A
+ 39%|███▉      | 19/49 [00:02<00:04,  6.73it/s][A
+ 41%|████      | 20/49 [00:02<00:04,  6.74it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.75it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.73it/s][A
+ 47%|████▋     | 23/49 [00:03<00:03,  6.73it/s][A
+ 49%|████▉     | 24/49 [00:03<00:03,  6.73it/s][A
+ 51%|█████     | 25/49 [00:03<00:03,  6.74it/s][A
+ 53%|█████▎    | 26/49 [00:03<00:03,  6.73it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.74it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.68it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:02,  6.69it/s][A
+ 61%|██████    | 30/49 [00:04<00:02,  6.69it/s][A
+ 63%|██████▎   | 31/49 [00:04<00:02,  6.71it/s][A
+ 65%|██████▌   | 32/49 [00:04<00:02,  6.71it/s][A
+ 67%|██████▋   | 33/49 [00:04<00:02,  6.72it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.74it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.75it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:01,  6.76it/s][A
+ 76%|███████▌  | 37/49 [00:05<00:01,  6.77it/s][A
+ 78%|███████▊  | 38/49 [00:05<00:01,  6.78it/s][A
+ 80%|███████▉  | 39/49 [00:05<00:01,  6.77it/s][A
+ 82%|████████▏ | 40/49 [00:05<00:01,  6.76it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.75it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.75it/s][A
+ 88%|████████▊ | 43/49 [00:06<00:00,  6.74it/s][A
+ 90%|████████▉ | 44/49 [00:06<00:00,  6.75it/s][A
+ 92%|█████████▏| 45/49 [00:06<00:00,  6.74it/s][A
+ 94%|█████████▍| 46/49 [00:06<00:00,  6.76it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.76it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.77it/s][A
+100%|██████████| 49/49 [00:07<00:00,  6.74it/s][A100%|██████████| 49/49 [00:07<00:00,  6.71it/s]
+Image size: H-32 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.74it/s][A
+  4%|▍         | 2/49 [00:00<00:06,  6.75it/s][A
+  6%|▌         | 3/49 [00:00<00:06,  6.63it/s][A
+  8%|▊         | 4/49 [00:00<00:06,  6.62it/s][A
+ 10%|█         | 5/49 [00:00<00:06,  6.65it/s][A
+ 12%|█▏        | 6/49 [00:00<00:06,  6.68it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.69it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.70it/s][A
+ 18%|█▊        | 9/49 [00:01<00:05,  6.71it/s][A
+ 20%|██        | 10/49 [00:01<00:05,  6.73it/s][A
+ 22%|██▏       | 11/49 [00:01<00:05,  6.73it/s][A
+ 24%|██▍       | 12/49 [00:01<00:05,  6.72it/s][A
+ 27%|██▋       | 13/49 [00:01<00:05,  6.73it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.74it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.74it/s][A
+ 33%|███▎      | 16/49 [00:02<00:04,  6.72it/s][A
+ 35%|███▍      | 17/49 [00:02<00:04,  6.73it/s][A
+ 37%|███▋      | 18/49 [00:02<00:04,  6.74it/s][A
+ 39%|███▉      | 19/49 [00:02<00:04,  6.74it/s][A
+ 41%|████      | 20/49 [00:02<00:04,  6.75it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.75it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.72it/s][A
+ 47%|████▋     | 23/49 [00:03<00:03,  6.73it/s][A
+ 49%|████▉     | 24/49 [00:03<00:03,  6.72it/s][A
+ 51%|█████     | 25/49 [00:03<00:03,  6.73it/s][A
+ 53%|█████▎    | 26/49 [00:03<00:03,  6.74it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.74it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.74it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:02,  6.73it/s][A
+ 61%|██████    | 30/49 [00:04<00:02,  6.73it/s][A
+ 63%|██████▎   | 31/49 [00:04<00:02,  6.73it/s][A
+ 65%|██████▌   | 32/49 [00:04<00:02,  6.73it/s][A
+ 67%|██████▋   | 33/49 [00:04<00:02,  6.74it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.74it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.75it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:01,  6.75it/s][A
+ 76%|███████▌  | 37/49 [00:05<00:01,  6.68it/s][A
+ 78%|███████▊  | 38/49 [00:05<00:01,  6.69it/s][A
+ 80%|███████▉  | 39/49 [00:05<00:01,  6.69it/s][A
+ 82%|████████▏ | 40/49 [00:05<00:01,  6.70it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.69it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.68it/s][A
+ 88%|████████▊ | 43/49 [00:06<00:00,  6.69it/s][A
+ 90%|████████▉ | 44/49 [00:06<00:00,  6.70it/s][A
+ 92%|█████████▏| 45/49 [00:06<00:00,  6.71it/s][A
+ 94%|█████████▍| 46/49 [00:06<00:00,  6.73it/s][A
+ 96%|█████████▌| 47/49 [00:06<00:00,  6.72it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.69it/s][A
+100%|██████████| 49/49 [00:07<00:00,  6.70it/s][A100%|██████████| 49/49 [00:07<00:00,  6.72it/s]
+Image size: H-32 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.74it/s][A
+  4%|▍         | 2/49 [00:00<00:07,  6.58it/s][A
+  6%|▌         | 3/49 [00:00<00:06,  6.64it/s][A
+  8%|▊         | 4/49 [00:00<00:06,  6.67it/s][A
+ 10%|█         | 5/49 [00:00<00:06,  6.69it/s][A
+ 12%|█▏        | 6/49 [00:00<00:06,  6.64it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.66it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.68it/s][A
+ 18%|█▊        | 9/49 [00:01<00:05,  6.70it/s][A
+ 20%|██        | 10/49 [00:01<00:05,  6.70it/s][A
+ 22%|██▏       | 11/49 [00:01<00:05,  6.64it/s][A
+ 24%|██▍       | 12/49 [00:01<00:05,  6.66it/s][A
+ 27%|██▋       | 13/49 [00:01<00:05,  6.68it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.70it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.72it/s][A
+ 33%|███▎      | 16/49 [00:02<00:04,  6.73it/s][A
+ 35%|███▍      | 17/49 [00:02<00:04,  6.73it/s][A
+ 37%|███▋      | 18/49 [00:02<00:04,  6.73it/s][A
+ 39%|███▉      | 19/49 [00:02<00:04,  6.74it/s][A
+ 41%|████      | 20/49 [00:02<00:04,  6.74it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.75it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.74it/s][A
+ 47%|████▋     | 23/49 [00:03<00:03,  6.75it/s][A
+ 49%|████▉     | 24/49 [00:03<00:03,  6.75it/s][A
+ 51%|█████     | 25/49 [00:03<00:03,  6.75it/s][A
+ 53%|█████▎    | 26/49 [00:03<00:03,  6.74it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.75it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.75it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:02,  6.75it/s][A
+ 61%|██████    | 30/49 [00:04<00:02,  6.70it/s][A
+ 63%|██████▎   | 31/49 [00:04<00:02,  6.64it/s][A
+ 65%|██████▌   | 32/49 [00:04<00:02,  6.66it/s][A
+ 67%|██████▋   | 33/49 [00:04<00:02,  6.69it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.70it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.64it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:01,  6.67it/s][A
+ 76%|███████▌  | 37/49 [00:05<00:01,  6.69it/s][A
+ 78%|███████▊  | 38/49 [00:05<00:01,  6.71it/s][A
+ 80%|███████▉  | 39/49 [00:05<00:01,  6.60it/s][A
+ 82%|████████▏ | 40/49 [00:05<00:01,  6.57it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.62it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.66it/s][A
+ 88%|████████▊ | 43/49 [00:06<00:00,  6.61it/s][A
+ 90%|████████▉ | 44/49 [00:06<00:00,  6.64it/s][A
+ 92%|█████████▏| 45/49 [00:06<00:00,  6.66it/s][A
+ 94%|█████████▍| 46/49 [00:06<00:00,  6.68it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.69it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.72it/s][A
+100%|██████████| 49/49 [00:07<00:00,  6.72it/s][A100%|██████████| 49/49 [00:07<00:00,  6.69it/s]
+Image size: H-32 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.73it/s][A
+  4%|▍         | 2/49 [00:00<00:06,  6.73it/s][A
+  6%|▌         | 3/49 [00:00<00:06,  6.72it/s][A
+  8%|▊         | 4/49 [00:00<00:06,  6.62it/s][A
+ 10%|█         | 5/49 [00:00<00:06,  6.65it/s][A
+ 12%|█▏        | 6/49 [00:00<00:06,  6.66it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.69it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.67it/s][A
+ 18%|█▊        | 9/49 [00:01<00:05,  6.70it/s][A
+ 20%|██        | 10/49 [00:01<00:05,  6.72it/s][A
+ 22%|██▏       | 11/49 [00:01<00:05,  6.72it/s][A
+ 24%|██▍       | 12/49 [00:01<00:05,  6.43it/s][A
+ 27%|██▋       | 13/49 [00:01<00:05,  6.51it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.57it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.61it/s][A
+ 33%|███▎      | 16/49 [00:02<00:04,  6.64it/s][A
+ 35%|███▍      | 17/49 [00:02<00:04,  6.67it/s][A
+ 37%|███▋      | 18/49 [00:02<00:04,  6.69it/s][A
+ 39%|███▉      | 19/49 [00:02<00:04,  6.67it/s][A
+ 41%|████      | 20/49 [00:03<00:04,  6.65it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.67it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.69it/s][A
+ 47%|████▋     | 23/49 [00:03<00:03,  6.70it/s][A
+ 49%|████▉     | 24/49 [00:03<00:03,  6.71it/s][A
+ 51%|█████     | 25/49 [00:03<00:03,  6.71it/s][A
+ 53%|█████▎    | 26/49 [00:03<00:03,  6.71it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.72it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.67it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:02,  6.69it/s][A
+ 61%|██████    | 30/49 [00:04<00:02,  6.70it/s][A
+ 63%|██████▎   | 31/49 [00:04<00:02,  6.71it/s][A
+ 65%|██████▌   | 32/49 [00:04<00:02,  6.64it/s][A
+ 67%|██████▋   | 33/49 [00:04<00:02,  6.63it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.64it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.67it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:01,  6.69it/s][A
+ 76%|███████▌  | 37/49 [00:05<00:01,  6.70it/s][A
+ 78%|███████▊  | 38/49 [00:05<00:01,  6.69it/s][A
+ 80%|███████▉  | 39/49 [00:05<00:01,  6.70it/s][A
+ 82%|████████▏ | 40/49 [00:05<00:01,  6.70it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.72it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.71it/s][A
+ 88%|████████▊ | 43/49 [00:06<00:00,  6.67it/s][A
+ 90%|████████▉ | 44/49 [00:06<00:00,  6.63it/s][A
+ 92%|█████████▏| 45/49 [00:06<00:00,  6.65it/s][A
+ 94%|█████████▍| 46/49 [00:06<00:00,  6.68it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.69it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.62it/s][A
+100%|██████████| 49/49 [00:07<00:00,  6.59it/s][A100%|██████████| 49/49 [00:07<00:00,  6.66it/s]
+Image size: H-32 W-1024
+============================== Refinment ==============================
+[Prompt Translation]
+<think>
+The model should generate an image showing the blue dot moving one step right, closer to the green frame, with the green frame remaining unchanged.
+Here’s the expanded prompt: A sequence of four separate images depicting a maze with a blue dot moving one step to the right in each frame, progressing toward a green rectangular frame that marks the goal area. The maze has a consistent layout with black walls, white paths, and a central blue dot. The green frame remains static, highlighting the target area. Each image shows the blue dot in a new position, moving one cell to the right, with the final image showing the dot inside the green frame, indicating success. The images are arranged horizontally, with a clean, minimalistic design and a neutral color palette, ensuring clarity and focus on the movement. The style is simple and geometric, with sharp lines and no additional elements or distractions.
+</think>
+[/Prompt Translation]
+Image size: H-32 W-1024
+
+  0%|          | 0/49 [00:00<?, ?it/s][A
+  2%|▏         | 1/49 [00:00<00:07,  6.76it/s][A
+  4%|▍         | 2/49 [00:00<00:06,  6.76it/s][A
+  6%|▌         | 3/49 [00:00<00:06,  6.74it/s][A
+  8%|▊         | 4/49 [00:00<00:06,  6.74it/s][A
+ 10%|█         | 5/49 [00:00<00:06,  6.74it/s][A
+ 12%|█▏        | 6/49 [00:00<00:06,  6.66it/s][A
+ 14%|█▍        | 7/49 [00:01<00:06,  6.68it/s][A
+ 16%|█▋        | 8/49 [00:01<00:06,  6.70it/s][A
+ 18%|█▊        | 9/49 [00:01<00:05,  6.71it/s][A
+ 20%|██        | 10/49 [00:01<00:05,  6.70it/s][A
+ 22%|██▏       | 11/49 [00:01<00:05,  6.71it/s][A
+ 24%|██▍       | 12/49 [00:01<00:05,  6.72it/s][A
+ 27%|██▋       | 13/49 [00:01<00:05,  6.72it/s][A
+ 29%|██▊       | 14/49 [00:02<00:05,  6.72it/s][A
+ 31%|███       | 15/49 [00:02<00:05,  6.73it/s][A
+ 33%|███▎      | 16/49 [00:02<00:04,  6.74it/s][A
+ 35%|███▍      | 17/49 [00:02<00:04,  6.74it/s][A
+ 37%|███▋      | 18/49 [00:02<00:04,  6.73it/s][A
+ 39%|███▉      | 19/49 [00:02<00:04,  6.73it/s][A
+ 41%|████      | 20/49 [00:02<00:04,  6.74it/s][A
+ 43%|████▎     | 21/49 [00:03<00:04,  6.72it/s][A
+ 45%|████▍     | 22/49 [00:03<00:04,  6.72it/s][A
+ 47%|████▋     | 23/49 [00:03<00:03,  6.71it/s][A
+ 49%|████▉     | 24/49 [00:03<00:03,  6.73it/s][A
+ 51%|█████     | 25/49 [00:03<00:03,  6.72it/s][A
+ 53%|█████▎    | 26/49 [00:03<00:03,  6.72it/s][A
+ 55%|█████▌    | 27/49 [00:04<00:03,  6.72it/s][A
+ 57%|█████▋    | 28/49 [00:04<00:03,  6.65it/s][A
+ 59%|█████▉    | 29/49 [00:04<00:02,  6.68it/s][A
+ 61%|██████    | 30/49 [00:04<00:02,  6.70it/s][A
+ 63%|██████▎   | 31/49 [00:04<00:02,  6.71it/s][A
+ 65%|██████▌   | 32/49 [00:04<00:02,  6.71it/s][A
+ 67%|██████▋   | 33/49 [00:04<00:02,  6.71it/s][A
+ 69%|██████▉   | 34/49 [00:05<00:02,  6.69it/s][A
+ 71%|███████▏  | 35/49 [00:05<00:02,  6.63it/s][A
+ 73%|███████▎  | 36/49 [00:05<00:01,  6.62it/s][A
+ 76%|███████▌  | 37/49 [00:05<00:01,  6.64it/s][A
+ 78%|███████▊  | 38/49 [00:05<00:01,  6.67it/s][A
+ 80%|███████▉  | 39/49 [00:05<00:01,  6.68it/s][A
+ 82%|████████▏ | 40/49 [00:05<00:01,  6.68it/s][A
+ 84%|████████▎ | 41/49 [00:06<00:01,  6.69it/s][A
+ 86%|████████▌ | 42/49 [00:06<00:01,  6.71it/s][A
+ 88%|████████▊ | 43/49 [00:06<00:00,  6.72it/s][A
+ 90%|████████▉ | 44/49 [00:06<00:00,  6.71it/s][A
+ 92%|█████████▏| 45/49 [00:06<00:00,  6.72it/s][A
+ 94%|█████████▍| 46/49 [00:06<00:00,  6.66it/s][A
+ 96%|█████████▌| 47/49 [00:07<00:00,  6.67it/s][A
+ 98%|█████████▊| 48/49 [00:07<00:00,  6.69it/s][A
+100%|██████████| 49/49 [00:07<00:00,  6.69it/s][A100%|██████████| 49/49 [00:07<00:00,  6.70it/s]
+Image size: H-32 W-1024
