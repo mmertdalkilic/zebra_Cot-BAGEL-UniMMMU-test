@@ -1,0 +1,29 @@
+{
+  "project_id": "local-native-unicot-v02",
+  "location": "local",
+  "meta_path": "data/svg/metadata.json",
+  "out_root": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/code",
+  "count_total": 1,
+  "count_processed": 1,
+  "count_success": 1,
+  "count_error": 0,
+  "count_skipped": 0,
+  "count_regenerated": 0,
+  "per_item": [
+    {
+      "id": "case_01_000000",
+      "status": "ok",
+      "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/code/case_01_000000",
+      "svg": "svgs/000000.svg",
+      "png": "images/000000.png",
+      "difficulty": "complex",
+      "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/code/case_01_000000/model_text.txt",
+      "images_saved": [
+        "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/code/case_01_000000/model_image_01.png"
+      ],
+      "errors": [],
+      "regen": false,
+      "regen_reason": ""
+    }
+  ]
+}

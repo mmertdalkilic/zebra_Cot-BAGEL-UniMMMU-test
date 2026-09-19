@@ -4,25 +4,16 @@
   "out_root": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw",
   "start_index": 0,
   "max_tests": 1,
-  "ran_count": 1,
-  "success_count": 1,
+  "ran_count": 0,
+  "success_count": 0,
   "error_count": 0,
-  "skipped_count": 0,
+  "skipped_count": 1,
   "per_item": [
     {
       "id": "ex_00000",
       "dataset_index": 0,
-      "status": "ok",
-      "ex_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000",
-      "ref_2x2": "./data/jigsaw_dataset_2x2ref/ex_00000/ref_2x2.png",
-      "cand0": "./data/jigsaw_dataset_2x2ref/ex_00000/cand0.png",
-      "cand1": "./data/jigsaw_dataset_2x2ref/ex_00000/cand1.png",
-      "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000/model_text.txt",
-      "images_saved": [
-        "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000/model_image_01.png",
-        "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000/model_image_02.png"
-      ],
-      "errors": []
+      "status": "skipped_resume",
+      "ex_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02/jigsaw/ex_00000"
     }
   ]
 }
