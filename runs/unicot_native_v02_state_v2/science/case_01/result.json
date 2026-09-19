@@ -1,0 +1,29 @@
+{
+  "id": "case_01",
+  "status": "ok",
+  "case_dir": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/science/case_01",
+  "initial_image": "./data/science/imgs/d01_c001_52c79f0380.png",
+  "condition": "Solid ice cube placed on a small white ceramic dish in a bright kitchen setting. Place the dish in a room at 25°C; maintain ambient temperature for a sufficiently long time",
+  "meta": {
+    "level_1": "Thermal",
+    "level_2": "Phase change: melting point & boiling point",
+    "raw": {
+      "input_prompt": "Solid ice cube placed on a small white ceramic dish in a bright kitchen setting. Place the dish in a room at 25°C; maintain ambient temperature for a sufficiently long time",
+      "input_image_file_path_list": [
+        "./data/science/imgs/d01_c001_52c79f0380.png"
+      ],
+      "output_prompt": "The ice cube has completely melted into a small pool of liquid water in the dish; no solid ice remains; the water surface shows gentle reflections.",
+      "output_image_file_path_list": [
+        "./data/science/imgs/out-d01_c001_52c79f0380.png"
+      ],
+      "output_image_edit_prompt": "Edit the initial image to replace the ice cube with a clear puddle of water filling most of the dish; remove any ice shards and show a smooth water surface with light reflections."
+    }
+  },
+  "text_file": "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/science/case_01/model_text.txt",
+  "images_saved": [
+    "/workspace/unicot_unimmmu_shared/outputs/unicot_native_v02_state_v2/science/case_01/model_image_01.png"
+  ],
+  "errors": [],
+  "regen": false,
+  "regen_reason": ""
+}
