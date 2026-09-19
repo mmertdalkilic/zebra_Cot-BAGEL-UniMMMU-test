@@ -1,0 +1,1 @@
+<ANSWER leans on the fact that the blue dot must move within the green frame to successfully reach the goal. The correct path involves moving right and then up to align with the green frame, ensuring the dot is inside it by the final move.>
