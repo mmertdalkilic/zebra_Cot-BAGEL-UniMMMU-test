@@ -45,3 +45,10 @@ To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
 To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
    c393489..fc15f78  HEAD -> unicot-eval-molab
 [git-sync] 2026-09-19T23:03:33Z
+[unicot-eval-molab 3edec79] checkpoint: unicot_native_v02_state_v2 2026-09-19T23:03:33Z
+ 3 files changed, 485 insertions(+), 1 deletion(-)
+ create mode 100644 runs/unicot_native_v02_state_v2/maze/case_00001/cand_01/maze_step_0000_step_0004.png
+Uploading LFS objects: 100% (1/1), 1.1 MB | 0 B/s, done.
+To https://github.com/mmertdalkilic/zebra_Cot-BAGEL-UniMMMU-test.git
+   fc15f78..3edec79  HEAD -> unicot-eval-molab
+[git-sync] 2026-09-19T23:18:36Z
