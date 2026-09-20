@@ -1,0 +1,6 @@
+[Prompt Translation]
+<think>
+The model should generate an image showing the ice cube partially melted, with water pooling around the dish, demonstrating the effect of ambient temperature on ice over time.
+Here’s the finished detailed prompt: A small white ceramic dish sits on a smooth, reflective kitchen countertop in a bright, naturally lit room. Inside the dish is a partially melted ice cube, with water pooling around its base and dripping onto the countertop. The ice cube shows visible signs of melting, with rounded edges and slight discoloration. The ambient temperature is 25°C, and the scene is depicted with ultra-realistic detail, emphasizing the textures of the ceramic dish, the transparency of the melting ice, and the subtle sheen of the water. The background is softly blurred, with warm, diffused lighting enhancing the clean and modern kitchen atmosphere.
+</think>
+[/Prompt Translation]

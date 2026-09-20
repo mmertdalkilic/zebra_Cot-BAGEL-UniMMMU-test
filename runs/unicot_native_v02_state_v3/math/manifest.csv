@@ -1,0 +1,2 @@
+big_key,small_key,type,original_image_rel,aux_image_rel(ref),generated_overlay_rel_first,problem_preview
+1_2,1,calculation,images/1_2_1_orig.png,images/1_2_1_aux.png,1_2__1/model_image_01.png,"As shown in the figure, Circle M and Circle N both pass through points A and B, and point N is on Circle M. Point C is a point on major arc "

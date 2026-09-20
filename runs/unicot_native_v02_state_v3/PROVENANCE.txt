@@ -1,0 +1,10 @@
+created=2026-09-20T08:50:06+00:00
+target_repo_branch=unicot-eval-molab
+unicot_commit=2a35249d8adb52f43dc15efa44f54ac6ec945100
+unimmmu_commit=cd1675292e5a7a713c5d6026d234109521003124
+checkpoint=Fr0zencr4nE/UniCoT-7B-MoT-v0.2
+torch=2.8.0+cu128
+transformers=4.49.0
+huggingface_hub=0.29.1
+flash_attn=2.8.3
+flash_attn_install=official-v2.8.3-prebuilt-cu12-torch2.8-cp310
