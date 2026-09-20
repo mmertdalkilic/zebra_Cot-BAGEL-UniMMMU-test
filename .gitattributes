@@ -6,3 +6,7 @@ runs/unicot_native_v02_state_v2/**/*.png filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02_state_v2/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02_state_v2/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 runs/unicot_native_v02_state_v2/**/*.webp filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v3/**/*.png filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v3/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v3/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+runs/unicot_native_v02_state_v3/**/*.webp filter=lfs diff=lfs merge=lfs -text

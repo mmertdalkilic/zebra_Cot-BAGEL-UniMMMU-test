@@ -1,0 +1,15 @@
+UniCoT-v0.2 native x Uni-MMMU
+output_name=unicot_native_v02_state_v3
+
+science=latest_source_image
+math_geo=latest_source_image
+maze=latest_visual_state
+sliding=latest_visual_state
+jigsaw=multi_source_montage_adapter
+code_rendering=native_text_to_image
+
+max_reflections=20
+max_gpu_memory=90GiB
+git_checkpoint_interval_seconds=900
+
+Jigsaw remains a custom native-model adapter because released UniCoT-v0.2 has no author-provided multi-source Uni-MMMU editing interface.
